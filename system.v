@@ -25,6 +25,7 @@ wire left_tick, right_tick, up_tick, down_tick;
 //	input			C_Reset;
 //	input			Rana_Up;
 //	input			Rana_Down;
+
 //	input			Rana_Left;
 //	input			Rana_Right;
 
