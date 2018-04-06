@@ -1,0 +1,40 @@
+[*]
+[*] GTKWave Analyzer v3.3.34 (w)1999-2012 BSI
+[*] Sun May 26 22:52:30 2013
+[*]
+[dumpfile] "/home/cristian/Documentos/Fundamentos de Sistemas Digitales/Proyecto 4/simulation/system_tb.vcd"
+[dumpfile_mtime] "Sun May 26 22:45:52 2013"
+[dumpfile_size] 5621147
+[savefile] "/home/cristian/Documentos/Fundamentos de Sistemas Digitales/Proyecto 4/system_tb.vcd.save.sav"
+[timestart] 0
+[size] 959 576
+[pos] 0 180
+*-18.410280 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] system_tb.
+[treeopen] system_tb.dut.
+[sst_width] 223
+[signals_width] 260
+[sst_expanded] 1
+[sst_vpaned_height] 313
+@28
+system_tb.dut.Clk_System
+system_tb.dut.lineaPar.cambie
+@24
+[color] 3
+system_tb.dut.nivelActual.nivel[2:0]
+[color] 5
+system_tb.dut.contadorfilas.rDataReg[3:0]
+@28
+system_tb.dut.nDataOutReg0[7:0]
+system_tb.dut.nDataOutReg1[7:0]
+system_tb.dut.nDataOutReg2[7:0]
+system_tb.dut.nDataOutReg3[7:0]
+system_tb.dut.nDataOutReg4[7:0]
+system_tb.dut.nDataOutReg5[7:0]
+system_tb.dut.nDataOutReg6[7:0]
+system_tb.dut.nDataOutReg7[7:0]
+@29
+[color] 6
+system_tb.dut.Carrito[7:0]
+[pattern_trace] 1
+[pattern_trace] 0
