@@ -60,4 +60,5 @@ case (act_add)
 	default:max_in <= 8'b00000000;
 endcase	
 end
+
 endmodule
