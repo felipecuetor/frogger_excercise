@@ -4,12 +4,11 @@
 module SC_REGDD #(parameter DATAWIDTH_BUS=8)(
 //////////// OUTPUTS //////////
 	SC_REGDD_DATAPARALLEL_BUS_OUT,
-	SC_REGDD_LOADED,
-//////////// INPUTS //////////
+//////////// INPUTS //////////	
 	SC_REGDD_CLOCK,
 	SC_REGDD_RESET,
-	SC_REGDD_LOAD,
-	SC_REGDD_SHIFT,
+	SC_REGDD_VEL,
+	SC_REGDD_LOAD_SHIFT,
 	SC_REGDD_DATAPARALLEL_BUS_IN
 );
 //=======================================================
@@ -18,11 +17,10 @@ module SC_REGDD #(parameter DATAWIDTH_BUS=8)(
 //  PORT declarations
 //=======================================================
 	output reg	[DATAWIDTH_BUS-1:0] SC_REGDD_DATAPARALLEL_BUS_OUT;
-	output 	SC_REGDD_LOADED;
 	input		SC_REGDD_CLOCK;
+	input		SC_REGDD_VEL;
 	input 	SC_REGDD_RESET;
-	input		SC_REGDD_SHIFT;
-	input		SC_REGDD_LOAD;
+	input		SC_REGDD_LOAD_SHIFT;
 	input		[DATAWIDTH_BUS-1:0] SC_REGDD_DATAPARALLEL_BUS_IN;
 //=======================================================
 //  REG/WIRE declarations
@@ -36,13 +34,12 @@ module SC_REGDD #(parameter DATAWIDTH_BUS=8)(
 //=======================================================
 //INPUT LOGIC: COMBINATIONAL
 	always @ (*)
-	if (SC_REGDD_SHIFT == 1'b1)	
+	if (SC_REGDD_LOAD_SHIFT == 1'b0 & SC_REGDD_VEL == 1'b1)	
 		REGDD_Signal = {SC_REGDD_BitMEP, REGDD_Shift[DATAWIDTH_BUS-1:1]};
-	else if(SC_REGDD_LOAD ==1'b1)	
+	else if(SC_REGDD_LOAD_SHIFT == 1'b1)	
 		REGDD_Signal = SC_REGDD_DATAPARALLEL_BUS_IN;
 	else	
-		REGDD_Signal = 8'b00000000;
-		
+		REGDD_Signal = REGDD_Shift;
 // REGISTER : SEQUENTIAL
 	always @ ( posedge SC_REGDD_CLOCK , posedge SC_REGDD_RESET)
 	if (SC_REGDD_RESET==1'b1)
@@ -59,7 +56,6 @@ module SC_REGDD #(parameter DATAWIDTH_BUS=8)(
 	SC_REGDD_BitMEP = REGDD_Register[0]; 
 	always @ (*)
 	REGDD_Shift = SC_REGDD_DATAPARALLEL_BUS_OUT;
-	assign SC_REGDD_LOADED=(REGDD_Register == SC_REGDD_DATAPARALLEL_BUS_IN);
 		
 endmodule
 

@@ -199,7 +199,7 @@ reg [3:0] St_Signal;
 			Finalizar:
 			begin 
 			MP_ESTADO_OUT=3'b000;
-			MP_NVL_OUT=2'b000;
+			MP_NVL_OUT=2'b00;
 			MP_CN_OUT=1'b1;
 			end
 			default: 
