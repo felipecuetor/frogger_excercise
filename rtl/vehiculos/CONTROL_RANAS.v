@@ -18,20 +18,19 @@ module CONTROL_RANAS(
 //=======================================================
 	parameter DATAWIDTH_ESTADO=3;
 // states declaration
-	parameter Inicio = 4'b0000;
-	parameter Ini1Rana = 4'b0001;
-	parameter UnaRana = 4'b0010;
-	parameter Ini2Rana = 4'b0011;
-	parameter DosRana = 4'b0100;
-	parameter Ini3Rana = 4'b0101;
-	parameter TresRana = 4'b0110;
-	parameter Gano= 4'b0111;
-	parameter Perdio = 4'b1000;
+	parameter Inicio = 3'b000;
+	parameter Ini1Rana = 3'b001;
+	parameter UnaRana = 3'b010;
+	parameter Ini2Rana = 3'b011;
+	parameter DosRana = 3'b100;
+	parameter Ini3Rana = 3'b101;
+	parameter TresRana = 3'b110;
+	parameter Gano= 3'b111;
 //=======================================================
 //  PORT declarations
 //=======================================================
 	output reg CR_GANO_JC_OUT;
-	output reg CR_PERDIO_JC_OUT;	
+	output CR_PERDIO_JC_OUT;	
 	output reg CR_RANA_INI_OUT;
 	input CR_GANO;
 	input CR_PERDIO;
@@ -42,8 +41,8 @@ module CONTROL_RANAS(
 //=======================================================
 //  REG/WIRE declarations
 //=======================================================
-reg [3:0] St_Register;
-reg [3:0] St_Signal;
+reg [2:0] St_Register;
+reg [2:0] St_Signal;
 //=======================================================
 //  Structural coding
 //=======================================================
@@ -59,22 +58,21 @@ reg [3:0] St_Signal;
 		UnaRana: if (CR_GANO == 1'b1) 
 						St_Signal = Ini2Rana;
 					else if (CR_PERDIO == 1'b1)
-						St_Signal = Perdio;
+						St_Signal = Inicio;
 					else St_Signal = UnaRana; //MANTIENE EL ESTADO.
 		Ini2Rana: St_Signal = DosRana;
 		DosRana: if (CR_GANO == 1'b1) 
 						St_Signal = Ini3Rana;
 					else if (CR_PERDIO == 1'b1)
-						St_Signal = Perdio;
+						St_Signal = Inicio;
 					else St_Signal = DosRana; //MANTIENE EL ESTADO.
 		Ini3Rana: St_Signal = TresRana;
 		TresRana: if (CR_GANO == 1'b1) 
 						St_Signal = Gano;
 					else if (CR_PERDIO == 1'b1)
-						St_Signal = Perdio;
+						St_Signal = Inicio;
 					else St_Signal = TresRana; //MANTIENE EL ESTADO.			
-		Gano: St_Signal = Inicio;
-		Perdio: St_Signal = Inicio;		
+		Gano: St_Signal = Inicio;		
 	default : St_Signal =  Inicio;
 	endcase
 
@@ -94,63 +92,48 @@ reg [3:0] St_Signal;
 			Inicio :  
 			begin  
 			CR_GANO_JC_OUT=1'b0;
-			CR_PERDIO_JC_OUT=1'b0;	
-			CR_RANA_INI_OUT=1'b0;
+			CR_RANA_INI_OUT=1'b1;
 			end 
 			Ini1Rana:  
 			begin 
-			CR_GANO_JC_OUT=1'b0;
-			CR_PERDIO_JC_OUT=1'b0;	
+			CR_GANO_JC_OUT=1'b0;	
 			CR_RANA_INI_OUT=1'b1;
 			end 
 			UnaRana:  
 			begin 
 			CR_GANO_JC_OUT=1'b0;
-			CR_PERDIO_JC_OUT=1'b0;	
 			CR_RANA_INI_OUT=1'b0;
 			end 
 			Ini2Rana:  
 			begin 
 			CR_GANO_JC_OUT=1'b0;
-			CR_PERDIO_JC_OUT=1'b0;	
 			CR_RANA_INI_OUT=1'b1;
 			end 
 			DosRana:
 			begin 
-			CR_GANO_JC_OUT=1'b0;
-			CR_PERDIO_JC_OUT=1'b0;	
+			CR_GANO_JC_OUT=1'b0;	
 			CR_RANA_INI_OUT=1'b0;
 			end 
 			Ini3Rana:  
 			begin 
-			CR_GANO_JC_OUT=1'b0;
-			CR_PERDIO_JC_OUT=1'b0;	
+			CR_GANO_JC_OUT=1'b0;	
 			CR_RANA_INI_OUT=1'b1;
 			end 
 			TresRana:
 			begin 
-			CR_GANO_JC_OUT=1'b0;
-			CR_PERDIO_JC_OUT=1'b0;	
+			CR_GANO_JC_OUT=1'b0;	
 			CR_RANA_INI_OUT=1'b0;
 			end
 			Gano:  
 			begin 
-			CR_GANO_JC_OUT=1'b1;
-			CR_PERDIO_JC_OUT=1'b0;	
-			CR_RANA_INI_OUT=1'b1;
+			CR_GANO_JC_OUT=1'b1;	
+			CR_RANA_INI_OUT=1'b0;
 			end 
-			Perdio:
-			begin 
-			CR_GANO_JC_OUT=1'b0;
-			CR_PERDIO_JC_OUT=1'b1;	
-			CR_RANA_INI_OUT=1'b1;
-			end
 			default: 
 			begin 
-			CR_GANO_JC_OUT=1'b0;
-			CR_PERDIO_JC_OUT=1'b0;	
-			CR_RANA_INI_OUT=1'b0;
+			CR_GANO_JC_OUT=1'b0;	
+			CR_RANA_INI_OUT=1'b1;
 			end
 		endcase
-
+assign CR_PERDIO_JC_OUT= CR_PERDIO;   
 endmodule
