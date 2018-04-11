@@ -3,7 +3,7 @@
 //=======================================================
 module SC_VEL #(parameter VEL_DATAWITH)(
 //////////// OUTPUTS //////////
-	SC_VEL_Out,
+	SC_VEL_OUT,
 //////////// INPUTS //////////
 	SC_VEL_CLOCK_50,
 	SC_VEL_RESET,
@@ -16,7 +16,7 @@ module SC_VEL #(parameter VEL_DATAWITH)(
 //=======================================================
 //  PORT declarations
 //=======================================================
-	output	reg SC_VEL_Out;
+	output	reg SC_VEL_OUT;
 	input		SC_VEL_CLOCK_50;
 	input		SC_VEL_RESET;
 	input 	SC_VEL_HAB_IN;
@@ -48,9 +48,9 @@ module SC_VEL #(parameter VEL_DATAWITH)(
 // OUTPUT LOGIC : COMBINATIONAL
 	always @ (*)
 		if (COUNTER_Register==~COUNT)
-			SC_VEL_Out = 1'b1;
+			SC_VEL_OUT = 1'b1;
 		else
-			SC_VEL_Out = 1'b0;
+			SC_VEL_OUT = 1'b0;
 endmodule
 
 
