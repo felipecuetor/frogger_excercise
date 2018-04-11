@@ -33,7 +33,6 @@ module MENU_PRINCIPAL(
 	parameter Seleccion4 = 4'b1001;
 	parameter Nivel4 = 4'b1010;
 	parameter Juego = 4'b1011;
-	parameter Finalizar = 4'b1100;
 //=======================================================
 //  PORT declarations
 //=======================================================
@@ -65,10 +64,10 @@ reg [3:0] St_Signal;
 							St_Signal = Seleccion1 ;
 					else 	St_Signal = Inicio; //MANTIENE EL ESTADO.
 		GanarJuego: if (MP_START == 1'b1)
-								St_Signal = Finalizar;
+								St_Signal = Inicio;
 						else St_Signal = GanarJuego; //MANTIENE EL ESTADO.
 		PerderJuego: if (MP_START == 1'b1) 
-							St_Signal = Finalizar;
+							St_Signal = Inicio;
 						else St_Signal = PerderJuego; //MANTIENE EL ESTADO.
 		Seleccion1: if (MP_START == 1'b1)
 								St_Signal = Nivel1;
@@ -106,8 +105,7 @@ reg [3:0] St_Signal;
 							St_Signal = GanarJuego;	
 					else if (MP_PERDIO == 1'b1) 
 							St_Signal = PerderJuego;		
-					else St_Signal = Juego; //MANTIENE EL ESTADO.
-		Finalizar: St_Signal = Inicio;	
+					else St_Signal = Juego; //MANTIENE EL ESTADO.	
 	default : St_Signal =  Inicio;
 	endcase
 
@@ -196,12 +194,6 @@ reg [3:0] St_Signal;
 			MP_NVL_OUT=2'b00;
 			MP_CN_OUT=1'b0;
 			end 
-			Finalizar:
-			begin 
-			MP_ESTADO_OUT=3'b000;
-			MP_NVL_OUT=2'b00;
-			MP_CN_OUT=1'b1;
-			end
 			default: 
 			begin 
 			MP_ESTADO_OUT=3'b000;
