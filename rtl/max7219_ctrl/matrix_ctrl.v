@@ -57,7 +57,7 @@ localparam LOAD 	=2'b11;
    reg 			[3:0] cur_col_next;
    reg 				  ncs;
    assign cur_row = disp_data;
-   /*MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
+   /*-----------------------------------------------------------------------*/
    /*Prescaller for clock used serial comunication @10MHz Max*/
    wire		[NPRESS:0] clk_driver_next;
    reg		[NPRESS:0] clk_driver_reg;
@@ -67,44 +67,47 @@ localparam LOAD 	=2'b11;
    assign clk_driver_next = clk_driver_reg + 1;
    assign clk_driver = clk_driver_next[NPRESS];
    /* End - prescaller */
-   /*VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV*/
+   /*-----------------------------------------------------------------------*/
 	reg [15:0] serial_data_reg;
-   /*MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
+   /*-----------------------------------------------------------------------*/
    /* Shift Reg*/
    reg [1:0] ctrl_sr;
    wire ctrl_sr_done;
-	shift_reg_start_done #(.N(16))
-	shift_reg_start_done_unit_0(
-		.clk(clk_driver), .reset(reset),
+	
+   /*-----------------------------------------------------------------------*/	
+	/* Shift Reg*/
+	shift_reg_start_done #(.N(16)) shift_reg_start_done_unit_0(		
+		.clk(clk_driver), 
+		.reset(reset),
 		.ctrl(ctrl_sr),
 		.d(serial_data_reg),
 		.q(max7219_din),
 		.last_tick(ctrl_sr_done)
 	);
-   /* Shift Reg*/
-   /*VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV*/
+  
+   /*-----------------------------------------------------------------------*/
    
-   /*MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
+   /*-----------------------------------------------------------------------*/
    /* FSM for driver 16-stage shift-and-store */ 
    // symbolic state declaration
-   	localparam MAX_STATES=8;
-	localparam [MAX_STATES-1:0] START 						= 8'h0  ,
-								DIS_SHUTDOWN				= 8'hC0 ,
-								DIS_SHUTDOWN_WAIT2FINISH	= 8'hC1 ,
-								SET_SCAN_MODE				= 8'hB0 ,
-								SET_SCAN_MODE_WAIT2FINISH 	= 8'hB1 ,
-								INTENSITY					= 8'hA0 ,
-								INTENSITY_WAIT2FINISH		= 8'hA1 , 
-								SET_DECODE_MODE				= 8'h90 ,
-								SET_DECODE_MODE_WAIT2FINISH	= 8'h91 ,
-								DISPLAY_TEST				= 8'hF1 ,
-								DISPLAY_TEST_WAIT2FINISH	= 8'hF2 ,
-								DISPLAY_TEST_OFF			= 8'hF3 ,
-								DISPLAY_TEST_OFF_WAIT2FINISH= 8'hF4 ,
-								MAIN_LOOP					= 8'h1 ,
-								UPDATE_FRAME				= 8'h10 ,
-								UPDATE_FRAME_WAIT2FINISH	= 8'h11 ,
-								STOP						= 8'hFF ;
+   localparam MAX_STATES=8;
+	localparam [MAX_STATES-1:0] START 			= 8'h0  ,
+					DIS_SHUTDOWN				      = 8'hC0 ,
+					DIS_SHUTDOWN_WAIT2FINISH		= 8'hC1 ,
+					SET_SCAN_MODE						= 8'hB0 ,
+					SET_SCAN_MODE_WAIT2FINISH 		= 8'hB1 ,
+					INTENSITY							= 8'hA0 ,
+					INTENSITY_WAIT2FINISH			= 8'hA1 , 
+					SET_DECODE_MODE					= 8'h90 ,
+					SET_DECODE_MODE_WAIT2FINISH	= 8'h91 ,
+					DISPLAY_TEST						= 8'hF1 ,
+					DISPLAY_TEST_WAIT2FINISH		= 8'hF2 ,
+					DISPLAY_TEST_OFF					= 8'hF3 ,
+					DISPLAY_TEST_OFF_WAIT2FINISH	= 8'hF4 ,
+					MAIN_LOOP							= 8'h1  ,
+					UPDATE_FRAME						= 8'h10 ,
+					UPDATE_FRAME_WAIT2FINISH		= 8'h11 ,
+					STOP									= 8'hFF ;
 	//signal declaration
 	reg [MAX_STATES-1:0] state_reg, state_next;	
 	//state register
@@ -242,9 +245,8 @@ localparam LOAD 	=2'b11;
 		endcase
 	end
    /* End - FSM ... */ 
-   /*VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV*/
-
-   /*MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
+   /*-----------------------------------------------------------------------*/
+	/*-----------------------------------------------------------------------*/
    /* Current row-col calculation */
 	assign disp_addr = cur_col_reg - 1;
 	assign max7219_ncs = ncs;

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for system
-Thu Apr 12 16:03:35 2018
+Fri Apr 13 12:47:21 2018
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -13,28 +13,19 @@ Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. State Machine - |system|rebote:rebote_4|state_reg
-  9. State Machine - |system|rebote:rebote_3|state_reg
- 10. State Machine - |system|rebote:rebote_2|state_reg
- 11. State Machine - |system|rebote:rebote_1|state_reg
- 12. State Machine - |system|matrix_ctrl:matrix_ctrl_unit_0|state_reg
- 13. User-Specified and Inferred Latches
- 14. Registers Removed During Synthesis
- 15. Removed Registers Triggering Further Register Optimizations
- 16. General Register Statistics
- 17. Multiplexer Restructuring Statistics (Restructuring Performed)
- 18. Parameter Settings for User Entity Instance: Top-level Entity: |system
- 19. Parameter Settings for User Entity Instance: matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0
- 20. Port Connectivity Checks: "rebote:rebote_4"
- 21. Port Connectivity Checks: "rebote:rebote_3"
- 22. Port Connectivity Checks: "rebote:rebote_2"
- 23. Port Connectivity Checks: "rebote:rebote_1"
- 24. Port Connectivity Checks: "matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0"
- 25. Port Connectivity Checks: "matrix_ctrl:matrix_ctrl_unit_0"
- 26. Post-Synthesis Netlist Statistics for Top Partition
- 27. Elapsed Time Per Partition
- 28. Analysis & Synthesis Messages
- 29. Analysis & Synthesis Suppressed Messages
+  8. State Machine - |system|matrix_ctrl:matrix_ctrl_unit_0|state_reg
+  9. User-Specified and Inferred Latches
+ 10. Registers Removed During Synthesis
+ 11. Removed Registers Triggering Further Register Optimizations
+ 12. General Register Statistics
+ 13. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 14. Parameter Settings for User Entity Instance: matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0
+ 15. Port Connectivity Checks: "matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0"
+ 16. Port Connectivity Checks: "matrix_ctrl:matrix_ctrl_unit_0"
+ 17. Post-Synthesis Netlist Statistics for Top Partition
+ 18. Elapsed Time Per Partition
+ 19. Analysis & Synthesis Messages
+ 20. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -60,16 +51,16 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Apr 12 16:03:35 2018       ;
+; Analysis & Synthesis Status        ; Successful - Fri Apr 13 12:47:21 2018       ;
 ; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; system                                      ;
 ; Top-level Entity Name              ; system                                      ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 342                                         ;
-;     Total combinational functions  ; 342                                         ;
-;     Dedicated logic registers      ; 157                                         ;
-; Total registers                    ; 157                                         ;
-; Total pins                         ; 9                                           ;
+; Total logic elements               ; 87                                          ;
+;     Total combinational functions  ; 87                                          ;
+;     Dedicated logic registers      ; 53                                          ;
+; Total registers                    ; 53                                          ;
+; Total pins                         ; 18                                          ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0                                           ;
 ; Embedded Multiplier 9-bit elements ; 0                                           ;
@@ -185,45 +176,43 @@ refer to the applicable agreement for further details.
 +-----------------------------------------+-----------------+------------------------+-------------------------------------------------------------------------------+---------+
 ; File Name with User-Entered Path        ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                  ; Library ;
 +-----------------------------------------+-----------------+------------------------+-------------------------------------------------------------------------------+---------+
-; rtl/states/states.v                     ; yes             ; User Verilog HDL File  ; C:/Users/Felipe/git/frogger_excercise/rtl/states/states.v                     ;         ;
+; rtl/max7219_ctrl/matrix_ctrl.v          ; yes             ; User Verilog HDL File  ; C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl/matrix_ctrl.v          ;         ;
 ; rtl/max7219_ctrl/shift_reg_start_done.v ; yes             ; User Verilog HDL File  ; C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl/shift_reg_start_done.v ;         ;
 ; rtl/imagen/imagen.v                     ; yes             ; User Verilog HDL File  ; C:/Users/Felipe/git/frogger_excercise/rtl/imagen/imagen.v                     ;         ;
-; rtl/rebote/rebote.v                     ; yes             ; User Verilog HDL File  ; C:/Users/Felipe/git/frogger_excercise/rtl/rebote/rebote.v                     ;         ;
-; rtl/max7219_ctrl/max7219_ctrl.v         ; yes             ; User Verilog HDL File  ; C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl/max7219_ctrl.v         ;         ;
 ; system.v                                ; yes             ; User Verilog HDL File  ; C:/Users/Felipe/git/frogger_excercise/system.v                                ;         ;
 +-----------------------------------------+-----------------+------------------------+-------------------------------------------------------------------------------+---------+
 
 
-+-------------------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary                       ;
-+---------------------------------------------+---------------------+
-; Resource                                    ; Usage               ;
-+---------------------------------------------+---------------------+
-; Estimated Total logic elements              ; 342                 ;
-;                                             ;                     ;
-; Total combinational functions               ; 342                 ;
-; Logic element usage by number of LUT inputs ;                     ;
-;     -- 4 input functions                    ; 115                 ;
-;     -- 3 input functions                    ; 115                 ;
-;     -- <=2 input functions                  ; 112                 ;
-;                                             ;                     ;
-; Logic elements by mode                      ;                     ;
-;     -- normal mode                          ; 251                 ;
-;     -- arithmetic mode                      ; 91                  ;
-;                                             ;                     ;
-; Total registers                             ; 157                 ;
-;     -- Dedicated logic registers            ; 157                 ;
-;     -- I/O registers                        ; 0                   ;
-;                                             ;                     ;
-; I/O pins                                    ; 9                   ;
-;                                             ;                     ;
-; Embedded Multiplier 9-bit elements          ; 0                   ;
-;                                             ;                     ;
-; Maximum fan-out node                        ; lowRst_System~input ;
-; Maximum fan-out                             ; 150                 ;
-; Total fan-out                               ; 1638                ;
-; Average fan-out                             ; 3.17                ;
-+---------------------------------------------+---------------------+
++-----------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary               ;
++---------------------------------------------+-------------+
+; Resource                                    ; Usage       ;
++---------------------------------------------+-------------+
+; Estimated Total logic elements              ; 87          ;
+;                                             ;             ;
+; Total combinational functions               ; 87          ;
+; Logic element usage by number of LUT inputs ;             ;
+;     -- 4 input functions                    ; 37          ;
+;     -- 3 input functions                    ; 19          ;
+;     -- <=2 input functions                  ; 31          ;
+;                                             ;             ;
+; Logic elements by mode                      ;             ;
+;     -- normal mode                          ; 72          ;
+;     -- arithmetic mode                      ; 15          ;
+;                                             ;             ;
+; Total registers                             ; 53          ;
+;     -- Dedicated logic registers            ; 53          ;
+;     -- I/O registers                        ; 0           ;
+;                                             ;             ;
+; I/O pins                                    ; 18          ;
+;                                             ;             ;
+; Embedded Multiplier 9-bit elements          ; 0           ;
+;                                             ;             ;
+; Maximum fan-out node                        ; RESET~input ;
+; Maximum fan-out                             ; 53          ;
+; Total fan-out                               ; 506         ;
+; Average fan-out                             ; 2.88        ;
++---------------------------------------------+-------------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -231,69 +220,11 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------+----------------------+--------------+
 ; Compilation Hierarchy Node                               ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                     ; Entity Name          ; Library Name ;
 +----------------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------+----------------------+--------------+
-; |system                                                  ; 342 (0)             ; 157 (0)                   ; 0           ; 0            ; 0       ; 0         ; 9    ; 0            ; |system                                                                                 ; system               ; work         ;
-;    |imagen:img1|                                         ; 7 (7)               ; 7 (7)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |system|imagen:img1                                                                     ; imagen               ; work         ;
-;    |matrix_ctrl:matrix_ctrl_unit_0|                      ; 79 (31)             ; 53 (21)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |system|matrix_ctrl:matrix_ctrl_unit_0                                                  ; matrix_ctrl          ; work         ;
-;       |shift_reg_start_done:shift_reg_start_done_unit_0| ; 48 (48)             ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |system|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0 ; shift_reg_start_done ; work         ;
-;    |rebote:rebote_1|                                     ; 62 (62)             ; 24 (24)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |system|rebote:rebote_1                                                                 ; rebote               ; work         ;
-;    |rebote:rebote_2|                                     ; 66 (66)             ; 24 (24)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |system|rebote:rebote_2                                                                 ; rebote               ; work         ;
-;    |rebote:rebote_3|                                     ; 64 (64)             ; 24 (24)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |system|rebote:rebote_3                                                                 ; rebote               ; work         ;
-;    |rebote:rebote_4|                                     ; 62 (62)             ; 24 (24)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |system|rebote:rebote_4                                                                 ; rebote               ; work         ;
-;    |states:st_1|                                         ; 2 (2)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |system|states:st_1                                                                     ; states               ; work         ;
+; |system                                                  ; 87 (0)              ; 53 (0)                    ; 0           ; 0            ; 0       ; 0         ; 18   ; 0            ; |system                                                                                 ; system               ; work         ;
+;    |matrix_ctrl:matrix_ctrl_unit_0|                      ; 87 (32)             ; 53 (21)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |system|matrix_ctrl:matrix_ctrl_unit_0                                                  ; matrix_ctrl          ; work         ;
+;       |shift_reg_start_done:shift_reg_start_done_unit_0| ; 55 (55)             ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |system|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0 ; shift_reg_start_done ; work         ;
 +----------------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------+----------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
-
-
-Encoding Type:  One-Hot
-+--------------------------------------------------------------------------------------+
-; State Machine - |system|rebote:rebote_4|state_reg                                    ;
-+-----------------+-----------------+---------------+-----------------+----------------+
-; Name            ; state_reg.wait1 ; state_reg.one ; state_reg.wait0 ; state_reg.zero ;
-+-----------------+-----------------+---------------+-----------------+----------------+
-; state_reg.zero  ; 0               ; 0             ; 0               ; 0              ;
-; state_reg.wait0 ; 0               ; 0             ; 1               ; 1              ;
-; state_reg.one   ; 0               ; 1             ; 0               ; 1              ;
-; state_reg.wait1 ; 1               ; 0             ; 0               ; 1              ;
-+-----------------+-----------------+---------------+-----------------+----------------+
-
-
-Encoding Type:  One-Hot
-+--------------------------------------------------------------------------------------+
-; State Machine - |system|rebote:rebote_3|state_reg                                    ;
-+-----------------+-----------------+---------------+-----------------+----------------+
-; Name            ; state_reg.wait1 ; state_reg.one ; state_reg.wait0 ; state_reg.zero ;
-+-----------------+-----------------+---------------+-----------------+----------------+
-; state_reg.zero  ; 0               ; 0             ; 0               ; 0              ;
-; state_reg.wait0 ; 0               ; 0             ; 1               ; 1              ;
-; state_reg.one   ; 0               ; 1             ; 0               ; 1              ;
-; state_reg.wait1 ; 1               ; 0             ; 0               ; 1              ;
-+-----------------+-----------------+---------------+-----------------+----------------+
-
-
-Encoding Type:  One-Hot
-+--------------------------------------------------------------------------------------+
-; State Machine - |system|rebote:rebote_2|state_reg                                    ;
-+-----------------+-----------------+---------------+-----------------+----------------+
-; Name            ; state_reg.wait1 ; state_reg.one ; state_reg.wait0 ; state_reg.zero ;
-+-----------------+-----------------+---------------+-----------------+----------------+
-; state_reg.zero  ; 0               ; 0             ; 0               ; 0              ;
-; state_reg.wait0 ; 0               ; 0             ; 1               ; 1              ;
-; state_reg.one   ; 0               ; 1             ; 0               ; 1              ;
-; state_reg.wait1 ; 1               ; 0             ; 0               ; 1              ;
-+-----------------+-----------------+---------------+-----------------+----------------+
-
-
-Encoding Type:  One-Hot
-+--------------------------------------------------------------------------------------+
-; State Machine - |system|rebote:rebote_1|state_reg                                    ;
-+-----------------+-----------------+---------------+-----------------+----------------+
-; Name            ; state_reg.wait1 ; state_reg.one ; state_reg.wait0 ; state_reg.zero ;
-+-----------------+-----------------+---------------+-----------------+----------------+
-; state_reg.zero  ; 0               ; 0             ; 0               ; 0              ;
-; state_reg.wait0 ; 0               ; 0             ; 1               ; 1              ;
-; state_reg.one   ; 0               ; 1             ; 0               ; 1              ;
-; state_reg.wait1 ; 1               ; 0             ; 0               ; 1              ;
-+-----------------+-----------------+---------------+-----------------+----------------+
 
 
 Encoding Type:  One-Hot
@@ -339,15 +270,6 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +-------------------------------------------------------------------+----------------------------------------+
 ; Register name                                                     ; Reason for Removal                     ;
 +-------------------------------------------------------------------+----------------------------------------+
-; imagen:img1|max_in[5]                                             ; Merged with imagen:img1|max_in[4]      ;
-; rebote:rebote_4|state_reg~4                                       ; Lost fanout                            ;
-; rebote:rebote_4|state_reg~5                                       ; Lost fanout                            ;
-; rebote:rebote_3|state_reg~4                                       ; Lost fanout                            ;
-; rebote:rebote_3|state_reg~5                                       ; Lost fanout                            ;
-; rebote:rebote_2|state_reg~4                                       ; Lost fanout                            ;
-; rebote:rebote_2|state_reg~5                                       ; Lost fanout                            ;
-; rebote:rebote_1|state_reg~4                                       ; Lost fanout                            ;
-; rebote:rebote_1|state_reg~5                                       ; Lost fanout                            ;
 ; matrix_ctrl:matrix_ctrl_unit_0|state_reg~4                        ; Lost fanout                            ;
 ; matrix_ctrl:matrix_ctrl_unit_0|state_reg~5                        ; Lost fanout                            ;
 ; matrix_ctrl:matrix_ctrl_unit_0|state_reg~6                        ; Lost fanout                            ;
@@ -358,7 +280,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; matrix_ctrl:matrix_ctrl_unit_0|state_reg.DISPLAY_TEST             ; Stuck at GND due to stuck port data_in ;
 ; matrix_ctrl:matrix_ctrl_unit_0|state_reg.STOP                     ; Stuck at GND due to stuck port data_in ;
 ; matrix_ctrl:matrix_ctrl_unit_0|state_reg.DISPLAY_TEST_WAIT2FINISH ; Stuck at GND due to stuck port data_in ;
-; Total Number of Removed Registers = 19                            ;                                        ;
+; Total Number of Removed Registers = 10                            ;                                        ;
 +-------------------------------------------------------------------+----------------------------------------+
 
 
@@ -377,12 +299,12 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 157   ;
+; Total registers                              ; 53    ;
 ; Number of registers using Synchronous Clear  ; 16    ;
-; Number of registers using Synchronous Load   ; 14    ;
-; Number of registers using Asynchronous Clear ; 150   ;
+; Number of registers using Synchronous Load   ; 13    ;
+; Number of registers using Asynchronous Clear ; 53    ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 96    ;
+; Number of registers using Clock Enable       ; 15    ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -392,34 +314,12 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------------------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                                         ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------------------------------------------------------+
-; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |system|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|cnt_reg[5] ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |system|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|cnt_reg[6] ;
 ; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |system|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|r_reg[12]  ;
-; 4:1                ; 9 bits    ; 18 LEs        ; 18 LEs               ; 0 LEs                  ; Yes        ; |system|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|r_reg[9]   ;
-; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; Yes        ; |system|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|r_reg[6]   ;
-; 8:1                ; 20 bits   ; 100 LEs       ; 20 LEs               ; 80 LEs                 ; Yes        ; |system|rebote:rebote_4|q_reg[6]                                                                   ;
-; 8:1                ; 20 bits   ; 100 LEs       ; 20 LEs               ; 80 LEs                 ; Yes        ; |system|rebote:rebote_3|q_reg[7]                                                                   ;
-; 8:1                ; 20 bits   ; 100 LEs       ; 20 LEs               ; 80 LEs                 ; Yes        ; |system|rebote:rebote_2|q_reg[7]                                                                   ;
-; 8:1                ; 20 bits   ; 100 LEs       ; 20 LEs               ; 80 LEs                 ; Yes        ; |system|rebote:rebote_1|q_reg[7]                                                                   ;
-; 8:1                ; 2 bits    ; 10 LEs        ; 4 LEs                ; 6 LEs                  ; No         ; |system|rebote:rebote_4|Selector1                                                                  ;
-; 8:1                ; 2 bits    ; 10 LEs        ; 4 LEs                ; 6 LEs                  ; No         ; |system|rebote:rebote_3|Selector3                                                                  ;
-; 8:1                ; 2 bits    ; 10 LEs        ; 4 LEs                ; 6 LEs                  ; No         ; |system|rebote:rebote_2|Selector3                                                                  ;
-; 8:1                ; 2 bits    ; 10 LEs        ; 4 LEs                ; 6 LEs                  ; No         ; |system|rebote:rebote_1|Selector3                                                                  ;
-; 10:1               ; 2 bits    ; 12 LEs        ; 8 LEs                ; 4 LEs                  ; No         ; |system|rebote:rebote_4|Selector0                                                                  ;
-; 10:1               ; 2 bits    ; 12 LEs        ; 8 LEs                ; 4 LEs                  ; No         ; |system|rebote:rebote_3|Selector0                                                                  ;
-; 10:1               ; 2 bits    ; 12 LEs        ; 8 LEs                ; 4 LEs                  ; No         ; |system|rebote:rebote_2|Selector0                                                                  ;
-; 10:1               ; 2 bits    ; 12 LEs        ; 8 LEs                ; 4 LEs                  ; No         ; |system|rebote:rebote_1|Selector0                                                                  ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |system|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|r_reg[7]   ;
+; 12:1               ; 2 bits    ; 16 LEs        ; 12 LEs               ; 4 LEs                  ; Yes        ; |system|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|r_reg[5]   ;
 ; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |system|matrix_ctrl:matrix_ctrl_unit_0|Selector3                                                   ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------------------------------------------------------+
-
-
-+------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: Top-level Entity: |system ;
-+----------------+----------+--------------------------------------------+
-; Parameter Name ; Value    ; Type                                       ;
-+----------------+----------+--------------------------------------------+
-; clk_freq       ; 50000000 ; Signed Integer                             ;
-+----------------+----------+--------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
 +------------------------------------------------------------------------------------------------------------------------------+
@@ -430,42 +330,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; N              ; 16    ; Signed Integer                                                                                      ;
 +----------------+-------+-----------------------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-------------------------------------------------------+
-; Port Connectivity Checks: "rebote:rebote_4"           ;
-+----------+--------+----------+------------------------+
-; Port     ; Type   ; Severity ; Details                ;
-+----------+--------+----------+------------------------+
-; db_level ; Output ; Info     ; Explicitly unconnected ;
-+----------+--------+----------+------------------------+
-
-
-+-------------------------------------------------------+
-; Port Connectivity Checks: "rebote:rebote_3"           ;
-+----------+--------+----------+------------------------+
-; Port     ; Type   ; Severity ; Details                ;
-+----------+--------+----------+------------------------+
-; db_level ; Output ; Info     ; Explicitly unconnected ;
-+----------+--------+----------+------------------------+
-
-
-+-------------------------------------------------------+
-; Port Connectivity Checks: "rebote:rebote_2"           ;
-+----------+--------+----------+------------------------+
-; Port     ; Type   ; Severity ; Details                ;
-+----------+--------+----------+------------------------+
-; db_level ; Output ; Info     ; Explicitly unconnected ;
-+----------+--------+----------+------------------------+
-
-
-+-------------------------------------------------------+
-; Port Connectivity Checks: "rebote:rebote_1"           ;
-+----------+--------+----------+------------------------+
-; Port     ; Type   ; Severity ; Details                ;
-+----------+--------+----------+------------------------+
-; db_level ; Output ; Info     ; Explicitly unconnected ;
-+----------+--------+----------+------------------------+
 
 
 +-------------------------------------------------------------------------------------------------------------+
@@ -494,24 +358,24 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; boundary_port         ; 9                           ;
-; cycloneiii_ff         ; 157                         ;
-;     CLR               ; 38                          ;
+; boundary_port         ; 18                          ;
+; cycloneiii_ff         ; 53                          ;
+;     CLR               ; 22                          ;
 ;     CLR SCLR          ; 16                          ;
-;     ENA CLR           ; 82                          ;
-;     ENA CLR SLD       ; 14                          ;
-;     plain             ; 7                           ;
-; cycloneiii_lcell_comb ; 344                         ;
-;     arith             ; 91                          ;
-;         2 data inputs ; 91                          ;
-;     normal            ; 253                         ;
-;         1 data inputs ; 9                           ;
-;         2 data inputs ; 14                          ;
-;         3 data inputs ; 115                         ;
-;         4 data inputs ; 115                         ;
+;     ENA CLR           ; 2                           ;
+;     ENA CLR SLD       ; 13                          ;
+; cycloneiii_lcell_comb ; 90                          ;
+;     arith             ; 15                          ;
+;         2 data inputs ; 15                          ;
+;     normal            ; 75                          ;
+;         0 data inputs ; 1                           ;
+;         1 data inputs ; 5                           ;
+;         2 data inputs ; 13                          ;
+;         3 data inputs ; 19                          ;
+;         4 data inputs ; 37                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 7.50                        ;
-; Average LUT depth     ; 4.87                        ;
+; Max LUT depth         ; 4.00                        ;
+; Average LUT depth     ; 2.34                        ;
 +-----------------------+-----------------------------+
 
 
@@ -520,7 +384,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:02     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -530,10 +394,12 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
-    Info: Processing started: Thu Apr 12 16:03:12 2018
+    Info: Processing started: Fri Apr 13 12:46:55 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off system -c system
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file rtl/max7219_ctrl/matrix_ctrl.v
+    Info (12023): Found entity 1: matrix_ctrl File: C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl/matrix_ctrl.v Line: 37
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/vehiculos/muxx41.v
     Info (12023): Found entity 1: MUXX41 File: C:/Users/Felipe/git/frogger_excercise/rtl/vehiculos/MUXX41.v Line: 27
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/vehiculos/sc_vel.v
@@ -544,8 +410,7 @@ Info (12021): Found 1 design units, including 1 entities, in source file rtl/veh
     Info (12023): Found entity 1: SC_STATEMACHINE_NVE File: C:/Users/Felipe/git/frogger_excercise/rtl/vehiculos/SC_STATEMACHINE_NVE.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/states/states.v
     Info (12023): Found entity 1: states File: C:/Users/Felipe/git/frogger_excercise/rtl/states/states.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file rtl/max7219_ctrl/univ_shift_reg.v
-    Info (12023): Found entity 1: univ_shift_reg File: C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl/univ_shift_reg.v Line: 34
+Warning (12019): Can't analyze file -- file rtl/max7219_ctrl/univ_shift_reg.v is missing
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/max7219_ctrl/shift_reg_start_done.v
     Info (12023): Found entity 1: shift_reg_start_done File: C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl/shift_reg_start_done.v Line: 34
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/imagen/pintar_data_demux.v
@@ -556,20 +421,17 @@ Info (12021): Found 1 design units, including 1 entities, in source file rtl/veh
     Info (12023): Found entity 1: MENU_PRINCIPAL File: C:/Users/Felipe/git/frogger_excercise/rtl/vehiculos/MENU_PRINCIPAL.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/rebote/rebote.v
     Info (12023): Found entity 1: rebote File: C:/Users/Felipe/git/frogger_excercise/rtl/rebote/rebote.v Line: 36
-Info (12021): Found 1 design units, including 1 entities, in source file rtl/max7219_ctrl/max7219_ctrl.v
-    Info (12023): Found entity 1: matrix_ctrl File: C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl/max7219_ctrl.v Line: 37
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/rana/rana.v
     Info (12023): Found entity 1: RANA File: C:/Users/Felipe/git/frogger_excercise/rtl/rana/rana.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file system_tb.v
     Info (12023): Found entity 1: system_tb File: C:/Users/Felipe/git/frogger_excercise/system_tb.v Line: 27
 Info (12021): Found 0 design units, including 0 entities, in source file system_conf.v
 Info (12021): Found 1 design units, including 1 entities, in source file system.v
-    Info (12023): Found entity 1: system File: C:/Users/Felipe/git/frogger_excercise/system.v Line: 11
+    Info (12023): Found entity 1: system File: C:/Users/Felipe/git/frogger_excercise/system.v Line: 6
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/imagen/pintar_matriz.v
     Info (12023): Found entity 1: PINTAR_MATRIZ File: C:/Users/Felipe/git/frogger_excercise/rtl/imagen/PINTAR_MATRIZ.v Line: 4
-Warning (10236): Verilog HDL Implicit Net warning at system.v(85): created implicit net for "pulso" File: C:/Users/Felipe/git/frogger_excercise/system.v Line: 85
 Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(22): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/vehiculos/SC_STATEMACHINE_NVE.v Line: 22
-Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(24): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/vehiculos/SC_STATEMACHINE_NVE.v Line: 24
+Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(23): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/vehiculos/SC_STATEMACHINE_NVE.v Line: 23
 Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(25): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/vehiculos/SC_STATEMACHINE_NVE.v Line: 25
 Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(26): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/vehiculos/SC_STATEMACHINE_NVE.v Line: 26
 Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(27): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/vehiculos/SC_STATEMACHINE_NVE.v Line: 27
@@ -579,36 +441,38 @@ Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NV
 Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(31): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/vehiculos/SC_STATEMACHINE_NVE.v Line: 31
 Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(32): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/vehiculos/SC_STATEMACHINE_NVE.v Line: 32
 Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(33): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/vehiculos/SC_STATEMACHINE_NVE.v Line: 33
+Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(34): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/vehiculos/SC_STATEMACHINE_NVE.v Line: 34
 Info (12127): Elaborating entity "system" for the top level hierarchy
-Info (12128): Elaborating entity "matrix_ctrl" for hierarchy "matrix_ctrl:matrix_ctrl_unit_0" File: C:/Users/Felipe/git/frogger_excercise/system.v Line: 42
-Warning (10230): Verilog HDL assignment warning at max7219_ctrl.v(66): truncated value with size 32 to match size of target (3) File: C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl/max7219_ctrl.v Line: 66
-Warning (10230): Verilog HDL assignment warning at max7219_ctrl.v(67): truncated value with size 32 to match size of target (3) File: C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl/max7219_ctrl.v Line: 67
-Warning (10230): Verilog HDL assignment warning at max7219_ctrl.v(231): truncated value with size 32 to match size of target (4) File: C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl/max7219_ctrl.v Line: 231
-Warning (10240): Verilog HDL Always Construct warning at max7219_ctrl.v(125): inferring latch(es) for variable "ctrl_sr", which holds its previous value in one or more paths through the always construct File: C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl/max7219_ctrl.v Line: 125
-Warning (10230): Verilog HDL assignment warning at max7219_ctrl.v(249): truncated value with size 32 to match size of target (3) File: C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl/max7219_ctrl.v Line: 249
-Info (10041): Inferred latch for "ctrl_sr[0]" at max7219_ctrl.v(125) File: C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl/max7219_ctrl.v Line: 125
-Info (10041): Inferred latch for "ctrl_sr[1]" at max7219_ctrl.v(125) File: C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl/max7219_ctrl.v Line: 125
-Info (12128): Elaborating entity "shift_reg_start_done" for hierarchy "matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0" File: C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl/max7219_ctrl.v Line: 83
-Warning (10230): Verilog HDL assignment warning at shift_reg_start_done.v(67): truncated value with size 32 to match size of target (16) File: C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl/shift_reg_start_done.v Line: 67
-Info (12128): Elaborating entity "imagen" for hierarchy "imagen:img1" File: C:/Users/Felipe/git/frogger_excercise/system.v Line: 56
-Info (12128): Elaborating entity "rebote" for hierarchy "rebote:rebote_1" File: C:/Users/Felipe/git/frogger_excercise/system.v Line: 62
-Warning (10230): Verilog HDL assignment warning at rebote.v(92): truncated value with size 32 to match size of target (20) File: C:/Users/Felipe/git/frogger_excercise/rtl/rebote/rebote.v Line: 92
-Warning (10230): Verilog HDL assignment warning at rebote.v(116): truncated value with size 32 to match size of target (20) File: C:/Users/Felipe/git/frogger_excercise/rtl/rebote/rebote.v Line: 116
-Info (12128): Elaborating entity "states" for hierarchy "states:st_1" File: C:/Users/Felipe/git/frogger_excercise/system.v Line: 94
+Warning (10034): Output port "LED[6..4]" at system.v(49) has no driver File: C:/Users/Felipe/git/frogger_excercise/system.v Line: 49
+Info (12128): Elaborating entity "matrix_ctrl" for hierarchy "matrix_ctrl:matrix_ctrl_unit_0" File: C:/Users/Felipe/git/frogger_excercise/system.v Line: 76
+Warning (10230): Verilog HDL assignment warning at matrix_ctrl.v(66): truncated value with size 32 to match size of target (3) File: C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl/matrix_ctrl.v Line: 66
+Warning (10230): Verilog HDL assignment warning at matrix_ctrl.v(67): truncated value with size 32 to match size of target (3) File: C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl/matrix_ctrl.v Line: 67
+Warning (10230): Verilog HDL assignment warning at matrix_ctrl.v(234): truncated value with size 32 to match size of target (4) File: C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl/matrix_ctrl.v Line: 234
+Warning (10240): Verilog HDL Always Construct warning at matrix_ctrl.v(128): inferring latch(es) for variable "ctrl_sr", which holds its previous value in one or more paths through the always construct File: C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl/matrix_ctrl.v Line: 128
+Warning (10230): Verilog HDL assignment warning at matrix_ctrl.v(251): truncated value with size 32 to match size of target (3) File: C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl/matrix_ctrl.v Line: 251
+Info (10041): Inferred latch for "ctrl_sr[0]" at matrix_ctrl.v(128) File: C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl/matrix_ctrl.v Line: 128
+Info (10041): Inferred latch for "ctrl_sr[1]" at matrix_ctrl.v(128) File: C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl/matrix_ctrl.v Line: 128
+Info (12128): Elaborating entity "shift_reg_start_done" for hierarchy "matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0" File: C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl/matrix_ctrl.v Line: 86
+Warning (10230): Verilog HDL assignment warning at shift_reg_start_done.v(68): truncated value with size 32 to match size of target (16) File: C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl/shift_reg_start_done.v Line: 68
+Info (12128): Elaborating entity "imagen" for hierarchy "imagen:imagen_1" File: C:/Users/Felipe/git/frogger_excercise/system.v Line: 81
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "LED[4]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/system.v Line: 49
+    Warning (13410): Pin "LED[5]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/system.v Line: 49
+    Warning (13410): Pin "LED[6]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/system.v Line: 49
 Info (286030): Timing-Driven Synthesis is running
-Info (17049): 15 registers lost all their fanouts during netlist optimizations.
+Info (17049): 7 registers lost all their fanouts during netlist optimizations.
 Info (144001): Generated suppressed messages file C:/Users/Felipe/git/frogger_excercise/system.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 353 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 6 input pins
-    Info (21059): Implemented 3 output pins
-    Info (21061): Implemented 344 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 21 warnings
-    Info: Peak virtual memory: 676 megabytes
-    Info: Processing ended: Thu Apr 12 16:03:35 2018
-    Info: Elapsed time: 00:00:23
-    Info: Total CPU time (on all processors): 00:00:42
+Info (21057): Implemented 106 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 7 input pins
+    Info (21059): Implemented 11 output pins
+    Info (21061): Implemented 88 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 25 warnings
+    Info: Peak virtual memory: 663 megabytes
+    Info: Processing ended: Fri Apr 13 12:47:21 2018
+    Info: Elapsed time: 00:00:26
+    Info: Total CPU time (on all processors): 00:00:50
 
 
 +------------------------------------------+

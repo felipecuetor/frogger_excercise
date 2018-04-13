@@ -33,21 +33,22 @@
 
 module shift_reg_start_done
    #(parameter N=8)
-   (
-    input wire clk, reset,
-    input wire [1:0] ctrl,
-    input wire [N-1:0] d,
-    output wire q, last_tick
-   );
+(
+ input wire clk, reset,
+ input wire [1:0] ctrl,
+ input wire [N-1:0] d,
+ output wire q, last_tick
+);
 localparam NOP 		=2'b00;
 localparam SHIFT_L 	=2'b01;
 localparam SHIFT_R 	=2'b10;
-localparam LOAD 	=2'b11;
-   //signal declaration
+localparam LOAD 		=2'b11;
+
+//signal declaration
    reg [N-1:0] r_reg, r_next;
    reg [N-1:0] cnt_reg, cnt_next;
-   // body
-   // register
+// body
+// register
    always @(posedge clk, posedge reset)
 	begin
       if (reset)
@@ -61,7 +62,7 @@ localparam LOAD 	=2'b11;
 		cnt_reg <= cnt_next;
       end
     end
-   // next-state logic
+ // next-state logic
    always @*
    begin
    cnt_next	= (cnt_reg == N-1) ? 0 : cnt_reg + 1;

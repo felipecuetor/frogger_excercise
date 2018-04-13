@@ -10,55 +10,67 @@ Autor:José Francisco Molano Pulido (jf.molano1587@uniandes.edu.co)
 
 
 module imagen(
-    input clk,
     input wire [2:0] act_add,
-    input wire [7:0] fila_0,
-    input wire [7:0] fila_1,
-    input wire [7:0] fila_2,
-    input wire [7:0] fila_3,
-    input wire [7:0] fila_4,
-    input wire [7:0] fila_5,
-    input wire [7:0] fila_6,
-    input wire [7:0] fila_7,
     output reg [7:0] max_in
     );
-always@(posedge clk)
+	 
+reg [2:0] aux;
+always@(*)
 begin
-case (act_add)
-	3'b000:
-		begin
-		max_in <= fila_0;
-		end
-	3'b001:
-		begin
-		max_in <= fila_1;
-		end
-	3'b010:
-		begin
-		max_in <= fila_2;
-		end
-	3'b011:
-		begin
-		max_in <= fila_3;
-		end
-	3'b100:
-		begin
-		max_in <= fila_4;
-		end
-	3'b101:
-		begin
-		max_in <= fila_5;
-		end
-	3'b110:
-		begin
-		max_in <= fila_6;
-		end
-	3'b111:
-		begin
-		max_in <= fila_7;
-		end
-	default:max_in <= 8'b00000000;
-endcase	
+	aux = act_add;	
+	//Caracol
+	case (aux)
+	  3'b000 : max_in = 8'b11111110;
+	  3'b001 : max_in = 8'b10000000;
+	  3'b010 : max_in = 8'b10111111;
+	  3'b011 : max_in = 8'b10100001;
+	  3'b100 : max_in = 8'b10101101;
+	  3'b101 : max_in = 8'b10111101;
+	  3'b110 : max_in = 8'b10000001;
+	  3'b111 : max_in = 8'b11111111;
+	  default: max_in = 8'b00000000;
+	endcase
+	//X
+	/*
+	case (aux)
+	  3'b000 : max_in = 8'b10000001;
+	  3'b001 : max_in = 8'b01000010;
+	  3'b010 : max_in = 8'b00100100;
+	  3'b011 : max_in = 8'b00011000;
+	  3'b100 : max_in = 8'b00011000;
+	  3'b101 : max_in = 8'b00100100;
+	  3'b110 : max_in = 8'b01000010;
+	  3'b111 : max_in = 8'b10000001;
+	  default: max_in = 8'b00000000;
+	endcase
+	*/
+	//Lineas
+	/*
+	case (aux)
+	  3'b000 : max_in = 8'b11111111;
+	  3'b001 : max_in = 8'b00000000;
+	  3'b010 : max_in = 8'b11111111;
+	  3'b011 : max_in = 8'b00000000;
+	  3'b100 : max_in = 8'b11111111;
+	  3'b101 : max_in = 8'b00000000;
+	  3'b110 : max_in = 8'b11111111;
+	  3'b111 : max_in = 8'b00000000;
+	  default: max_in = 8'b00000000;
+	endcase
+	*/
+	//Carita feliz - muy inteligente
+	/*
+	case (aux)
+	  3'b000 : max_in = 8'b00111100;
+	  3'b001 : max_in = 8'b01000010;
+	  3'b010 : max_in = 8'b10100101;
+	  3'b011 : max_in = 8'b10100101;//
+	  3'b100 : max_in = 8'b10000001;//
+	  3'b101 : max_in = 8'b10000001;//
+	  3'b110 : max_in = 8'b01000010;
+	  3'b111 : max_in = 8'b00111100;
+	  default: max_in = 8'b00000000;
+	endcase
+	*/
 end
-
 endmodule

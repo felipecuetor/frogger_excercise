@@ -2,112 +2,40 @@
 TimeQuest Timing Analyzer Summary
 ------------------------------------------------------------
 
-Type  : Slow 1200mV 85C Model Setup 'Clk_System'
-Slack : -4.610
-TNS   : -265.100
-
-Type  : Slow 1200mV 85C Model Setup 'matrix_ctrl:matrix_ctrl_unit_0|clk_driver_reg~0'
-Slack : -2.931
-TNS   : -94.019
-
-Type  : Slow 1200mV 85C Model Setup 'matrix_ctrl:matrix_ctrl_unit_0|state_reg.MAIN_LOOP'
-Slack : -1.120
-TNS   : -2.160
-
-Type  : Slow 1200mV 85C Model Hold 'Clk_System'
-Slack : 0.343
+Type  : Slow 1200mV 85C Model Setup 'CLOCK_50'
+Slack : 19.037
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Hold 'matrix_ctrl:matrix_ctrl_unit_0|clk_driver_reg~0'
-Slack : 0.344
+Type  : Slow 1200mV 85C Model Hold 'CLOCK_50'
+Slack : 0.382
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Hold 'matrix_ctrl:matrix_ctrl_unit_0|state_reg.MAIN_LOOP'
-Slack : 0.763
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 9.597
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Clk_System'
-Slack : -3.000
-TNS   : -103.000
-
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'matrix_ctrl:matrix_ctrl_unit_0|clk_driver_reg~0'
-Slack : -1.000
-TNS   : -57.000
-
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'matrix_ctrl:matrix_ctrl_unit_0|state_reg.MAIN_LOOP'
-Slack : 0.422
+Type  : Slow 1200mV 0C Model Setup 'CLOCK_50'
+Slack : 19.142
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Setup 'Clk_System'
-Slack : -4.026
-TNS   : -228.273
-
-Type  : Slow 1200mV 0C Model Setup 'matrix_ctrl:matrix_ctrl_unit_0|clk_driver_reg~0'
-Slack : -2.552
-TNS   : -79.726
-
-Type  : Slow 1200mV 0C Model Setup 'matrix_ctrl:matrix_ctrl_unit_0|state_reg.MAIN_LOOP'
-Slack : -0.871
-TNS   : -1.663
-
-Type  : Slow 1200mV 0C Model Hold 'Clk_System'
-Slack : 0.299
+Type  : Slow 1200mV 0C Model Hold 'CLOCK_50'
+Slack : 0.333
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Hold 'matrix_ctrl:matrix_ctrl_unit_0|clk_driver_reg~0'
-Slack : 0.300
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 9.580
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Hold 'matrix_ctrl:matrix_ctrl_unit_0|state_reg.MAIN_LOOP'
-Slack : 0.673
+Type  : Fast 1200mV 0C Model Setup 'CLOCK_50'
+Slack : 19.468
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Clk_System'
-Slack : -3.000
-TNS   : -103.000
-
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'matrix_ctrl:matrix_ctrl_unit_0|clk_driver_reg~0'
-Slack : -1.000
-TNS   : -57.000
-
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'matrix_ctrl:matrix_ctrl_unit_0|state_reg.MAIN_LOOP'
-Slack : 0.483
+Type  : Fast 1200mV 0C Model Hold 'CLOCK_50'
+Slack : 0.201
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Setup 'Clk_System'
-Slack : -2.147
-TNS   : -107.300
-
-Type  : Fast 1200mV 0C Model Setup 'matrix_ctrl:matrix_ctrl_unit_0|clk_driver_reg~0'
-Slack : -1.183
-TNS   : -29.288
-
-Type  : Fast 1200mV 0C Model Setup 'matrix_ctrl:matrix_ctrl_unit_0|state_reg.MAIN_LOOP'
-Slack : -0.207
-TNS   : -0.405
-
-Type  : Fast 1200mV 0C Model Hold 'matrix_ctrl:matrix_ctrl_unit_0|clk_driver_reg~0'
-Slack : 0.161
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'Clk_System'
-Slack : 0.179
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'matrix_ctrl:matrix_ctrl_unit_0|state_reg.MAIN_LOOP'
-Slack : 0.378
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Clk_System'
-Slack : -3.000
-TNS   : -108.924
-
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'matrix_ctrl:matrix_ctrl_unit_0|clk_driver_reg~0'
-Slack : -1.000
-TNS   : -57.000
-
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'matrix_ctrl:matrix_ctrl_unit_0|state_reg.MAIN_LOOP'
-Slack : 0.358
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 9.319
 TNS   : 0.000
 
 ------------------------------------------------------------
