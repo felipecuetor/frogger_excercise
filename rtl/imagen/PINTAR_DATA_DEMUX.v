@@ -1,0 +1,151 @@
+//=======================================================
+//  MODULE Definition
+//=======================================================
+module PINTAR_DATA_DEMUX (
+	PINTAR_DATA_DEMUX_7_OUT,
+	PINTAR_DATA_DEMUX_6_OUT,
+	PINTAR_DATA_DEMUX_5_OUT,
+	PINTAR_DATA_DEMUX_4_OUT,
+	PINTAR_DATA_DEMUX_3_OUT,
+	PINTAR_DATA_DEMUX_2_OUT,
+	PINTAR_DATA_DEMUX_1_OUT,
+	PINTAR_DATA_DEMUX_0_OUT,
+	PINTAR_DATA_DEMUX_ESTADO_IN
+);
+//=======================================================
+//  PARAMETER declarations
+//=======================================================
+parameter DATAWIDTH_SELECTOR=3;
+parameter DATAWIDTH_DATA=8;
+parameter Inicio = 3'b000;
+parameter GanarJuego = 3'b101;
+parameter PerderJuego = 3'b110;
+parameter Seleccion1 = 3'b001;
+parameter Seleccion2 = 3'b010;
+parameter Seleccion3= 3'b011;
+parameter Seleccion4 = 3'b100;
+parameter Juego = 3'b111;
+parameter Finalizar = 3'b000;
+
+//=======================================================
+//  PORT declarations
+//=======================================================
+	output reg [DATAWIDTH_DATA-1:0] PINTAR_DATA_DEMUX_7_OUT;
+	output reg [DATAWIDTH_DATA-1:0] PINTAR_DATA_DEMUX_6_OUT;
+	output reg [DATAWIDTH_DATA-1:0] PINTAR_DATA_DEMUX_5_OUT;
+	output reg [DATAWIDTH_DATA-1:0] PINTAR_DATA_DEMUX_4_OUT;
+	output reg [DATAWIDTH_DATA-1:0] PINTAR_DATA_DEMUX_3_OUT;
+	output reg [DATAWIDTH_DATA-1:0] PINTAR_DATA_DEMUX_2_OUT;
+	output reg [DATAWIDTH_DATA-1:0] PINTAR_DATA_DEMUX_1_OUT;
+	output reg [DATAWIDTH_DATA-1:0] PINTAR_DATA_DEMUX_0_OUT;
+	input [DATAWIDTH_SELECTOR-1:0] PINTAR_DATA_DEMUX_ESTADO_IN;
+	
+//=======================================================
+//  REG/WIRE declarations
+//=======================================================
+//=======================================================
+//  Structural coding
+//=======================================================
+ 
+	always @(*)
+		if (PINTAR_DATA_DEMUX_ESTADO_IN==Inicio)
+			begin
+				PINTAR_DATA_DEMUX_7_OUT = 8'b11111111;
+				PINTAR_DATA_DEMUX_6_OUT = 8'b11111111;
+				PINTAR_DATA_DEMUX_5_OUT = 8'b00011000;
+				PINTAR_DATA_DEMUX_4_OUT = 8'b00011000;
+				PINTAR_DATA_DEMUX_3_OUT = 8'b00011000;
+				PINTAR_DATA_DEMUX_2_OUT = 8'b00011000;
+				PINTAR_DATA_DEMUX_1_OUT = 8'b11111111;
+				PINTAR_DATA_DEMUX_0_OUT = 8'b11111111;
+			end
+		else if (PINTAR_DATA_DEMUX_ESTADO_IN==GanarJuego)
+			begin
+				PINTAR_DATA_DEMUX_7_OUT = 8'b00000000;
+				PINTAR_DATA_DEMUX_6_OUT = 8'b00000001;
+				PINTAR_DATA_DEMUX_5_OUT = 8'b00000010;
+				PINTAR_DATA_DEMUX_4_OUT = 8'b00000100;
+				PINTAR_DATA_DEMUX_3_OUT = 8'b10001000;
+				PINTAR_DATA_DEMUX_2_OUT = 8'b01010000;
+				PINTAR_DATA_DEMUX_1_OUT = 8'b00100000;
+				PINTAR_DATA_DEMUX_0_OUT = 8'b00000000;
+			end
+		else if (PINTAR_DATA_DEMUX_ESTADO_IN==PerderJuego)
+			begin
+				PINTAR_DATA_DEMUX_7_OUT = 8'b10000001;
+				PINTAR_DATA_DEMUX_6_OUT = 8'b01000010;
+				PINTAR_DATA_DEMUX_5_OUT = 8'b00100100;
+				PINTAR_DATA_DEMUX_4_OUT = 8'b00011000;
+				PINTAR_DATA_DEMUX_3_OUT = 8'b00011000;
+				PINTAR_DATA_DEMUX_2_OUT = 8'b00100100;
+				PINTAR_DATA_DEMUX_1_OUT = 8'b01000010;
+				PINTAR_DATA_DEMUX_0_OUT = 8'b10000001;
+			end
+		else if (PINTAR_DATA_DEMUX_ESTADO_IN==Seleccion1)
+			begin
+				PINTAR_DATA_DEMUX_7_OUT = 8'b00001000;
+				PINTAR_DATA_DEMUX_6_OUT = 8'b00011000;
+				PINTAR_DATA_DEMUX_5_OUT = 8'b00001000;
+				PINTAR_DATA_DEMUX_4_OUT = 8'b00001000;
+				PINTAR_DATA_DEMUX_3_OUT = 8'b00001000;
+				PINTAR_DATA_DEMUX_2_OUT = 8'b00001000;
+				PINTAR_DATA_DEMUX_1_OUT = 8'b00001000;
+				PINTAR_DATA_DEMUX_0_OUT = 8'b00011100;
+			end
+		else if (PINTAR_DATA_DEMUX_ESTADO_IN==Seleccion2)
+			begin
+				PINTAR_DATA_DEMUX_7_OUT = 8'b00111100;
+				PINTAR_DATA_DEMUX_6_OUT = 8'b01000010;
+				PINTAR_DATA_DEMUX_5_OUT = 8'b00000010;
+				PINTAR_DATA_DEMUX_4_OUT = 8'b00000100;
+				PINTAR_DATA_DEMUX_3_OUT = 8'b00001000;
+				PINTAR_DATA_DEMUX_2_OUT = 8'b00010000;
+				PINTAR_DATA_DEMUX_1_OUT = 8'b00100000;
+				PINTAR_DATA_DEMUX_0_OUT = 8'b01111110;
+			end
+		else if (PINTAR_DATA_DEMUX_ESTADO_IN==Seleccion3)
+			begin
+				PINTAR_DATA_DEMUX_7_OUT = 8'b00111100;
+				PINTAR_DATA_DEMUX_6_OUT = 8'b01000010;
+				PINTAR_DATA_DEMUX_5_OUT = 8'b00000010;
+				PINTAR_DATA_DEMUX_4_OUT = 8'b00011100;
+				PINTAR_DATA_DEMUX_3_OUT = 8'b00000010;
+				PINTAR_DATA_DEMUX_2_OUT = 8'b00000010;
+				PINTAR_DATA_DEMUX_1_OUT = 8'b01000010;
+				PINTAR_DATA_DEMUX_0_OUT = 8'b00111100;
+			end
+		else if (PINTAR_DATA_DEMUX_ESTADO_IN==Seleccion4)
+			begin
+				PINTAR_DATA_DEMUX_7_OUT = 8'b00000100;
+				PINTAR_DATA_DEMUX_6_OUT = 8'b00001100;
+				PINTAR_DATA_DEMUX_5_OUT = 8'b00010100;
+				PINTAR_DATA_DEMUX_4_OUT = 8'b00100100;
+				PINTAR_DATA_DEMUX_3_OUT = 8'b01111110;
+				PINTAR_DATA_DEMUX_2_OUT = 8'b00000100;
+				PINTAR_DATA_DEMUX_1_OUT = 8'b00000100;
+				PINTAR_DATA_DEMUX_0_OUT = 8'b00000100;
+			end
+		else if (PINTAR_DATA_DEMUX_ESTADO_IN==Juego)
+			begin
+				PINTAR_DATA_DEMUX_7_OUT = 8'b00000000;
+				PINTAR_DATA_DEMUX_6_OUT = 8'b00000000;
+				PINTAR_DATA_DEMUX_5_OUT = 8'b00000000;
+				PINTAR_DATA_DEMUX_4_OUT = 8'b00000000;
+				PINTAR_DATA_DEMUX_3_OUT = 8'b00000000;
+				PINTAR_DATA_DEMUX_2_OUT = 8'b00000000;
+				PINTAR_DATA_DEMUX_1_OUT = 8'b00000000;
+				PINTAR_DATA_DEMUX_0_OUT = 8'b00000000;
+			end
+			else
+				begin
+					PINTAR_DATA_DEMUX_7_OUT = 8'b00000000;
+					PINTAR_DATA_DEMUX_6_OUT = 8'b00000000;
+					PINTAR_DATA_DEMUX_5_OUT = 8'b00000000;
+					PINTAR_DATA_DEMUX_4_OUT = 8'b00000000;
+					PINTAR_DATA_DEMUX_3_OUT = 8'b00000000;
+					PINTAR_DATA_DEMUX_2_OUT = 8'b00000000;
+					PINTAR_DATA_DEMUX_1_OUT = 8'b00000000;
+					PINTAR_DATA_DEMUX_0_OUT = 8'b00000000;
+				end
+endmodule
+
