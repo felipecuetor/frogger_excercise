@@ -50,9 +50,6 @@ module Counter_B (
 	input			C_CLOCK_50;
 	input			C_Reset;
 	input			C_Enable;
-	input			C_Right;
-	input			C_Left;
-	
 	
 	output 	[1:0] C_DataCounter_Out;
 	output reg		C_Counter_Out;
@@ -62,7 +59,6 @@ module Counter_B (
 //=======================================================
 reg [1:0] St_Register;
 reg [1:0] St_Signal;
-reg [1:0] C_State;
 
 //=======================================================
 //  Structural coding
@@ -71,50 +67,16 @@ reg [1:0] C_State;
 // NEXT STATE LOGIC : COMBINATIONAL
 	always @(*)
 	case (St_Register)
-		St_Count0: if (C_State == 2'b10)
-							St_Signal = St_Count1;
-					  else St_Signal = St_Count0; //MANTIENE EL ESTADO
-		St_Count1: if (C_State == 2'b10)
-							St_Signal = St_Count2;
-					  else St_Signal = St_Count1; //MANTIENE EL ESTADO
-		St_Count2: if (C_State == 2'b10) 
-							St_Signal = St_Count3;
-					  else St_Signal = St_Count2; //MANTIENE EL ESTADO
-		St_Count3: if (C_State == 2'b10) 
-							St_Signal = St_Count0;
-					  else St_Signal = St_Count3; //MANTIENE EL ESTADO
-	default : St_Signal =  St_Count0;
-	endcase
-	
-	always @(*)
-	case (St_Register)
-		St_Count0: if (C_State == 2'b01)
-							St_Signal = St_Count1;
-					  else St_Signal = St_Count0; //MANTIENE EL ESTADO
-		St_Count1: if (C_State == 2'b01)
-							St_Signal = St_Count2;
-					  else St_Signal = St_Count1; //MANTIENE EL ESTADO
-		St_Count2: if (C_State == 2'b01) 
-							St_Signal = St_Count3;
-					  else St_Signal = St_Count2; //MANTIENE EL ESTADO
-		St_Count3: if (C_State == 2'b01) 
-							St_Signal = St_Count0;
-					  else St_Signal = St_Count3; //MANTIENE EL ESTADO
-	default : St_Signal =  St_Count0;
-	endcase
-	
-	always @(*)
-	case (St_State)
 		St_Count0: if (C_Enable == 1'b1)
 							St_Signal = St_Count1;
 					  else St_Signal = St_Count0; //MANTIENE EL ESTADO
-		St_Count1: if (C_Enable == 1'b1 and C_State == 2'b10)
+		St_Count1: if (C_Enable == 1'b1)
 							St_Signal = St_Count2;
 					  else St_Signal = St_Count1; //MANTIENE EL ESTADO
-		St_Count2: if (C_Enable == 1'b1 and C_State == 2'b10) 
+		St_Count2: if (C_Enable == 1'b1) 
 							St_Signal = St_Count3;
 					  else St_Signal = St_Count2; //MANTIENE EL ESTADO
-		St_Count3: if (C_Enable == 1'b1 and C_State == 2'b10) 
+		St_Count3: if (C_Enable == 1'b1) 
 							St_Signal = St_Count0;
 					  else St_Signal = St_Count3; //MANTIENE EL ESTADO
 	default : St_Signal =  St_Count0;

@@ -1,0 +1,48 @@
+
+State Machine - |system|rebote:rebote_4|state_reg
+Name state_reg.wait1 state_reg.one state_reg.wait0 state_reg.zero 
+state_reg.zero 0 0 0 0 
+state_reg.wait0 0 0 1 1 
+state_reg.one 0 1 0 1 
+state_reg.wait1 1 0 0 1 
+
+State Machine - |system|rebote:rebote_3|state_reg
+Name state_reg.wait1 state_reg.one state_reg.wait0 state_reg.zero 
+state_reg.zero 0 0 0 0 
+state_reg.wait0 0 0 1 1 
+state_reg.one 0 1 0 1 
+state_reg.wait1 1 0 0 1 
+
+State Machine - |system|rebote:rebote_2|state_reg
+Name state_reg.wait1 state_reg.one state_reg.wait0 state_reg.zero 
+state_reg.zero 0 0 0 0 
+state_reg.wait0 0 0 1 1 
+state_reg.one 0 1 0 1 
+state_reg.wait1 1 0 0 1 
+
+State Machine - |system|rebote:rebote_1|state_reg
+Name state_reg.wait1 state_reg.one state_reg.wait0 state_reg.zero 
+state_reg.zero 0 0 0 0 
+state_reg.wait0 0 0 1 1 
+state_reg.one 0 1 0 1 
+state_reg.wait1 1 0 0 1 
+
+State Machine - |system|matrix_ctrl:matrix_ctrl_unit_0|state_reg
+Name state_reg.DISPLAY_TEST_OFF_WAIT2FINISH state_reg.DISPLAY_TEST_OFF state_reg.DISPLAY_TEST_WAIT2FINISH state_reg.DISPLAY_TEST state_reg.DIS_SHUTDOWN_WAIT2FINISH state_reg.DIS_SHUTDOWN state_reg.SET_SCAN_MODE_WAIT2FINISH state_reg.SET_SCAN_MODE state_reg.INTENSITY_WAIT2FINISH state_reg.INTENSITY state_reg.SET_DECODE_MODE_WAIT2FINISH state_reg.SET_DECODE_MODE state_reg.UPDATE_FRAME_WAIT2FINISH state_reg.UPDATE_FRAME state_reg.MAIN_LOOP state_reg.START state_reg.STOP 
+state_reg.START 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state_reg.MAIN_LOOP 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 
+state_reg.UPDATE_FRAME 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 
+state_reg.UPDATE_FRAME_WAIT2FINISH 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 
+state_reg.SET_DECODE_MODE 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 
+state_reg.SET_DECODE_MODE_WAIT2FINISH 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 
+state_reg.INTENSITY 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 
+state_reg.INTENSITY_WAIT2FINISH 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 
+state_reg.SET_SCAN_MODE 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 
+state_reg.SET_SCAN_MODE_WAIT2FINISH 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 
+state_reg.DIS_SHUTDOWN 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 
+state_reg.DIS_SHUTDOWN_WAIT2FINISH 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 
+state_reg.DISPLAY_TEST 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 
+state_reg.DISPLAY_TEST_WAIT2FINISH 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+state_reg.DISPLAY_TEST_OFF 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+state_reg.DISPLAY_TEST_OFF_WAIT2FINISH 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+state_reg.STOP 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 

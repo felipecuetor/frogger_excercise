@@ -1,0 +1,45 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "max7219_din",
+					"strict" : false
+				},
+				{
+					"name" : "max7219_ncs",
+					"strict" : false
+				},
+				{
+					"name" : "max7219_clk",
+					"strict" : false
+				},
+				{
+					"name" : "lowRst_System",
+					"strict" : false
+				},
+				{
+					"name" : "Clk_System",
+					"strict" : false
+				},
+				{
+					"name" : "up_n",
+					"strict" : false
+				},
+				{
+					"name" : "down_n",
+					"strict" : false
+				},
+				{
+					"name" : "left_n",
+					"strict" : false
+				},
+				{
+					"name" : "right_n",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

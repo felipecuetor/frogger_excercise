@@ -29,29 +29,16 @@ wire left_tick, right_tick, up_tick, down_tick;
 //	input			Rana_Left;
 //	input			Rana_Right;
 
-rana rana_object(
-	.Rana_CLOCK_50(Clk_System),
-	.Rana_Reset(lowRst_System),
-	.Rana_Up(up_tick),
-	.Rana_Down(down_tick),
-	.Rana_Left(left_tick),
-	.Rana_Right(right_tick)
-	.Rana_Led_Map_Bus_0(pos_rana0),
-	.Rana_Led_Map_Bus_1(pos_rana1),
-	.Rana_Led_Map_Bus_2(pos_rana2),
-	.Rana_Led_Map_Bus_3(pos_rana3),
-	.Rana_Led_Map_Bus_4(pos_rana4),
-	.Rana_Led_Map_Bus_5(pos_rana5),
-	.Rana_Led_Map_Bus_6(pos_rana6),
-	.Rana_Led_Map_Bus_7(pos_rana7)
-	
-)
-
 
 matrix_ctrl matrix_ctrl_unit_0(
-	.max7219_din(max7219_din),.max7219_ncs(max7219_ncs),.max7219_clk(max7219_clk),
-	.disp_data(data_max),.disp_addr(add),.intensity(4'hA),
-    	.clk(Clk_System),.reset(~lowRst_System)
+	.max7219_din(max7219_din),
+	.max7219_ncs(max7219_ncs),
+	.max7219_clk(max7219_clk),
+	.disp_data(data_max),
+	.disp_addr(add),
+	.intensity(4'hA),
+   .clk(Clk_System),
+	.reset(~lowRst_System)
 );
 
 imagen img1(
