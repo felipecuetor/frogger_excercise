@@ -1,33 +1,5 @@
 
-State Machine - |system|rebote:rebote_4|state_reg
-Name state_reg.wait1 state_reg.one state_reg.wait0 state_reg.zero 
-state_reg.zero 0 0 0 0 
-state_reg.wait0 0 0 1 1 
-state_reg.one 0 1 0 1 
-state_reg.wait1 1 0 0 1 
-
-State Machine - |system|rebote:rebote_3|state_reg
-Name state_reg.wait1 state_reg.one state_reg.wait0 state_reg.zero 
-state_reg.zero 0 0 0 0 
-state_reg.wait0 0 0 1 1 
-state_reg.one 0 1 0 1 
-state_reg.wait1 1 0 0 1 
-
-State Machine - |system|rebote:rebote_2|state_reg
-Name state_reg.wait1 state_reg.one state_reg.wait0 state_reg.zero 
-state_reg.zero 0 0 0 0 
-state_reg.wait0 0 0 1 1 
-state_reg.one 0 1 0 1 
-state_reg.wait1 1 0 0 1 
-
-State Machine - |system|rebote:rebote_1|state_reg
-Name state_reg.wait1 state_reg.one state_reg.wait0 state_reg.zero 
-state_reg.zero 0 0 0 0 
-state_reg.wait0 0 0 1 1 
-state_reg.one 0 1 0 1 
-state_reg.wait1 1 0 0 1 
-
-State Machine - |system|matrix_ctrl:matrix_ctrl_unit_0|state_reg
+State Machine - |System|control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|state_reg
 Name state_reg.DISPLAY_TEST_OFF_WAIT2FINISH state_reg.DISPLAY_TEST_OFF state_reg.DISPLAY_TEST_WAIT2FINISH state_reg.DISPLAY_TEST state_reg.DIS_SHUTDOWN_WAIT2FINISH state_reg.DIS_SHUTDOWN state_reg.SET_SCAN_MODE_WAIT2FINISH state_reg.SET_SCAN_MODE state_reg.INTENSITY_WAIT2FINISH state_reg.INTENSITY state_reg.SET_DECODE_MODE_WAIT2FINISH state_reg.SET_DECODE_MODE state_reg.UPDATE_FRAME_WAIT2FINISH state_reg.UPDATE_FRAME state_reg.MAIN_LOOP state_reg.START state_reg.STOP 
 state_reg.START 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 state_reg.MAIN_LOOP 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 
@@ -46,3 +18,179 @@ state_reg.DISPLAY_TEST_WAIT2FINISH 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0
 state_reg.DISPLAY_TEST_OFF 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
 state_reg.DISPLAY_TEST_OFF_WAIT2FINISH 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
 state_reg.STOP 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+
+State Machine - |System|JUEGO:JUEGO_u0|RANA:RANA_u0|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u1|St_Register
+Name St_Register.Posicion7 St_Register.Posicion6 St_Register.Posicion5 St_Register.Posicion4 St_Register.Posicion3 St_Register.Posicion2 St_Register.Posicion1 St_Register.Posicion0 
+St_Register.Posicion0 0 0 0 0 0 0 0 0 
+St_Register.Posicion1 0 0 0 0 0 0 1 1 
+St_Register.Posicion2 0 0 0 0 0 1 0 1 
+St_Register.Posicion3 0 0 0 0 1 0 0 1 
+St_Register.Posicion4 0 0 0 1 0 0 0 1 
+St_Register.Posicion5 0 0 1 0 0 0 0 1 
+St_Register.Posicion6 0 1 0 0 0 0 0 1 
+St_Register.Posicion7 1 0 0 0 0 0 0 1 
+
+State Machine - |System|JUEGO:JUEGO_u0|RANA:RANA_u0|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u0|St_Register
+Name St_Register.Posicion7 St_Register.Posicion6 St_Register.Posicion5 St_Register.Posicion4 St_Register.Posicion3 St_Register.Posicion2 St_Register.Posicion1 St_Register.Posicion0 
+St_Register.Posicion0 0 0 0 0 0 0 0 0 
+St_Register.Posicion1 0 0 0 0 0 0 1 1 
+St_Register.Posicion2 0 0 0 0 0 1 0 1 
+St_Register.Posicion3 0 0 0 0 1 0 0 1 
+St_Register.Posicion4 0 0 0 1 0 0 0 1 
+St_Register.Posicion5 0 0 1 0 0 0 0 1 
+St_Register.Posicion6 0 1 0 0 0 0 0 1 
+St_Register.Posicion7 1 0 0 0 0 0 0 1 
+
+State Machine - |System|JUEGO:JUEGO_u0|CONTROL_CASAS:CONTROL_CASAS_u0|St_Register
+Name St_Register.TCasas St_Register.C3Casa1p St_Register.C3Casa2p St_Register.C3Casa3 St_Register.C2Casa3p St_Register.C2Casa1p St_Register.C2Casa2 St_Register.C1Casa3p St_Register.C1Casa2p St_Register.C1Casa1 St_Register.Juego St_Register.Inicio 
+St_Register.Inicio 0 0 0 0 0 0 0 0 0 0 0 0 
+St_Register.Juego 0 0 0 0 0 0 0 0 0 0 1 1 
+St_Register.C1Casa1 0 0 0 0 0 0 0 0 0 1 0 1 
+St_Register.C1Casa2p 0 0 0 0 0 0 0 0 1 0 0 1 
+St_Register.C1Casa3p 0 0 0 0 0 0 0 1 0 0 0 1 
+St_Register.C2Casa2 0 0 0 0 0 0 1 0 0 0 0 1 
+St_Register.C2Casa1p 0 0 0 0 0 1 0 0 0 0 0 1 
+St_Register.C2Casa3p 0 0 0 0 1 0 0 0 0 0 0 1 
+St_Register.C3Casa3 0 0 0 1 0 0 0 0 0 0 0 1 
+St_Register.C3Casa2p 0 0 1 0 0 0 0 0 0 0 0 1 
+St_Register.C3Casa1p 0 1 0 0 0 0 0 0 0 0 0 1 
+St_Register.TCasas 1 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |System|JUEGO:JUEGO_u0|CONTROL_RANAS:CONTROL_RANAS_u0|St_Register
+Name St_Register.Gano St_Register.TresRana St_Register.Ini3Rana St_Register.DosRana St_Register.Ini2Rana St_Register.UnaRana St_Register.Ini1Rana St_Register.Inicio 
+St_Register.Inicio 0 0 0 0 0 0 0 0 
+St_Register.Ini1Rana 0 0 0 0 0 0 1 1 
+St_Register.UnaRana 0 0 0 0 0 1 0 1 
+St_Register.Ini2Rana 0 0 0 0 1 0 0 1 
+St_Register.DosRana 0 0 0 1 0 0 0 1 
+St_Register.Ini3Rana 0 0 1 0 0 0 0 1 
+St_Register.TresRana 0 1 0 0 0 0 0 1 
+St_Register.Gano 1 0 0 0 0 0 0 1 
+
+State Machine - |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u2|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0|St_Register
+Name St_Register.Nivel4Espera St_Register.Nivel4Carga St_Register.Nivel3Espera St_Register.Nivel3Carga St_Register.Nivel2Espera St_Register.Nivel2Carga St_Register.Nivel1Espera St_Register.Nivel1Carga St_Register.Espera St_Register.Inicio 
+St_Register.Inicio 0 0 0 0 0 0 0 0 0 0 
+St_Register.Espera 0 0 0 0 0 0 0 0 1 1 
+St_Register.Nivel1Carga 0 0 0 0 0 0 0 1 0 1 
+St_Register.Nivel1Espera 0 0 0 0 0 0 1 0 0 1 
+St_Register.Nivel2Carga 0 0 0 0 0 1 0 0 0 1 
+St_Register.Nivel2Espera 0 0 0 0 1 0 0 0 0 1 
+St_Register.Nivel3Carga 0 0 0 1 0 0 0 0 0 1 
+St_Register.Nivel3Espera 0 0 1 0 0 0 0 0 0 1 
+St_Register.Nivel4Carga 0 1 0 0 0 0 0 0 0 1 
+St_Register.Nivel4Espera 1 0 0 0 0 0 0 0 0 1 
+
+State Machine - |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u1|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0|St_Register
+Name St_Register.Nivel4Espera St_Register.Nivel4Carga St_Register.Nivel3Espera St_Register.Nivel3Carga St_Register.Nivel2Espera St_Register.Nivel2Carga St_Register.Nivel1Espera St_Register.Nivel1Carga St_Register.Espera St_Register.Inicio 
+St_Register.Inicio 0 0 0 0 0 0 0 0 0 0 
+St_Register.Espera 0 0 0 0 0 0 0 0 1 1 
+St_Register.Nivel1Carga 0 0 0 0 0 0 0 1 0 1 
+St_Register.Nivel1Espera 0 0 0 0 0 0 1 0 0 1 
+St_Register.Nivel2Carga 0 0 0 0 0 1 0 0 0 1 
+St_Register.Nivel2Espera 0 0 0 0 1 0 0 0 0 1 
+St_Register.Nivel3Carga 0 0 0 1 0 0 0 0 0 1 
+St_Register.Nivel3Espera 0 0 1 0 0 0 0 0 0 1 
+St_Register.Nivel4Carga 0 1 0 0 0 0 0 0 0 1 
+St_Register.Nivel4Espera 1 0 0 0 0 0 0 0 0 1 
+
+State Machine - |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u0|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0|St_Register
+Name St_Register.Nivel4Espera St_Register.Nivel4Carga St_Register.Nivel3Espera St_Register.Nivel3Carga St_Register.Nivel2Espera St_Register.Nivel2Carga St_Register.Nivel1Espera St_Register.Nivel1Carga St_Register.Espera St_Register.Inicio 
+St_Register.Inicio 0 0 0 0 0 0 0 0 0 0 
+St_Register.Espera 0 0 0 0 0 0 0 0 1 1 
+St_Register.Nivel1Carga 0 0 0 0 0 0 0 1 0 1 
+St_Register.Nivel1Espera 0 0 0 0 0 0 1 0 0 1 
+St_Register.Nivel2Carga 0 0 0 0 0 1 0 0 0 1 
+St_Register.Nivel2Espera 0 0 0 0 1 0 0 0 0 1 
+St_Register.Nivel3Carga 0 0 0 1 0 0 0 0 0 1 
+St_Register.Nivel3Espera 0 0 1 0 0 0 0 0 0 1 
+St_Register.Nivel4Carga 0 1 0 0 0 0 0 0 0 1 
+St_Register.Nivel4Espera 1 0 0 0 0 0 0 0 0 1 
+
+State Machine - |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u2|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0|St_Register
+Name St_Register.Nivel4Espera St_Register.Nivel4Carga St_Register.Nivel3Espera St_Register.Nivel3Carga St_Register.Nivel2Espera St_Register.Nivel2Carga St_Register.Nivel1Espera St_Register.Nivel1Carga St_Register.Espera St_Register.Inicio 
+St_Register.Inicio 0 0 0 0 0 0 0 0 0 0 
+St_Register.Espera 0 0 0 0 0 0 0 0 1 1 
+St_Register.Nivel1Carga 0 0 0 0 0 0 0 1 0 1 
+St_Register.Nivel1Espera 0 0 0 0 0 0 1 0 0 1 
+St_Register.Nivel2Carga 0 0 0 0 0 1 0 0 0 1 
+St_Register.Nivel2Espera 0 0 0 0 1 0 0 0 0 1 
+St_Register.Nivel3Carga 0 0 0 1 0 0 0 0 0 1 
+St_Register.Nivel3Espera 0 0 1 0 0 0 0 0 0 1 
+St_Register.Nivel4Carga 0 1 0 0 0 0 0 0 0 1 
+St_Register.Nivel4Espera 1 0 0 0 0 0 0 0 0 1 
+
+State Machine - |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u1|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0|St_Register
+Name St_Register.Nivel4Espera St_Register.Nivel4Carga St_Register.Nivel3Espera St_Register.Nivel3Carga St_Register.Nivel2Espera St_Register.Nivel2Carga St_Register.Nivel1Espera St_Register.Nivel1Carga St_Register.Espera St_Register.Inicio 
+St_Register.Inicio 0 0 0 0 0 0 0 0 0 0 
+St_Register.Espera 0 0 0 0 0 0 0 0 1 1 
+St_Register.Nivel1Carga 0 0 0 0 0 0 0 1 0 1 
+St_Register.Nivel1Espera 0 0 0 0 0 0 1 0 0 1 
+St_Register.Nivel2Carga 0 0 0 0 0 1 0 0 0 1 
+St_Register.Nivel2Espera 0 0 0 0 1 0 0 0 0 1 
+St_Register.Nivel3Carga 0 0 0 1 0 0 0 0 0 1 
+St_Register.Nivel3Espera 0 0 1 0 0 0 0 0 0 1 
+St_Register.Nivel4Carga 0 1 0 0 0 0 0 0 0 1 
+St_Register.Nivel4Espera 1 0 0 0 0 0 0 0 0 1 
+
+State Machine - |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u0|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0|St_Register
+Name St_Register.Nivel4Espera St_Register.Nivel4Carga St_Register.Nivel3Espera St_Register.Nivel3Carga St_Register.Nivel2Espera St_Register.Nivel2Carga St_Register.Nivel1Espera St_Register.Nivel1Carga St_Register.Espera St_Register.Inicio 
+St_Register.Inicio 0 0 0 0 0 0 0 0 0 0 
+St_Register.Espera 0 0 0 0 0 0 0 0 1 1 
+St_Register.Nivel1Carga 0 0 0 0 0 0 0 1 0 1 
+St_Register.Nivel1Espera 0 0 0 0 0 0 1 0 0 1 
+St_Register.Nivel2Carga 0 0 0 0 0 1 0 0 0 1 
+St_Register.Nivel2Espera 0 0 0 0 1 0 0 0 0 1 
+St_Register.Nivel3Carga 0 0 0 1 0 0 0 0 0 1 
+St_Register.Nivel3Espera 0 0 1 0 0 0 0 0 0 1 
+St_Register.Nivel4Carga 0 1 0 0 0 0 0 0 0 1 
+St_Register.Nivel4Espera 1 0 0 0 0 0 0 0 0 1 
+
+State Machine - |System|JUEGO:JUEGO_u0|MENU_PRINCIPAL:MENU_PRINCIPAL_u0|St_Register
+Name St_Register.Juego St_Register.Nivel4 St_Register.Seleccion4 St_Register.Nivel3 St_Register.Seleccion3 St_Register.Nivel2 St_Register.Seleccion2 St_Register.Nivel1 St_Register.Seleccion1 St_Register.PerderJuego St_Register.GanarJuego St_Register.Inicio 
+St_Register.Inicio 0 0 0 0 0 0 0 0 0 0 0 0 
+St_Register.GanarJuego 0 0 0 0 0 0 0 0 0 0 1 1 
+St_Register.PerderJuego 0 0 0 0 0 0 0 0 0 1 0 1 
+St_Register.Seleccion1 0 0 0 0 0 0 0 0 1 0 0 1 
+St_Register.Nivel1 0 0 0 0 0 0 0 1 0 0 0 1 
+St_Register.Seleccion2 0 0 0 0 0 0 1 0 0 0 0 1 
+St_Register.Nivel2 0 0 0 0 0 1 0 0 0 0 0 1 
+St_Register.Seleccion3 0 0 0 0 1 0 0 0 0 0 0 1 
+St_Register.Nivel3 0 0 0 1 0 0 0 0 0 0 0 1 
+St_Register.Seleccion4 0 0 1 0 0 0 0 0 0 0 0 1 
+St_Register.Nivel4 0 1 0 0 0 0 0 0 0 0 0 1 
+St_Register.Juego 1 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |System|CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|FILTRO:FILTRO_4|St_Register
+Name St_Register.St_Count2 St_Register.St_Count1 St_Register.St_Wait St_Register.St_Init 
+St_Register.St_Init 0 0 0 0 
+St_Register.St_Wait 0 0 1 1 
+St_Register.St_Count1 0 1 0 1 
+St_Register.St_Count2 1 0 0 1 
+
+State Machine - |System|CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|FILTRO:FILTRO_3|St_Register
+Name St_Register.St_Count2 St_Register.St_Count1 St_Register.St_Wait St_Register.St_Init 
+St_Register.St_Init 0 0 0 0 
+St_Register.St_Wait 0 0 1 1 
+St_Register.St_Count1 0 1 0 1 
+St_Register.St_Count2 1 0 0 1 
+
+State Machine - |System|CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|FILTRO:FILTRO_2|St_Register
+Name St_Register.St_Count2 St_Register.St_Count1 St_Register.St_Wait St_Register.St_Init 
+St_Register.St_Init 0 0 0 0 
+St_Register.St_Wait 0 0 1 1 
+St_Register.St_Count1 0 1 0 1 
+St_Register.St_Count2 1 0 0 1 
+
+State Machine - |System|CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|FILTRO:FILTRO_1|St_Register
+Name St_Register.St_Count2 St_Register.St_Count1 St_Register.St_Wait St_Register.St_Init 
+St_Register.St_Init 0 0 0 0 
+St_Register.St_Wait 0 0 1 1 
+St_Register.St_Count1 0 1 0 1 
+St_Register.St_Count2 1 0 0 1 
+
+State Machine - |System|CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|FILTRO:FILTRO_0|St_Register
+Name St_Register.St_Count2 St_Register.St_Count1 St_Register.St_Wait St_Register.St_Init 
+St_Register.St_Init 0 0 0 0 
+St_Register.St_Wait 0 0 1 1 
+St_Register.St_Count1 0 1 0 1 
+St_Register.St_Count2 1 0 0 1 
