@@ -1,5 +1,5 @@
 Fitter report for system
-Sun Apr 15 22:34:05 2018
+Mon Apr 16 10:52:42 2018
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -66,17 +66,17 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Sun Apr 15 22:34:05 2018       ;
+; Fitter Status                      ; Successful - Mon Apr 16 10:52:42 2018       ;
 ; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; system                                      ;
 ; Top-level Entity Name              ; system                                      ;
 ; Family                             ; Cyclone IV E                                ;
 ; Device                             ; EP4CE22F17C6                                ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 86 / 22,320 ( < 1 % )                       ;
-;     Total combinational functions  ; 81 / 22,320 ( < 1 % )                       ;
-;     Dedicated logic registers      ; 53 / 22,320 ( < 1 % )                       ;
-; Total registers                    ; 53                                          ;
+; Total logic elements               ; 422 / 22,320 ( 2 % )                        ;
+;     Total combinational functions  ; 413 / 22,320 ( 2 % )                        ;
+;     Dedicated logic registers      ; 140 / 22,320 ( < 1 % )                      ;
+; Total registers                    ; 140                                         ;
 ; Total pins                         ; 82 / 154 ( 53 % )                           ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0 / 608,256 ( 0 % )                         ;
@@ -152,12 +152,12 @@ refer to the applicable agreement for further details.
 ; Number detected on machine ; 4           ;
 ; Maximum allowed            ; 2           ;
 ;                            ;             ;
-; Average used               ; 1.00        ;
+; Average used               ; 1.01        ;
 ; Maximum used               ; 2           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.3%      ;
+;     Processor 2            ;   1.4%      ;
 +----------------------------+-------------+
 
 
@@ -229,8 +229,8 @@ refer to the applicable agreement for further details.
 ; Type                ; Total [A + B]      ; From Design Partitions [A] ; From Rapid Recompile [B] ;
 +---------------------+--------------------+----------------------------+--------------------------+
 ; Placement (by node) ;                    ;                            ;                          ;
-;     -- Requested    ; 0.00 % ( 0 / 312 ) ; 0.00 % ( 0 / 312 )         ; 0.00 % ( 0 / 312 )       ;
-;     -- Achieved     ; 0.00 % ( 0 / 312 ) ; 0.00 % ( 0 / 312 )         ; 0.00 % ( 0 / 312 )       ;
+;     -- Requested    ; 0.00 % ( 0 / 731 ) ; 0.00 % ( 0 / 731 )         ; 0.00 % ( 0 / 731 )       ;
+;     -- Achieved     ; 0.00 % ( 0 / 731 ) ; 0.00 % ( 0 / 731 )         ; 0.00 % ( 0 / 731 )       ;
 ;                     ;                    ;                            ;                          ;
 ; Routing (by net)    ;                    ;                            ;                          ;
 ;     -- Requested    ; 0.00 % ( 0 / 0 )   ; 0.00 % ( 0 / 0 )           ; 0.00 % ( 0 / 0 )         ;
@@ -253,7 +253,7 @@ refer to the applicable agreement for further details.
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
 ; Partition Name                 ; Preservation Achieved ; Preservation Level Used ; Netlist Type Used ; Preservation Method ; Notes ;
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
-; Top                            ; 0.00 % ( 0 / 302 )    ; N/A                     ; Source File       ; N/A                 ;       ;
+; Top                            ; 0.00 % ( 0 / 721 )    ; N/A                     ; Source File       ; N/A                 ;       ;
 ; hard_block:auto_generated_inst ; 0.00 % ( 0 / 10 )     ; N/A                     ; Source File       ; N/A                 ;       ;
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
 
@@ -264,127 +264,127 @@ refer to the applicable agreement for further details.
 The pin-out file can be found in C:/Users/Felipe/git/frogger_excercise/system.pin.
 
 
-+---------------------------------------------------------------------+
-; Fitter Resource Usage Summary                                       ;
-+---------------------------------------------+-----------------------+
-; Resource                                    ; Usage                 ;
-+---------------------------------------------+-----------------------+
-; Total logic elements                        ; 86 / 22,320 ( < 1 % ) ;
-;     -- Combinational with no register       ; 33                    ;
-;     -- Register only                        ; 5                     ;
-;     -- Combinational with a register        ; 48                    ;
-;                                             ;                       ;
-; Logic element usage by number of LUT inputs ;                       ;
-;     -- 4 input functions                    ; 35                    ;
-;     -- 3 input functions                    ; 19                    ;
-;     -- <=2 input functions                  ; 27                    ;
-;     -- Register only                        ; 5                     ;
-;                                             ;                       ;
-; Logic elements by mode                      ;                       ;
-;     -- normal mode                          ; 66                    ;
-;     -- arithmetic mode                      ; 15                    ;
-;                                             ;                       ;
-; Total registers*                            ; 53 / 23,018 ( < 1 % ) ;
-;     -- Dedicated logic registers            ; 53 / 22,320 ( < 1 % ) ;
-;     -- I/O registers                        ; 0 / 698 ( 0 % )       ;
-;                                             ;                       ;
-; Total LABs:  partially or completely used   ; 7 / 1,395 ( < 1 % )   ;
-; Virtual pins                                ; 0                     ;
-; I/O pins                                    ; 82 / 154 ( 53 % )     ;
-;     -- Clock pins                           ; 2 / 7 ( 29 % )        ;
-;     -- Dedicated input pins                 ; 0 / 9 ( 0 % )         ;
-;                                             ;                       ;
-; M9Ks                                        ; 0 / 66 ( 0 % )        ;
-; Total block memory bits                     ; 0 / 608,256 ( 0 % )   ;
-; Total block memory implementation bits      ; 0 / 608,256 ( 0 % )   ;
-; Embedded Multiplier 9-bit elements          ; 0 / 132 ( 0 % )       ;
-; PLLs                                        ; 0 / 4 ( 0 % )         ;
-; Global signals                              ; 3                     ;
-;     -- Global clocks                        ; 3 / 20 ( 15 % )       ;
-; JTAGs                                       ; 0 / 1 ( 0 % )         ;
-; CRC blocks                                  ; 0 / 1 ( 0 % )         ;
-; ASMI blocks                                 ; 0 / 1 ( 0 % )         ;
-; Oscillator blocks                           ; 0 / 1 ( 0 % )         ;
-; Impedance control blocks                    ; 0 / 4 ( 0 % )         ;
-; Average interconnect usage (total/H/V)      ; 0.1% / 0.1% / 0.1%    ;
-; Peak interconnect usage (total/H/V)         ; 0.4% / 0.5% / 0.4%    ;
-; Maximum fan-out                             ; 53                    ;
-; Highest non-global fan-out                  ; 26                    ;
-; Total fan-out                               ; 556                   ;
-; Average fan-out                             ; 1.76                  ;
-+---------------------------------------------+-----------------------+
++----------------------------------------------------------------------+
+; Fitter Resource Usage Summary                                        ;
++---------------------------------------------+------------------------+
+; Resource                                    ; Usage                  ;
++---------------------------------------------+------------------------+
+; Total logic elements                        ; 422 / 22,320 ( 2 % )   ;
+;     -- Combinational with no register       ; 282                    ;
+;     -- Register only                        ; 9                      ;
+;     -- Combinational with a register        ; 131                    ;
+;                                             ;                        ;
+; Logic element usage by number of LUT inputs ;                        ;
+;     -- 4 input functions                    ; 218                    ;
+;     -- 3 input functions                    ; 100                    ;
+;     -- <=2 input functions                  ; 95                     ;
+;     -- Register only                        ; 9                      ;
+;                                             ;                        ;
+; Logic elements by mode                      ;                        ;
+;     -- normal mode                          ; 341                    ;
+;     -- arithmetic mode                      ; 72                     ;
+;                                             ;                        ;
+; Total registers*                            ; 140 / 23,018 ( < 1 % ) ;
+;     -- Dedicated logic registers            ; 140 / 22,320 ( < 1 % ) ;
+;     -- I/O registers                        ; 0 / 698 ( 0 % )        ;
+;                                             ;                        ;
+; Total LABs:  partially or completely used   ; 33 / 1,395 ( 2 % )     ;
+; Virtual pins                                ; 0                      ;
+; I/O pins                                    ; 82 / 154 ( 53 % )      ;
+;     -- Clock pins                           ; 2 / 7 ( 29 % )         ;
+;     -- Dedicated input pins                 ; 0 / 9 ( 0 % )          ;
+;                                             ;                        ;
+; M9Ks                                        ; 0 / 66 ( 0 % )         ;
+; Total block memory bits                     ; 0 / 608,256 ( 0 % )    ;
+; Total block memory implementation bits      ; 0 / 608,256 ( 0 % )    ;
+; Embedded Multiplier 9-bit elements          ; 0 / 132 ( 0 % )        ;
+; PLLs                                        ; 0 / 4 ( 0 % )          ;
+; Global signals                              ; 4                      ;
+;     -- Global clocks                        ; 4 / 20 ( 20 % )        ;
+; JTAGs                                       ; 0 / 1 ( 0 % )          ;
+; CRC blocks                                  ; 0 / 1 ( 0 % )          ;
+; ASMI blocks                                 ; 0 / 1 ( 0 % )          ;
+; Oscillator blocks                           ; 0 / 1 ( 0 % )          ;
+; Impedance control blocks                    ; 0 / 4 ( 0 % )          ;
+; Average interconnect usage (total/H/V)      ; 0.7% / 0.8% / 0.7%     ;
+; Peak interconnect usage (total/H/V)         ; 3.8% / 3.8% / 3.8%     ;
+; Maximum fan-out                             ; 140                    ;
+; Highest non-global fan-out                  ; 64                     ;
+; Total fan-out                               ; 2064                   ;
+; Average fan-out                             ; 2.79                   ;
++---------------------------------------------+------------------------+
 *  Register count does not include registers inside RAM blocks or DSP blocks.
 
 
 
-+-----------------------------------------------------------------------------------------------------+
-; Fitter Partition Statistics                                                                         ;
-+---------------------------------------------+----------------------+--------------------------------+
-; Statistic                                   ; Top                  ; hard_block:auto_generated_inst ;
-+---------------------------------------------+----------------------+--------------------------------+
-; Difficulty Clustering Region                ; Low                  ; Low                            ;
-;                                             ;                      ;                                ;
-; Total logic elements                        ; 86 / 22320 ( < 1 % ) ; 0 / 22320 ( 0 % )              ;
-;     -- Combinational with no register       ; 33                   ; 0                              ;
-;     -- Register only                        ; 5                    ; 0                              ;
-;     -- Combinational with a register        ; 48                   ; 0                              ;
-;                                             ;                      ;                                ;
-; Logic element usage by number of LUT inputs ;                      ;                                ;
-;     -- 4 input functions                    ; 35                   ; 0                              ;
-;     -- 3 input functions                    ; 19                   ; 0                              ;
-;     -- <=2 input functions                  ; 27                   ; 0                              ;
-;     -- Register only                        ; 5                    ; 0                              ;
-;                                             ;                      ;                                ;
-; Logic elements by mode                      ;                      ;                                ;
-;     -- normal mode                          ; 66                   ; 0                              ;
-;     -- arithmetic mode                      ; 15                   ; 0                              ;
-;                                             ;                      ;                                ;
-; Total registers                             ; 53                   ; 0                              ;
-;     -- Dedicated logic registers            ; 53 / 22320 ( < 1 % ) ; 0 / 22320 ( 0 % )              ;
-;     -- I/O registers                        ; 0                    ; 0                              ;
-;                                             ;                      ;                                ;
-; Total LABs:  partially or completely used   ; 7 / 1395 ( < 1 % )   ; 0 / 1395 ( 0 % )               ;
-;                                             ;                      ;                                ;
-; Virtual pins                                ; 0                    ; 0                              ;
-; I/O pins                                    ; 82                   ; 0                              ;
-; Embedded Multiplier 9-bit elements          ; 0 / 132 ( 0 % )      ; 0 / 132 ( 0 % )                ;
-; Total memory bits                           ; 0                    ; 0                              ;
-; Total RAM block bits                        ; 0                    ; 0                              ;
-; Clock control block                         ; 3 / 24 ( 12 % )      ; 0 / 24 ( 0 % )                 ;
-;                                             ;                      ;                                ;
-; Connections                                 ;                      ;                                ;
-;     -- Input Connections                    ; 0                    ; 0                              ;
-;     -- Registered Input Connections         ; 0                    ; 0                              ;
-;     -- Output Connections                   ; 0                    ; 0                              ;
-;     -- Registered Output Connections        ; 0                    ; 0                              ;
-;                                             ;                      ;                                ;
-; Internal Connections                        ;                      ;                                ;
-;     -- Total Connections                    ; 551                  ; 5                              ;
-;     -- Registered Connections               ; 161                  ; 0                              ;
-;                                             ;                      ;                                ;
-; External Connections                        ;                      ;                                ;
-;     -- Top                                  ; 0                    ; 0                              ;
-;     -- hard_block:auto_generated_inst       ; 0                    ; 0                              ;
-;                                             ;                      ;                                ;
-; Partition Interface                         ;                      ;                                ;
-;     -- Input Ports                          ; 7                    ; 0                              ;
-;     -- Output Ports                         ; 75                   ; 0                              ;
-;     -- Bidir Ports                          ; 0                    ; 0                              ;
-;                                             ;                      ;                                ;
-; Registered Ports                            ;                      ;                                ;
-;     -- Registered Input Ports               ; 0                    ; 0                              ;
-;     -- Registered Output Ports              ; 0                    ; 0                              ;
-;                                             ;                      ;                                ;
-; Port Connectivity                           ;                      ;                                ;
-;     -- Input Ports driven by GND            ; 0                    ; 0                              ;
-;     -- Output Ports driven by GND           ; 0                    ; 0                              ;
-;     -- Input Ports driven by VCC            ; 0                    ; 0                              ;
-;     -- Output Ports driven by VCC           ; 0                    ; 0                              ;
-;     -- Input Ports with no Source           ; 0                    ; 0                              ;
-;     -- Output Ports with no Source          ; 0                    ; 0                              ;
-;     -- Input Ports with no Fanout           ; 0                    ; 0                              ;
-;     -- Output Ports with no Fanout          ; 0                    ; 0                              ;
-+---------------------------------------------+----------------------+--------------------------------+
++------------------------------------------------------------------------------------------------------+
+; Fitter Partition Statistics                                                                          ;
++---------------------------------------------+-----------------------+--------------------------------+
+; Statistic                                   ; Top                   ; hard_block:auto_generated_inst ;
++---------------------------------------------+-----------------------+--------------------------------+
+; Difficulty Clustering Region                ; Low                   ; Low                            ;
+;                                             ;                       ;                                ;
+; Total logic elements                        ; 422 / 22320 ( 2 % )   ; 0 / 22320 ( 0 % )              ;
+;     -- Combinational with no register       ; 282                   ; 0                              ;
+;     -- Register only                        ; 9                     ; 0                              ;
+;     -- Combinational with a register        ; 131                   ; 0                              ;
+;                                             ;                       ;                                ;
+; Logic element usage by number of LUT inputs ;                       ;                                ;
+;     -- 4 input functions                    ; 218                   ; 0                              ;
+;     -- 3 input functions                    ; 100                   ; 0                              ;
+;     -- <=2 input functions                  ; 95                    ; 0                              ;
+;     -- Register only                        ; 9                     ; 0                              ;
+;                                             ;                       ;                                ;
+; Logic elements by mode                      ;                       ;                                ;
+;     -- normal mode                          ; 341                   ; 0                              ;
+;     -- arithmetic mode                      ; 72                    ; 0                              ;
+;                                             ;                       ;                                ;
+; Total registers                             ; 140                   ; 0                              ;
+;     -- Dedicated logic registers            ; 140 / 22320 ( < 1 % ) ; 0 / 22320 ( 0 % )              ;
+;     -- I/O registers                        ; 0                     ; 0                              ;
+;                                             ;                       ;                                ;
+; Total LABs:  partially or completely used   ; 33 / 1395 ( 2 % )     ; 0 / 1395 ( 0 % )               ;
+;                                             ;                       ;                                ;
+; Virtual pins                                ; 0                     ; 0                              ;
+; I/O pins                                    ; 82                    ; 0                              ;
+; Embedded Multiplier 9-bit elements          ; 0 / 132 ( 0 % )       ; 0 / 132 ( 0 % )                ;
+; Total memory bits                           ; 0                     ; 0                              ;
+; Total RAM block bits                        ; 0                     ; 0                              ;
+; Clock control block                         ; 4 / 24 ( 16 % )       ; 0 / 24 ( 0 % )                 ;
+;                                             ;                       ;                                ;
+; Connections                                 ;                       ;                                ;
+;     -- Input Connections                    ; 0                     ; 0                              ;
+;     -- Registered Input Connections         ; 0                     ; 0                              ;
+;     -- Output Connections                   ; 0                     ; 0                              ;
+;     -- Registered Output Connections        ; 0                     ; 0                              ;
+;                                             ;                       ;                                ;
+; Internal Connections                        ;                       ;                                ;
+;     -- Total Connections                    ; 2059                  ; 5                              ;
+;     -- Registered Connections               ; 511                   ; 0                              ;
+;                                             ;                       ;                                ;
+; External Connections                        ;                       ;                                ;
+;     -- Top                                  ; 0                     ; 0                              ;
+;     -- hard_block:auto_generated_inst       ; 0                     ; 0                              ;
+;                                             ;                       ;                                ;
+; Partition Interface                         ;                       ;                                ;
+;     -- Input Ports                          ; 7                     ; 0                              ;
+;     -- Output Ports                         ; 75                    ; 0                              ;
+;     -- Bidir Ports                          ; 0                     ; 0                              ;
+;                                             ;                       ;                                ;
+; Registered Ports                            ;                       ;                                ;
+;     -- Registered Input Ports               ; 0                     ; 0                              ;
+;     -- Registered Output Ports              ; 0                     ; 0                              ;
+;                                             ;                       ;                                ;
+; Port Connectivity                           ;                       ;                                ;
+;     -- Input Ports driven by GND            ; 0                     ; 0                              ;
+;     -- Output Ports driven by GND           ; 0                     ; 0                              ;
+;     -- Input Ports driven by VCC            ; 0                     ; 0                              ;
+;     -- Output Ports driven by VCC           ; 0                     ; 0                              ;
+;     -- Input Ports with no Source           ; 0                     ; 0                              ;
+;     -- Output Ports with no Source          ; 0                     ; 0                              ;
+;     -- Input Ports with no Fanout           ; 0                     ; 0                              ;
+;     -- Output Ports with no Fanout          ; 0                     ; 0                              ;
++---------------------------------------------+-----------------------+--------------------------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -392,12 +392,12 @@ The pin-out file can be found in C:/Users/Felipe/git/frogger_excercise/system.pi
 +----------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+-----------+
 ; Name     ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Z coordinate ; Combinational Fan-Out ; Registered Fan-Out ; Global ; Input Register ; Power Up High ; PCI I/O Enabled ; Bus Hold ; Weak Pull Up ; I/O Standard ; Termination Control Block ; Location assigned by ; Slew Rate ;
 +----------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+-----------+
-; B_Down   ; A7    ; 8        ; 20           ; 34           ; 21           ; 1                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 3.3-V LVTTL  ; --                        ; User                 ; no        ;
-; B_Left   ; A5    ; 8        ; 14           ; 34           ; 21           ; 1                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 3.3-V LVTTL  ; --                        ; User                 ; no        ;
+; B_Down   ; A7    ; 8        ; 20           ; 34           ; 21           ; 14                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 3.3-V LVTTL  ; --                        ; User                 ; no        ;
+; B_Left   ; A5    ; 8        ; 14           ; 34           ; 21           ; 15                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 3.3-V LVTTL  ; --                        ; User                 ; no        ;
 ; B_Rigth  ; B6    ; 8        ; 16           ; 34           ; 7            ; 1                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 3.3-V LVTTL  ; --                        ; User                 ; no        ;
-; B_Up     ; B7    ; 8        ; 18           ; 34           ; 0            ; 1                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 3.3-V LVTTL  ; --                        ; User                 ; no        ;
-; CLOCK_50 ; R8    ; 3        ; 27           ; 0            ; 21           ; 3                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 3.3-V LVTTL  ; --                        ; User                 ; no        ;
-; RESET    ; A8    ; 8        ; 25           ; 34           ; 14           ; 53                    ; 0                  ; yes    ; no             ; no            ; yes             ; no       ; Off          ; 3.3-V LVTTL  ; --                        ; User                 ; no        ;
+; B_Up     ; B7    ; 8        ; 18           ; 34           ; 0            ; 13                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 3.3-V LVTTL  ; --                        ; User                 ; no        ;
+; CLOCK_50 ; R8    ; 3        ; 27           ; 0            ; 21           ; 90                    ; 0                  ; yes    ; no             ; no            ; yes             ; no       ; Off          ; 3.3-V LVTTL  ; --                        ; User                 ; no        ;
+; RESET    ; A8    ; 8        ; 25           ; 34           ; 14           ; 140                   ; 0                  ; yes    ; no             ; no            ; yes             ; no       ; Off          ; 3.3-V LVTTL  ; --                        ; User                 ; no        ;
 ; Start    ; B8    ; 8        ; 25           ; 34           ; 21           ; 1                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 3.3-V LVTTL  ; --                        ; User                 ; no        ;
 +----------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+-----------+
 
@@ -418,70 +418,70 @@ The pin-out file can be found in C:/Users/Felipe/git/frogger_excercise/system.pi
 ; MAX7219_CLK           ; A4    ; 8        ; 9            ; 34           ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 8mA              ; Off                               ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
 ; MAX7219_CS            ; B3    ; 8        ; 3            ; 34           ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 8mA              ; Off                               ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
 ; MAX7219_DIN           ; A2    ; 8        ; 7            ; 34           ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 8mA              ; Off                               ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
-; led_final_0_tester[0] ; P3    ; 3        ; 1            ; 0            ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_0_tester[1] ; J14   ; 5        ; 53           ; 15           ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_0_tester[2] ; P6    ; 3        ; 11           ; 0            ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_0_tester[3] ; T7    ; 3        ; 18           ; 0            ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_0_tester[4] ; F14   ; 6        ; 53           ; 24           ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_0_tester[5] ; R13   ; 4        ; 40           ; 0            ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_0_tester[6] ; N14   ; 5        ; 53           ; 6            ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_0_tester[7] ; M6    ; 3        ; 7            ; 0            ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_1_tester[0] ; N9    ; 4        ; 29           ; 0            ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_1_tester[1] ; J13   ; 5        ; 53           ; 16           ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_1_tester[2] ; T12   ; 4        ; 36           ; 0            ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_1_tester[3] ; C16   ; 6        ; 53           ; 30           ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_1_tester[4] ; L14   ; 5        ; 53           ; 9            ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_1_tester[5] ; N15   ; 5        ; 53           ; 9            ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_1_tester[6] ; F13   ; 6        ; 53           ; 21           ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_1_tester[7] ; L7    ; 3        ; 16           ; 0            ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_2_tester[0] ; N3    ; 3        ; 1            ; 0            ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_2_tester[1] ; T5    ; 3        ; 14           ; 0            ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_2_tester[2] ; J16   ; 5        ; 53           ; 14           ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_2_tester[3] ; D16   ; 6        ; 53           ; 25           ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_2_tester[4] ; T10   ; 4        ; 34           ; 0            ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_2_tester[5] ; P14   ; 4        ; 49           ; 0            ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_2_tester[6] ; M10   ; 4        ; 43           ; 0            ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_2_tester[7] ; T11   ; 4        ; 36           ; 0            ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_3_tester[0] ; R14   ; 4        ; 49           ; 0            ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_3_tester[1] ; N16   ; 5        ; 53           ; 9            ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_3_tester[2] ; T13   ; 4        ; 40           ; 0            ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_3_tester[3] ; T3    ; 3        ; 1            ; 0            ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_3_tester[4] ; N11   ; 4        ; 43           ; 0            ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_3_tester[5] ; N5    ; 3        ; 5            ; 0            ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_3_tester[6] ; K16   ; 5        ; 53           ; 12           ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_3_tester[7] ; R3    ; 3        ; 1            ; 0            ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_4_tester[0] ; B16   ; 6        ; 53           ; 22           ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_4_tester[1] ; L15   ; 5        ; 53           ; 11           ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_4_tester[2] ; R12   ; 4        ; 36           ; 0            ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_4_tester[3] ; T2    ; 3        ; 3            ; 0            ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_4_tester[4] ; T15   ; 4        ; 45           ; 0            ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_4_tester[5] ; N6    ; 3        ; 5            ; 0            ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_4_tester[6] ; P11   ; 4        ; 38           ; 0            ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_4_tester[7] ; N8    ; 3        ; 20           ; 0            ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_5_tester[0] ; G15   ; 6        ; 53           ; 20           ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_5_tester[1] ; R11   ; 4        ; 34           ; 0            ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_5_tester[2] ; C15   ; 6        ; 53           ; 30           ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_5_tester[3] ; T4    ; 3        ; 5            ; 0            ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_5_tester[4] ; L8    ; 3        ; 18           ; 0            ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_5_tester[5] ; R10   ; 4        ; 34           ; 0            ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_5_tester[6] ; R4    ; 3        ; 5            ; 0            ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_5_tester[7] ; R16   ; 5        ; 53           ; 8            ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_6_tester[0] ; G16   ; 6        ; 53           ; 20           ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_6_tester[1] ; T6    ; 3        ; 14           ; 0            ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_6_tester[2] ; P15   ; 5        ; 53           ; 6            ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_6_tester[3] ; M7    ; 3        ; 11           ; 0            ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_6_tester[4] ; L16   ; 5        ; 53           ; 11           ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_6_tester[5] ; M8    ; 3        ; 20           ; 0            ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_6_tester[6] ; K15   ; 5        ; 53           ; 13           ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_6_tester[7] ; N12   ; 4        ; 47           ; 0            ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_7_tester[0] ; T14   ; 4        ; 45           ; 0            ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_7_tester[1] ; D15   ; 6        ; 53           ; 26           ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_7_tester[2] ; R6    ; 3        ; 14           ; 0            ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_7_tester[3] ; P8    ; 3        ; 25           ; 0            ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_7_tester[4] ; J15   ; 5        ; 53           ; 14           ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_7_tester[5] ; F15   ; 6        ; 53           ; 22           ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_7_tester[6] ; R7    ; 3        ; 16           ; 0            ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; led_final_7_tester[7] ; R5    ; 3        ; 14           ; 0            ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_0_tester[0] ; J16   ; 5        ; 53           ; 14           ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_0_tester[1] ; T10   ; 4        ; 34           ; 0            ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_0_tester[2] ; G16   ; 6        ; 53           ; 20           ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_0_tester[3] ; C16   ; 6        ; 53           ; 30           ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_0_tester[4] ; R16   ; 5        ; 53           ; 8            ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_0_tester[5] ; D16   ; 6        ; 53           ; 25           ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_0_tester[6] ; N15   ; 5        ; 53           ; 9            ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_0_tester[7] ; N6    ; 3        ; 5            ; 0            ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_1_tester[0] ; F14   ; 6        ; 53           ; 24           ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_1_tester[1] ; T15   ; 4        ; 45           ; 0            ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_1_tester[2] ; P6    ; 3        ; 11           ; 0            ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_1_tester[3] ; P14   ; 4        ; 49           ; 0            ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_1_tester[4] ; T12   ; 4        ; 36           ; 0            ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_1_tester[5] ; L16   ; 5        ; 53           ; 11           ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_1_tester[6] ; R14   ; 4        ; 49           ; 0            ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_1_tester[7] ; J14   ; 5        ; 53           ; 15           ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_2_tester[0] ; L8    ; 3        ; 18           ; 0            ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_2_tester[1] ; P11   ; 4        ; 38           ; 0            ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_2_tester[2] ; N9    ; 4        ; 29           ; 0            ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_2_tester[3] ; N14   ; 5        ; 53           ; 6            ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_2_tester[4] ; P16   ; 5        ; 53           ; 7            ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_2_tester[5] ; T3    ; 3        ; 1            ; 0            ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_2_tester[6] ; T6    ; 3        ; 14           ; 0            ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_2_tester[7] ; T13   ; 4        ; 40           ; 0            ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_3_tester[0] ; R12   ; 4        ; 36           ; 0            ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_3_tester[1] ; C15   ; 6        ; 53           ; 30           ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_3_tester[2] ; M6    ; 3        ; 7            ; 0            ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_3_tester[3] ; R11   ; 4        ; 34           ; 0            ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_3_tester[4] ; L15   ; 5        ; 53           ; 11           ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_3_tester[5] ; R7    ; 3        ; 16           ; 0            ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_3_tester[6] ; P9    ; 4        ; 38           ; 0            ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_3_tester[7] ; N3    ; 3        ; 1            ; 0            ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_4_tester[0] ; L7    ; 3        ; 16           ; 0            ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_4_tester[1] ; K15   ; 5        ; 53           ; 13           ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_4_tester[2] ; F13   ; 6        ; 53           ; 21           ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_4_tester[3] ; T4    ; 3        ; 5            ; 0            ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_4_tester[4] ; J15   ; 5        ; 53           ; 14           ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_4_tester[5] ; J13   ; 5        ; 53           ; 16           ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_4_tester[6] ; R10   ; 4        ; 34           ; 0            ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_4_tester[7] ; P15   ; 5        ; 53           ; 6            ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_5_tester[0] ; M7    ; 3        ; 11           ; 0            ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_5_tester[1] ; N11   ; 4        ; 43           ; 0            ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_5_tester[2] ; K16   ; 5        ; 53           ; 12           ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_5_tester[3] ; L14   ; 5        ; 53           ; 9            ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_5_tester[4] ; G15   ; 6        ; 53           ; 20           ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_5_tester[5] ; M10   ; 4        ; 43           ; 0            ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_5_tester[6] ; T14   ; 4        ; 45           ; 0            ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_5_tester[7] ; N16   ; 5        ; 53           ; 9            ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_6_tester[0] ; T2    ; 3        ; 3            ; 0            ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_6_tester[1] ; N8    ; 3        ; 20           ; 0            ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_6_tester[2] ; T11   ; 4        ; 36           ; 0            ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_6_tester[3] ; M8    ; 3        ; 20           ; 0            ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_6_tester[4] ; N5    ; 3        ; 5            ; 0            ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_6_tester[5] ; P8    ; 3        ; 25           ; 0            ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_6_tester[6] ; D15   ; 6        ; 53           ; 26           ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_6_tester[7] ; L13   ; 5        ; 53           ; 10           ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_7_tester[0] ; P3    ; 3        ; 1            ; 0            ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_7_tester[1] ; N12   ; 4        ; 47           ; 0            ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_7_tester[2] ; R13   ; 4        ; 40           ; 0            ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_7_tester[3] ; T7    ; 3        ; 18           ; 0            ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_7_tester[4] ; R4    ; 3        ; 5            ; 0            ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_7_tester[5] ; R6    ; 3        ; 14           ; 0            ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_7_tester[6] ; R5    ; 3        ; 14           ; 0            ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led_final_7_tester[7] ; T5    ; 3        ; 14           ; 0            ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
 +-----------------------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+---------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+----------------------+----------------------+---------------------+
 
 
@@ -497,20 +497,19 @@ The pin-out file can be found in C:/Users/Felipe/git/frogger_excercise/system.pi
 ; H2       ; DATA0                                  ; As input tri-stated      ; ~ALTERA_DATA0~          ; Dual Purpose Pin          ;
 ; H5       ; nCONFIG                                ; -                        ; -                       ; Dedicated Programming Pin ;
 ; J3       ; nCE                                    ; -                        ; -                       ; Dedicated Programming Pin ;
-; J16      ; DIFFIO_R9n, DEV_OE                     ; Use as regular IO        ; led_final_2_tester[2]   ; Dual Purpose Pin          ;
-; J15      ; DIFFIO_R9p, DEV_CLRn                   ; Use as regular IO        ; led_final_7_tester[4]   ; Dual Purpose Pin          ;
+; J16      ; DIFFIO_R9n, DEV_OE                     ; Use as regular IO        ; led_final_0_tester[0]   ; Dual Purpose Pin          ;
+; J15      ; DIFFIO_R9p, DEV_CLRn                   ; Use as regular IO        ; led_final_4_tester[4]   ; Dual Purpose Pin          ;
 ; H14      ; CONF_DONE                              ; -                        ; -                       ; Dedicated Programming Pin ;
 ; H13      ; MSEL0                                  ; -                        ; -                       ; Dedicated Programming Pin ;
 ; H12      ; MSEL1                                  ; -                        ; -                       ; Dedicated Programming Pin ;
 ; G12      ; MSEL2                                  ; -                        ; -                       ; Dedicated Programming Pin ;
 ; G12      ; MSEL3                                  ; -                        ; -                       ; Dedicated Programming Pin ;
-; G16      ; DIFFIO_R5n, INIT_DONE                  ; Use as regular IO        ; led_final_6_tester[0]   ; Dual Purpose Pin          ;
-; G15      ; DIFFIO_R5p, CRC_ERROR                  ; Use as regular IO        ; led_final_5_tester[0]   ; Dual Purpose Pin          ;
+; G16      ; DIFFIO_R5n, INIT_DONE                  ; Use as regular IO        ; led_final_0_tester[2]   ; Dual Purpose Pin          ;
+; G15      ; DIFFIO_R5p, CRC_ERROR                  ; Use as regular IO        ; led_final_5_tester[4]   ; Dual Purpose Pin          ;
 ; F16      ; DIFFIO_R4n, nCEO                       ; Use as programming pin   ; ~ALTERA_nCEO~           ; Dual Purpose Pin          ;
-; F15      ; DIFFIO_R4p, CLKUSR                     ; Use as regular IO        ; led_final_7_tester[5]   ; Dual Purpose Pin          ;
-; D16      ;                                        ; Use as regular IO        ; led_final_2_tester[3]   ; Dual Purpose Pin          ;
-; D15      ; PADD23                                 ; Use as regular IO        ; led_final_7_tester[1]   ; Dual Purpose Pin          ;
-; C16      ; DIFFIO_R1n, PADD20, DQS2R/CQ3R,CDPCLK5 ; Use as regular IO        ; led_final_1_tester[3]   ; Dual Purpose Pin          ;
+; D16      ;                                        ; Use as regular IO        ; led_final_0_tester[5]   ; Dual Purpose Pin          ;
+; D15      ; PADD23                                 ; Use as regular IO        ; led_final_6_tester[6]   ; Dual Purpose Pin          ;
+; C16      ; DIFFIO_R1n, PADD20, DQS2R/CQ3R,CDPCLK5 ; Use as regular IO        ; led_final_0_tester[3]   ; Dual Purpose Pin          ;
 ; A15      ; DIFFIO_T19n, PADD1                     ; Use as regular IO        ; LED[0]                  ; Dual Purpose Pin          ;
 ; A7       ; DIFFIO_T9n, PADD18                     ; Use as regular IO        ; B_Down                  ; Dual Purpose Pin          ;
 ; B7       ; DIFFIO_T9p, DATA4                      ; Use as regular IO        ; B_Up                    ; Dual Purpose Pin          ;
@@ -528,10 +527,10 @@ The pin-out file can be found in C:/Users/Felipe/git/frogger_excercise/system.pi
 +----------+------------------+---------------+--------------+
 ; 1        ; 7 / 14 ( 50 % )  ; 3.3V          ; --           ;
 ; 2        ; 1 / 16 ( 6 % )   ; 3.3V          ; --           ;
-; 3        ; 24 / 25 ( 96 % ) ; 2.5V          ; --           ;
-; 4        ; 17 / 20 ( 85 % ) ; 2.5V          ; --           ;
-; 5        ; 14 / 18 ( 78 % ) ; 2.5V          ; --           ;
-; 6        ; 11 / 13 ( 85 % ) ; 2.5V          ; --           ;
+; 3        ; 23 / 25 ( 92 % ) ; 2.5V          ; --           ;
+; 4        ; 18 / 20 ( 90 % ) ; 2.5V          ; --           ;
+; 5        ; 16 / 18 ( 89 % ) ; 2.5V          ; --           ;
+; 6        ; 9 / 13 ( 69 % )  ; 2.5V          ; --           ;
 ; 7        ; 4 / 24 ( 17 % )  ; 3.3V          ; --           ;
 ; 8        ; 9 / 24 ( 38 % )  ; 3.3V          ; --           ;
 +----------+------------------+---------------+--------------+
@@ -573,7 +572,7 @@ The pin-out file can be found in C:/Users/Felipe/git/frogger_excercise/system.pi
 ; B13      ; 180        ; 7        ; LED[2]                                                    ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; B14      ; 182        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; B15      ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; B16      ; 164        ; 6        ; led_final_4_tester[0]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
+; B16      ; 164        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; C1       ; 7          ; 1        ; ~ALTERA_ASDO_DATA1~ / RESERVED_INPUT_WITH_WEAK_PULLUP     ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; On           ;
 ; C2       ; 6          ; 1        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; C3       ; 245        ; 8        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
@@ -588,8 +587,8 @@ The pin-out file can be found in C:/Users/Felipe/git/frogger_excercise/system.pi
 ; C12      ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; C13      ;            ; 7        ; VCCIO7                                                    ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; C14      ; 175        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
-; C15      ; 174        ; 6        ; led_final_5_tester[2]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
-; C16      ; 173        ; 6        ; led_final_1_tester[3]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
+; C15      ; 174        ; 6        ; led_final_3_tester[1]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
+; C16      ; 173        ; 6        ; led_final_0_tester[3]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; D1       ; 10         ; 1        ; LED[4]                                                    ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; D2       ; 9          ; 1        ; ~ALTERA_FLASH_nCE_nCSO~ / RESERVED_INPUT_WITH_WEAK_PULLUP ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; On           ;
 ; D3       ; 246        ; 8        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
@@ -604,8 +603,8 @@ The pin-out file can be found in C:/Users/Felipe/git/frogger_excercise/system.pi
 ; D12      ; 178        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; D13      ;            ;          ; VCCD_PLL2                                                 ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
 ; D14      ; 176        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
-; D15      ; 170        ; 6        ; led_final_7_tester[1]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
-; D16      ; 169        ; 6        ; led_final_2_tester[3]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
+; D15      ; 170        ; 6        ; led_final_6_tester[6]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
+; D16      ; 169        ; 6        ; led_final_0_tester[5]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; E1       ; 26         ; 1        ; GND+                                                      ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
 ; E2       ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; E3       ;            ; 1        ; VCCIO1                                                    ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
@@ -634,9 +633,9 @@ The pin-out file can be found in C:/Users/Felipe/git/frogger_excercise/system.pi
 ; F10      ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; F11      ;            ;          ; VCCINT                                                    ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
 ; F12      ;            ; --       ; VCCA2                                                     ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
-; F13      ; 161        ; 6        ; led_final_1_tester[6]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
-; F14      ; 167        ; 6        ; led_final_0_tester[4]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
-; F15      ; 163        ; 6        ; led_final_7_tester[5]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
+; F13      ; 161        ; 6        ; led_final_4_tester[2]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
+; F14      ; 167        ; 6        ; led_final_1_tester[0]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
+; F15      ; 163        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; F16      ; 162        ; 6        ; ~ALTERA_nCEO~ / RESERVED_OUTPUT_OPEN_DRAIN                ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; G1       ; 16         ; 1        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; G2       ; 15         ; 1        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
@@ -653,8 +652,8 @@ The pin-out file can be found in C:/Users/Felipe/git/frogger_excercise/system.pi
 ; G12      ; 156        ; 6        ; ^MSEL3                                                    ;        ;              ;         ; --         ;                 ; --       ; --           ;
 ; G13      ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; G14      ;            ; 6        ; VCCIO6                                                    ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
-; G15      ; 160        ; 6        ; led_final_5_tester[0]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
-; G16      ; 159        ; 6        ; led_final_6_tester[0]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
+; G15      ; 160        ; 6        ; led_final_5_tester[4]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
+; G16      ; 159        ; 6        ; led_final_0_tester[2]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; H1       ; 17         ; 1        ; ~ALTERA_DCLK~                                             ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; On           ;
 ; H2       ; 18         ; 1        ; ~ALTERA_DATA0~ / RESERVED_INPUT_WITH_WEAK_PULLUP          ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; On           ;
 ; H3       ; 21         ; 1        ; #TCK                                                      ; input  ;              ;         ; --         ;                 ; --       ; --           ;
@@ -683,10 +682,10 @@ The pin-out file can be found in C:/Users/Felipe/git/frogger_excercise/system.pi
 ; J10      ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; J11      ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; J12      ;            ;          ; VCCINT                                                    ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
-; J13      ; 146        ; 5        ; led_final_1_tester[1]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
-; J14      ; 144        ; 5        ; led_final_0_tester[1]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
-; J15      ; 143        ; 5        ; led_final_7_tester[4]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
-; J16      ; 142        ; 5        ; led_final_2_tester[2]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
+; J13      ; 146        ; 5        ; led_final_4_tester[5]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
+; J14      ; 144        ; 5        ; led_final_1_tester[7]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
+; J15      ; 143        ; 5        ; led_final_4_tester[4]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
+; J16      ; 142        ; 5        ; led_final_0_tester[0]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; K1       ; 37         ; 2        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; K2       ; 36         ; 2        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; K3       ;            ; 2        ; VCCIO2                                                    ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
@@ -701,34 +700,34 @@ The pin-out file can be found in C:/Users/Felipe/git/frogger_excercise/system.pi
 ; K12      ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; K13      ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; K14      ;            ; 5        ; VCCIO5                                                    ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
-; K15      ; 141        ; 5        ; led_final_6_tester[6]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
-; K16      ; 140        ; 5        ; led_final_3_tester[6]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
+; K15      ; 141        ; 5        ; led_final_4_tester[1]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
+; K16      ; 140        ; 5        ; led_final_5_tester[2]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; L1       ; 39         ; 2        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; L2       ; 38         ; 2        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; L3       ; 40         ; 2        ; LED[7]                                                    ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; L4       ; 46         ; 2        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; L5       ;            ; --       ; VCCA1                                                     ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
 ; L6       ;            ;          ; VCCINT                                                    ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
-; L7       ; 75         ; 3        ; led_final_1_tester[7]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
-; L8       ; 79         ; 3        ; led_final_5_tester[4]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; L7       ; 75         ; 3        ; led_final_4_tester[0]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; L8       ; 79         ; 3        ; led_final_2_tester[0]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
 ; L9       ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; L10      ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; L11      ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; L12      ;            ; --       ; VCCA4                                                     ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
-; L13      ; 136        ; 5        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
-; L14      ; 134        ; 5        ; led_final_1_tester[4]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
-; L15      ; 138        ; 5        ; led_final_4_tester[1]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
-; L16      ; 137        ; 5        ; led_final_6_tester[4]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
+; L13      ; 136        ; 5        ; led_final_6_tester[7]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
+; L14      ; 134        ; 5        ; led_final_5_tester[3]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
+; L15      ; 138        ; 5        ; led_final_3_tester[4]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
+; L16      ; 137        ; 5        ; led_final_1_tester[5]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; M1       ; 28         ; 2        ; GND+                                                      ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
 ; M2       ; 27         ; 2        ; GND+                                                      ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
 ; M3       ;            ; 2        ; VCCIO2                                                    ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; M4       ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; M5       ;            ;          ; GNDA1                                                     ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; M6       ; 64         ; 3        ; led_final_0_tester[7]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
-; M7       ; 68         ; 3        ; led_final_6_tester[3]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
-; M8       ; 81         ; 3        ; led_final_6_tester[5]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; M6       ; 64         ; 3        ; led_final_3_tester[2]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; M7       ; 68         ; 3        ; led_final_5_tester[0]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; M8       ; 81         ; 3        ; led_final_6_tester[3]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
 ; M9       ;            ;          ; VCCINT                                                    ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
-; M10      ; 111        ; 4        ; led_final_2_tester[6]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; M10      ; 111        ; 4        ; led_final_5_tester[5]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
 ; M11      ;            ;          ; VCCINT                                                    ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
 ; M12      ;            ;          ; GNDA4                                                     ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; M13      ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
@@ -737,67 +736,67 @@ The pin-out file can be found in C:/Users/Felipe/git/frogger_excercise/system.pi
 ; M16      ; 148        ; 5        ; GND+                                                      ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
 ; N1       ; 44         ; 2        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; N2       ; 43         ; 2        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
-; N3       ; 52         ; 3        ; led_final_2_tester[0]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; N3       ; 52         ; 3        ; led_final_3_tester[7]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
 ; N4       ;            ;          ; VCCD_PLL1                                                 ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
-; N5       ; 62         ; 3        ; led_final_3_tester[5]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
-; N6       ; 63         ; 3        ; led_final_4_tester[5]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; N5       ; 62         ; 3        ; led_final_6_tester[4]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; N6       ; 63         ; 3        ; led_final_0_tester[7]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
 ; N7       ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; N8       ; 82         ; 3        ; led_final_4_tester[7]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
-; N9       ; 93         ; 4        ; led_final_1_tester[0]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; N8       ; 82         ; 3        ; led_final_6_tester[1]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; N9       ; 93         ; 4        ; led_final_2_tester[2]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
 ; N10      ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; N11      ; 112        ; 4        ; led_final_3_tester[4]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
-; N12      ; 117        ; 4        ; led_final_6_tester[7]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; N11      ; 112        ; 4        ; led_final_5_tester[1]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; N12      ; 117        ; 4        ; led_final_7_tester[1]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
 ; N13      ;            ;          ; VCCD_PLL4                                                 ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
-; N14      ; 126        ; 5        ; led_final_0_tester[6]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
-; N15      ; 133        ; 5        ; led_final_1_tester[5]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
-; N16      ; 132        ; 5        ; led_final_3_tester[1]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
+; N14      ; 126        ; 5        ; led_final_2_tester[3]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
+; N15      ; 133        ; 5        ; led_final_0_tester[6]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
+; N16      ; 132        ; 5        ; led_final_5_tester[7]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; P1       ; 51         ; 2        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; P2       ; 50         ; 2        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
-; P3       ; 53         ; 3        ; led_final_0_tester[0]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; P3       ; 53         ; 3        ; led_final_7_tester[0]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
 ; P4       ;            ; 3        ; VCCIO3                                                    ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
 ; P5       ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; P6       ; 67         ; 3        ; led_final_0_tester[2]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; P6       ; 67         ; 3        ; led_final_1_tester[2]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
 ; P7       ;            ; 3        ; VCCIO3                                                    ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
-; P8       ; 85         ; 3        ; led_final_7_tester[3]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
-; P9       ; 105        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
+; P8       ; 85         ; 3        ; led_final_6_tester[5]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; P9       ; 105        ; 4        ; led_final_3_tester[6]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
 ; P10      ;            ; 4        ; VCCIO4                                                    ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
-; P11      ; 106        ; 4        ; led_final_4_tester[6]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; P11      ; 106        ; 4        ; led_final_2_tester[1]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
 ; P12      ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; P13      ;            ; 4        ; VCCIO4                                                    ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
-; P14      ; 119        ; 4        ; led_final_2_tester[5]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
-; P15      ; 127        ; 5        ; led_final_6_tester[2]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
-; P16      ; 128        ; 5        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
+; P14      ; 119        ; 4        ; led_final_1_tester[3]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; P15      ; 127        ; 5        ; led_final_4_tester[7]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
+; P16      ; 128        ; 5        ; led_final_2_tester[4]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; R1       ; 49         ; 2        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; R2       ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; R3       ; 54         ; 3        ; led_final_3_tester[7]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
-; R4       ; 60         ; 3        ; led_final_5_tester[6]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
-; R5       ; 71         ; 3        ; led_final_7_tester[7]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
-; R6       ; 73         ; 3        ; led_final_7_tester[2]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
-; R7       ; 76         ; 3        ; led_final_7_tester[6]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; R3       ; 54         ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
+; R4       ; 60         ; 3        ; led_final_7_tester[4]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; R5       ; 71         ; 3        ; led_final_7_tester[6]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; R6       ; 73         ; 3        ; led_final_7_tester[5]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; R7       ; 76         ; 3        ; led_final_3_tester[5]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
 ; R8       ; 86         ; 3        ; CLOCK_50                                                  ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; R9       ; 88         ; 4        ; GND+                                                      ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
-; R10      ; 96         ; 4        ; led_final_5_tester[5]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
-; R11      ; 98         ; 4        ; led_final_5_tester[1]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
-; R12      ; 100        ; 4        ; led_final_4_tester[2]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
-; R13      ; 107        ; 4        ; led_final_0_tester[5]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
-; R14      ; 120        ; 4        ; led_final_3_tester[0]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; R10      ; 96         ; 4        ; led_final_4_tester[6]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; R11      ; 98         ; 4        ; led_final_3_tester[3]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; R12      ; 100        ; 4        ; led_final_3_tester[0]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; R13      ; 107        ; 4        ; led_final_7_tester[2]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; R14      ; 120        ; 4        ; led_final_1_tester[6]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
 ; R15      ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; R16      ; 129        ; 5        ; led_final_5_tester[7]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
+; R16      ; 129        ; 5        ; led_final_0_tester[4]                                     ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; T1       ;            ; 3        ; VCCIO3                                                    ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
-; T2       ; 59         ; 3        ; led_final_4_tester[3]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
-; T3       ; 55         ; 3        ; led_final_3_tester[3]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
-; T4       ; 61         ; 3        ; led_final_5_tester[3]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
-; T5       ; 72         ; 3        ; led_final_2_tester[1]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
-; T6       ; 74         ; 3        ; led_final_6_tester[1]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
-; T7       ; 77         ; 3        ; led_final_0_tester[3]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; T2       ; 59         ; 3        ; led_final_6_tester[0]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; T3       ; 55         ; 3        ; led_final_2_tester[5]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; T4       ; 61         ; 3        ; led_final_4_tester[3]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; T5       ; 72         ; 3        ; led_final_7_tester[7]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; T6       ; 74         ; 3        ; led_final_2_tester[6]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; T7       ; 77         ; 3        ; led_final_7_tester[3]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
 ; T8       ; 87         ; 3        ; GND+                                                      ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
 ; T9       ; 89         ; 4        ; GND+                                                      ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
-; T10      ; 97         ; 4        ; led_final_2_tester[4]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
-; T11      ; 99         ; 4        ; led_final_2_tester[7]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
-; T12      ; 101        ; 4        ; led_final_1_tester[2]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
-; T13      ; 108        ; 4        ; led_final_3_tester[2]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
-; T14      ; 115        ; 4        ; led_final_7_tester[0]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
-; T15      ; 116        ; 4        ; led_final_4_tester[4]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; T10      ; 97         ; 4        ; led_final_0_tester[1]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; T11      ; 99         ; 4        ; led_final_6_tester[2]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; T12      ; 101        ; 4        ; led_final_1_tester[4]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; T13      ; 108        ; 4        ; led_final_2_tester[7]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; T14      ; 115        ; 4        ; led_final_5_tester[6]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; T15      ; 116        ; 4        ; led_final_1_tester[1]                                     ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
 ; T16      ;            ; 4        ; VCCIO4                                                    ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
 +----------+------------+----------+-----------------------------------------------------------+--------+--------------+---------+------------+-----------------+----------+--------------+
 Note: Pin directions (input, output or bidir) are based on device operating in user mode.
@@ -950,15 +949,23 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 +-----------------------+-------------------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Fitter Resource Utilization by Entity                                                                                                                                                                                                                                                                                                                                                    ;
-+----------------------------------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+-----------------------------------------------------------------------------------------+----------------------+--------------+
-; Compilation Hierarchy Node                               ; Logic Cells ; Dedicated Logic Registers ; I/O Registers ; Memory Bits ; M9Ks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Full Hierarchy Name                                                                     ; Entity Name          ; Library Name ;
-+----------------------------------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+-----------------------------------------------------------------------------------------+----------------------+--------------+
-; |system                                                  ; 86 (0)      ; 53 (0)                    ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 82   ; 0            ; 33 (0)       ; 5 (0)             ; 48 (0)           ; |system                                                                                 ; system               ; work         ;
-;    |matrix_ctrl:matrix_ctrl_unit_0|                      ; 86 (32)     ; 53 (21)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 33 (11)      ; 5 (0)             ; 48 (21)          ; |system|matrix_ctrl:matrix_ctrl_unit_0                                                  ; matrix_ctrl          ; work         ;
-;       |shift_reg_start_done:shift_reg_start_done_unit_0| ; 54 (54)     ; 32 (32)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 22 (22)      ; 5 (5)             ; 27 (27)          ; |system|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0 ; shift_reg_start_done ; work         ;
-+----------------------------------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+-----------------------------------------------------------------------------------------+----------------------+--------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Fitter Resource Utilization by Entity                                                                                                                                                                                                                                                                                                                                                            ;
++--------------------------------------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+-----------------------------------------------------------------------------------------+--------------------------+--------------+
+; Compilation Hierarchy Node                                   ; Logic Cells ; Dedicated Logic Registers ; I/O Registers ; Memory Bits ; M9Ks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Full Hierarchy Name                                                                     ; Entity Name              ; Library Name ;
++--------------------------------------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+-----------------------------------------------------------------------------------------+--------------------------+--------------+
+; |system                                                      ; 422 (0)     ; 140 (0)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 82   ; 0            ; 282 (0)      ; 9 (0)             ; 131 (0)          ; |system                                                                                 ; system                   ; work         ;
+;    |RANA:rana_1|                                             ; 96 (64)     ; 15 (0)                    ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 81 (64)      ; 2 (0)             ; 13 (0)           ; |system|RANA:rana_1                                                                     ; RANA                     ; work         ;
+;       |DEMUX38:DEMUX38_u1|                                   ; 8 (8)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 8 (8)        ; 0 (0)             ; 0 (0)            ; |system|RANA:rana_1|DEMUX38:DEMUX38_u1                                                  ; DEMUX38                  ; work         ;
+;       |SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u0| ; 7 (7)       ; 7 (7)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 2 (2)             ; 5 (5)            ; |system|RANA:rana_1|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u0                ; SC_STATEMACHINE_FROG_MOV ; work         ;
+;       |SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u1| ; 17 (17)     ; 8 (8)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 9 (9)        ; 0 (0)             ; 8 (8)            ; |system|RANA:rana_1|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u1                ; SC_STATEMACHINE_FROG_MOV ; work         ;
+;    |imagen:imagen_1|                                         ; 15 (15)     ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 15 (15)      ; 0 (0)             ; 0 (0)            ; |system|imagen:imagen_1                                                                 ; imagen                   ; work         ;
+;    |matrix_ctrl:matrix_ctrl_unit_0|                          ; 118 (35)    ; 53 (21)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 65 (14)      ; 7 (2)             ; 46 (19)          ; |system|matrix_ctrl:matrix_ctrl_unit_0                                                  ; matrix_ctrl              ; work         ;
+;       |shift_reg_start_done:shift_reg_start_done_unit_0|     ; 83 (83)     ; 32 (32)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 51 (51)      ; 5 (5)             ; 27 (27)          ; |system|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0 ; shift_reg_start_done     ; work         ;
+;    |rebote:rebote_1|                                         ; 62 (62)     ; 24 (24)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 38 (38)      ; 0 (0)             ; 24 (24)          ; |system|rebote:rebote_1                                                                 ; rebote                   ; work         ;
+;    |rebote:rebote_2|                                         ; 66 (66)     ; 24 (24)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 42 (42)      ; 0 (0)             ; 24 (24)          ; |system|rebote:rebote_2                                                                 ; rebote                   ; work         ;
+;    |rebote:rebote_3|                                         ; 65 (65)     ; 24 (24)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 41 (41)      ; 0 (0)             ; 24 (24)          ; |system|rebote:rebote_3                                                                 ; rebote                   ; work         ;
++--------------------------------------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+-----------------------------------------------------------------------------------------+--------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -1052,200 +1059,254 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+----------+---------------+---------------+-----------------------+-----+------+
 
 
-+----------------------------------------------------+
-; Pad To Core Delay Chain Fanout                     ;
-+----------------------+-------------------+---------+
-; Source Pin / Fanout  ; Pad To Core Index ; Setting ;
-+----------------------+-------------------+---------+
-; B_Left               ;                   ;         ;
-;      - LED[0]~output ; 0                 ; 6       ;
-; B_Rigth              ;                   ;         ;
-;      - LED[1]~output ; 0                 ; 6       ;
-; B_Up                 ;                   ;         ;
-;      - LED[2]~output ; 0                 ; 6       ;
-; B_Down               ;                   ;         ;
-;      - LED[3]~output ; 0                 ; 6       ;
-; Start                ;                   ;         ;
-; RESET                ;                   ;         ;
-; CLOCK_50             ;                   ;         ;
-+----------------------+-------------------+---------+
++------------------------------------------------------------------------+
+; Pad To Core Delay Chain Fanout                                         ;
++------------------------------------------+-------------------+---------+
+; Source Pin / Fanout                      ; Pad To Core Index ; Setting ;
++------------------------------------------+-------------------+---------+
+; B_Left                                   ;                   ;         ;
+;      - rebote:rebote_3|db_tick~0         ; 0                 ; 6       ;
+;      - rebote:rebote_3|q_reg[17]~0       ; 0                 ; 6       ;
+;      - rebote:rebote_3|q_reg[17]~1       ; 0                 ; 6       ;
+;      - rebote:rebote_3|Selector1~0       ; 0                 ; 6       ;
+;      - rebote:rebote_3|Selector1~1       ; 0                 ; 6       ;
+;      - rebote:rebote_3|Selector3~0       ; 0                 ; 6       ;
+;      - rebote:rebote_3|state_reg.wait0~0 ; 0                 ; 6       ;
+;      - rebote:rebote_3|Selector0~4       ; 0                 ; 6       ;
+;      - rebote:rebote_3|Selector0~5       ; 0                 ; 6       ;
+;      - rebote:rebote_3|Selector2~0       ; 0                 ; 6       ;
+;      - rebote:rebote_3|Selector2~1       ; 0                 ; 6       ;
+;      - rebote:rebote_3|Selector0~7       ; 0                 ; 6       ;
+;      - rebote:rebote_3|Selector0~8       ; 0                 ; 6       ;
+;      - rebote:rebote_3|Selector0~10      ; 0                 ; 6       ;
+;      - LED[0]~output                     ; 0                 ; 6       ;
+; B_Rigth                                  ;                   ;         ;
+;      - LED[1]~output                     ; 0                 ; 6       ;
+; B_Up                                     ;                   ;         ;
+;      - rebote:rebote_1|db_tick~0         ; 0                 ; 6       ;
+;      - rebote:rebote_1|Selector1~0       ; 0                 ; 6       ;
+;      - rebote:rebote_1|Selector1~1       ; 0                 ; 6       ;
+;      - rebote:rebote_1|Selector3~0       ; 0                 ; 6       ;
+;      - rebote:rebote_1|q_reg[5]~0        ; 0                 ; 6       ;
+;      - rebote:rebote_1|q_reg[5]~1        ; 0                 ; 6       ;
+;      - rebote:rebote_1|Selector0~0       ; 0                 ; 6       ;
+;      - rebote:rebote_1|Selector0~2       ; 0                 ; 6       ;
+;      - rebote:rebote_1|Selector0~4       ; 0                 ; 6       ;
+;      - rebote:rebote_1|Selector2~0       ; 0                 ; 6       ;
+;      - rebote:rebote_1|Selector2~1       ; 0                 ; 6       ;
+;      - rebote:rebote_1|state_reg.wait0~0 ; 0                 ; 6       ;
+;      - LED[2]~output                     ; 0                 ; 6       ;
+; B_Down                                   ;                   ;         ;
+;      - rebote:rebote_2|db_tick~0         ; 0                 ; 6       ;
+;      - rebote:rebote_2|q_reg[13]~0       ; 0                 ; 6       ;
+;      - rebote:rebote_2|q_reg[13]~1       ; 0                 ; 6       ;
+;      - rebote:rebote_2|Selector1~0       ; 0                 ; 6       ;
+;      - rebote:rebote_2|Selector1~1       ; 0                 ; 6       ;
+;      - rebote:rebote_2|Selector3~0       ; 0                 ; 6       ;
+;      - rebote:rebote_2|state_reg.wait0~0 ; 0                 ; 6       ;
+;      - rebote:rebote_2|Selector0~5       ; 0                 ; 6       ;
+;      - rebote:rebote_2|Selector0~6       ; 0                 ; 6       ;
+;      - rebote:rebote_2|Selector2~2       ; 0                 ; 6       ;
+;      - rebote:rebote_2|Selector0~8       ; 0                 ; 6       ;
+;      - rebote:rebote_2|Selector0~9       ; 0                 ; 6       ;
+;      - rebote:rebote_2|Selector0~11      ; 0                 ; 6       ;
+;      - LED[3]~output                     ; 0                 ; 6       ;
+; Start                                    ;                   ;         ;
+; RESET                                    ;                   ;         ;
+; CLOCK_50                                 ;                   ;         ;
++------------------------------------------+-------------------+---------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Control Signals                                                                                                                                                                                                             ;
-+------------------------------------------------------------------------------------------------+--------------------+---------+--------------+--------+----------------------+------------------+---------------------------+
-; Name                                                                                           ; Location           ; Fan-Out ; Usage        ; Global ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
-+------------------------------------------------------------------------------------------------+--------------------+---------+--------------+--------+----------------------+------------------+---------------------------+
-; CLOCK_50                                                                                       ; PIN_R8             ; 3       ; Clock        ; no     ; --                   ; --               ; --                        ;
-; RESET                                                                                          ; PIN_A8             ; 53      ; Async. clear ; yes    ; Global Clock         ; GCLK14           ; --                        ;
-; matrix_ctrl:matrix_ctrl_unit_0|Selector25~1                                                    ; LCCOMB_X18_Y12_N24 ; 2       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; matrix_ctrl:matrix_ctrl_unit_0|clk_driver                                                      ; LCCOMB_X26_Y1_N4   ; 4       ; Clock        ; no     ; --                   ; --               ; --                        ;
-; matrix_ctrl:matrix_ctrl_unit_0|clk_driver                                                      ; LCCOMB_X26_Y1_N4   ; 49      ; Clock        ; yes    ; Global Clock         ; GCLK19           ; --                        ;
-; matrix_ctrl:matrix_ctrl_unit_0|ctrl_sr[1]                                                      ; LCCOMB_X20_Y12_N28 ; 19      ; Sync. load   ; no     ; --                   ; --               ; --                        ;
-; matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|Mux0~1         ; LCCOMB_X17_Y12_N24 ; 14      ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|cnt_reg[15]~50 ; LCCOMB_X19_Y12_N18 ; 16      ; Sync. clear  ; no     ; --                   ; --               ; --                        ;
-; matrix_ctrl:matrix_ctrl_unit_0|state_reg.MAIN_LOOP                                             ; FF_X26_Y1_N3       ; 2       ; Latch enable ; yes    ; Global Clock         ; GCLK17           ; --                        ;
-+------------------------------------------------------------------------------------------------+--------------------+---------+--------------+--------+----------------------+------------------+---------------------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Control Signals                                                                                                                                                                                                            ;
++-----------------------------------------------------------------------------------------------+--------------------+---------+--------------+--------+----------------------+------------------+---------------------------+
+; Name                                                                                          ; Location           ; Fan-Out ; Usage        ; Global ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
++-----------------------------------------------------------------------------------------------+--------------------+---------+--------------+--------+----------------------+------------------+---------------------------+
+; CLOCK_50                                                                                      ; PIN_R8             ; 4       ; Clock        ; no     ; --                   ; --               ; --                        ;
+; CLOCK_50                                                                                      ; PIN_R8             ; 87      ; Clock        ; yes    ; Global Clock         ; GCLK18           ; --                        ;
+; RESET                                                                                         ; PIN_A8             ; 140     ; Async. clear ; yes    ; Global Clock         ; GCLK14           ; --                        ;
+; matrix_ctrl:matrix_ctrl_unit_0|Selector25~1                                                   ; LCCOMB_X37_Y7_N28  ; 2       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; matrix_ctrl:matrix_ctrl_unit_0|clk_driver                                                     ; LCCOMB_X27_Y1_N26  ; 4       ; Clock        ; no     ; --                   ; --               ; --                        ;
+; matrix_ctrl:matrix_ctrl_unit_0|clk_driver                                                     ; LCCOMB_X27_Y1_N26  ; 49      ; Clock        ; yes    ; Global Clock         ; GCLK15           ; --                        ;
+; matrix_ctrl:matrix_ctrl_unit_0|ctrl_sr[1]                                                     ; LCCOMB_X35_Y7_N2   ; 23      ; Sync. load   ; no     ; --                   ; --               ; --                        ;
+; matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|Mux0~1        ; LCCOMB_X35_Y8_N2   ; 15      ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|cnt_reg[8]~50 ; LCCOMB_X35_Y8_N24  ; 16      ; Sync. clear  ; no     ; --                   ; --               ; --                        ;
+; matrix_ctrl:matrix_ctrl_unit_0|state_reg.MAIN_LOOP                                            ; FF_X27_Y1_N29      ; 2       ; Latch enable ; yes    ; Global Clock         ; GCLK17           ; --                        ;
+; rebote:rebote_1|q_reg[5]~1                                                                    ; LCCOMB_X27_Y23_N26 ; 20      ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; rebote:rebote_2|q_reg[13]~1                                                                   ; LCCOMB_X28_Y30_N24 ; 20      ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; rebote:rebote_3|db_tick~1                                                                     ; LCCOMB_X19_Y21_N20 ; 7       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; rebote:rebote_3|q_reg[17]~1                                                                   ; LCCOMB_X19_Y25_N2  ; 20      ; Clock enable ; no     ; --                   ; --               ; --                        ;
++-----------------------------------------------------------------------------------------------+--------------------+---------+--------------+--------+----------------------+------------------+---------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Global & Other Fast Signals                                                                                                                                                                  ;
-+----------------------------------------------------+------------------+---------+--------------------------------------+----------------------+------------------+---------------------------+
-; Name                                               ; Location         ; Fan-Out ; Fan-Out Using Intentional Clock Skew ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
-+----------------------------------------------------+------------------+---------+--------------------------------------+----------------------+------------------+---------------------------+
-; RESET                                              ; PIN_A8           ; 53      ; 0                                    ; Global Clock         ; GCLK14           ; --                        ;
-; matrix_ctrl:matrix_ctrl_unit_0|clk_driver          ; LCCOMB_X26_Y1_N4 ; 49      ; 0                                    ; Global Clock         ; GCLK19           ; --                        ;
-; matrix_ctrl:matrix_ctrl_unit_0|state_reg.MAIN_LOOP ; FF_X26_Y1_N3     ; 2       ; 0                                    ; Global Clock         ; GCLK17           ; --                        ;
-+----------------------------------------------------+------------------+---------+--------------------------------------+----------------------+------------------+---------------------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Global & Other Fast Signals                                                                                                                                                                   ;
++----------------------------------------------------+-------------------+---------+--------------------------------------+----------------------+------------------+---------------------------+
+; Name                                               ; Location          ; Fan-Out ; Fan-Out Using Intentional Clock Skew ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
++----------------------------------------------------+-------------------+---------+--------------------------------------+----------------------+------------------+---------------------------+
+; CLOCK_50                                           ; PIN_R8            ; 87      ; 0                                    ; Global Clock         ; GCLK18           ; --                        ;
+; RESET                                              ; PIN_A8            ; 140     ; 0                                    ; Global Clock         ; GCLK14           ; --                        ;
+; matrix_ctrl:matrix_ctrl_unit_0|clk_driver          ; LCCOMB_X27_Y1_N26 ; 49      ; 0                                    ; Global Clock         ; GCLK15           ; --                        ;
+; matrix_ctrl:matrix_ctrl_unit_0|state_reg.MAIN_LOOP ; FF_X27_Y1_N29     ; 2       ; 0                                    ; Global Clock         ; GCLK17           ; --                        ;
++----------------------------------------------------+-------------------+---------+--------------------------------------+----------------------+------------------+---------------------------+
 
 
-+-----------------------------------------------+
-; Routing Usage Summary                         ;
-+-----------------------+-----------------------+
-; Routing Resource Type ; Usage                 ;
-+-----------------------+-----------------------+
-; Block interconnects   ; 81 / 71,559 ( < 1 % ) ;
-; C16 interconnects     ; 9 / 2,597 ( < 1 % )   ;
-; C4 interconnects      ; 36 / 46,848 ( < 1 % ) ;
-; Direct links          ; 33 / 71,559 ( < 1 % ) ;
-; Global clocks         ; 3 / 20 ( 15 % )       ;
-; Local interconnects   ; 68 / 24,624 ( < 1 % ) ;
-; R24 interconnects     ; 9 / 2,496 ( < 1 % )   ;
-; R4 interconnects      ; 35 / 62,424 ( < 1 % ) ;
-+-----------------------+-----------------------+
-
-
-+---------------------------------------------------------------------------+
-; LAB Logic Elements                                                        ;
-+---------------------------------------------+-----------------------------+
-; Number of Logic Elements  (Average = 12.29) ; Number of LABs  (Total = 7) ;
-+---------------------------------------------+-----------------------------+
-; 1                                           ; 0                           ;
-; 2                                           ; 0                           ;
-; 3                                           ; 0                           ;
-; 4                                           ; 2                           ;
-; 5                                           ; 0                           ;
-; 6                                           ; 0                           ;
-; 7                                           ; 0                           ;
-; 8                                           ; 0                           ;
-; 9                                           ; 0                           ;
-; 10                                          ; 0                           ;
-; 11                                          ; 0                           ;
-; 12                                          ; 0                           ;
-; 13                                          ; 0                           ;
-; 14                                          ; 1                           ;
-; 15                                          ; 0                           ;
-; 16                                          ; 4                           ;
-+---------------------------------------------+-----------------------------+
-
-
-+------------------------------------------------------------------+
-; LAB-wide Signals                                                 ;
-+------------------------------------+-----------------------------+
-; LAB-wide Signals  (Average = 2.14) ; Number of LABs  (Total = 7) ;
-+------------------------------------+-----------------------------+
-; 1 Async. clear                     ; 6                           ;
-; 1 Clock                            ; 6                           ;
-; 1 Clock enable                     ; 1                           ;
-; 1 Sync. clear                      ; 1                           ;
-; 1 Sync. load                       ; 1                           ;
-+------------------------------------+-----------------------------+
-
-
-+----------------------------------------------------------------------------+
-; LAB Signals Sourced                                                        ;
-+----------------------------------------------+-----------------------------+
-; Number of Signals Sourced  (Average = 19.86) ; Number of LABs  (Total = 7) ;
-+----------------------------------------------+-----------------------------+
-; 0                                            ; 0                           ;
-; 1                                            ; 0                           ;
-; 2                                            ; 0                           ;
-; 3                                            ; 0                           ;
-; 4                                            ; 1                           ;
-; 5                                            ; 0                           ;
-; 6                                            ; 0                           ;
-; 7                                            ; 0                           ;
-; 8                                            ; 1                           ;
-; 9                                            ; 0                           ;
-; 10                                           ; 0                           ;
-; 11                                           ; 0                           ;
-; 12                                           ; 0                           ;
-; 13                                           ; 0                           ;
-; 14                                           ; 0                           ;
-; 15                                           ; 0                           ;
-; 16                                           ; 0                           ;
-; 17                                           ; 0                           ;
-; 18                                           ; 0                           ;
-; 19                                           ; 0                           ;
-; 20                                           ; 0                           ;
-; 21                                           ; 1                           ;
-; 22                                           ; 0                           ;
-; 23                                           ; 1                           ;
-; 24                                           ; 1                           ;
-; 25                                           ; 0                           ;
-; 26                                           ; 0                           ;
-; 27                                           ; 1                           ;
-; 28                                           ; 0                           ;
-; 29                                           ; 0                           ;
-; 30                                           ; 0                           ;
-; 31                                           ; 0                           ;
-; 32                                           ; 1                           ;
-+----------------------------------------------+-----------------------------+
-
-
-+-------------------------------------------------------------------------------+
-; LAB Signals Sourced Out                                                       ;
-+-------------------------------------------------+-----------------------------+
-; Number of Signals Sourced Out  (Average = 7.29) ; Number of LABs  (Total = 7) ;
-+-------------------------------------------------+-----------------------------+
-; 0                                               ; 0                           ;
-; 1                                               ; 0                           ;
-; 2                                               ; 1                           ;
-; 3                                               ; 1                           ;
-; 4                                               ; 0                           ;
-; 5                                               ; 0                           ;
-; 6                                               ; 2                           ;
-; 7                                               ; 0                           ;
-; 8                                               ; 0                           ;
-; 9                                               ; 2                           ;
-; 10                                              ; 0                           ;
-; 11                                              ; 0                           ;
-; 12                                              ; 0                           ;
-; 13                                              ; 0                           ;
-; 14                                              ; 0                           ;
-; 15                                              ; 0                           ;
-; 16                                              ; 1                           ;
-+-------------------------------------------------+-----------------------------+
++------------------------------------------------+
+; Routing Usage Summary                          ;
++-----------------------+------------------------+
+; Routing Resource Type ; Usage                  ;
++-----------------------+------------------------+
+; Block interconnects   ; 434 / 71,559 ( < 1 % ) ;
+; C16 interconnects     ; 26 / 2,597 ( 1 % )     ;
+; C4 interconnects      ; 302 / 46,848 ( < 1 % ) ;
+; Direct links          ; 94 / 71,559 ( < 1 % )  ;
+; Global clocks         ; 4 / 20 ( 20 % )        ;
+; Local interconnects   ; 247 / 24,624 ( 1 % )   ;
+; R24 interconnects     ; 45 / 2,496 ( 2 % )     ;
+; R4 interconnects      ; 333 / 62,424 ( < 1 % ) ;
++-----------------------+------------------------+
 
 
 +----------------------------------------------------------------------------+
-; LAB Distinct Inputs                                                        ;
-+----------------------------------------------+-----------------------------+
-; Number of Distinct Inputs  (Average = 10.14) ; Number of LABs  (Total = 7) ;
-+----------------------------------------------+-----------------------------+
-; 0                                            ; 0                           ;
-; 1                                            ; 0                           ;
-; 2                                            ; 0                           ;
-; 3                                            ; 1                           ;
-; 4                                            ; 1                           ;
-; 5                                            ; 0                           ;
-; 6                                            ; 1                           ;
-; 7                                            ; 0                           ;
-; 8                                            ; 0                           ;
-; 9                                            ; 0                           ;
-; 10                                           ; 1                           ;
-; 11                                           ; 0                           ;
-; 12                                           ; 0                           ;
-; 13                                           ; 1                           ;
-; 14                                           ; 1                           ;
-; 15                                           ; 0                           ;
-; 16                                           ; 0                           ;
-; 17                                           ; 0                           ;
-; 18                                           ; 0                           ;
-; 19                                           ; 0                           ;
-; 20                                           ; 0                           ;
-; 21                                           ; 1                           ;
-+----------------------------------------------+-----------------------------+
+; LAB Logic Elements                                                         ;
++---------------------------------------------+------------------------------+
+; Number of Logic Elements  (Average = 12.79) ; Number of LABs  (Total = 33) ;
++---------------------------------------------+------------------------------+
+; 1                                           ; 4                            ;
+; 2                                           ; 1                            ;
+; 3                                           ; 0                            ;
+; 4                                           ; 0                            ;
+; 5                                           ; 1                            ;
+; 6                                           ; 1                            ;
+; 7                                           ; 0                            ;
+; 8                                           ; 0                            ;
+; 9                                           ; 0                            ;
+; 10                                          ; 0                            ;
+; 11                                          ; 0                            ;
+; 12                                          ; 1                            ;
+; 13                                          ; 1                            ;
+; 14                                          ; 0                            ;
+; 15                                          ; 4                            ;
+; 16                                          ; 20                           ;
++---------------------------------------------+------------------------------+
+
+
++-------------------------------------------------------------------+
+; LAB-wide Signals                                                  ;
++------------------------------------+------------------------------+
+; LAB-wide Signals  (Average = 1.94) ; Number of LABs  (Total = 33) ;
++------------------------------------+------------------------------+
+; 1 Async. clear                     ; 24                           ;
+; 1 Clock                            ; 24                           ;
+; 1 Clock enable                     ; 14                           ;
+; 1 Sync. clear                      ; 1                            ;
+; 1 Sync. load                       ; 1                            ;
++------------------------------------+------------------------------+
+
+
++-----------------------------------------------------------------------------+
+; LAB Signals Sourced                                                         ;
++----------------------------------------------+------------------------------+
+; Number of Signals Sourced  (Average = 17.00) ; Number of LABs  (Total = 33) ;
++----------------------------------------------+------------------------------+
+; 0                                            ; 0                            ;
+; 1                                            ; 1                            ;
+; 2                                            ; 3                            ;
+; 3                                            ; 0                            ;
+; 4                                            ; 1                            ;
+; 5                                            ; 0                            ;
+; 6                                            ; 1                            ;
+; 7                                            ; 0                            ;
+; 8                                            ; 1                            ;
+; 9                                            ; 0                            ;
+; 10                                           ; 0                            ;
+; 11                                           ; 0                            ;
+; 12                                           ; 0                            ;
+; 13                                           ; 0                            ;
+; 14                                           ; 0                            ;
+; 15                                           ; 1                            ;
+; 16                                           ; 6                            ;
+; 17                                           ; 1                            ;
+; 18                                           ; 0                            ;
+; 19                                           ; 1                            ;
+; 20                                           ; 7                            ;
+; 21                                           ; 2                            ;
+; 22                                           ; 0                            ;
+; 23                                           ; 5                            ;
+; 24                                           ; 0                            ;
+; 25                                           ; 0                            ;
+; 26                                           ; 0                            ;
+; 27                                           ; 0                            ;
+; 28                                           ; 0                            ;
+; 29                                           ; 0                            ;
+; 30                                           ; 2                            ;
+; 31                                           ; 0                            ;
+; 32                                           ; 1                            ;
++----------------------------------------------+------------------------------+
+
+
++--------------------------------------------------------------------------------+
+; LAB Signals Sourced Out                                                        ;
++-------------------------------------------------+------------------------------+
+; Number of Signals Sourced Out  (Average = 7.79) ; Number of LABs  (Total = 33) ;
++-------------------------------------------------+------------------------------+
+; 0                                               ; 0                            ;
+; 1                                               ; 4                            ;
+; 2                                               ; 3                            ;
+; 3                                               ; 1                            ;
+; 4                                               ; 5                            ;
+; 5                                               ; 1                            ;
+; 6                                               ; 2                            ;
+; 7                                               ; 1                            ;
+; 8                                               ; 4                            ;
+; 9                                               ; 0                            ;
+; 10                                              ; 1                            ;
+; 11                                              ; 1                            ;
+; 12                                              ; 1                            ;
+; 13                                              ; 2                            ;
+; 14                                              ; 0                            ;
+; 15                                              ; 3                            ;
+; 16                                              ; 4                            ;
++-------------------------------------------------+------------------------------+
+
+
++-----------------------------------------------------------------------------+
+; LAB Distinct Inputs                                                         ;
++----------------------------------------------+------------------------------+
+; Number of Distinct Inputs  (Average = 11.33) ; Number of LABs  (Total = 33) ;
++----------------------------------------------+------------------------------+
+; 0                                            ; 0                            ;
+; 1                                            ; 0                            ;
+; 2                                            ; 0                            ;
+; 3                                            ; 2                            ;
+; 4                                            ; 1                            ;
+; 5                                            ; 5                            ;
+; 6                                            ; 6                            ;
+; 7                                            ; 2                            ;
+; 8                                            ; 0                            ;
+; 9                                            ; 1                            ;
+; 10                                           ; 1                            ;
+; 11                                           ; 1                            ;
+; 12                                           ; 1                            ;
+; 13                                           ; 1                            ;
+; 14                                           ; 1                            ;
+; 15                                           ; 1                            ;
+; 16                                           ; 1                            ;
+; 17                                           ; 2                            ;
+; 18                                           ; 1                            ;
+; 19                                           ; 2                            ;
+; 20                                           ; 1                            ;
+; 21                                           ; 1                            ;
+; 22                                           ; 0                            ;
+; 23                                           ; 0                            ;
+; 24                                           ; 0                            ;
+; 25                                           ; 0                            ;
+; 26                                           ; 0                            ;
+; 27                                           ; 0                            ;
+; 28                                           ; 1                            ;
+; 29                                           ; 0                            ;
+; 30                                           ; 1                            ;
++----------------------------------------------+------------------------------+
 
 
 +------------------------------------------+
@@ -1456,7 +1517,7 @@ Warning (335093): TimeQuest Timing Analyzer is analyzing 2 combinational loops a
 Info (332104): Reading SDC File: 'System.sdc'
 Info (332151): Clock uncertainty is not calculated until you update the timing netlist.
 Warning (332060): Node: matrix_ctrl:matrix_ctrl_unit_0|clk_driver_reg~0 was determined to be a clock but was found without an associated clock assignment.
-    Info (13166): Register matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|cnt_reg[0] is being clocked by matrix_ctrl:matrix_ctrl_unit_0|clk_driver_reg~0
+    Info (13166): Register matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|r_reg[14] is being clocked by matrix_ctrl:matrix_ctrl_unit_0|clk_driver_reg~0
 Warning (332060): Node: matrix_ctrl:matrix_ctrl_unit_0|state_reg.MAIN_LOOP was determined to be a clock but was found without an associated clock assignment.
     Info (13166): Latch matrix_ctrl:matrix_ctrl_unit_0|ctrl_sr[0] is being clocked by matrix_ctrl:matrix_ctrl_unit_0|state_reg.MAIN_LOOP
 Info (332154): The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
@@ -1465,6 +1526,12 @@ Info (332111): Found 1 clocks
     Info (332111):   Period   Clock Name
     Info (332111): ======== ============
     Info (332111):   20.000     CLOCK_50
+Info (176353): Automatically promoted node CLOCK_50~input (placed in PIN R8 (CLK15, DIFFCLK_6p)) File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 48
+    Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G18
+    Info (176356): Following destination nodes may be non-global or may not use global or regional clocks
+        Info (176357): Destination node matrix_ctrl:matrix_ctrl_unit_0|clk_driver_reg~0 File: C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl/matrix_ctrl.v Line: 63
+        Info (176357): Destination node matrix_ctrl:matrix_ctrl_unit_0|clk_driver_reg~1 File: C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl/matrix_ctrl.v Line: 63
+        Info (176357): Destination node matrix_ctrl:matrix_ctrl_unit_0|clk_driver_reg~2 File: C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl/matrix_ctrl.v Line: 63
 Info (176353): Automatically promoted node matrix_ctrl:matrix_ctrl_unit_0|clk_driver  File: C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl/matrix_ctrl.v Line: 64
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock
     Info (176356): Following destination nodes may be non-global or may not use global or regional clocks
@@ -1524,7 +1591,7 @@ Warning (15705): Ignored locations or region assignments to the following nodes
     Warning (15706): Node "GPIO_0[5]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "GPIO_0[7]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "GPIO_0[9]" is assigned to location or region, but does not exist in design
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:03
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:02
 Info (14896): Fitter has disabled Advanced Physical Optimization because it is not supported for the current family.
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
@@ -1533,17 +1600,17 @@ Info (170137): Fitter placement was successful
 Info (170192): Fitter placement operations ending: elapsed time is 00:00:01
 Info (170193): Fitter routing operations beginning
 Info (170195): Router estimated average interconnect usage is 0% of the available device resources
-    Info (170196): Router estimated peak interconnect usage is 0% of the available device resources in the region that extends from location X10_Y11 to location X20_Y22
+    Info (170196): Router estimated peak interconnect usage is 3% of the available device resources in the region that extends from location X32_Y0 to location X42_Y10
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
     Info (170200): Optimizations that may affect the design's timing were skipped
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:00
-Info (11888): Total time spent on timing analysis during the Fitter is 0.05 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.17 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:02
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
 Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
 Warning (169177): 7 pins must meet Intel FPGA requirements for 3.3-, 3.0-, and 2.5-V interfaces. For more information, refer to AN 447: Interfacing Cyclone IV E Devices with 3.3/3.0/2.5-V LVTTL/LVCMOS I/O Systems.
     Info (169178): Pin B_Left uses I/O standard 3.3-V LVTTL at A5 File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 50
@@ -1555,9 +1622,9 @@ Warning (169177): 7 pins must meet Intel FPGA requirements for 3.3-, 3.0-, and 2
     Info (169178): Pin CLOCK_50 uses I/O standard 3.3-V LVTTL at R8 File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 48
 Info (144001): Generated suppressed messages file C:/Users/Felipe/git/frogger_excercise/system.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 37 warnings
-    Info: Peak virtual memory: 1166 megabytes
-    Info: Processing ended: Sun Apr 15 22:34:06 2018
-    Info: Elapsed time: 00:00:12
+    Info: Peak virtual memory: 1169 megabytes
+    Info: Processing ended: Mon Apr 16 10:52:43 2018
+    Info: Elapsed time: 00:00:10
     Info: Total CPU time (on all processors): 00:00:11
 
 

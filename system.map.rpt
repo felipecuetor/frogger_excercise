@@ -1,5 +1,5 @@
 Analysis & Synthesis report for system
-Sun Apr 15 22:33:52 2018
+Mon Apr 16 10:52:31 2018
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -13,23 +13,38 @@ Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. State Machine - |system|matrix_ctrl:matrix_ctrl_unit_0|state_reg
-  9. User-Specified and Inferred Latches
- 10. Registers Removed During Synthesis
- 11. Removed Registers Triggering Further Register Optimizations
- 12. General Register Statistics
- 13. Multiplexer Restructuring Statistics (Restructuring Performed)
- 14. Parameter Settings for User Entity Instance: Top-level Entity: |system
- 15. Parameter Settings for User Entity Instance: matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0
- 16. Parameter Settings for User Entity Instance: PINTAR_MATRIZ:PINTAR_MATRIZ_T1
- 17. Parameter Settings for User Entity Instance: PINTAR_MATRIZ:PINTAR_MATRIZ_T1|PINTAR_DATA_DEMUX:PINTAR_DATA_DEMUX_u1
- 18. Port Connectivity Checks: "PINTAR_MATRIZ:PINTAR_MATRIZ_T1"
- 19. Port Connectivity Checks: "matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0"
- 20. Port Connectivity Checks: "matrix_ctrl:matrix_ctrl_unit_0"
- 21. Post-Synthesis Netlist Statistics for Top Partition
- 22. Elapsed Time Per Partition
- 23. Analysis & Synthesis Messages
- 24. Analysis & Synthesis Suppressed Messages
+  8. State Machine - |system|RANA:rana_1|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u1|St_Register
+  9. State Machine - |system|RANA:rana_1|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u0|St_Register
+ 10. State Machine - |system|rebote:rebote_4|state_reg
+ 11. State Machine - |system|rebote:rebote_3|state_reg
+ 12. State Machine - |system|rebote:rebote_2|state_reg
+ 13. State Machine - |system|rebote:rebote_1|state_reg
+ 14. State Machine - |system|matrix_ctrl:matrix_ctrl_unit_0|state_reg
+ 15. User-Specified and Inferred Latches
+ 16. Registers Removed During Synthesis
+ 17. Removed Registers Triggering Further Register Optimizations
+ 18. General Register Statistics
+ 19. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 20. Parameter Settings for User Entity Instance: Top-level Entity: |system
+ 21. Parameter Settings for User Entity Instance: matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0
+ 22. Parameter Settings for User Entity Instance: PINTAR_MATRIZ:PINTAR_MATRIZ_T1
+ 23. Parameter Settings for User Entity Instance: PINTAR_MATRIZ:PINTAR_MATRIZ_T1|PINTAR_DATA_DEMUX:PINTAR_DATA_DEMUX_u1
+ 24. Parameter Settings for User Entity Instance: RANA:rana_1
+ 25. Parameter Settings for User Entity Instance: RANA:rana_1|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u0
+ 26. Parameter Settings for User Entity Instance: RANA:rana_1|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u1
+ 27. Parameter Settings for User Entity Instance: RANA:rana_1|DEMUX38:DEMUX38_u0
+ 28. Parameter Settings for User Entity Instance: RANA:rana_1|DEMUX38:DEMUX38_u1
+ 29. Port Connectivity Checks: "rebote:rebote_4"
+ 30. Port Connectivity Checks: "rebote:rebote_3"
+ 31. Port Connectivity Checks: "rebote:rebote_2"
+ 32. Port Connectivity Checks: "rebote:rebote_1"
+ 33. Port Connectivity Checks: "PINTAR_MATRIZ:PINTAR_MATRIZ_T1"
+ 34. Port Connectivity Checks: "matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0"
+ 35. Port Connectivity Checks: "matrix_ctrl:matrix_ctrl_unit_0"
+ 36. Post-Synthesis Netlist Statistics for Top Partition
+ 37. Elapsed Time Per Partition
+ 38. Analysis & Synthesis Messages
+ 39. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -55,15 +70,15 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sun Apr 15 22:33:52 2018       ;
+; Analysis & Synthesis Status        ; Successful - Mon Apr 16 10:52:31 2018       ;
 ; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; system                                      ;
 ; Top-level Entity Name              ; system                                      ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 81                                          ;
-;     Total combinational functions  ; 81                                          ;
-;     Dedicated logic registers      ; 53                                          ;
-; Total registers                    ; 53                                          ;
+; Total logic elements               ; 418                                         ;
+;     Total combinational functions  ; 412                                         ;
+;     Dedicated logic registers      ; 140                                         ;
+; Total registers                    ; 140                                         ;
 ; Total pins                         ; 82                                          ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0                                           ;
@@ -180,6 +195,10 @@ refer to the applicable agreement for further details.
 +-----------------------------------------+-----------------+------------------------+-------------------------------------------------------------------------------+---------+
 ; File Name with User-Entered Path        ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                  ; Library ;
 +-----------------------------------------+-----------------+------------------------+-------------------------------------------------------------------------------+---------+
+; rtl/rebote/rebote.v                     ; yes             ; User Verilog HDL File  ; C:/Users/Felipe/git/frogger_excercise/rtl/rebote/rebote.v                     ;         ;
+; rtl/rana/SC_STATEMACHINE_FROG_MOV.v     ; yes             ; User Verilog HDL File  ; C:/Users/Felipe/git/frogger_excercise/rtl/rana/SC_STATEMACHINE_FROG_MOV.v     ;         ;
+; rtl/rana/rana.v                         ; yes             ; User Verilog HDL File  ; C:/Users/Felipe/git/frogger_excercise/rtl/rana/rana.v                         ;         ;
+; rtl/rana/DEMUX38.v                      ; yes             ; User Verilog HDL File  ; C:/Users/Felipe/git/frogger_excercise/rtl/rana/DEMUX38.v                      ;         ;
 ; rtl/imagen/PINTAR_MATRIZ.v              ; yes             ; User Verilog HDL File  ; C:/Users/Felipe/git/frogger_excercise/rtl/imagen/PINTAR_MATRIZ.v              ;         ;
 ; rtl/imagen/PINTAR_DATA_DEMUX.v          ; yes             ; User Verilog HDL File  ; C:/Users/Felipe/git/frogger_excercise/rtl/imagen/PINTAR_DATA_DEMUX.v          ;         ;
 ; rtl/imagen/imagen.v                     ; yes             ; User Verilog HDL File  ; C:/Users/Felipe/git/frogger_excercise/rtl/imagen/imagen.v                     ;         ;
@@ -194,20 +213,20 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+-------------+
 ; Resource                                    ; Usage       ;
 +---------------------------------------------+-------------+
-; Estimated Total logic elements              ; 81          ;
+; Estimated Total logic elements              ; 418         ;
 ;                                             ;             ;
-; Total combinational functions               ; 81          ;
+; Total combinational functions               ; 412         ;
 ; Logic element usage by number of LUT inputs ;             ;
-;     -- 4 input functions                    ; 35          ;
-;     -- 3 input functions                    ; 19          ;
-;     -- <=2 input functions                  ; 27          ;
+;     -- 4 input functions                    ; 218         ;
+;     -- 3 input functions                    ; 100         ;
+;     -- <=2 input functions                  ; 94          ;
 ;                                             ;             ;
 ; Logic elements by mode                      ;             ;
-;     -- normal mode                          ; 66          ;
-;     -- arithmetic mode                      ; 15          ;
+;     -- normal mode                          ; 340         ;
+;     -- arithmetic mode                      ; 72          ;
 ;                                             ;             ;
-; Total registers                             ; 53          ;
-;     -- Dedicated logic registers            ; 53          ;
+; Total registers                             ; 140         ;
+;     -- Dedicated logic registers            ; 140         ;
 ;     -- I/O registers                        ; 0           ;
 ;                                             ;             ;
 ; I/O pins                                    ; 82          ;
@@ -215,22 +234,116 @@ refer to the applicable agreement for further details.
 ; Embedded Multiplier 9-bit elements          ; 0           ;
 ;                                             ;             ;
 ; Maximum fan-out node                        ; RESET~input ;
-; Maximum fan-out                             ; 53          ;
-; Total fan-out                               ; 543         ;
-; Average fan-out                             ; 1.82        ;
+; Maximum fan-out                             ; 140         ;
+; Total fan-out                               ; 2046        ;
+; Average fan-out                             ; 2.86        ;
 +---------------------------------------------+-------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                                 ;
-+----------------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------+----------------------+--------------+
-; Compilation Hierarchy Node                               ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                     ; Entity Name          ; Library Name ;
-+----------------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------+----------------------+--------------+
-; |system                                                  ; 81 (0)              ; 53 (0)                    ; 0           ; 0            ; 0       ; 0         ; 82   ; 0            ; |system                                                                                 ; system               ; work         ;
-;    |matrix_ctrl:matrix_ctrl_unit_0|                      ; 81 (32)             ; 53 (21)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |system|matrix_ctrl:matrix_ctrl_unit_0                                                  ; matrix_ctrl          ; work         ;
-;       |shift_reg_start_done:shift_reg_start_done_unit_0| ; 49 (49)             ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |system|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0 ; shift_reg_start_done ; work         ;
-+----------------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------+----------------------+--------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                                         ;
++--------------------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------+--------------------------+--------------+
+; Compilation Hierarchy Node                                   ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                     ; Entity Name              ; Library Name ;
++--------------------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------+--------------------------+--------------+
+; |system                                                      ; 412 (0)             ; 140 (0)                   ; 0           ; 0            ; 0       ; 0         ; 82   ; 0            ; |system                                                                                 ; system                   ; work         ;
+;    |RANA:rana_1|                                             ; 93 (64)             ; 15 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |system|RANA:rana_1                                                                     ; RANA                     ; work         ;
+;       |DEMUX38:DEMUX38_u1|                                   ; 8 (8)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |system|RANA:rana_1|DEMUX38:DEMUX38_u1                                                  ; DEMUX38                  ; work         ;
+;       |SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u0| ; 4 (4)               ; 7 (7)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |system|RANA:rana_1|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u0                ; SC_STATEMACHINE_FROG_MOV ; work         ;
+;       |SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u1| ; 17 (17)             ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |system|RANA:rana_1|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u1                ; SC_STATEMACHINE_FROG_MOV ; work         ;
+;    |imagen:imagen_1|                                         ; 15 (15)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |system|imagen:imagen_1                                                                 ; imagen                   ; work         ;
+;    |matrix_ctrl:matrix_ctrl_unit_0|                          ; 111 (33)            ; 53 (21)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |system|matrix_ctrl:matrix_ctrl_unit_0                                                  ; matrix_ctrl              ; work         ;
+;       |shift_reg_start_done:shift_reg_start_done_unit_0|     ; 78 (78)             ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |system|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0 ; shift_reg_start_done     ; work         ;
+;    |rebote:rebote_1|                                         ; 62 (62)             ; 24 (24)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |system|rebote:rebote_1                                                                 ; rebote                   ; work         ;
+;    |rebote:rebote_2|                                         ; 66 (66)             ; 24 (24)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |system|rebote:rebote_2                                                                 ; rebote                   ; work         ;
+;    |rebote:rebote_3|                                         ; 65 (65)             ; 24 (24)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |system|rebote:rebote_3                                                                 ; rebote                   ; work         ;
++--------------------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------+--------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
+Encoding Type:  One-Hot
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; State Machine - |system|RANA:rana_1|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u1|St_Register                                                                                                                  ;
++-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+
+; Name                  ; St_Register.Posicion7 ; St_Register.Posicion6 ; St_Register.Posicion5 ; St_Register.Posicion4 ; St_Register.Posicion3 ; St_Register.Posicion2 ; St_Register.Posicion1 ; St_Register.Posicion0 ;
++-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+
+; St_Register.Posicion0 ; 0                     ; 0                     ; 0                     ; 0                     ; 0                     ; 0                     ; 0                     ; 0                     ;
+; St_Register.Posicion1 ; 0                     ; 0                     ; 0                     ; 0                     ; 0                     ; 0                     ; 1                     ; 1                     ;
+; St_Register.Posicion2 ; 0                     ; 0                     ; 0                     ; 0                     ; 0                     ; 1                     ; 0                     ; 1                     ;
+; St_Register.Posicion3 ; 0                     ; 0                     ; 0                     ; 0                     ; 1                     ; 0                     ; 0                     ; 1                     ;
+; St_Register.Posicion4 ; 0                     ; 0                     ; 0                     ; 1                     ; 0                     ; 0                     ; 0                     ; 1                     ;
+; St_Register.Posicion5 ; 0                     ; 0                     ; 1                     ; 0                     ; 0                     ; 0                     ; 0                     ; 1                     ;
+; St_Register.Posicion6 ; 0                     ; 1                     ; 0                     ; 0                     ; 0                     ; 0                     ; 0                     ; 1                     ;
+; St_Register.Posicion7 ; 1                     ; 0                     ; 0                     ; 0                     ; 0                     ; 0                     ; 0                     ; 1                     ;
++-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+
+
+
+Encoding Type:  One-Hot
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; State Machine - |system|RANA:rana_1|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u0|St_Register                                                                                                                  ;
++-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+
+; Name                  ; St_Register.Posicion7 ; St_Register.Posicion6 ; St_Register.Posicion5 ; St_Register.Posicion4 ; St_Register.Posicion3 ; St_Register.Posicion2 ; St_Register.Posicion1 ; St_Register.Posicion0 ;
++-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+
+; St_Register.Posicion0 ; 0                     ; 0                     ; 0                     ; 0                     ; 0                     ; 0                     ; 0                     ; 0                     ;
+; St_Register.Posicion1 ; 0                     ; 0                     ; 0                     ; 0                     ; 0                     ; 0                     ; 1                     ; 1                     ;
+; St_Register.Posicion2 ; 0                     ; 0                     ; 0                     ; 0                     ; 0                     ; 1                     ; 0                     ; 1                     ;
+; St_Register.Posicion3 ; 0                     ; 0                     ; 0                     ; 0                     ; 1                     ; 0                     ; 0                     ; 1                     ;
+; St_Register.Posicion4 ; 0                     ; 0                     ; 0                     ; 1                     ; 0                     ; 0                     ; 0                     ; 1                     ;
+; St_Register.Posicion5 ; 0                     ; 0                     ; 1                     ; 0                     ; 0                     ; 0                     ; 0                     ; 1                     ;
+; St_Register.Posicion6 ; 0                     ; 1                     ; 0                     ; 0                     ; 0                     ; 0                     ; 0                     ; 1                     ;
+; St_Register.Posicion7 ; 1                     ; 0                     ; 0                     ; 0                     ; 0                     ; 0                     ; 0                     ; 1                     ;
++-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+
+
+
+Encoding Type:  One-Hot
++--------------------------------------------------------------------------------------+
+; State Machine - |system|rebote:rebote_4|state_reg                                    ;
++-----------------+-----------------+---------------+-----------------+----------------+
+; Name            ; state_reg.wait1 ; state_reg.one ; state_reg.wait0 ; state_reg.zero ;
++-----------------+-----------------+---------------+-----------------+----------------+
+; state_reg.zero  ; 0               ; 0             ; 0               ; 0              ;
+; state_reg.wait0 ; 0               ; 0             ; 1               ; 1              ;
+; state_reg.one   ; 0               ; 1             ; 0               ; 1              ;
+; state_reg.wait1 ; 1               ; 0             ; 0               ; 1              ;
++-----------------+-----------------+---------------+-----------------+----------------+
+
+
+Encoding Type:  One-Hot
++--------------------------------------------------------------------------------------+
+; State Machine - |system|rebote:rebote_3|state_reg                                    ;
++-----------------+-----------------+---------------+-----------------+----------------+
+; Name            ; state_reg.wait1 ; state_reg.one ; state_reg.wait0 ; state_reg.zero ;
++-----------------+-----------------+---------------+-----------------+----------------+
+; state_reg.zero  ; 0               ; 0             ; 0               ; 0              ;
+; state_reg.wait0 ; 0               ; 0             ; 1               ; 1              ;
+; state_reg.one   ; 0               ; 1             ; 0               ; 1              ;
+; state_reg.wait1 ; 1               ; 0             ; 0               ; 1              ;
++-----------------+-----------------+---------------+-----------------+----------------+
+
+
+Encoding Type:  One-Hot
++--------------------------------------------------------------------------------------+
+; State Machine - |system|rebote:rebote_2|state_reg                                    ;
++-----------------+-----------------+---------------+-----------------+----------------+
+; Name            ; state_reg.wait1 ; state_reg.one ; state_reg.wait0 ; state_reg.zero ;
++-----------------+-----------------+---------------+-----------------+----------------+
+; state_reg.zero  ; 0               ; 0             ; 0               ; 0              ;
+; state_reg.wait0 ; 0               ; 0             ; 1               ; 1              ;
+; state_reg.one   ; 0               ; 1             ; 0               ; 1              ;
+; state_reg.wait1 ; 1               ; 0             ; 0               ; 1              ;
++-----------------+-----------------+---------------+-----------------+----------------+
+
+
+Encoding Type:  One-Hot
++--------------------------------------------------------------------------------------+
+; State Machine - |system|rebote:rebote_1|state_reg                                    ;
++-----------------+-----------------+---------------+-----------------+----------------+
+; Name            ; state_reg.wait1 ; state_reg.one ; state_reg.wait0 ; state_reg.zero ;
++-----------------+-----------------+---------------+-----------------+----------------+
+; state_reg.zero  ; 0               ; 0             ; 0               ; 0              ;
+; state_reg.wait0 ; 0               ; 0             ; 1               ; 1              ;
+; state_reg.one   ; 0               ; 1             ; 0               ; 1              ;
+; state_reg.wait1 ; 1               ; 0             ; 0               ; 1              ;
++-----------------+-----------------+---------------+-----------------+----------------+
 
 
 Encoding Type:  One-Hot
@@ -271,33 +384,58 @@ Encoding Type:  One-Hot
 Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
 
 
-+------------------------------------------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                                                         ;
-+-------------------------------------------------------------------+----------------------------------------+
-; Register name                                                     ; Reason for Removal                     ;
-+-------------------------------------------------------------------+----------------------------------------+
-; matrix_ctrl:matrix_ctrl_unit_0|state_reg~4                        ; Lost fanout                            ;
-; matrix_ctrl:matrix_ctrl_unit_0|state_reg~5                        ; Lost fanout                            ;
-; matrix_ctrl:matrix_ctrl_unit_0|state_reg~6                        ; Lost fanout                            ;
-; matrix_ctrl:matrix_ctrl_unit_0|state_reg~8                        ; Lost fanout                            ;
-; matrix_ctrl:matrix_ctrl_unit_0|state_reg~9                        ; Lost fanout                            ;
-; matrix_ctrl:matrix_ctrl_unit_0|state_reg~10                       ; Lost fanout                            ;
-; matrix_ctrl:matrix_ctrl_unit_0|state_reg~11                       ; Lost fanout                            ;
-; matrix_ctrl:matrix_ctrl_unit_0|state_reg.DISPLAY_TEST             ; Stuck at GND due to stuck port data_in ;
-; matrix_ctrl:matrix_ctrl_unit_0|state_reg.STOP                     ; Stuck at GND due to stuck port data_in ;
-; matrix_ctrl:matrix_ctrl_unit_0|state_reg.DISPLAY_TEST_WAIT2FINISH ; Stuck at GND due to stuck port data_in ;
-; Total Number of Removed Registers = 10                            ;                                        ;
-+-------------------------------------------------------------------+----------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                                                              ;
++----------------------------------------------------------------------------------------+----------------------------------------+
+; Register name                                                                          ; Reason for Removal                     ;
++----------------------------------------------------------------------------------------+----------------------------------------+
+; RANA:rana_1|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u1|St_Register~4         ; Lost fanout                            ;
+; RANA:rana_1|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u1|St_Register~5         ; Lost fanout                            ;
+; RANA:rana_1|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u1|St_Register~6         ; Lost fanout                            ;
+; RANA:rana_1|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u0|St_Register~4         ; Lost fanout                            ;
+; RANA:rana_1|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u0|St_Register~5         ; Lost fanout                            ;
+; RANA:rana_1|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u0|St_Register~6         ; Lost fanout                            ;
+; rebote:rebote_4|state_reg~4                                                            ; Lost fanout                            ;
+; rebote:rebote_4|state_reg~5                                                            ; Lost fanout                            ;
+; rebote:rebote_3|state_reg~4                                                            ; Lost fanout                            ;
+; rebote:rebote_3|state_reg~5                                                            ; Lost fanout                            ;
+; rebote:rebote_2|state_reg~4                                                            ; Lost fanout                            ;
+; rebote:rebote_2|state_reg~5                                                            ; Lost fanout                            ;
+; rebote:rebote_1|state_reg~4                                                            ; Lost fanout                            ;
+; rebote:rebote_1|state_reg~5                                                            ; Lost fanout                            ;
+; matrix_ctrl:matrix_ctrl_unit_0|state_reg~4                                             ; Lost fanout                            ;
+; matrix_ctrl:matrix_ctrl_unit_0|state_reg~5                                             ; Lost fanout                            ;
+; matrix_ctrl:matrix_ctrl_unit_0|state_reg~6                                             ; Lost fanout                            ;
+; matrix_ctrl:matrix_ctrl_unit_0|state_reg~8                                             ; Lost fanout                            ;
+; matrix_ctrl:matrix_ctrl_unit_0|state_reg~9                                             ; Lost fanout                            ;
+; matrix_ctrl:matrix_ctrl_unit_0|state_reg~10                                            ; Lost fanout                            ;
+; matrix_ctrl:matrix_ctrl_unit_0|state_reg~11                                            ; Lost fanout                            ;
+; rebote:rebote_4|state_reg.one                                                          ; Stuck at GND due to stuck port data_in ;
+; rebote:rebote_4|state_reg.wait1                                                        ; Stuck at GND due to stuck port data_in ;
+; matrix_ctrl:matrix_ctrl_unit_0|state_reg.DISPLAY_TEST                                  ; Stuck at GND due to stuck port data_in ;
+; rebote:rebote_4|q_reg[0..19]                                                           ; Lost fanout                            ;
+; RANA:rana_1|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u0|St_Register.Posicion7 ; Lost fanout                            ;
+; rebote:rebote_4|state_reg.zero                                                         ; Lost fanout                            ;
+; rebote:rebote_4|state_reg.wait0                                                        ; Lost fanout                            ;
+; matrix_ctrl:matrix_ctrl_unit_0|state_reg.STOP                                          ; Stuck at GND due to stuck port data_in ;
+; matrix_ctrl:matrix_ctrl_unit_0|state_reg.DISPLAY_TEST_WAIT2FINISH                      ; Stuck at GND due to stuck port data_in ;
+; Total Number of Removed Registers = 49                                                 ;                                        ;
++----------------------------------------------------------------------------------------+----------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Removed Registers Triggering Further Register Optimizations                                                                                           ;
-+-------------------------------------------------------+---------------------------+-------------------------------------------------------------------+
-; Register name                                         ; Reason for Removal        ; Registers Removed due to This Register                            ;
-+-------------------------------------------------------+---------------------------+-------------------------------------------------------------------+
-; matrix_ctrl:matrix_ctrl_unit_0|state_reg.DISPLAY_TEST ; Stuck at GND              ; matrix_ctrl:matrix_ctrl_unit_0|state_reg.DISPLAY_TEST_WAIT2FINISH ;
-;                                                       ; due to stuck port data_in ;                                                                   ;
-+-------------------------------------------------------+---------------------------+-------------------------------------------------------------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Removed Registers Triggering Further Register Optimizations                                                                                                                                         ;
++--------------------------------------------------------------------------------+---------------------------+----------------------------------------------------------------------------------------+
+; Register name                                                                  ; Reason for Removal        ; Registers Removed due to This Register                                                 ;
++--------------------------------------------------------------------------------+---------------------------+----------------------------------------------------------------------------------------+
+; rebote:rebote_4|state_reg~4                                                    ; Lost Fanouts              ; rebote:rebote_4|q_reg[0], rebote:rebote_4|q_reg[1], rebote:rebote_4|q_reg[2],          ;
+;                                                                                ;                           ; rebote:rebote_4|q_reg[3], rebote:rebote_4|state_reg.wait0                              ;
+; RANA:rana_1|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u0|St_Register~4 ; Lost Fanouts              ; RANA:rana_1|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u0|St_Register.Posicion7 ;
+; rebote:rebote_4|state_reg.one                                                  ; Stuck at GND              ; rebote:rebote_4|state_reg.zero                                                         ;
+;                                                                                ; due to stuck port data_in ;                                                                                        ;
+; matrix_ctrl:matrix_ctrl_unit_0|state_reg.DISPLAY_TEST                          ; Stuck at GND              ; matrix_ctrl:matrix_ctrl_unit_0|state_reg.DISPLAY_TEST_WAIT2FINISH                      ;
+;                                                                                ; due to stuck port data_in ;                                                                                        ;
++--------------------------------------------------------------------------------+---------------------------+----------------------------------------------------------------------------------------+
 
 
 +------------------------------------------------------+
@@ -305,26 +443,38 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 53    ;
+; Total registers                              ; 140   ;
 ; Number of registers using Synchronous Clear  ; 16    ;
-; Number of registers using Synchronous Load   ; 7     ;
-; Number of registers using Asynchronous Clear ; 53    ;
+; Number of registers using Synchronous Load   ; 10    ;
+; Number of registers using Asynchronous Clear ; 140   ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 16    ;
+; Number of registers using Clock Enable       ; 84    ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                                                    ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------------------------------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                                          ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------------------------------------------------+
-; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |system|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|cnt_reg[15] ;
-; 4:1                ; 6 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; Yes        ; |system|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|r_reg[5]    ;
-; 4:1                ; 7 bits    ; 14 LEs        ; 14 LEs               ; 0 LEs                  ; Yes        ; |system|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|r_reg[11]   ;
-; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |system|matrix_ctrl:matrix_ctrl_unit_0|Selector3                                                    ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------------------------------------------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                                                   ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                                         ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------------------------------------------------------+
+; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |system|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|cnt_reg[8] ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |system|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|r_reg[13]  ;
+; 4:1                ; 7 bits    ; 14 LEs        ; 14 LEs               ; 0 LEs                  ; Yes        ; |system|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|r_reg[10]  ;
+; 4:1                ; 20 bits   ; 40 LEs        ; 20 LEs               ; 20 LEs                 ; Yes        ; |system|rebote:rebote_4|q_reg[18]                                                                  ;
+; 12:1               ; 4 bits    ; 32 LEs        ; 28 LEs               ; 4 LEs                  ; Yes        ; |system|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|r_reg[7]   ;
+; 8:1                ; 20 bits   ; 100 LEs       ; 20 LEs               ; 80 LEs                 ; Yes        ; |system|rebote:rebote_3|q_reg[17]                                                                  ;
+; 8:1                ; 20 bits   ; 100 LEs       ; 20 LEs               ; 80 LEs                 ; Yes        ; |system|rebote:rebote_1|q_reg[5]                                                                   ;
+; 8:1                ; 20 bits   ; 100 LEs       ; 20 LEs               ; 80 LEs                 ; Yes        ; |system|rebote:rebote_2|q_reg[13]                                                                  ;
+; 8:1                ; 4 bits    ; 20 LEs        ; 20 LEs               ; 0 LEs                  ; No         ; |system|imagen:imagen_1|Mux4                                                                       ;
+; 8:1                ; 2 bits    ; 10 LEs        ; 4 LEs                ; 6 LEs                  ; No         ; |system|rebote:rebote_2|Selector1                                                                  ;
+; 8:1                ; 2 bits    ; 10 LEs        ; 4 LEs                ; 6 LEs                  ; No         ; |system|rebote:rebote_1|Selector1                                                                  ;
+; 8:1                ; 2 bits    ; 10 LEs        ; 4 LEs                ; 6 LEs                  ; No         ; |system|rebote:rebote_3|Selector1                                                                  ;
+; 10:1               ; 2 bits    ; 12 LEs        ; 8 LEs                ; 4 LEs                  ; No         ; |system|rebote:rebote_2|Selector0                                                                  ;
+; 10:1               ; 2 bits    ; 12 LEs        ; 8 LEs                ; 4 LEs                  ; No         ; |system|rebote:rebote_1|Selector0                                                                  ;
+; 10:1               ; 2 bits    ; 12 LEs        ; 8 LEs                ; 4 LEs                  ; No         ; |system|rebote:rebote_3|Selector0                                                                  ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |system|matrix_ctrl:matrix_ctrl_unit_0|Selector0                                                   ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------------------------------------------------------+
 
 
 +------------------------------------------------------------------------+
@@ -333,7 +483,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; Parameter Name ; Value    ; Type                                       ;
 +----------------+----------+--------------------------------------------+
 ; NOT_8          ; 00000000 ; Unsigned Binary                            ;
-; NOT_3          ; 00000001 ; Unsigned Binary                            ;
+; NOT_3          ; 00000111 ; Unsigned Binary                            ;
 +----------------+----------+--------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -389,24 +539,124 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++----------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RANA:rana_1 ;
++--------------------+-------+-----------------------------+
+; Parameter Name     ; Value ; Type                        ;
++--------------------+-------+-----------------------------+
+; DATAWIDTH_BUS      ; 8     ; Signed Integer              ;
+; DATAWIDTH_SELECTOR ; 3     ; Signed Integer              ;
++--------------------+-------+-----------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RANA:rana_1|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u0 ;
++----------------+-------+--------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                 ;
++----------------+-------+--------------------------------------------------------------------------------------+
+; Posicion0      ; 000   ; Unsigned Binary                                                                      ;
+; Posicion1      ; 001   ; Unsigned Binary                                                                      ;
+; Posicion2      ; 010   ; Unsigned Binary                                                                      ;
+; Posicion3      ; 011   ; Unsigned Binary                                                                      ;
+; Posicion4      ; 100   ; Unsigned Binary                                                                      ;
+; Posicion5      ; 101   ; Unsigned Binary                                                                      ;
+; Posicion6      ; 110   ; Unsigned Binary                                                                      ;
+; Posicion7      ; 111   ; Unsigned Binary                                                                      ;
+; DATAWIDTH_POS  ; 3     ; Signed Integer                                                                       ;
++----------------+-------+--------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RANA:rana_1|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u1 ;
++----------------+-------+--------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                 ;
++----------------+-------+--------------------------------------------------------------------------------------+
+; Posicion0      ; 000   ; Unsigned Binary                                                                      ;
+; Posicion1      ; 001   ; Unsigned Binary                                                                      ;
+; Posicion2      ; 010   ; Unsigned Binary                                                                      ;
+; Posicion3      ; 011   ; Unsigned Binary                                                                      ;
+; Posicion4      ; 100   ; Unsigned Binary                                                                      ;
+; Posicion5      ; 101   ; Unsigned Binary                                                                      ;
+; Posicion6      ; 110   ; Unsigned Binary                                                                      ;
+; Posicion7      ; 111   ; Unsigned Binary                                                                      ;
+; DATAWIDTH_POS  ; 3     ; Signed Integer                                                                       ;
++----------------+-------+--------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RANA:rana_1|DEMUX38:DEMUX38_u0 ;
++--------------------+-------+------------------------------------------------+
+; Parameter Name     ; Value ; Type                                           ;
++--------------------+-------+------------------------------------------------+
+; DATAWIDTH_SELECTOR ; 3     ; Signed Integer                                 ;
+; DATAWIDTH_DATA     ; 8     ; Signed Integer                                 ;
++--------------------+-------+------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RANA:rana_1|DEMUX38:DEMUX38_u1 ;
++--------------------+-------+------------------------------------------------+
+; Parameter Name     ; Value ; Type                                           ;
++--------------------+-------+------------------------------------------------+
+; DATAWIDTH_SELECTOR ; 3     ; Signed Integer                                 ;
+; DATAWIDTH_DATA     ; 8     ; Signed Integer                                 ;
++--------------------+-------+------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------+
+; Port Connectivity Checks: "rebote:rebote_4"           ;
++----------+--------+----------+------------------------+
+; Port     ; Type   ; Severity ; Details                ;
++----------+--------+----------+------------------------+
+; db_level ; Output ; Info     ; Explicitly unconnected ;
++----------+--------+----------+------------------------+
+
+
++-------------------------------------------------------+
+; Port Connectivity Checks: "rebote:rebote_3"           ;
++----------+--------+----------+------------------------+
+; Port     ; Type   ; Severity ; Details                ;
++----------+--------+----------+------------------------+
+; db_level ; Output ; Info     ; Explicitly unconnected ;
++----------+--------+----------+------------------------+
+
+
++-------------------------------------------------------+
+; Port Connectivity Checks: "rebote:rebote_2"           ;
++----------+--------+----------+------------------------+
+; Port     ; Type   ; Severity ; Details                ;
++----------+--------+----------+------------------------+
+; db_level ; Output ; Info     ; Explicitly unconnected ;
++----------+--------+----------+------------------------+
+
+
++-------------------------------------------------------+
+; Port Connectivity Checks: "rebote:rebote_1"           ;
++----------+--------+----------+------------------------+
+; Port     ; Type   ; Severity ; Details                ;
++----------+--------+----------+------------------------+
+; db_level ; Output ; Info     ; Explicitly unconnected ;
++----------+--------+----------+------------------------+
+
+
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ; Port Connectivity Checks: "PINTAR_MATRIZ:PINTAR_MATRIZ_T1"                                                                                                                                                                                  ;
 +---------------------------------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ; Port                                  ; Type  ; Severity ; Details                                                                                                                                                                          ;
 +---------------------------------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; PINTAR_RANA_7_IN                      ; Input ; Info     ; Stuck at GND                                                                                                                                                                     ;
-; PINTAR_RANA_6_IN                      ; Input ; Info     ; Stuck at GND                                                                                                                                                                     ;
-; PINTAR_RANA_5_IN                      ; Input ; Info     ; Stuck at GND                                                                                                                                                                     ;
-; PINTAR_RANA_4_IN                      ; Input ; Info     ; Stuck at GND                                                                                                                                                                     ;
-; PINTAR_RANA_3_IN                      ; Input ; Info     ; Stuck at GND                                                                                                                                                                     ;
-; PINTAR_RANA_2_IN                      ; Input ; Info     ; Stuck at GND                                                                                                                                                                     ;
-; PINTAR_RANA_1_IN                      ; Input ; Info     ; Stuck at GND                                                                                                                                                                     ;
-; PINTAR_RANA_0_IN                      ; Input ; Info     ; Stuck at GND                                                                                                                                                                     ;
-; PINTAR_VEHICULOSD_IN                  ; Input ; Info     ; Stuck at GND                                                                                                                                                                     ;
-; PINTAR_VEHICULOSI_IN                  ; Input ; Info     ; Stuck at GND                                                                                                                                                                     ;
+; PINTAR_VEHICULOS_6_IN                 ; Input ; Info     ; Stuck at GND                                                                                                                                                                     ;
+; PINTAR_VEHICULOS_5_IN                 ; Input ; Info     ; Stuck at GND                                                                                                                                                                     ;
+; PINTAR_VEHICULOS_4_IN                 ; Input ; Info     ; Stuck at GND                                                                                                                                                                     ;
+; PINTAR_VEHICULOS_3_IN                 ; Input ; Info     ; Stuck at GND                                                                                                                                                                     ;
+; PINTAR_VEHICULOS_2_IN                 ; Input ; Info     ; Stuck at GND                                                                                                                                                                     ;
+; PINTAR_VEHICULOS_1_IN                 ; Input ; Info     ; Stuck at GND                                                                                                                                                                     ;
 ; PINTAR_MENU_PRINCIPAL_ESTADO_IN       ; Input ; Warning  ; Input port expression (8 bits) is wider than the input port (3 bits) it drives.  The 5 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; PINTAR_MENU_PRINCIPAL_ESTADO_IN[2..1] ; Input ; Info     ; Stuck at GND                                                                                                                                                                     ;
-; PINTAR_MENU_PRINCIPAL_ESTADO_IN[0]    ; Input ; Info     ; Stuck at VCC                                                                                                                                                                     ;
+; PINTAR_MENU_PRINCIPAL_ESTADO_IN[2..0] ; Input ; Info     ; Stuck at VCC                                                                                                                                                                     ;
 +---------------------------------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
@@ -437,23 +687,23 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
 ; boundary_port         ; 82                          ;
-; cycloneiii_ff         ; 53                          ;
-;     CLR               ; 21                          ;
+; cycloneiii_ff         ; 140                         ;
+;     CLR               ; 40                          ;
 ;     CLR SCLR          ; 16                          ;
-;     ENA CLR           ; 9                           ;
-;     ENA CLR SLD       ; 7                           ;
-; cycloneiii_lcell_comb ; 85                          ;
-;     arith             ; 15                          ;
+;     ENA CLR           ; 74                          ;
+;     ENA CLR SLD       ; 10                          ;
+; cycloneiii_lcell_comb ; 415                         ;
+;     arith             ; 72                          ;
+;         2 data inputs ; 72                          ;
+;     normal            ; 343                         ;
+;         0 data inputs ; 1                           ;
+;         1 data inputs ; 9                           ;
 ;         2 data inputs ; 15                          ;
-;     normal            ; 70                          ;
-;         0 data inputs ; 2                           ;
-;         1 data inputs ; 5                           ;
-;         2 data inputs ; 9                           ;
-;         3 data inputs ; 19                          ;
-;         4 data inputs ; 35                          ;
+;         3 data inputs ; 100                         ;
+;         4 data inputs ; 218                         ;
 ;                       ;                             ;
-; Max LUT depth         ; 4.00                        ;
-; Average LUT depth     ; 2.27                        ;
+; Max LUT depth         ; 8.00                        ;
+; Average LUT depth     ; 5.35                        ;
 +-----------------------+-----------------------------+
 
 
@@ -472,7 +722,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
-    Info: Processing started: Sun Apr 15 22:33:26 2018
+    Info: Processing started: Mon Apr 16 10:52:10 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off system -c system
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
@@ -522,6 +772,7 @@ Info (12021): Found 1 design units, including 1 entities, in source file rtl/max
     Info (12023): Found entity 1: matrix_ctrl File: C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl/matrix_ctrl.v Line: 37
 Info (12021): Found 1 design units, including 1 entities, in source file system.v
     Info (12023): Found entity 1: system File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 6
+Warning (10236): Verilog HDL Implicit Net warning at System.v(198): created implicit net for "B_Right" File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 198
 Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(22): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/vehiculos/SC_STATEMACHINE_NVE.v Line: 22
 Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(23): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/vehiculos/SC_STATEMACHINE_NVE.v Line: 23
 Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(25): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/vehiculos/SC_STATEMACHINE_NVE.v Line: 25
@@ -550,7 +801,7 @@ Warning (10222): Verilog HDL Parameter Declaration warning at REGDD_NV.v(23): Pa
 Warning (10222): Verilog HDL Parameter Declaration warning at REGDD_NV.v(24): Parameter Declaration in module "REGDD_NV" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/vehiculos/REGDD_NV.v Line: 24
 Info (12127): Elaborating entity "system" for the top level hierarchy
 Warning (10034): Output port "LED[6..4]" at System.v(58) has no driver File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 58
-Info (12128): Elaborating entity "matrix_ctrl" for hierarchy "matrix_ctrl:matrix_ctrl_unit_0" File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 106
+Info (12128): Elaborating entity "matrix_ctrl" for hierarchy "matrix_ctrl:matrix_ctrl_unit_0" File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 132
 Warning (10230): Verilog HDL assignment warning at matrix_ctrl.v(66): truncated value with size 32 to match size of target (3) File: C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl/matrix_ctrl.v Line: 66
 Warning (10230): Verilog HDL assignment warning at matrix_ctrl.v(67): truncated value with size 32 to match size of target (3) File: C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl/matrix_ctrl.v Line: 67
 Warning (10230): Verilog HDL assignment warning at matrix_ctrl.v(234): truncated value with size 32 to match size of target (4) File: C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl/matrix_ctrl.v Line: 234
@@ -560,92 +811,34 @@ Info (10041): Inferred latch for "ctrl_sr[0]" at matrix_ctrl.v(128) File: C:/Use
 Info (10041): Inferred latch for "ctrl_sr[1]" at matrix_ctrl.v(128) File: C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl/matrix_ctrl.v Line: 128
 Info (12128): Elaborating entity "shift_reg_start_done" for hierarchy "matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0" File: C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl/matrix_ctrl.v Line: 86
 Warning (10230): Verilog HDL assignment warning at shift_reg_start_done.v(68): truncated value with size 32 to match size of target (16) File: C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl/shift_reg_start_done.v Line: 68
-Info (12128): Elaborating entity "imagen" for hierarchy "imagen:imagen_1" File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 119
-Info (12128): Elaborating entity "PINTAR_MATRIZ" for hierarchy "PINTAR_MATRIZ:PINTAR_MATRIZ_T1" File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 146
-Info (12128): Elaborating entity "PINTAR_DATA_DEMUX" for hierarchy "PINTAR_MATRIZ:PINTAR_MATRIZ_T1|PINTAR_DATA_DEMUX:PINTAR_DATA_DEMUX_u1" File: C:/Users/Felipe/git/frogger_excercise/rtl/imagen/PINTAR_MATRIZ.v Line: 104
+Info (12128): Elaborating entity "imagen" for hierarchy "imagen:imagen_1" File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 145
+Info (12128): Elaborating entity "PINTAR_MATRIZ" for hierarchy "PINTAR_MATRIZ:PINTAR_MATRIZ_T1" File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 176
+Info (12128): Elaborating entity "PINTAR_DATA_DEMUX" for hierarchy "PINTAR_MATRIZ:PINTAR_MATRIZ_T1|PINTAR_DATA_DEMUX:PINTAR_DATA_DEMUX_u1" File: C:/Users/Felipe/git/frogger_excercise/rtl/imagen/PINTAR_MATRIZ.v Line: 112
+Info (12128): Elaborating entity "rebote" for hierarchy "rebote:rebote_1" File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 182
+Warning (10230): Verilog HDL assignment warning at rebote.v(92): truncated value with size 32 to match size of target (20) File: C:/Users/Felipe/git/frogger_excercise/rtl/rebote/rebote.v Line: 92
+Warning (10230): Verilog HDL assignment warning at rebote.v(116): truncated value with size 32 to match size of target (20) File: C:/Users/Felipe/git/frogger_excercise/rtl/rebote/rebote.v Line: 116
+Info (12128): Elaborating entity "RANA" for hierarchy "RANA:rana_1" File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 218
+Info (12128): Elaborating entity "SC_STATEMACHINE_FROG_MOV" for hierarchy "RANA:rana_1|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/rana/rana.v Line: 67
+Info (12128): Elaborating entity "DEMUX38" for hierarchy "RANA:rana_1|DEMUX38:DEMUX38_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/rana/rana.v Line: 82
 Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "LED[4]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 58
     Warning (13410): Pin "LED[5]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 58
     Warning (13410): Pin "LED[6]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 58
-    Warning (13410): Pin "led_final_7_tester[0]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 66
-    Warning (13410): Pin "led_final_7_tester[1]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 66
-    Warning (13410): Pin "led_final_7_tester[2]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 66
-    Warning (13410): Pin "led_final_7_tester[3]" is stuck at VCC File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 66
-    Warning (13410): Pin "led_final_7_tester[4]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 66
-    Warning (13410): Pin "led_final_7_tester[5]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 66
-    Warning (13410): Pin "led_final_7_tester[6]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 66
-    Warning (13410): Pin "led_final_7_tester[7]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 66
-    Warning (13410): Pin "led_final_6_tester[0]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 67
-    Warning (13410): Pin "led_final_6_tester[1]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 67
-    Warning (13410): Pin "led_final_6_tester[2]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 67
-    Warning (13410): Pin "led_final_6_tester[3]" is stuck at VCC File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 67
-    Warning (13410): Pin "led_final_6_tester[4]" is stuck at VCC File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 67
-    Warning (13410): Pin "led_final_6_tester[5]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 67
-    Warning (13410): Pin "led_final_6_tester[6]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 67
-    Warning (13410): Pin "led_final_6_tester[7]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 67
-    Warning (13410): Pin "led_final_5_tester[0]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 68
-    Warning (13410): Pin "led_final_5_tester[1]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 68
-    Warning (13410): Pin "led_final_5_tester[2]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 68
-    Warning (13410): Pin "led_final_5_tester[3]" is stuck at VCC File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 68
-    Warning (13410): Pin "led_final_5_tester[4]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 68
-    Warning (13410): Pin "led_final_5_tester[5]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 68
-    Warning (13410): Pin "led_final_5_tester[6]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 68
-    Warning (13410): Pin "led_final_5_tester[7]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 68
-    Warning (13410): Pin "led_final_4_tester[0]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 69
-    Warning (13410): Pin "led_final_4_tester[1]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 69
-    Warning (13410): Pin "led_final_4_tester[2]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 69
-    Warning (13410): Pin "led_final_4_tester[3]" is stuck at VCC File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 69
-    Warning (13410): Pin "led_final_4_tester[4]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 69
-    Warning (13410): Pin "led_final_4_tester[5]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 69
-    Warning (13410): Pin "led_final_4_tester[6]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 69
-    Warning (13410): Pin "led_final_4_tester[7]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 69
-    Warning (13410): Pin "led_final_3_tester[0]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 70
-    Warning (13410): Pin "led_final_3_tester[1]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 70
-    Warning (13410): Pin "led_final_3_tester[2]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 70
-    Warning (13410): Pin "led_final_3_tester[3]" is stuck at VCC File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 70
-    Warning (13410): Pin "led_final_3_tester[4]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 70
-    Warning (13410): Pin "led_final_3_tester[5]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 70
-    Warning (13410): Pin "led_final_3_tester[6]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 70
-    Warning (13410): Pin "led_final_3_tester[7]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 70
-    Warning (13410): Pin "led_final_2_tester[0]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 71
-    Warning (13410): Pin "led_final_2_tester[1]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 71
-    Warning (13410): Pin "led_final_2_tester[2]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 71
-    Warning (13410): Pin "led_final_2_tester[3]" is stuck at VCC File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 71
-    Warning (13410): Pin "led_final_2_tester[4]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 71
-    Warning (13410): Pin "led_final_2_tester[5]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 71
-    Warning (13410): Pin "led_final_2_tester[6]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 71
-    Warning (13410): Pin "led_final_2_tester[7]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 71
-    Warning (13410): Pin "led_final_1_tester[0]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 72
-    Warning (13410): Pin "led_final_1_tester[1]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 72
-    Warning (13410): Pin "led_final_1_tester[2]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 72
-    Warning (13410): Pin "led_final_1_tester[3]" is stuck at VCC File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 72
-    Warning (13410): Pin "led_final_1_tester[4]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 72
-    Warning (13410): Pin "led_final_1_tester[5]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 72
-    Warning (13410): Pin "led_final_1_tester[6]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 72
-    Warning (13410): Pin "led_final_1_tester[7]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 72
-    Warning (13410): Pin "led_final_0_tester[0]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 73
-    Warning (13410): Pin "led_final_0_tester[1]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 73
-    Warning (13410): Pin "led_final_0_tester[2]" is stuck at VCC File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 73
-    Warning (13410): Pin "led_final_0_tester[3]" is stuck at VCC File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 73
-    Warning (13410): Pin "led_final_0_tester[4]" is stuck at VCC File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 73
-    Warning (13410): Pin "led_final_0_tester[5]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 73
-    Warning (13410): Pin "led_final_0_tester[6]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 73
-    Warning (13410): Pin "led_final_0_tester[7]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/System.v Line: 73
 Info (286030): Timing-Driven Synthesis is running
-Info (17049): 7 registers lost all their fanouts during netlist optimizations.
+Info (17049): 44 registers lost all their fanouts during netlist optimizations.
 Info (144001): Generated suppressed messages file C:/Users/Felipe/git/frogger_excercise/system.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 164 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 501 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 7 input pins
     Info (21059): Implemented 75 output pins
-    Info (21061): Implemented 82 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 107 warnings
-    Info: Peak virtual memory: 665 megabytes
-    Info: Processing ended: Sun Apr 15 22:33:52 2018
-    Info: Elapsed time: 00:00:26
-    Info: Total CPU time (on all processors): 00:00:48
+    Info (21061): Implemented 419 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 46 warnings
+    Info: Peak virtual memory: 674 megabytes
+    Info: Processing ended: Mon Apr 16 10:52:31 2018
+    Info: Elapsed time: 00:00:21
+    Info: Total CPU time (on all processors): 00:00:44
 
 
 +------------------------------------------+

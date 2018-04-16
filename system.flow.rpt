@@ -1,5 +1,5 @@
 Flow report for system
-Sun Apr 15 22:34:20 2018
+Mon Apr 16 10:52:55 2018
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -40,17 +40,17 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Sun Apr 15 22:34:20 2018       ;
+; Flow Status                        ; Successful - Mon Apr 16 10:52:55 2018       ;
 ; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; system                                      ;
 ; Top-level Entity Name              ; system                                      ;
 ; Family                             ; Cyclone IV E                                ;
 ; Device                             ; EP4CE22F17C6                                ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 86 / 22,320 ( < 1 % )                       ;
-;     Total combinational functions  ; 81 / 22,320 ( < 1 % )                       ;
-;     Dedicated logic registers      ; 53 / 22,320 ( < 1 % )                       ;
-; Total registers                    ; 53                                          ;
+; Total logic elements               ; 422 / 22,320 ( 2 % )                        ;
+;     Total combinational functions  ; 413 / 22,320 ( 2 % )                        ;
+;     Dedicated logic registers      ; 140 / 22,320 ( < 1 % )                      ;
+; Total registers                    ; 140                                         ;
 ; Total pins                         ; 82 / 154 ( 53 % )                           ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0 / 608,256 ( 0 % )                         ;
@@ -64,7 +64,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/15/2018 22:33:27 ;
+; Start date & time ; 04/16/2018 10:52:11 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; system              ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ refer to the applicable agreement for further details.
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 8995262999293.152384960717428          ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 8995262999293.152389393122352          ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; system_vlg_tst ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; System_vlg_tst                         ; --            ; --          ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                            ; --            ; --          ; eda_simulation ;
@@ -100,12 +100,12 @@ refer to the applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:25     ; 1.0                     ; 655 MB              ; 00:00:47                           ;
-; Fitter                    ; 00:00:11     ; 1.0                     ; 1166 MB             ; 00:00:10                           ;
-; Assembler                 ; 00:00:03     ; 1.0                     ; 595 MB              ; 00:00:02                           ;
-; TimeQuest Timing Analyzer ; 00:00:06     ; 1.0                     ; 675 MB              ; 00:00:04                           ;
-; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 562 MB              ; 00:00:02                           ;
-; Total                     ; 00:00:47     ; --                      ; --                  ; 00:01:05                           ;
+; Analysis & Synthesis      ; 00:00:21     ; 1.0                     ; 665 MB              ; 00:00:43                           ;
+; Fitter                    ; 00:00:09     ; 1.0                     ; 1169 MB             ; 00:00:11                           ;
+; Assembler                 ; 00:00:02     ; 1.0                     ; 594 MB              ; 00:00:02                           ;
+; TimeQuest Timing Analyzer ; 00:00:04     ; 1.0                     ; 679 MB              ; 00:00:03                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 567 MB              ; 00:00:02                           ;
+; Total                     ; 00:00:38     ; --                      ; --                  ; 00:01:01                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

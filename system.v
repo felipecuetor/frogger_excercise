@@ -73,7 +73,7 @@ output [7:0] led_final_1_tester;
 output [7:0] led_final_0_tester;
 
 parameter NOT_8 = 8'b00000000;
-parameter NOT_3 = 8'b000;
+parameter NOT_3 = 8'b111;
 
 //=======================================================
 //  REG/WIRE declarations
@@ -109,6 +109,13 @@ wire [7:0] vehiculo_final_1_patch;
 
 wire [2:0] estado_sistema_patch;
 wire [1:0] nivel_sistema_patch;
+
+wire left_final_patch;
+wire right_final_patch;
+wire up_final_patch;
+wire down_final_patch;
+wire rana_ini_patch;
+
 
 //=======================================================
 //  Structural coding
@@ -147,26 +154,114 @@ wire [1:0] nivel_sistema_patch;
 	.PINTAR_1_OUT(led_final_1_patch),
 	.PINTAR_0_OUT(led_final_0_patch),
 //////////// INPUTS //////////
-	.PINTAR_RANA_7_IN(NOT_8),
-	.PINTAR_RANA_6_IN(NOT_8),
-	.PINTAR_RANA_5_IN(NOT_8),
-	.PINTAR_RANA_4_IN(NOT_8),
-	.PINTAR_RANA_3_IN(NOT_8),
-	.PINTAR_RANA_2_IN(NOT_8),
-	.PINTAR_RANA_1_IN(NOT_8),
-	.PINTAR_RANA_0_IN(NOT_8),
+	.PINTAR_RANA_7_IN(rana_final_7_patch),
+	.PINTAR_RANA_6_IN(rana_final_6_patch),
+	.PINTAR_RANA_5_IN(rana_final_5_patch),
+	.PINTAR_RANA_4_IN(rana_final_4_patch),
+	.PINTAR_RANA_3_IN(rana_final_3_patch),
+	.PINTAR_RANA_2_IN(rana_final_2_patch),
+	.PINTAR_RANA_1_IN(rana_final_1_patch),
+	.PINTAR_RANA_0_IN(rana_final_0_patch),
 	
-	PINTAR_VEHICULOS_6_IN(NOT_8),
-	PINTAR_VEHICULOS_5_IN(NOT_8),
-	PINTAR_VEHICULOS_4_IN(NOT_8),
-	PINTAR_VEHICULOS_3_IN(NOT_8),
-	PINTAR_VEHICULOS_2_IN(NOT_8),
-	PINTAR_VEHICULOS_1_IN(NOT_8),
+	.PINTAR_VEHICULOS_6_IN(NOT_8),
+	.PINTAR_VEHICULOS_5_IN(NOT_8),
+	.PINTAR_VEHICULOS_4_IN(NOT_8),
+	.PINTAR_VEHICULOS_3_IN(NOT_8),
+	.PINTAR_VEHICULOS_2_IN(NOT_8),
+	.PINTAR_VEHICULOS_1_IN(NOT_8),
 	
 	.PINTAR_MENU_PRINCIPAL_ESTADO_IN(NOT_3),
 	.PINTAR_CLOCK(CLOCK_50),
 	.PINTAR_RESET(~RESET)
 	);
+	
+	rebote rebote_1(
+    .clk(CLOCK_50), .reset(~RESET),
+    .sw(B_Up),
+    .db_level(), .db_tick(up_final_patch)
+    );
+
+rebote rebote_2(
+    .clk(CLOCK_50), .reset(~RESET),
+    .sw(B_Down),
+    .db_level(), .db_tick(down_final_patch)
+    );
+
+rebote rebote_3(
+    .clk(CLOCK_50), .reset(~RESET),
+    .sw(B_Left),
+    .db_level(), .db_tick(left_final_patch)
+    );
+
+rebote rebote_4(
+    .clk(CLOCK_50), .reset(~RESET),
+    .sw(B_Right),
+    .db_level(), .db_tick(right_final_patch)
+);
+	
+	RANA rana_1(
+    .RANA_7_OUT(rana_final_7_patch),
+	 .RANA_6_OUT(rana_final_6_patch),
+	 .RANA_5_OUT(rana_final_5_patch),
+	 .RANA_4_OUT(rana_final_4_patch),
+	 .RANA_3_OUT(rana_final_3_patch),
+	 .RANA_2_OUT(rana_final_2_patch),
+	 .RANA_1_OUT(rana_final_1_patch),
+	 .RANA_0_OUT(rana_final_0_patch),
+	 .RANA_CLOCK(CLOCK_50),
+	 .RANA_RESET(~RESET),
+	 .RANA_INI(rana_ini_patch),
+	 .RANA_LEFT(left_final_patch),
+	 .RANA_RIGHT(right_final_patch),
+	 .RANA_UP(up_final_patch),
+	 .RANA_DOWN(down_final_patch)
+);
+
+/**
+	CONTROL_RANAS(
+//////////// OUTPUTS //////////
+	CR_GANO_JC_OUT,
+	CR_PERDIO_JC_OUT,
+	CR_RANA_INI_OUT(rana_ini_patch),
+//////////// INPUTS //////////
+	CR_GANO,
+	CR_PERDIO,
+	CR_ESTADO,
+	CR_CLOCK_50,
+	CR_RESET
+);
+
+	MENU_PRINCIPAL(
+//////////// OUTPUTS //////////
+	MP_ESTADO_OUT,
+	MP_NVL_OUT,
+	MP_CN_OUT,
+//////////// INPUTS //////////
+	MP_GANO,
+	MP_PERDIO,
+	MP_DOWN,
+	MP_UP,
+	MP_START,
+	MP_CLOCK_50,
+	MP_RESET
+);
+
+	NIVEL_VEHICULOS (
+//////////// OUTPUTS //////////
+	NVE_REG_5_OUT,
+	NVE_REG_4_OUT,
+	NVE_REG_3_OUT,
+	NVE_REG_2_OUT,
+	NVE_REG_1_OUT,
+	NVE_REG_0_OUT,
+//////////// INPUTS //////////
+	NVE_CLOCK,
+	NVE_RESET,
+	NVE_ESTADO_IN,
+	NVE_NV_IN,
+	NVE_CN_IN
+);
+*/
 
 assign LED[0] = B_Left; // Button Left
 assign LED[1] = B_Rigth;// Button Right

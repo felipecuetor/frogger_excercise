@@ -5,6 +5,10 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
+vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/rebote {C:/Users/Felipe/git/frogger_excercise/rtl/rebote/rebote.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/rana {C:/Users/Felipe/git/frogger_excercise/rtl/rana/SC_STATEMACHINE_FROG_MOV.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/rana {C:/Users/Felipe/git/frogger_excercise/rtl/rana/rana.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/rana {C:/Users/Felipe/git/frogger_excercise/rtl/rana/DEMUX38.v}
 vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/imagen {C:/Users/Felipe/git/frogger_excercise/rtl/imagen/PINTAR_MATRIZ.v}
 vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/imagen {C:/Users/Felipe/git/frogger_excercise/rtl/imagen/PINTAR_DATA_DEMUX.v}
 vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/imagen {C:/Users/Felipe/git/frogger_excercise/rtl/imagen/imagen.v}
