@@ -21,7 +21,16 @@ module system(
 	B_Up,
 	B_Down,
 	Start,
-	RESET
+	RESET,
+	
+	led_final_7_tester,
+	led_final_6_tester,
+	led_final_5_tester,
+	led_final_4_tester,
+	led_final_3_tester,
+	led_final_2_tester,
+	led_final_1_tester,
+	led_final_0_tester
 	
 	
 );
@@ -54,12 +63,52 @@ output   MAX7219_DIN;
 output	MAX7219_CS;
 output	MAX7219_CLK;
 
+output [7:0] led_final_7_tester;
+output [7:0] led_final_6_tester;
+output [7:0] led_final_5_tester;
+output [7:0] led_final_4_tester;
+output [7:0] led_final_3_tester;
+output [7:0] led_final_2_tester;
+output [7:0] led_final_1_tester;
+output [7:0] led_final_0_tester;
+
+parameter NOT_8 = 8'b00000000;
+parameter NOT_3 = 8'b000;
+
 //=======================================================
 //  REG/WIRE declarations
 //=======================================================
 
 wire [7:0] data_max;
 wire [2:0] add;
+
+wire [7:0] led_final_7_patch;
+wire [7:0] led_final_6_patch;
+wire [7:0] led_final_5_patch;
+wire [7:0] led_final_4_patch;
+wire [7:0] led_final_3_patch;
+wire [7:0] led_final_2_patch;
+wire [7:0] led_final_1_patch;
+wire [7:0] led_final_0_patch;
+
+wire [7:0] rana_final_7_patch;
+wire [7:0] rana_final_6_patch;
+wire [7:0] rana_final_5_patch;
+wire [7:0] rana_final_4_patch;
+wire [7:0] rana_final_3_patch;
+wire [7:0] rana_final_2_patch;
+wire [7:0] rana_final_1_patch;
+wire [7:0] rana_final_0_patch;
+
+wire [7:0] vehiculo_final_6_patch;
+wire [7:0] vehiculo_final_5_patch;
+wire [7:0] vehiculo_final_4_patch;
+wire [7:0] vehiculo_final_3_patch;
+wire [7:0] vehiculo_final_2_patch;
+wire [7:0] vehiculo_final_1_patch;
+
+wire [2:0] estado_sistema_patch;
+wire [1:0] nivel_sistema_patch;
 
 //=======================================================
 //  Structural coding
@@ -77,7 +126,46 @@ wire [2:0] add;
 	 
 	imagen imagen_1(  // Load Image
 		.act_add(add), 
-		.max_in(data_max) 
+		.max_in(data_max),
+		.led_final_7_in(led_final_7_patch),
+		.led_final_6_in(led_final_6_patch),
+		.led_final_5_in(led_final_5_patch),
+		.led_final_4_in(led_final_4_patch),
+		.led_final_3_in(led_final_3_patch),
+		.led_final_2_in(led_final_2_patch),
+		.led_final_1_in(led_final_1_patch),
+		.led_final_0_in(led_final_0_patch)
+	);
+	
+	PINTAR_MATRIZ PINTAR_MATRIZ_T1(
+	.PINTAR_7_OUT(led_final_7_patch),
+	.PINTAR_6_OUT(led_final_6_patch),
+	.PINTAR_5_OUT(led_final_5_patch),
+	.PINTAR_4_OUT(led_final_4_patch),
+	.PINTAR_3_OUT(led_final_3_patch),
+	.PINTAR_2_OUT(led_final_2_patch),
+	.PINTAR_1_OUT(led_final_1_patch),
+	.PINTAR_0_OUT(led_final_0_patch),
+//////////// INPUTS //////////
+	.PINTAR_RANA_7_IN(NOT_8),
+	.PINTAR_RANA_6_IN(NOT_8),
+	.PINTAR_RANA_5_IN(NOT_8),
+	.PINTAR_RANA_4_IN(NOT_8),
+	.PINTAR_RANA_3_IN(NOT_8),
+	.PINTAR_RANA_2_IN(NOT_8),
+	.PINTAR_RANA_1_IN(NOT_8),
+	.PINTAR_RANA_0_IN(NOT_8),
+	
+	PINTAR_VEHICULOS_6_IN(NOT_8),
+	PINTAR_VEHICULOS_5_IN(NOT_8),
+	PINTAR_VEHICULOS_4_IN(NOT_8),
+	PINTAR_VEHICULOS_3_IN(NOT_8),
+	PINTAR_VEHICULOS_2_IN(NOT_8),
+	PINTAR_VEHICULOS_1_IN(NOT_8),
+	
+	.PINTAR_MENU_PRINCIPAL_ESTADO_IN(NOT_3),
+	.PINTAR_CLOCK(CLOCK_50),
+	.PINTAR_RESET(~RESET)
 	);
 
 assign LED[0] = B_Left; // Button Left
@@ -85,5 +173,14 @@ assign LED[1] = B_Rigth;// Button Right
 assign LED[2] = B_Up;	// Button Down
 assign LED[3] = B_Down;	// Button Up
 assign LED[7] = Start;	// Button Start
+
+assign led_final_7_tester = led_final_7_patch;
+assign led_final_6_tester = led_final_6_patch;
+assign led_final_5_tester = led_final_5_patch;
+assign led_final_4_tester = led_final_4_patch;
+assign led_final_3_tester = led_final_3_patch;
+assign led_final_2_tester = led_final_2_patch;
+assign led_final_1_tester = led_final_1_patch;
+assign led_final_0_tester = led_final_0_patch;
 
 endmodule

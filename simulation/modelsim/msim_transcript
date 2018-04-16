@@ -10,88 +10,90 @@
 # Copying C:/intelFPGA_lite/17.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/states {C:/Users/Felipe/git/frogger_excercise/rtl/states/states.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/imagen {C:/Users/Felipe/git/frogger_excercise/rtl/imagen/PINTAR_MATRIZ.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:19:09 on Apr 12,2018
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/states" C:/Users/Felipe/git/frogger_excercise/rtl/states/states.v 
-# -- Compiling module states
+# Start time: 22:45:55 on Apr 15,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/imagen" C:/Users/Felipe/git/frogger_excercise/rtl/imagen/PINTAR_MATRIZ.v 
+# -- Compiling module PINTAR_MATRIZ
 # 
 # Top level modules:
-# 	states
-# End time: 16:19:10 on Apr 12,2018, Elapsed time: 0:00:01
+# 	PINTAR_MATRIZ
+# End time: 22:45:55 on Apr 15,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl {C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl/shift_reg_start_done.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/imagen {C:/Users/Felipe/git/frogger_excercise/rtl/imagen/PINTAR_DATA_DEMUX.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:19:10 on Apr 12,2018
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl" C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl/shift_reg_start_done.v 
-# -- Compiling module shift_reg_start_done
+# Start time: 22:45:55 on Apr 15,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/imagen" C:/Users/Felipe/git/frogger_excercise/rtl/imagen/PINTAR_DATA_DEMUX.v 
+# -- Compiling module PINTAR_DATA_DEMUX
 # 
 # Top level modules:
-# 	shift_reg_start_done
-# End time: 16:19:11 on Apr 12,2018, Elapsed time: 0:00:01
+# 	PINTAR_DATA_DEMUX
+# End time: 22:45:55 on Apr 15,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/imagen {C:/Users/Felipe/git/frogger_excercise/rtl/imagen/imagen.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:19:11 on Apr 12,2018
+# Start time: 22:45:55 on Apr 15,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/imagen" C:/Users/Felipe/git/frogger_excercise/rtl/imagen/imagen.v 
 # -- Compiling module imagen
 # 
 # Top level modules:
 # 	imagen
-# End time: 16:19:11 on Apr 12,2018, Elapsed time: 0:00:00
+# End time: 22:45:56 on Apr 15,2018, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/rebote {C:/Users/Felipe/git/frogger_excercise/rtl/rebote/rebote.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl {C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl/shift_reg_start_done.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:19:11 on Apr 12,2018
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/rebote" C:/Users/Felipe/git/frogger_excercise/rtl/rebote/rebote.v 
-# -- Compiling module rebote
+# Start time: 22:45:56 on Apr 15,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl" C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl/shift_reg_start_done.v 
+# -- Compiling module shift_reg_start_done
 # 
 # Top level modules:
-# 	rebote
-# End time: 16:19:11 on Apr 12,2018, Elapsed time: 0:00:00
+# 	shift_reg_start_done
+# End time: 22:45:56 on Apr 15,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl {C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl/max7219_ctrl.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl {C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl/matrix_ctrl.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:19:11 on Apr 12,2018
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl" C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl/max7219_ctrl.v 
+# Start time: 22:45:56 on Apr 15,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl" C:/Users/Felipe/git/frogger_excercise/rtl/max7219_ctrl/matrix_ctrl.v 
 # -- Compiling module matrix_ctrl
 # 
 # Top level modules:
 # 	matrix_ctrl
-# End time: 16:19:11 on Apr 12,2018, Elapsed time: 0:00:00
+# End time: 22:45:56 on Apr 15,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise {C:/Users/Felipe/git/frogger_excercise/system.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise {C:/Users/Felipe/git/frogger_excercise/System.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:19:11 on Apr 12,2018
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Felipe/git/frogger_excercise" C:/Users/Felipe/git/frogger_excercise/system.v 
+# Start time: 22:45:56 on Apr 15,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Felipe/git/frogger_excercise" C:/Users/Felipe/git/frogger_excercise/System.v 
 # -- Compiling module system
 # 
 # Top level modules:
 # 	system
-# End time: 16:19:11 on Apr 12,2018, Elapsed time: 0:00:00
+# End time: 22:45:56 on Apr 15,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/simulation/modelsim {C:/Users/Felipe/git/frogger_excercise/simulation/modelsim/system.vt}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:19:11 on Apr 12,2018
+# Start time: 22:45:56 on Apr 15,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Felipe/git/frogger_excercise/simulation/modelsim" C:/Users/Felipe/git/frogger_excercise/simulation/modelsim/system.vt 
-# -- Compiling module system_vlg_tst
+# -- Compiling module System_vlg_tst
 # 
 # Top level modules:
-# 	system_vlg_tst
-# End time: 16:19:11 on Apr 12,2018, Elapsed time: 0:00:00
+# 	System_vlg_tst
+# End time: 22:45:56 on Apr 15,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  system_vlg_tst
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" system_vlg_tst 
-# Start time: 16:19:13 on Apr 12,2018
-# Loading work.system_vlg_tst
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  System_vlg_tst
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" System_vlg_tst 
+# Start time: 22:45:56 on Apr 15,2018
+# Loading work.System_vlg_tst
 # Loading work.system
 # Loading work.matrix_ctrl
 # Loading work.shift_reg_start_done
 # Loading work.imagen
-# Loading work.rebote
-# Loading work.states
+# Loading work.PINTAR_MATRIZ
+# Loading work.PINTAR_DATA_DEMUX
+# ** Warning: (vsim-3015) C:/Users/Felipe/git/frogger_excercise/System.v(121): [PCDPC] - Port size (3) does not match connection size (8) for port 'PINTAR_MENU_PRINCIPAL_ESTADO_IN'. The port definition is at: C:/Users/Felipe/git/frogger_excercise/rtl/imagen/PINTAR_MATRIZ.v(27).
+#    Time: 0 ps  Iteration: 0  Instance: /System_vlg_tst/i1/PINTAR_MATRIZ_T1 File: C:/Users/Felipe/git/frogger_excercise/rtl/imagen/PINTAR_MATRIZ.v
 # 
 # add wave *
 # view structure
@@ -100,5 +102,5 @@
 # .main_pane.objects.interior.cs.body.tree
 # run -all
 # Running testbench
-# End time: 16:22:47 on Apr 12,2018, Elapsed time: 0:03:34
-# Errors: 0, Warnings: 0
+# End time: 22:59:05 on Apr 15,2018, Elapsed time: 0:13:09
+# Errors: 0, Warnings: 1

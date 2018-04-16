@@ -6,7 +6,7 @@ set_global_assignment -name FAMILY "Cyclone IV E"
 set_global_assignment -name DEVICE EP4CE22F17C6
 set_global_assignment -name TOP_LEVEL_ENTITY "system"
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 10.1
-set_global_assignment -name LAST_QUARTUS_VERSION "17.0.0 Lite Edition"
+set_global_assignment -name LAST_QUARTUS_VERSION "17.1.0 Lite Edition"
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "13:28:57 APRIL 06,2018"
 set_global_assignment -name DEVICE_FILTER_PACKAGE FBGA
 set_global_assignment -name DEVICE_FILTER_PIN_COUNT 256
@@ -128,12 +128,6 @@ set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_0[33]
 #============================================================
 
 
-set_global_assignment -name SDC_FILE System.sdc
-set_global_assignment -name VERILOG_FILE System.v
-set_global_assignment -name SDC_FILE System.SDC
-set_global_assignment -name VERILOG_FILE rtl/matrix_ctrl.v
-set_global_assignment -name VERILOG_FILE rtl/imagen.v
-set_global_assignment -name VERILOG_FILE rtl/shift_reg_start_done.v
 set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
 set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
@@ -149,5 +143,31 @@ set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH System_vlg_tst 
 set_global_assignment -name EDA_TEST_BENCH_NAME System_vlg_tst -section_id eda_simulation
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id system_vlg_tst
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME System_vlg_tst -section_id System_vlg_tst
+set_global_assignment -name VERILOG_FILE rtl/vehiculos/SC_VEL.v
+set_global_assignment -name VERILOG_FILE rtl/vehiculos/SC_STATEMACHINE_NVE.v
+set_global_assignment -name VERILOG_FILE rtl/vehiculos/SC_REGDI.v
+set_global_assignment -name VERILOG_FILE rtl/vehiculos/SC_REGDD.v
+set_global_assignment -name VERILOG_FILE rtl/vehiculos/REGDI_NV.v
+set_global_assignment -name VERILOG_FILE rtl/vehiculos/REGDD_NV.v
+set_global_assignment -name VERILOG_FILE rtl/vehiculos/NIVEL_VEHICULOS.v
+set_global_assignment -name VERILOG_FILE rtl/vehiculos/MUXX41.v
+set_global_assignment -name VERILOG_FILE rtl/vehiculos/MENU_PRINCIPAL.v
+set_global_assignment -name VERILOG_FILE rtl/vehiculos/CONTROL_RANAS.v
+set_global_assignment -name VERILOG_FILE rtl/rebote/rebote.v
+set_global_assignment -name VERILOG_FILE rtl/rebote/FILTRO.v
+set_global_assignment -name VERILOG_FILE rtl/rana/SC_STATEMACHINE_FROG_MOV.v
+set_global_assignment -name VERILOG_FILE rtl/rana/rana.v
+set_global_assignment -name VERILOG_FILE rtl/rana/output_A_Pintar.v
+set_global_assignment -name VERILOG_FILE rtl/rana/DEMUX38.v
+set_global_assignment -name VERILOG_FILE rtl/rana/contador_Ranas_Logradas.v
+set_global_assignment -name VERILOG_FILE rtl/rana/contador_Posicion.v
+set_global_assignment -name VERILOG_FILE rtl/imagen/PINTAR_MATRIZ.v
+set_global_assignment -name VERILOG_FILE rtl/imagen/PINTAR_DATA_DEMUX.v
+set_global_assignment -name VERILOG_FILE rtl/imagen/imagen.v
+set_global_assignment -name VERILOG_FILE rtl/max7219_ctrl/shift_reg_start_done.v
+set_global_assignment -name VERILOG_FILE rtl/max7219_ctrl/matrix_ctrl.v
+set_global_assignment -name SDC_FILE System.sdc
+set_global_assignment -name VERILOG_FILE System.v
+set_global_assignment -name SDC_FILE System.SDC
+set_global_assignment -name EDA_TEST_BENCH_FILE simulation/modelsim/system.vt -section_id System_vlg_tst
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
-set_global_assignment -name EDA_TEST_BENCH_FILE simulation/modelsim/System.vt -section_id System_vlg_tst
