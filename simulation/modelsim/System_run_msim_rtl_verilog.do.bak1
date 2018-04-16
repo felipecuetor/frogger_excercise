@@ -1,0 +1,20 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/proyectos_digitales/Matriz_8x8_MAX7219 {C:/proyectos_digitales/Matriz_8x8_MAX7219/System.v}
+vlog -vlog01compat -work work +incdir+C:/proyectos_digitales/Matriz_8x8_MAX7219/rtl {C:/proyectos_digitales/Matriz_8x8_MAX7219/rtl/matrix_ctrl.v}
+vlog -vlog01compat -work work +incdir+C:/proyectos_digitales/Matriz_8x8_MAX7219/rtl {C:/proyectos_digitales/Matriz_8x8_MAX7219/rtl/imagen.v}
+vlog -vlog01compat -work work +incdir+C:/proyectos_digitales/Matriz_8x8_MAX7219/rtl {C:/proyectos_digitales/Matriz_8x8_MAX7219/rtl/shift_reg_start_done.v}
+
+vlog -vlog01compat -work work +incdir+C:/proyectos_digitales/Matriz_8x8_MAX7219/simulation/modelsim {C:/proyectos_digitales/Matriz_8x8_MAX7219/simulation/modelsim/System.vt}
+
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  System_vlg_tst
+
+add wave *
+view structure
+view signals
+run 1000 ms
