@@ -12,279 +12,279 @@
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/CONTROL_RANAS {C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/CONTROL_RANAS/CONTROL_RANAS.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:39:01 on Apr 19,2018
+# Start time: 15:04:42 on Apr 19,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/CONTROL_RANAS" C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/CONTROL_RANAS/CONTROL_RANAS.v 
 # -- Compiling module CONTROL_RANAS
 # 
 # Top level modules:
 # 	CONTROL_RANAS
-# End time: 14:39:01 on Apr 19,2018, Elapsed time: 0:00:00
+# End time: 15:04:43 on Apr 19,2018, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA {C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA/SC_STATEMACHINE_FROG_MOV.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:39:01 on Apr 19,2018
+# Start time: 15:04:43 on Apr 19,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA" C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA/SC_STATEMACHINE_FROG_MOV.v 
 # -- Compiling module SC_STATEMACHINE_FROG_MOV
 # 
 # Top level modules:
 # 	SC_STATEMACHINE_FROG_MOV
-# End time: 14:39:02 on Apr 19,2018, Elapsed time: 0:00:01
+# End time: 15:04:43 on Apr 19,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA {C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA/RANA.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:39:02 on Apr 19,2018
+# Start time: 15:04:43 on Apr 19,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA" C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA/RANA.v 
 # -- Compiling module RANA
 # 
 # Top level modules:
 # 	RANA
-# End time: 14:39:02 on Apr 19,2018, Elapsed time: 0:00:00
+# End time: 15:04:43 on Apr 19,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS {C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_VEL.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:39:02 on Apr 19,2018
+# Start time: 15:04:43 on Apr 19,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS" C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_VEL.v 
 # -- Compiling module SC_VEL
 # 
 # Top level modules:
 # 	SC_VEL
-# End time: 14:39:02 on Apr 19,2018, Elapsed time: 0:00:00
+# End time: 15:04:43 on Apr 19,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS {C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:39:02 on Apr 19,2018
+# Start time: 15:04:43 on Apr 19,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS" C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v 
 # -- Compiling module SC_STATEMACHINE_NVE
 # 
 # Top level modules:
 # 	SC_STATEMACHINE_NVE
-# End time: 14:39:02 on Apr 19,2018, Elapsed time: 0:00:00
+# End time: 15:04:43 on Apr 19,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS {C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_REGDI.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:39:02 on Apr 19,2018
+# Start time: 15:04:43 on Apr 19,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS" C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_REGDI.v 
 # -- Compiling module SC_REGDI
 # 
 # Top level modules:
 # 	SC_REGDI
-# End time: 14:39:02 on Apr 19,2018, Elapsed time: 0:00:00
+# End time: 15:04:43 on Apr 19,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS {C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_REGDD.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:39:02 on Apr 19,2018
+# Start time: 15:04:43 on Apr 19,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS" C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_REGDD.v 
 # -- Compiling module SC_REGDD
 # 
 # Top level modules:
 # 	SC_REGDD
-# End time: 14:39:02 on Apr 19,2018, Elapsed time: 0:00:00
+# End time: 15:04:43 on Apr 19,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS {C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:39:02 on Apr 19,2018
+# Start time: 15:04:43 on Apr 19,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS" C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v 
 # -- Compiling module REGDI_NV
 # 
 # Top level modules:
 # 	REGDI_NV
-# End time: 14:39:02 on Apr 19,2018, Elapsed time: 0:00:00
+# End time: 15:04:44 on Apr 19,2018, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS {C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:39:02 on Apr 19,2018
+# Start time: 15:04:44 on Apr 19,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS" C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v 
 # -- Compiling module REGDD_NV
 # 
 # Top level modules:
 # 	REGDD_NV
-# End time: 14:39:03 on Apr 19,2018, Elapsed time: 0:00:01
+# End time: 15:04:44 on Apr 19,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS {C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/NIVEL_VEHICULOS.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:39:03 on Apr 19,2018
+# Start time: 15:04:44 on Apr 19,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS" C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/NIVEL_VEHICULOS.v 
 # -- Compiling module NIVEL_VEHICULOS
 # 
 # Top level modules:
 # 	NIVEL_VEHICULOS
-# End time: 14:39:03 on Apr 19,2018, Elapsed time: 0:00:00
+# End time: 15:04:44 on Apr 19,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS {C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/MUXX21.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:39:03 on Apr 19,2018
+# Start time: 15:04:44 on Apr 19,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS" C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/MUXX21.v 
 # -- Compiling module MUXX21
 # 
 # Top level modules:
 # 	MUXX21
-# End time: 14:39:03 on Apr 19,2018, Elapsed time: 0:00:00
+# End time: 15:04:44 on Apr 19,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/MENU_PRINCIPAL {C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/MENU_PRINCIPAL/MENU_PRINCIPAL.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:39:03 on Apr 19,2018
+# Start time: 15:04:44 on Apr 19,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/MENU_PRINCIPAL" C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/MENU_PRINCIPAL/MENU_PRINCIPAL.v 
 # -- Compiling module MENU_PRINCIPAL
 # 
 # Top level modules:
 # 	MENU_PRINCIPAL
-# End time: 14:39:03 on Apr 19,2018, Elapsed time: 0:00:00
+# End time: 15:04:44 on Apr 19,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz {C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/shift_reg_start_done.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:39:03 on Apr 19,2018
+# Start time: 15:04:44 on Apr 19,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz" C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/shift_reg_start_done.v 
 # -- Compiling module shift_reg_start_done
 # 
 # Top level modules:
 # 	shift_reg_start_done
-# End time: 14:39:03 on Apr 19,2018, Elapsed time: 0:00:00
+# End time: 15:04:44 on Apr 19,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz {C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:39:03 on Apr 19,2018
+# Start time: 15:04:44 on Apr 19,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz" C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v 
 # -- Compiling module matrix_ctrl
 # 
 # Top level modules:
 # 	matrix_ctrl
-# End time: 14:39:03 on Apr 19,2018, Elapsed time: 0:00:00
+# End time: 15:04:44 on Apr 19,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz {C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/imagen.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:39:03 on Apr 19,2018
+# Start time: 15:04:44 on Apr 19,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz" C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/imagen.v 
 # -- Compiling module imagen
 # 
 # Top level modules:
 # 	imagen
-# End time: 14:39:03 on Apr 19,2018, Elapsed time: 0:00:00
+# End time: 15:04:45 on Apr 19,2018, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz {C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/control_matriz.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:39:03 on Apr 19,2018
+# Start time: 15:04:45 on Apr 19,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz" C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/control_matriz.v 
 # -- Compiling module control_matriz
 # 
 # Top level modules:
 # 	control_matriz
-# End time: 14:39:03 on Apr 19,2018, Elapsed time: 0:00:00
+# End time: 15:04:45 on Apr 19,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO {C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/JUEGO.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:39:04 on Apr 19,2018
+# Start time: 15:04:45 on Apr 19,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO" C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/JUEGO.v 
 # -- Compiling module JUEGO
 # 
 # Top level modules:
 # 	JUEGO
-# End time: 14:39:04 on Apr 19,2018, Elapsed time: 0:00:00
+# End time: 15:04:45 on Apr 19,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA {C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA/CODE38Y.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:39:04 on Apr 19,2018
+# Start time: 15:04:45 on Apr 19,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA" C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA/CODE38Y.v 
 # -- Compiling module CODE38Y
 # 
 # Top level modules:
 # 	CODE38Y
-# End time: 14:39:04 on Apr 19,2018, Elapsed time: 0:00:00
+# End time: 15:04:45 on Apr 19,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA {C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA/CODE38X.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:39:04 on Apr 19,2018
+# Start time: 15:04:45 on Apr 19,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA" C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA/CODE38X.v 
 # -- Compiling module CODE38X
 # 
 # Top level modules:
 # 	CODE38X
-# End time: 14:39:04 on Apr 19,2018, Elapsed time: 0:00:00
+# End time: 15:04:45 on Apr 19,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/CONTROL_CASAS {C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/CONTROL_CASAS/CONTROL_CASAS.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:39:04 on Apr 19,2018
+# Start time: 15:04:45 on Apr 19,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/CONTROL_CASAS" C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/CONTROL_CASAS/CONTROL_CASAS.v 
 # -- Compiling module CONTROL_CASAS
 # 
 # Top level modules:
 # 	CONTROL_CASAS
-# End time: 14:39:04 on Apr 19,2018, Elapsed time: 0:00:00
+# End time: 15:04:45 on Apr 19,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/COLISION {C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/COLISION/COLISION.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:39:04 on Apr 19,2018
+# Start time: 15:04:45 on Apr 19,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/COLISION" C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/COLISION/COLISION.v 
 # -- Compiling module COLISION
 # 
 # Top level modules:
 # 	COLISION
-# End time: 14:39:04 on Apr 19,2018, Elapsed time: 0:00:00
+# End time: 15:04:46 on Apr 19,2018, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/COLISION {C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/COLISION/Muxx81X.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:39:04 on Apr 19,2018
+# Start time: 15:04:46 on Apr 19,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/COLISION" C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/COLISION/Muxx81X.v 
 # -- Compiling module Muxx81X
 # 
 # Top level modules:
 # 	Muxx81X
-# End time: 14:39:04 on Apr 19,2018, Elapsed time: 0:00:00
+# End time: 15:04:46 on Apr 19,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/COLISION {C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/COLISION/Muxx81Y.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:39:04 on Apr 19,2018
+# Start time: 15:04:46 on Apr 19,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/COLISION" C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/COLISION/Muxx81Y.v 
 # -- Compiling module Muxx81Y
 # 
 # Top level modules:
 # 	Muxx81Y
-# End time: 14:39:04 on Apr 19,2018, Elapsed time: 0:00:00
+# End time: 15:04:46 on Apr 19,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/PINTAR_MATRIZ {C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/PINTAR_MATRIZ/PINTAR_MATRIZ.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:39:04 on Apr 19,2018
+# Start time: 15:04:46 on Apr 19,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/PINTAR_MATRIZ" C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/PINTAR_MATRIZ/PINTAR_MATRIZ.v 
 # -- Compiling module PINTAR_MATRIZ
 # 
 # Top level modules:
 # 	PINTAR_MATRIZ
-# End time: 14:39:05 on Apr 19,2018, Elapsed time: 0:00:01
+# End time: 15:04:46 on Apr 19,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/PINTAR_MATRIZ {C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/PINTAR_MATRIZ/PINTAR_DATA_DEMUX.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:39:05 on Apr 19,2018
+# Start time: 15:04:46 on Apr 19,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/PINTAR_MATRIZ" C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/PINTAR_MATRIZ/PINTAR_DATA_DEMUX.v 
 # -- Compiling module PINTAR_DATA_DEMUX
 # 
 # Top level modules:
 # 	PINTAR_DATA_DEMUX
-# End time: 14:39:05 on Apr 19,2018, Elapsed time: 0:00:00
+# End time: 15:04:46 on Apr 19,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise {C:/Users/Felipe/git/frogger_excercise/system.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:39:05 on Apr 19,2018
+# Start time: 15:04:46 on Apr 19,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Felipe/git/frogger_excercise" C:/Users/Felipe/git/frogger_excercise/system.v 
 # -- Compiling module System
 # 
 # Top level modules:
 # 	System
-# End time: 14:39:05 on Apr 19,2018, Elapsed time: 0:00:00
+# End time: 15:04:46 on Apr 19,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/simulation/modelsim {C:/Users/Felipe/git/frogger_excercise/simulation/modelsim/System.vt}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:39:05 on Apr 19,2018
+# Start time: 15:04:46 on Apr 19,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Felipe/git/frogger_excercise/simulation/modelsim" C:/Users/Felipe/git/frogger_excercise/simulation/modelsim/System.vt 
 # -- Compiling module System_vlg_tst
 # 
 # Top level modules:
 # 	System_vlg_tst
-# End time: 14:39:05 on Apr 19,2018, Elapsed time: 0:00:00
+# End time: 15:04:46 on Apr 19,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  System_vlg_tst
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" System_vlg_tst 
-# Start time: 14:39:05 on Apr 19,2018
+# Start time: 15:04:46 on Apr 19,2018
 # Loading work.System_vlg_tst
 # Loading work.System
 # Loading work.JUEGO
@@ -326,5 +326,5 @@
 # .main_pane.objects.interior.cs.body.tree
 # run -all
 # Running testbench
-# End time: 14:41:02 on Apr 19,2018, Elapsed time: 0:01:57
+# End time: 15:06:44 on Apr 19,2018, Elapsed time: 0:01:58
 # Errors: 0, Warnings: 3

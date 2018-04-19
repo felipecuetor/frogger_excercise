@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/Users/Felipe/git/frogger_excercise/simulation/modelsim
 vCODE38X
-Z1 !s110 1524166744
+Z1 !s110 1524168285
 !i10b 1
 !s100 BanYM=`85fUGPdEQHZlTM1
 IK4R4IF>;SA0Smh<JBXhT_3
@@ -23,7 +23,7 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1524166744.000000
+Z5 !s108 1524168285.000000
 !s107 C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA/CODE38X.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA|C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA/CODE38X.v|
 !i113 1
@@ -57,11 +57,11 @@ n@c@o@d@e38@y
 vCOLISION
 R1
 !i10b 1
-!s100 2<<6ZSO6lU4dabz=@c8F;3
-I`[ke]I4>VfWo9bJ13Hi6^1
+!s100 D[@;B[nINK1IU6:Xzzh?X3
+IPMedC1Ph1USO@6a83AazR0
 R2
 R0
-R3
+w1524167856
 8C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/COLISION/COLISION.v
 FC:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/COLISION/COLISION.v
 L0 4
@@ -101,7 +101,7 @@ R6
 R8
 n@c@o@n@t@r@o@l_@c@a@s@a@s
 vcontrol_matriz
-Z10 !s110 1524166743
+R1
 !i10b 1
 !s100 9>dC:mLXJUh99eMe:gNk]0
 II4JM[SjHMhZ3YahEQz62>2
@@ -115,15 +115,15 @@ R4
 r1
 !s85 0
 31
-Z11 !s108 1524166743.000000
+R5
 !s107 C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/control_matriz.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz|C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/control_matriz.v|
 !i113 1
 R6
-Z12 !s92 -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz
+Z10 !s92 -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz
 R8
 vCONTROL_RANAS
-Z13 !s110 1524166741
+Z11 !s110 1524168283
 !i10b 1
 !s100 :3R9[4UVT7136Q2K^8NN92
 IVcbH^hBMaf02d6zYkIKWR0
@@ -137,7 +137,7 @@ R4
 r1
 !s85 0
 31
-Z14 !s108 1524166741.000000
+!s108 1524168282.000000
 !s107 C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/CONTROL_RANAS/CONTROL_RANAS.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/CONTROL_RANAS|C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/CONTROL_RANAS/CONTROL_RANAS.v|
 !i113 1
@@ -146,7 +146,7 @@ R6
 R8
 n@c@o@n@t@r@o@l_@r@a@n@a@s
 vimagen
-R10
+R1
 !i10b 1
 !s100 G784dSFemS3AnE0m]PhhO1
 I1U?H`UL@7UB<:YIzc8Yn]0
@@ -160,12 +160,12 @@ R4
 r1
 !s85 0
 31
-R11
+Z12 !s108 1524168284.000000
 !s107 C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/imagen.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz|C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/imagen.v|
 !i113 1
 R6
-R12
+R10
 R8
 vJUEGO
 R1
@@ -191,7 +191,7 @@ R6
 R8
 n@j@u@e@g@o
 vmatrix_ctrl
-R10
+Z13 !s110 1524168284
 !i10b 1
 !s100 _FjJGcAR<QUkQ5zngzeDB0
 IYZ5gB?ih^M0Jmk__MQ?3I1
@@ -205,15 +205,15 @@ R4
 r1
 !s85 0
 31
-R11
+R12
 !s107 C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz|C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v|
 !i113 1
 R6
-R12
+R10
 R8
 vMENU_PRINCIPAL
-R10
+R13
 !i10b 1
 !s100 2TT9MYeoW_ZQb`f:0^14M1
 I]1ao[Me?<=Ba@W<UUATn21
@@ -227,7 +227,7 @@ R4
 r1
 !s85 0
 31
-R11
+R12
 !s107 C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/MENU_PRINCIPAL/MENU_PRINCIPAL.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/MENU_PRINCIPAL|C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/MENU_PRINCIPAL/MENU_PRINCIPAL.v|
 !i113 1
@@ -236,7 +236,7 @@ R6
 R8
 n@m@e@n@u_@p@r@i@n@c@i@p@a@l
 vMUXX21
-R10
+R13
 !i10b 1
 !s100 9XcV25LGSe^On>SbDj1C`2
 IZdV``0i;gAKob>6kINzJV0
@@ -250,16 +250,16 @@ R4
 r1
 !s85 0
 31
-R11
+R12
 !s107 C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/MUXX21.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS|C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/MUXX21.v|
 !i113 1
 R6
-Z15 !s92 -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS
+Z14 !s92 -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS
 R8
 n@m@u@x@x21
 vMuxx81X
-R1
+Z15 !s110 1524168286
 !i10b 1
 !s100 XJ]zlYN70BcBSo6cmFoo53
 IJ25UgmT;giQlZZ<I]@3A?3
@@ -273,7 +273,7 @@ R4
 r1
 !s85 0
 31
-R5
+Z17 !s108 1524168286.000000
 !s107 C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/COLISION/Muxx81X.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/COLISION|C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/COLISION/Muxx81X.v|
 !i113 1
@@ -282,13 +282,13 @@ R9
 R8
 n@muxx81@x
 vMuxx81Y
-R1
+R15
 !i10b 1
-!s100 FQ`;hNFlGoIGWlGf?O=mU2
-IzKRzEh6N8nRX2U8@0BP5:2
+!s100 n@6cVTDS]LaA6?JNERez<3
+I2OW6LRenTj0;m=<5_YOLN0
 R2
 R0
-R3
+w1524168221
 8C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/COLISION/Muxx81Y.v
 FC:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/COLISION/Muxx81Y.v
 R16
@@ -296,7 +296,7 @@ R4
 r1
 !s85 0
 31
-R5
+R17
 !s107 C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/COLISION/Muxx81Y.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/COLISION|C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/COLISION/Muxx81Y.v|
 !i113 1
@@ -305,7 +305,7 @@ R9
 R8
 n@muxx81@y
 vNIVEL_VEHICULOS
-R10
+R13
 !i10b 1
 !s100 b<;`3Fo[zmAgYd>HFkARK2
 I3Wk1WaI[AMe=lW]iWTldJ0
@@ -319,16 +319,16 @@ R4
 r1
 !s85 0
 31
-R11
+R12
 !s107 C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/NIVEL_VEHICULOS.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS|C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/NIVEL_VEHICULOS.v|
 !i113 1
 R6
-R15
+R14
 R8
 n@n@i@v@e@l_@v@e@h@i@c@u@l@o@s
 vPINTAR_DATA_DEMUX
-Z17 !s110 1524166745
+R15
 !i10b 1
 !s100 ]3JiY_iJ<@;17;<HPMGZ01
 I@@c52odfbP4K]Eb2`ZKXj2
@@ -342,16 +342,16 @@ R4
 r1
 !s85 0
 31
-Z18 !s108 1524166745.000000
+R17
 !s107 C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/PINTAR_MATRIZ/PINTAR_DATA_DEMUX.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/PINTAR_MATRIZ|C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/PINTAR_MATRIZ/PINTAR_DATA_DEMUX.v|
 !i113 1
 R6
-Z19 !s92 -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/PINTAR_MATRIZ
+Z18 !s92 -vlog01compat -work work +incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/PINTAR_MATRIZ
 R8
 n@p@i@n@t@a@r_@d@a@t@a_@d@e@m@u@x
 vPINTAR_MATRIZ
-R17
+R15
 !i10b 1
 !s100 >J6l>43UM^eP5YmeV8_nY1
 ICUYI4P3IVF3@a8^zY0>^J1
@@ -365,16 +365,16 @@ R4
 r1
 !s85 0
 31
-R5
+R17
 !s107 C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/PINTAR_MATRIZ/PINTAR_MATRIZ.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/PINTAR_MATRIZ|C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/PINTAR_MATRIZ/PINTAR_MATRIZ.v|
 !i113 1
 R6
-R19
+R18
 R8
 n@p@i@n@t@a@r_@m@a@t@r@i@z
 vRANA
-Z20 !s110 1524166742
+R11
 !i10b 1
 !s100 6:XlP8RKLmN;6COK6?HQ^2
 I?d?QEZ@[^m1Z_WT50[TgF0
@@ -388,7 +388,7 @@ R4
 r1
 !s85 0
 31
-Z21 !s108 1524166742.000000
+Z19 !s108 1524168283.000000
 !s107 C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA/RANA.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA|C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA/RANA.v|
 !i113 1
@@ -397,7 +397,7 @@ R7
 R8
 n@r@a@n@a
 vREGDD_NV
-R10
+R13
 !i10b 1
 !s100 kBH0i?ROSQ?2jO;]22X7e0
 I4RfQb;ofi<LzHNRKLY?3W0
@@ -411,16 +411,16 @@ R4
 r1
 !s85 0
 31
-R21
+R12
 !s107 C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS|C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v|
 !i113 1
 R6
-R15
+R14
 R8
 n@r@e@g@d@d_@n@v
 vREGDI_NV
-R20
+R11
 !i10b 1
 !s100 i70A::RBmNEa8D4n<b@O>1
 I1ORQ?8S=>E245Z@mazEAW2
@@ -434,16 +434,16 @@ R4
 r1
 !s85 0
 31
-R21
+R19
 !s107 C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS|C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v|
 !i113 1
 R6
-R15
+R14
 R8
 n@r@e@g@d@i_@n@v
 vSC_REGDD
-R20
+R11
 !i10b 1
 !s100 IGR]Dl5ZK11zEok]EY_@g2
 INU9ShFM^3VLNlD_FkdG1L0
@@ -457,16 +457,16 @@ R4
 r1
 !s85 0
 31
-R21
+R19
 !s107 C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_REGDD.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS|C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_REGDD.v|
 !i113 1
 R6
-R15
+R14
 R8
 n@s@c_@r@e@g@d@d
 vSC_REGDI
-R20
+R11
 !i10b 1
 !s100 0^Eg15z8c;o<CPK6fKOmR1
 I6]93eYfa0^C2c?U7m<COk0
@@ -480,16 +480,16 @@ R4
 r1
 !s85 0
 31
-R21
+R19
 !s107 C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_REGDI.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS|C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_REGDI.v|
 !i113 1
 R6
-R15
+R14
 R8
 n@s@c_@r@e@g@d@i
 vSC_STATEMACHINE_FROG_MOV
-R13
+R11
 !i10b 1
 !s100 6G7KMU`:L?DZSgK0zT@e22
 IBWIG@dIoM:GdVFHih<OT10
@@ -503,7 +503,7 @@ R4
 r1
 !s85 0
 31
-R14
+R19
 !s107 C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA/SC_STATEMACHINE_FROG_MOV.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA|C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA/SC_STATEMACHINE_FROG_MOV.v|
 !i113 1
@@ -512,7 +512,7 @@ R7
 R8
 n@s@c_@s@t@a@t@e@m@a@c@h@i@n@e_@f@r@o@g_@m@o@v
 vSC_STATEMACHINE_NVE
-R20
+R11
 !i10b 1
 !s100 k>Gz7F]X9TYVX2<ddm6^72
 IN3Ii3Mk8F93JMgES9?WVD2
@@ -526,16 +526,16 @@ R4
 r1
 !s85 0
 31
-R21
+R19
 !s107 C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS|C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v|
 !i113 1
 R6
-R15
+R14
 R8
 n@s@c_@s@t@a@t@e@m@a@c@h@i@n@e_@n@v@e
 vSC_VEL
-R20
+R11
 !i10b 1
 !s100 da7zCeHn@<PF@U>Zj^];D2
 Il0WSQ=ZXnI:m3A0C`ab[c2
@@ -549,16 +549,16 @@ R4
 r1
 !s85 0
 31
-R21
+R19
 !s107 C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_VEL.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS|C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_VEL.v|
 !i113 1
 R6
-R15
+R14
 R8
 n@s@c_@v@e@l
 vshift_reg_start_done
-R10
+R13
 !i10b 1
 !s100 G7S[;fdB2ZXOBh:?Le_F13
 IAlLnmYaA7mf:g?KFF_<`d3
@@ -572,15 +572,15 @@ R4
 r1
 !s85 0
 31
-R11
+R12
 !s107 C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/shift_reg_start_done.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz|C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/shift_reg_start_done.v|
 !i113 1
 R6
-R12
+R10
 R8
 vSystem
-R17
+R15
 !i10b 1
 !s100 7C;eBjgET;Laoh`e5;T9I3
 IH2R_cAKAQ<z^Q47hXWQbo2
@@ -594,7 +594,7 @@ R4
 r1
 !s85 0
 31
-R18
+R17
 !s107 C:/Users/Felipe/git/frogger_excercise/system.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Felipe/git/frogger_excercise|C:/Users/Felipe/git/frogger_excercise/system.v|
 !i113 1
@@ -603,7 +603,7 @@ R6
 R8
 n@system
 vSystem_vlg_tst
-R17
+R15
 !i10b 1
 !s100 <=:UBl5?8DOkP:3O0@Y3b0
 Ik^YoielANXAUcJe?BnAXm1
@@ -617,7 +617,7 @@ R4
 r1
 !s85 0
 31
-R18
+R17
 !s107 C:/Users/Felipe/git/frogger_excercise/simulation/modelsim/System.vt|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Felipe/git/frogger_excercise/simulation/modelsim|C:/Users/Felipe/git/frogger_excercise/simulation/modelsim/System.vt|
 !i113 1
