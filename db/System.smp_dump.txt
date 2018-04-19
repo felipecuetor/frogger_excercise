@@ -41,21 +41,6 @@ St_Register.Posicion5 0 0 1 0 0 0 0 1
 St_Register.Posicion6 0 1 0 0 0 0 0 1 
 St_Register.Posicion7 1 0 0 0 0 0 0 1 
 
-State Machine - |System|JUEGO:JUEGO_u0|CONTROL_CASAS:CONTROL_CASAS_u0|St_Register
-Name St_Register.TCasas St_Register.C3Casa1p St_Register.C3Casa2p St_Register.C3Casa3 St_Register.C2Casa3p St_Register.C2Casa1p St_Register.C2Casa2 St_Register.C1Casa3p St_Register.C1Casa2p St_Register.C1Casa1 St_Register.Juego St_Register.Inicio 
-St_Register.Inicio 0 0 0 0 0 0 0 0 0 0 0 0 
-St_Register.Juego 0 0 0 0 0 0 0 0 0 0 1 1 
-St_Register.C1Casa1 0 0 0 0 0 0 0 0 0 1 0 1 
-St_Register.C1Casa2p 0 0 0 0 0 0 0 0 1 0 0 1 
-St_Register.C1Casa3p 0 0 0 0 0 0 0 1 0 0 0 1 
-St_Register.C2Casa2 0 0 0 0 0 0 1 0 0 0 0 1 
-St_Register.C2Casa1p 0 0 0 0 0 1 0 0 0 0 0 1 
-St_Register.C2Casa3p 0 0 0 0 1 0 0 0 0 0 0 1 
-St_Register.C3Casa3 0 0 0 1 0 0 0 0 0 0 0 1 
-St_Register.C3Casa2p 0 0 1 0 0 0 0 0 0 0 0 1 
-St_Register.C3Casa1p 0 1 0 0 0 0 0 0 0 0 0 1 
-St_Register.TCasas 1 0 0 0 0 0 0 0 0 0 0 1 
-
 State Machine - |System|JUEGO:JUEGO_u0|CONTROL_RANAS:CONTROL_RANAS_u0|St_Register
 Name St_Register.Gano St_Register.TresRana St_Register.Ini3Rana St_Register.DosRana St_Register.Ini2Rana St_Register.UnaRana St_Register.Ini1Rana St_Register.Inicio 
 St_Register.Inicio 0 0 0 0 0 0 0 0 
@@ -159,38 +144,3 @@ St_Register.Nivel3 0 0 0 1 0 0 0 0 0 0 0 1
 St_Register.Seleccion4 0 0 1 0 0 0 0 0 0 0 0 1 
 St_Register.Nivel4 0 1 0 0 0 0 0 0 0 0 0 1 
 St_Register.Juego 1 0 0 0 0 0 0 0 0 0 0 1 
-
-State Machine - |System|CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|FILTRO:FILTRO_4|St_Register
-Name St_Register.St_Count2 St_Register.St_Count1 St_Register.St_Wait St_Register.St_Init 
-St_Register.St_Init 0 0 0 0 
-St_Register.St_Wait 0 0 1 1 
-St_Register.St_Count1 0 1 0 1 
-St_Register.St_Count2 1 0 0 1 
-
-State Machine - |System|CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|FILTRO:FILTRO_3|St_Register
-Name St_Register.St_Count2 St_Register.St_Count1 St_Register.St_Wait St_Register.St_Init 
-St_Register.St_Init 0 0 0 0 
-St_Register.St_Wait 0 0 1 1 
-St_Register.St_Count1 0 1 0 1 
-St_Register.St_Count2 1 0 0 1 
-
-State Machine - |System|CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|FILTRO:FILTRO_2|St_Register
-Name St_Register.St_Count2 St_Register.St_Count1 St_Register.St_Wait St_Register.St_Init 
-St_Register.St_Init 0 0 0 0 
-St_Register.St_Wait 0 0 1 1 
-St_Register.St_Count1 0 1 0 1 
-St_Register.St_Count2 1 0 0 1 
-
-State Machine - |System|CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|FILTRO:FILTRO_1|St_Register
-Name St_Register.St_Count2 St_Register.St_Count1 St_Register.St_Wait St_Register.St_Init 
-St_Register.St_Init 0 0 0 0 
-St_Register.St_Wait 0 0 1 1 
-St_Register.St_Count1 0 1 0 1 
-St_Register.St_Count2 1 0 0 1 
-
-State Machine - |System|CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|FILTRO:FILTRO_0|St_Register
-Name St_Register.St_Count2 St_Register.St_Count1 St_Register.St_Wait St_Register.St_Init 
-St_Register.St_Init 0 0 0 0 
-St_Register.St_Wait 0 0 1 1 
-St_Register.St_Count1 0 1 0 1 
-St_Register.St_Count2 1 0 0 1 

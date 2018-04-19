@@ -1,280 +1,86 @@
 |System
-CLOCK_50 => CLOCK_50.IN3
-LED[0] << B_Left.DB_MAX_OUTPUT_PORT_TYPE
-LED[1] << B_Right.DB_MAX_OUTPUT_PORT_TYPE
-LED[2] << B_Up.DB_MAX_OUTPUT_PORT_TYPE
-LED[3] << B_Down.DB_MAX_OUTPUT_PORT_TYPE
-LED[4] << <GND>
-LED[5] << <GND>
-LED[6] << RESET_S.DB_MAX_OUTPUT_PORT_TYPE
-LED[7] << B_Start.DB_MAX_OUTPUT_PORT_TYPE
-MAX7219_DIN << control_matriz:control_matriz_u0.MAX7219_DIN
-MAX7219_CS << control_matriz:control_matriz_u0.MAX7219_CS
-MAX7219_CLK << control_matriz:control_matriz_u0.MAX7219_CLK
+CLOCK_50 => CLOCK_50.IN2
+LED[0] <= B_Left.DB_MAX_OUTPUT_PORT_TYPE
+LED[1] <= B_Right.DB_MAX_OUTPUT_PORT_TYPE
+LED[2] <= B_Up.DB_MAX_OUTPUT_PORT_TYPE
+LED[3] <= B_Down.DB_MAX_OUTPUT_PORT_TYPE
+LED[4] <= <GND>
+LED[5] <= <GND>
+LED[6] <= RESET.DB_MAX_OUTPUT_PORT_TYPE
+LED[7] <= B_Start.DB_MAX_OUTPUT_PORT_TYPE
+MAX7219_DIN <= control_matriz:control_matriz_u0.MAX7219_DIN
+MAX7219_CS <= control_matriz:control_matriz_u0.MAX7219_CS
+MAX7219_CLK <= control_matriz:control_matriz_u0.MAX7219_CLK
 B_Left => B_Left.IN1
 B_Right => B_Right.IN1
 B_Up => B_Up.IN1
 B_Down => B_Down.IN1
 B_Start => B_Start.IN1
-RESET => RESET.IN1
-
-
-|System|CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0
-CLOCK_50 => CLOCK_50.IN11
-B_Left => _.IN1
-B_Right => _.IN1
-B_Up => _.IN1
-B_Down => _.IN1
-B_Start => B_Start.IN1
-B_RESET => _.IN1
-LEFT <= FILTRO:FILTRO_0.F_OUT
-RIGHT <= FILTRO:FILTRO_1.F_OUT
-UP <= FILTRO:FILTRO_2.F_OUT
-DOWN <= FILTRO:FILTRO_3.F_OUT
-START <= FILTRO:FILTRO_4.F_OUT
-RESET <= RESET_W.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|System|CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|DeBounce:DeBounce_1
-D_CLOCK_50 => D_Button_Out~reg0.CLK
-D_CLOCK_50 => q_reg[0].CLK
-D_CLOCK_50 => q_reg[1].CLK
-D_CLOCK_50 => q_reg[2].CLK
-D_CLOCK_50 => q_reg[3].CLK
-D_CLOCK_50 => q_reg[4].CLK
-D_CLOCK_50 => q_reg[5].CLK
-D_CLOCK_50 => q_reg[6].CLK
-D_CLOCK_50 => q_reg[7].CLK
-D_CLOCK_50 => q_reg[8].CLK
-D_CLOCK_50 => q_reg[9].CLK
-D_CLOCK_50 => q_reg[10].CLK
-D_CLOCK_50 => DFF2.CLK
-D_CLOCK_50 => DFF1.CLK
-D_Reset => DFF1.OUTPUTSELECT
-D_Reset => DFF2.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Button_In => DFF1.DATAA
-D_Button_Out <= D_Button_Out~reg0.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|System|CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|DeBounce:DeBounce_2
-D_CLOCK_50 => D_Button_Out~reg0.CLK
-D_CLOCK_50 => q_reg[0].CLK
-D_CLOCK_50 => q_reg[1].CLK
-D_CLOCK_50 => q_reg[2].CLK
-D_CLOCK_50 => q_reg[3].CLK
-D_CLOCK_50 => q_reg[4].CLK
-D_CLOCK_50 => q_reg[5].CLK
-D_CLOCK_50 => q_reg[6].CLK
-D_CLOCK_50 => q_reg[7].CLK
-D_CLOCK_50 => q_reg[8].CLK
-D_CLOCK_50 => q_reg[9].CLK
-D_CLOCK_50 => q_reg[10].CLK
-D_CLOCK_50 => DFF2.CLK
-D_CLOCK_50 => DFF1.CLK
-D_Reset => DFF1.OUTPUTSELECT
-D_Reset => DFF2.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Button_In => DFF1.DATAA
-D_Button_Out <= D_Button_Out~reg0.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|System|CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|DeBounce:DeBounce_3
-D_CLOCK_50 => D_Button_Out~reg0.CLK
-D_CLOCK_50 => q_reg[0].CLK
-D_CLOCK_50 => q_reg[1].CLK
-D_CLOCK_50 => q_reg[2].CLK
-D_CLOCK_50 => q_reg[3].CLK
-D_CLOCK_50 => q_reg[4].CLK
-D_CLOCK_50 => q_reg[5].CLK
-D_CLOCK_50 => q_reg[6].CLK
-D_CLOCK_50 => q_reg[7].CLK
-D_CLOCK_50 => q_reg[8].CLK
-D_CLOCK_50 => q_reg[9].CLK
-D_CLOCK_50 => q_reg[10].CLK
-D_CLOCK_50 => DFF2.CLK
-D_CLOCK_50 => DFF1.CLK
-D_Reset => DFF1.OUTPUTSELECT
-D_Reset => DFF2.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Button_In => DFF1.DATAA
-D_Button_Out <= D_Button_Out~reg0.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|System|CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|DeBounce:DeBounce_4
-D_CLOCK_50 => D_Button_Out~reg0.CLK
-D_CLOCK_50 => q_reg[0].CLK
-D_CLOCK_50 => q_reg[1].CLK
-D_CLOCK_50 => q_reg[2].CLK
-D_CLOCK_50 => q_reg[3].CLK
-D_CLOCK_50 => q_reg[4].CLK
-D_CLOCK_50 => q_reg[5].CLK
-D_CLOCK_50 => q_reg[6].CLK
-D_CLOCK_50 => q_reg[7].CLK
-D_CLOCK_50 => q_reg[8].CLK
-D_CLOCK_50 => q_reg[9].CLK
-D_CLOCK_50 => q_reg[10].CLK
-D_CLOCK_50 => DFF2.CLK
-D_CLOCK_50 => DFF1.CLK
-D_Reset => DFF1.OUTPUTSELECT
-D_Reset => DFF2.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Button_In => DFF1.DATAA
-D_Button_Out <= D_Button_Out~reg0.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|System|CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|DeBounce:DeBounce_5
-D_CLOCK_50 => D_Button_Out~reg0.CLK
-D_CLOCK_50 => q_reg[0].CLK
-D_CLOCK_50 => q_reg[1].CLK
-D_CLOCK_50 => q_reg[2].CLK
-D_CLOCK_50 => q_reg[3].CLK
-D_CLOCK_50 => q_reg[4].CLK
-D_CLOCK_50 => q_reg[5].CLK
-D_CLOCK_50 => q_reg[6].CLK
-D_CLOCK_50 => q_reg[7].CLK
-D_CLOCK_50 => q_reg[8].CLK
-D_CLOCK_50 => q_reg[9].CLK
-D_CLOCK_50 => q_reg[10].CLK
-D_CLOCK_50 => DFF2.CLK
-D_CLOCK_50 => DFF1.CLK
-D_Reset => DFF1.OUTPUTSELECT
-D_Reset => DFF2.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Button_In => DFF1.DATAA
-D_Button_Out <= D_Button_Out~reg0.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|System|CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|FILTRO:FILTRO_0
-F_CLOCK_50 => St_Register~1.DATAIN
-F_RESET => St_Register~3.DATAIN
-F_OUT <= F_OUT.DB_MAX_OUTPUT_PORT_TYPE
-F_IN => St_Signal.St_Count1.DATAB
-F_IN => Selector1.IN3
-F_IN => Selector0.IN2
-F_IN => Selector0.IN3
-
-
-|System|CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|FILTRO:FILTRO_1
-F_CLOCK_50 => St_Register~1.DATAIN
-F_RESET => St_Register~3.DATAIN
-F_OUT <= F_OUT.DB_MAX_OUTPUT_PORT_TYPE
-F_IN => St_Signal.St_Count1.DATAB
-F_IN => Selector1.IN3
-F_IN => Selector0.IN2
-F_IN => Selector0.IN3
-
-
-|System|CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|FILTRO:FILTRO_2
-F_CLOCK_50 => St_Register~1.DATAIN
-F_RESET => St_Register~3.DATAIN
-F_OUT <= F_OUT.DB_MAX_OUTPUT_PORT_TYPE
-F_IN => St_Signal.St_Count1.DATAB
-F_IN => Selector1.IN3
-F_IN => Selector0.IN2
-F_IN => Selector0.IN3
-
-
-|System|CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|FILTRO:FILTRO_3
-F_CLOCK_50 => St_Register~1.DATAIN
-F_RESET => St_Register~3.DATAIN
-F_OUT <= F_OUT.DB_MAX_OUTPUT_PORT_TYPE
-F_IN => St_Signal.St_Count1.DATAB
-F_IN => Selector1.IN3
-F_IN => Selector0.IN2
-F_IN => Selector0.IN3
-
-
-|System|CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|FILTRO:FILTRO_4
-F_CLOCK_50 => St_Register~1.DATAIN
-F_RESET => St_Register~3.DATAIN
-F_OUT <= F_OUT.DB_MAX_OUTPUT_PORT_TYPE
-F_IN => St_Signal.St_Count1.DATAB
-F_IN => Selector1.IN3
-F_IN => Selector0.IN2
-F_IN => Selector0.IN3
-
-
-|System|CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|DeBounce:DeBounce_0
-D_CLOCK_50 => D_Button_Out~reg0.CLK
-D_CLOCK_50 => q_reg[0].CLK
-D_CLOCK_50 => q_reg[1].CLK
-D_CLOCK_50 => q_reg[2].CLK
-D_CLOCK_50 => q_reg[3].CLK
-D_CLOCK_50 => q_reg[4].CLK
-D_CLOCK_50 => q_reg[5].CLK
-D_CLOCK_50 => q_reg[6].CLK
-D_CLOCK_50 => q_reg[7].CLK
-D_CLOCK_50 => q_reg[8].CLK
-D_CLOCK_50 => q_reg[9].CLK
-D_CLOCK_50 => q_reg[10].CLK
-D_CLOCK_50 => DFF2.CLK
-D_CLOCK_50 => DFF1.CLK
-D_Reset => DFF1.OUTPUTSELECT
-D_Reset => DFF2.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Reset => q_reg.OUTPUTSELECT
-D_Button_In => DFF1.DATAA
-D_Button_Out <= D_Button_Out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+RESET => RESET.IN2
+led_final_7_tester[0] <= fila7[0].DB_MAX_OUTPUT_PORT_TYPE
+led_final_7_tester[1] <= fila7[1].DB_MAX_OUTPUT_PORT_TYPE
+led_final_7_tester[2] <= fila7[2].DB_MAX_OUTPUT_PORT_TYPE
+led_final_7_tester[3] <= fila7[3].DB_MAX_OUTPUT_PORT_TYPE
+led_final_7_tester[4] <= fila7[4].DB_MAX_OUTPUT_PORT_TYPE
+led_final_7_tester[5] <= fila7[5].DB_MAX_OUTPUT_PORT_TYPE
+led_final_7_tester[6] <= fila7[6].DB_MAX_OUTPUT_PORT_TYPE
+led_final_7_tester[7] <= fila7[7].DB_MAX_OUTPUT_PORT_TYPE
+led_final_6_tester[0] <= fila6[0].DB_MAX_OUTPUT_PORT_TYPE
+led_final_6_tester[1] <= fila6[1].DB_MAX_OUTPUT_PORT_TYPE
+led_final_6_tester[2] <= fila6[2].DB_MAX_OUTPUT_PORT_TYPE
+led_final_6_tester[3] <= fila6[3].DB_MAX_OUTPUT_PORT_TYPE
+led_final_6_tester[4] <= fila6[4].DB_MAX_OUTPUT_PORT_TYPE
+led_final_6_tester[5] <= fila6[5].DB_MAX_OUTPUT_PORT_TYPE
+led_final_6_tester[6] <= fila6[6].DB_MAX_OUTPUT_PORT_TYPE
+led_final_6_tester[7] <= fila6[7].DB_MAX_OUTPUT_PORT_TYPE
+led_final_5_tester[0] <= fila5[0].DB_MAX_OUTPUT_PORT_TYPE
+led_final_5_tester[1] <= fila5[1].DB_MAX_OUTPUT_PORT_TYPE
+led_final_5_tester[2] <= fila5[2].DB_MAX_OUTPUT_PORT_TYPE
+led_final_5_tester[3] <= fila5[3].DB_MAX_OUTPUT_PORT_TYPE
+led_final_5_tester[4] <= fila5[4].DB_MAX_OUTPUT_PORT_TYPE
+led_final_5_tester[5] <= fila5[5].DB_MAX_OUTPUT_PORT_TYPE
+led_final_5_tester[6] <= fila5[6].DB_MAX_OUTPUT_PORT_TYPE
+led_final_5_tester[7] <= fila5[7].DB_MAX_OUTPUT_PORT_TYPE
+led_final_4_tester[0] <= fila4[0].DB_MAX_OUTPUT_PORT_TYPE
+led_final_4_tester[1] <= fila4[1].DB_MAX_OUTPUT_PORT_TYPE
+led_final_4_tester[2] <= fila4[2].DB_MAX_OUTPUT_PORT_TYPE
+led_final_4_tester[3] <= fila4[3].DB_MAX_OUTPUT_PORT_TYPE
+led_final_4_tester[4] <= fila4[4].DB_MAX_OUTPUT_PORT_TYPE
+led_final_4_tester[5] <= fila4[5].DB_MAX_OUTPUT_PORT_TYPE
+led_final_4_tester[6] <= fila4[6].DB_MAX_OUTPUT_PORT_TYPE
+led_final_4_tester[7] <= fila4[7].DB_MAX_OUTPUT_PORT_TYPE
+led_final_3_tester[0] <= fila3[0].DB_MAX_OUTPUT_PORT_TYPE
+led_final_3_tester[1] <= fila3[1].DB_MAX_OUTPUT_PORT_TYPE
+led_final_3_tester[2] <= fila3[2].DB_MAX_OUTPUT_PORT_TYPE
+led_final_3_tester[3] <= fila3[3].DB_MAX_OUTPUT_PORT_TYPE
+led_final_3_tester[4] <= fila3[4].DB_MAX_OUTPUT_PORT_TYPE
+led_final_3_tester[5] <= fila3[5].DB_MAX_OUTPUT_PORT_TYPE
+led_final_3_tester[6] <= fila3[6].DB_MAX_OUTPUT_PORT_TYPE
+led_final_3_tester[7] <= fila3[7].DB_MAX_OUTPUT_PORT_TYPE
+led_final_2_tester[0] <= fila2[0].DB_MAX_OUTPUT_PORT_TYPE
+led_final_2_tester[1] <= fila2[1].DB_MAX_OUTPUT_PORT_TYPE
+led_final_2_tester[2] <= fila2[2].DB_MAX_OUTPUT_PORT_TYPE
+led_final_2_tester[3] <= fila2[3].DB_MAX_OUTPUT_PORT_TYPE
+led_final_2_tester[4] <= fila2[4].DB_MAX_OUTPUT_PORT_TYPE
+led_final_2_tester[5] <= fila2[5].DB_MAX_OUTPUT_PORT_TYPE
+led_final_2_tester[6] <= fila2[6].DB_MAX_OUTPUT_PORT_TYPE
+led_final_2_tester[7] <= fila2[7].DB_MAX_OUTPUT_PORT_TYPE
+led_final_1_tester[0] <= fila1[0].DB_MAX_OUTPUT_PORT_TYPE
+led_final_1_tester[1] <= fila1[1].DB_MAX_OUTPUT_PORT_TYPE
+led_final_1_tester[2] <= fila1[2].DB_MAX_OUTPUT_PORT_TYPE
+led_final_1_tester[3] <= fila1[3].DB_MAX_OUTPUT_PORT_TYPE
+led_final_1_tester[4] <= fila1[4].DB_MAX_OUTPUT_PORT_TYPE
+led_final_1_tester[5] <= fila1[5].DB_MAX_OUTPUT_PORT_TYPE
+led_final_1_tester[6] <= fila1[6].DB_MAX_OUTPUT_PORT_TYPE
+led_final_1_tester[7] <= fila1[7].DB_MAX_OUTPUT_PORT_TYPE
+led_final_0_tester[0] <= fila0[0].DB_MAX_OUTPUT_PORT_TYPE
+led_final_0_tester[1] <= fila0[1].DB_MAX_OUTPUT_PORT_TYPE
+led_final_0_tester[2] <= fila0[2].DB_MAX_OUTPUT_PORT_TYPE
+led_final_0_tester[3] <= fila0[3].DB_MAX_OUTPUT_PORT_TYPE
+led_final_0_tester[4] <= fila0[4].DB_MAX_OUTPUT_PORT_TYPE
+led_final_0_tester[5] <= fila0[5].DB_MAX_OUTPUT_PORT_TYPE
+led_final_0_tester[6] <= fila0[6].DB_MAX_OUTPUT_PORT_TYPE
+led_final_0_tester[7] <= fila0[7].DB_MAX_OUTPUT_PORT_TYPE
 
 
 |System|JUEGO:JUEGO_u0
@@ -1627,37 +1433,38 @@ CR_RESET => St_Register~3.DATAIN
 
 
 |System|JUEGO:JUEGO_u0|CONTROL_CASAS:CONTROL_CASAS_u0
-CC_NVE_REG7_OUT[0] <= CC_NVE_REG7_OUT[0].DB_MAX_OUTPUT_PORT_TYPE
-CC_NVE_REG7_OUT[1] <= WideOr13.DB_MAX_OUTPUT_PORT_TYPE
-CC_NVE_REG7_OUT[2] <= CC_NVE_REG7_OUT[0].DB_MAX_OUTPUT_PORT_TYPE
-CC_NVE_REG7_OUT[3] <= WideOr12.DB_MAX_OUTPUT_PORT_TYPE
-CC_NVE_REG7_OUT[4] <= CC_NVE_REG7_OUT[0].DB_MAX_OUTPUT_PORT_TYPE
-CC_NVE_REG7_OUT[5] <= CC_NVE_REG7_OUT[0].DB_MAX_OUTPUT_PORT_TYPE
-CC_NVE_REG7_OUT[6] <= WideOr11.DB_MAX_OUTPUT_PORT_TYPE
-CC_NVE_REG7_OUT[7] <= CC_NVE_REG7_OUT[0].DB_MAX_OUTPUT_PORT_TYPE
-CC_POSX_IN[0] => Equal1.IN0
-CC_POSX_IN[0] => Equal2.IN2
-CC_POSX_IN[0] => Equal4.IN2
-CC_POSX_IN[1] => Equal1.IN2
-CC_POSX_IN[1] => Equal2.IN1
-CC_POSX_IN[1] => Equal4.IN1
-CC_POSX_IN[2] => Equal1.IN1
-CC_POSX_IN[2] => Equal2.IN0
-CC_POSX_IN[2] => Equal4.IN0
-CC_POSY_IN[0] => Equal3.IN2
-CC_POSY_IN[1] => Equal3.IN1
-CC_POSY_IN[2] => Equal3.IN0
-CC_PERDIO_IN => St_Signal.DATAA
-CC_PERDIO_IN => St_Signal.DATAA
-CC_PERDIO_IN => St_Signal.DATAA
-CC_PERDIO_IN => St_Signal.DATAA
-CC_PERDIO_IN => St_Signal.DATAA
-CC_PERDIO_IN => St_Signal.DATAA
-CC_ESTADO_IN[0] => Equal0.IN2
-CC_ESTADO_IN[1] => Equal0.IN1
-CC_ESTADO_IN[2] => Equal0.IN0
-CC_CLOCK_50 => St_Register~1.DATAIN
-CC_RESET => St_Register~3.DATAIN
+CC_NVE_REG7_OUT[0] <= <VCC>
+CC_NVE_REG7_OUT[1] <= St_Register[2].DB_MAX_OUTPUT_PORT_TYPE
+CC_NVE_REG7_OUT[2] <= <VCC>
+CC_NVE_REG7_OUT[3] <= St_Register[1].DB_MAX_OUTPUT_PORT_TYPE
+CC_NVE_REG7_OUT[4] <= <VCC>
+CC_NVE_REG7_OUT[5] <= <VCC>
+CC_NVE_REG7_OUT[6] <= St_Register[0].DB_MAX_OUTPUT_PORT_TYPE
+CC_NVE_REG7_OUT[7] <= <VCC>
+CC_POSX_IN[0] => Equal0.IN2
+CC_POSX_IN[0] => Equal3.IN1
+CC_POSX_IN[0] => Equal4.IN0
+CC_POSX_IN[1] => Equal0.IN1
+CC_POSX_IN[1] => Equal3.IN0
+CC_POSX_IN[1] => Equal4.IN2
+CC_POSX_IN[2] => Equal0.IN0
+CC_POSX_IN[2] => Equal3.IN2
+CC_POSX_IN[2] => Equal4.IN1
+CC_POSY_IN[0] => Equal2.IN2
+CC_POSY_IN[1] => Equal2.IN1
+CC_POSY_IN[2] => Equal2.IN0
+CC_PERDIO_IN => St_Register.OUTPUTSELECT
+CC_PERDIO_IN => St_Register.OUTPUTSELECT
+CC_PERDIO_IN => St_Register.OUTPUTSELECT
+CC_ESTADO_IN[0] => Equal1.IN2
+CC_ESTADO_IN[1] => Equal1.IN1
+CC_ESTADO_IN[2] => Equal1.IN0
+CC_CLOCK_50 => St_Register[0].CLK
+CC_CLOCK_50 => St_Register[1].CLK
+CC_CLOCK_50 => St_Register[2].CLK
+CC_RESET => St_Register[0].ACLR
+CC_RESET => St_Register[1].ACLR
+CC_RESET => St_Register[2].ACLR
 
 
 |System|JUEGO:JUEGO_u0|COLISION:COLISION_u0

@@ -1,6 +1,6 @@
 Flow report for System
-Mon Apr 16 12:21:05 2018
-Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+Thu Apr 19 14:35:23 2018
+Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
 ---------------------
@@ -29,30 +29,29 @@ functions, and any output files from any of the foregoing
 associated documentation or information are expressly subject 
 to the terms and conditions of the Intel Program License 
 Subscription Agreement, the Intel Quartus Prime License Agreement,
-the Intel MegaCore Function License Agreement, or other 
-applicable license agreement, including, without limitation, 
-that your use is for the sole purpose of programming logic 
-devices manufactured by Intel and sold by Intel or its 
-authorized distributors.  Please refer to the applicable 
-agreement for further details.
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
 
 
 
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Mon Apr 16 12:21:05 2018       ;
-; Quartus Prime Version              ; 17.0.0 Build 595 04/25/2017 SJ Lite Edition ;
+; Flow Status                        ; Successful - Thu Apr 19 14:35:23 2018       ;
+; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; System                                      ;
 ; Top-level Entity Name              ; System                                      ;
 ; Family                             ; Cyclone IV E                                ;
 ; Device                             ; EP4CE22F17C6                                ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 701 / 22,320 ( 3 % )                        ;
-;     Total combinational functions  ; 693 / 22,320 ( 3 % )                        ;
-;     Dedicated logic registers      ; 285 / 22,320 ( 1 % )                        ;
-; Total registers                    ; 285                                         ;
-; Total pins                         ; 18 / 154 ( 12 % )                           ;
+; Total logic elements               ; 496 / 22,320 ( 2 % )                        ;
+;     Total combinational functions  ; 489 / 22,320 ( 2 % )                        ;
+;     Dedicated logic registers      ; 176 / 22,320 ( < 1 % )                      ;
+; Total registers                    ; 176                                         ;
+; Total pins                         ; 82 / 154 ( 53 % )                           ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0 / 608,256 ( 0 % )                         ;
 ; Embedded Multiplier 9-bit elements ; 0 / 132 ( 0 % )                             ;
@@ -65,7 +64,7 @@ agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/16/2018 12:20:27 ;
+; Start date & time ; 04/19/2018 14:34:37 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; System              ;
 +-------------------+---------------------+
@@ -76,7 +75,7 @@ agreement for further details.
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 189698559208087.152389922706140        ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 8995262999293.152416647613620          ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; System_vlg_tst ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; System_vlg_tst                         ; --            ; --          ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                            ; --            ; --          ; eda_simulation ;
@@ -101,12 +100,12 @@ agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:19     ; 1.0                     ; 666 MB              ; 00:00:39                           ;
-; Fitter                    ; 00:00:07     ; 1.0                     ; 1205 MB             ; 00:00:09                           ;
-; Assembler                 ; 00:00:02     ; 1.0                     ; 599 MB              ; 00:00:02                           ;
-; TimeQuest Timing Analyzer ; 00:00:03     ; 1.0                     ; 692 MB              ; 00:00:03                           ;
-; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 576 MB              ; 00:00:02                           ;
-; Total                     ; 00:00:33     ; --                      ; --                  ; 00:00:55                           ;
+; Analysis & Synthesis      ; 00:00:21     ; 1.0                     ; 662 MB              ; 00:00:46                           ;
+; Fitter                    ; 00:00:11     ; 1.0                     ; 1175 MB             ; 00:00:12                           ;
+; Assembler                 ; 00:00:01     ; 1.0                     ; 597 MB              ; 00:00:02                           ;
+; TimeQuest Timing Analyzer ; 00:00:04     ; 1.1                     ; 683 MB              ; 00:00:04                           ;
+; EDA Netlist Writer        ; 00:00:03     ; 1.0                     ; 572 MB              ; 00:00:02                           ;
+; Total                     ; 00:00:40     ; --                      ; --                  ; 00:01:06                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -115,11 +114,11 @@ agreement for further details.
 +---------------------------+------------------+------------+------------+----------------+
 ; Module Name               ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +---------------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis      ; DESKTOP-MLJOV46  ; Windows 10 ; 10.0       ; x86_64         ;
-; Fitter                    ; DESKTOP-MLJOV46  ; Windows 10 ; 10.0       ; x86_64         ;
-; Assembler                 ; DESKTOP-MLJOV46  ; Windows 10 ; 10.0       ; x86_64         ;
-; TimeQuest Timing Analyzer ; DESKTOP-MLJOV46  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer        ; DESKTOP-MLJOV46  ; Windows 10 ; 10.0       ; x86_64         ;
+; Analysis & Synthesis      ; user-HP          ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter                    ; user-HP          ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler                 ; user-HP          ; Windows 10 ; 10.0       ; x86_64         ;
+; TimeQuest Timing Analyzer ; user-HP          ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer        ; user-HP          ; Windows 10 ; 10.0       ; x86_64         ;
 +---------------------------+------------------+------------+------------+----------------+
 
 

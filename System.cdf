@@ -1,10 +1,10 @@
-/* Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition */
+/* Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition */
 JedecChain;
 	FileRevision(JESD32A);
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP4CE22F17) Path("C:/Digitales/B_S/DEON_FROGGER_C_backup/") File("System.sof") MfrSpec(OpMask(1));
+		Device PartName(EP4CE22F17) Path("C:/Users/Felipe/git/frogger_excercise/") File("System.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

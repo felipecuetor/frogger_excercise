@@ -19,7 +19,7 @@ module CONTROL_CASAS(
 	parameter DATAWIDTH_POS=3;
 	parameter DATAWIDTH_BUS=8;
 // states declaration
-	parameter Inicio = 6'b000000;
+	parameter Inicio = 3'b000;
 //=======================================================
 //  PORT declarations
 //=======================================================
@@ -34,8 +34,8 @@ module CONTROL_CASAS(
 //=======================================================
 //  REG/WIRE declarations
 //=======================================================
-reg [5:0] St_Register;
-reg [5:0] St_Signal;
+reg [2:0] St_Register;
+reg [2:0] St_Signal;
 //=======================================================
 //  Structural coding
 //=======================================================
@@ -48,12 +48,6 @@ reg [5:0] St_Signal;
 			St_Signal[1]=1'b1;
 		else if(CC_ESTADO_IN == 3'b111 & CC_POSY_IN == 3'b111 & CC_POSX_IN == 3'b110)
 			St_Signal[2]=1'b1;
-		else if(St_Signal[0]==1'b1)
-			St_Signal[3]=1'b1;
-		else if(St_Signal[1]==1'b1)
-			St_Signal[4]=1'b1;
-		else if(St_Signal[2]==1'b1)
-			St_Signal[5]=1'b1;
 		else
 			St_Signal = St_Register;
 		

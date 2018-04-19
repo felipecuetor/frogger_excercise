@@ -1,2 +1,2 @@
-Warning (10268): Verilog HDL information at matrix_ctrl.v(128): always construct contains both blocking and non-blocking assignments File: C:/Digitales/B_S/DEON_FROGGER_C_backup/rtl/control_matriz/matrix_ctrl.v Line: 128
-Info (10281): Verilog HDL Declaration information at matrix_ctrl.v(40): object "intensity" differs only in case from object "INTENSITY" in the same scope File: C:/Digitales/B_S/DEON_FROGGER_C_backup/rtl/control_matriz/matrix_ctrl.v Line: 40
+Warning (10268): Verilog HDL information at matrix_ctrl.v(128): always construct contains both blocking and non-blocking assignments File: C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v Line: 128
+Info (10281): Verilog HDL Declaration information at matrix_ctrl.v(40): object "intensity" differs only in case from object "INTENSITY" in the same scope File: C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v Line: 40

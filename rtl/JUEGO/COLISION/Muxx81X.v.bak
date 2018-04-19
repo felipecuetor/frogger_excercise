@@ -52,14 +52,14 @@ module Muxx81X (
 always @(Muxx81_Data_Bus_In or Muxx81_Select_Bus_In)
 begin
    case( Muxx81_Select_Bus_In )
-       0 : Muxx81_Z_Bit_Out = Muxx81_Data_Bus_In[7];
-       1 : Muxx81_Z_Bit_Out = Muxx81_Data_Bus_In[6];
-       2 : Muxx81_Z_Bit_Out = Muxx81_Data_Bus_In[5];
-       3 : Muxx81_Z_Bit_Out = Muxx81_Data_Bus_In[4];
-		 4 : Muxx81_Z_Bit_Out = Muxx81_Data_Bus_In[3];
-		 5 : Muxx81_Z_Bit_Out = Muxx81_Data_Bus_In[2];
-		 6 : Muxx81_Z_Bit_Out = Muxx81_Data_Bus_In[1];
-		 7 : Muxx81_Z_Bit_Out = Muxx81_Data_Bus_In[0];
+       0 : Muxx81_Z_Bit_Out = Muxx81_Data_Bus_In[0];
+       1 : Muxx81_Z_Bit_Out = Muxx81_Data_Bus_In[1];
+       2 : Muxx81_Z_Bit_Out = Muxx81_Data_Bus_In[2];
+       3 : Muxx81_Z_Bit_Out = Muxx81_Data_Bus_In[3];
+		 4 : Muxx81_Z_Bit_Out = Muxx81_Data_Bus_In[4];
+		 5 : Muxx81_Z_Bit_Out = Muxx81_Data_Bus_In[5];
+		 6 : Muxx81_Z_Bit_Out = Muxx81_Data_Bus_In[6];
+		 7 : Muxx81_Z_Bit_Out = Muxx81_Data_Bus_In[7];
        default : Muxx81_Z_Bit_Out = 1'b0;       
    endcase		
 end

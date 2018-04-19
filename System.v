@@ -21,9 +21,16 @@ module System(
 	B_Up,
 	B_Down,
 	B_Start,
-	RESET
+	RESET,
 	
-	
+	led_final_7_tester,
+	led_final_6_tester,
+	led_final_5_tester,
+	led_final_4_tester,
+	led_final_3_tester,
+	led_final_2_tester,
+	led_final_1_tester,
+	led_final_0_tester
 );
 
 //=======================================================
@@ -54,6 +61,15 @@ output   MAX7219_DIN;
 output	MAX7219_CS;
 output	MAX7219_CLK;
 
+output [7:0] led_final_7_tester;
+output [7:0] led_final_6_tester;
+output [7:0] led_final_5_tester;
+output [7:0] led_final_4_tester;
+output [7:0] led_final_3_tester;
+output [7:0] led_final_2_tester;
+output [7:0] led_final_1_tester;
+output [7:0] led_final_0_tester;
+
 //=======================================================
 //  REG/WIRE declarations
 //=======================================================
@@ -66,30 +82,15 @@ wire [7:0] fila5;
 wire [7:0] fila6;
 wire [7:0] fila7;
 
-wire LEFT_W;
-wire RIGHT_W;
-wire UP_W;
-wire DOWN_W;
-wire START_W;
-wire RESET_S;
+wire B_Left;
+wire B_Right;
+wire B_Up;
+wire B_Down;
+wire B_Start;
+wire RESET;
 //=======================================================
 //  Structural coding
 //=======================================================
-CONTROL_ENTRADAS CONTROL_ENTRADAS_U0(
-	.CLOCK_50(CLOCK_50),
-	.B_Left(B_Left),
-	.B_Right(B_Right),
-	.B_Up(B_Up),
-	.B_Down(B_Down),
-	.B_Start(B_Start),
-	.B_RESET(RESET),
-	.LEFT(LEFT_W),
-	.RIGHT(RIGHT_W),
-	.UP(UP_W),
-	.DOWN(DOWN_W),
-	.START(START_W),
-	.RESET(RESET_S)
-);
 
 JUEGO JUEGO_u0 (
    .JUEGO_7_OUT(fila7),
@@ -101,17 +102,17 @@ JUEGO JUEGO_u0 (
 	.JUEGO_1_OUT(fila1),
 	.JUEGO_0_OUT(fila0), 
 	.JUEGO_CLOCK(CLOCK_50),
-	.JUEGO_RESET(RESET_S),	
-	.JUEGO_START(START_W),
-	.JUEGO_LEFT(LEFT_W),
-	.JUEGO_RIGHT(RIGHT_W),
-	.JUEGO_UP(UP_W),
-	.JUEGO_DOWN(DOWN_W)
+	.JUEGO_RESET(RESET),	
+	.JUEGO_START(B_Start),
+	.JUEGO_LEFT(B_Right),
+	.JUEGO_RIGHT(B_Left),
+	.JUEGO_UP(B_Up),
+	.JUEGO_DOWN(B_Down)
 );
 
 control_matriz control_matriz_u0(
 	.CLOCK_50(CLOCK_50),
-	.RESET(RESET_S),
+	.RESET(RESET),
 	.fila0(fila0),
 	.fila1(fila1),
 	.fila2(fila2),
@@ -129,7 +130,16 @@ assign LED[0] = B_Left; // Button Left
 assign LED[1] = B_Right;// Button Right
 assign LED[2] = B_Up;	// Button Down
 assign LED[3] = B_Down;	// Button Up
-assign LED[6] = RESET_S;
+assign LED[6] = RESET;
 assign LED[7] = B_Start;	// Button Start
+
+assign led_final_7_tester = fila7;
+assign led_final_6_tester = fila6;
+assign led_final_5_tester = fila5;
+assign led_final_4_tester = fila4;
+assign led_final_3_tester = fila3;
+assign led_final_2_tester = fila2;
+assign led_final_1_tester = fila1;
+assign led_final_0_tester = fila0;
 
 endmodule

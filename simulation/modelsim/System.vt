@@ -37,16 +37,25 @@ integer ii=0;
 // test vector input registers
 reg B_Down;
 reg B_Left;
-reg B_Rigth;
+reg B_Right;
 reg B_Up;
 reg CLOCK_50;
 reg RESET;
-reg Start;
+reg B_Start;
 // wires                                               
 wire [7:0]  LED;
 wire MAX7219_CLK;
 wire MAX7219_CS;
 wire MAX7219_DIN;
+
+wire [7:0] led_final_7_tester;
+wire [7:0] led_final_6_tester;
+wire [7:0] led_final_5_tester;
+wire [7:0] led_final_4_tester;
+wire [7:0] led_final_3_tester;
+wire [7:0] led_final_2_tester;
+wire [7:0] led_final_1_tester;
+wire [7:0] led_final_0_tester;
 
 
 
@@ -55,7 +64,7 @@ System i1 (
 // port map - connection between master ports and signals/registers   
 	.B_Down(B_Down),
 	.B_Left(B_Left),
-	.B_Rigth(B_Rigth),
+	.B_Right(B_Right),
 	.B_Up(B_Up),
 	.CLOCK_50(CLOCK_50),
 	.LED(LED),
@@ -63,7 +72,16 @@ System i1 (
 	.MAX7219_CS(MAX7219_CS),
 	.MAX7219_DIN(MAX7219_DIN),
 	.RESET(RESET),
-	.Start(Start)
+	.B_Start(B_Start),
+	.led_final_7_tester(led_final_7_tester),
+	.led_final_6_tester(led_final_6_tester),
+	.led_final_5_tester(led_final_5_tester),
+	.led_final_4_tester(led_final_4_tester),
+	.led_final_3_tester(led_final_3_tester),
+	.led_final_2_tester(led_final_2_tester),
+	.led_final_1_tester(led_final_1_tester),
+	.led_final_0_tester(led_final_0_tester)
+	
 );
 initial                                                
 begin                                                  
@@ -75,17 +93,64 @@ $display("Running testbench");
 end                                                    
 always                                                 
 // optional sensitivity list                           
-// @(event1 or event2 or .... eventn) 
-#(TCK/2) CLOCK_50 <= ~ CLOCK_50;                 
-initial 
-	begin                                                  
-	// code executes for every event on sensitivity list   
-	// insert code here --> begin                          
-	#1 RESET<= 1'b0;	
-	#1000  RESET<= 1'b1;		
-	#3000  RESET<= 1'b0;	
-	@eachvec;                                              
-	// --> end                                             
-	end                                                    
+// @(event1 or event2 or .... eventn)                  
+begin: tester      
+	//Tests de Gray a Binario
+	/**
+	reg B_Down;
+	reg B_Left;
+	reg B_Right;
+	reg B_Up;
+	reg CLOCK_50;
+	reg RESET;
+	reg B_Start;
+	*/
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 0;RESET <= 1;B_Start <= 0;CLOCK_50 <= 0;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 0;RESET <= 1;B_Start <= 0;CLOCK_50 <= 1;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 1;CLOCK_50 <= 0;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 1;CLOCK_50 <= 1;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 1;CLOCK_50 <= 0;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 1;CLOCK_50 <= 1;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 1;RESET <= 0;B_Start <= 0;CLOCK_50 <= 0;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 1;RESET <= 0;B_Start <= 0;CLOCK_50 <= 1;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 0;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 1;CLOCK_50 <= 1;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 1;CLOCK_50 <= 0;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 1;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 0;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 1;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 0;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 1;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 1;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 1;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 0;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 1;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 1;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 1;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 0;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 1;RESET <= 0;B_Start <= 0;CLOCK_50 <= 1;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 1;RESET <= 0;B_Start <= 0;CLOCK_50 <= 0;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 1;RESET <= 0;B_Start <= 0;CLOCK_50 <= 1;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 1;RESET <= 0;B_Start <= 0;CLOCK_50 <= 0;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 1;RESET <= 0;B_Start <= 0;CLOCK_50 <= 1;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 1;RESET <= 0;B_Start <= 0;CLOCK_50 <= 0;
+	#10 	B_Down <= 0;B_Left <= 1;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 1;
+	#10 	B_Down <= 0;B_Left <= 1;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 0;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 1;RESET <= 0;B_Start <= 0;CLOCK_50 <= 1;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 1;RESET <= 0;B_Start <= 0;CLOCK_50 <= 0;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 1;RESET <= 0;B_Start <= 0;CLOCK_50 <= 1;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 1;RESET <= 0;B_Start <= 0;CLOCK_50 <= 0;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 1;RESET <= 0;B_Start <= 0;CLOCK_50 <= 1;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 1;RESET <= 0;B_Start <= 0;CLOCK_50 <= 0;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 1;RESET <= 0;B_Start <= 0;CLOCK_50 <= 1;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 1;RESET <= 0;B_Start <= 0;CLOCK_50 <= 0;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 1;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 0;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 1;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 0;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 1;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 0;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 1;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 0;
+@eachvec;
+$finish;                                                         
+// --> end                                             
+end                                                    
 endmodule
 
