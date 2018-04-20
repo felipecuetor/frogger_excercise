@@ -1,16 +1,16 @@
 |System
 CLOCK_50 => CLOCK_50.IN3
-LED[0] <= B_Left.DB_MAX_OUTPUT_PORT_TYPE
-LED[1] <= B_Right.DB_MAX_OUTPUT_PORT_TYPE
-LED[2] <= B_Up.DB_MAX_OUTPUT_PORT_TYPE
-LED[3] <= B_Down.DB_MAX_OUTPUT_PORT_TYPE
-LED[4] <= <GND>
-LED[5] <= <GND>
-LED[6] <= RESET_S.DB_MAX_OUTPUT_PORT_TYPE
-LED[7] <= B_Start.DB_MAX_OUTPUT_PORT_TYPE
-MAX7219_DIN <= control_matriz:control_matriz_u0.MAX7219_DIN
-MAX7219_CS <= control_matriz:control_matriz_u0.MAX7219_CS
-MAX7219_CLK <= control_matriz:control_matriz_u0.MAX7219_CLK
+LED[0] << B_Left.DB_MAX_OUTPUT_PORT_TYPE
+LED[1] << B_Right.DB_MAX_OUTPUT_PORT_TYPE
+LED[2] << B_Up.DB_MAX_OUTPUT_PORT_TYPE
+LED[3] << B_Down.DB_MAX_OUTPUT_PORT_TYPE
+LED[4] << <GND>
+LED[5] << <GND>
+LED[6] << RESET_S.DB_MAX_OUTPUT_PORT_TYPE
+LED[7] << B_Start.DB_MAX_OUTPUT_PORT_TYPE
+MAX7219_DIN << control_matriz:control_matriz_u0.MAX7219_DIN
+MAX7219_CS << control_matriz:control_matriz_u0.MAX7219_CS
+MAX7219_CLK << control_matriz:control_matriz_u0.MAX7219_CLK
 B_Left => B_Left.IN1
 B_Right => B_Right.IN1
 B_Up => B_Up.IN1

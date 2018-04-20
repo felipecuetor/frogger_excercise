@@ -1,5 +1,5 @@
 Fitter report for System
-Fri Apr 20 13:59:32 2018
+Fri Apr 20 14:18:43 2018
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -66,14 +66,14 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Fri Apr 20 13:59:31 2018       ;
+; Fitter Status                      ; Successful - Fri Apr 20 14:18:43 2018       ;
 ; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; System                                      ;
 ; Top-level Entity Name              ; System                                      ;
 ; Family                             ; Cyclone IV E                                ;
 ; Device                             ; EP4CE22F17C6                                ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 660 / 22,320 ( 3 % )                        ;
+; Total logic elements               ; 656 / 22,320 ( 3 % )                        ;
 ;     Total combinational functions  ; 651 / 22,320 ( 3 % )                        ;
 ;     Dedicated logic registers      ; 277 / 22,320 ( 1 % )                        ;
 ; Total registers                    ; 277                                         ;
@@ -157,7 +157,7 @@ refer to the applicable agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.8%      ;
+;     Processor 2            ;   1.4%      ;
 +----------------------------+-------------+
 
 
@@ -261,7 +261,7 @@ refer to the applicable agreement for further details.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in H:/FROGGER/System.pin.
+The pin-out file can be found in C:/Users/Felipe/git/frogger_excercise/System.pin.
 
 
 +--------------------------------------------------------------------+
@@ -269,16 +269,16 @@ The pin-out file can be found in H:/FROGGER/System.pin.
 +---------------------------------------------+----------------------+
 ; Resource                                    ; Usage                ;
 +---------------------------------------------+----------------------+
-; Total logic elements                        ; 660 / 22,320 ( 3 % ) ;
-;     -- Combinational with no register       ; 383                  ;
-;     -- Register only                        ; 9                    ;
-;     -- Combinational with a register        ; 268                  ;
+; Total logic elements                        ; 656 / 22,320 ( 3 % ) ;
+;     -- Combinational with no register       ; 379                  ;
+;     -- Register only                        ; 5                    ;
+;     -- Combinational with a register        ; 272                  ;
 ;                                             ;                      ;
 ; Logic element usage by number of LUT inputs ;                      ;
 ;     -- 4 input functions                    ; 340                  ;
 ;     -- 3 input functions                    ; 132                  ;
 ;     -- <=2 input functions                  ; 179                  ;
-;     -- Register only                        ; 9                    ;
+;     -- Register only                        ; 5                    ;
 ;                                             ;                      ;
 ; Logic elements by mode                      ;                      ;
 ;     -- normal mode                          ; 552                  ;
@@ -288,7 +288,7 @@ The pin-out file can be found in H:/FROGGER/System.pin.
 ;     -- Dedicated logic registers            ; 277 / 22,320 ( 1 % ) ;
 ;     -- I/O registers                        ; 0 / 698 ( 0 % )      ;
 ;                                             ;                      ;
-; Total LABs:  partially or completely used   ; 51 / 1,395 ( 4 % )   ;
+; Total LABs:  partially or completely used   ; 56 / 1,395 ( 4 % )   ;
 ; Virtual pins                                ; 0                    ;
 ; I/O pins                                    ; 18 / 154 ( 12 % )    ;
 ;     -- Clock pins                           ; 2 / 7 ( 29 % )       ;
@@ -306,11 +306,11 @@ The pin-out file can be found in H:/FROGGER/System.pin.
 ; ASMI blocks                                 ; 0 / 1 ( 0 % )        ;
 ; Oscillator blocks                           ; 0 / 1 ( 0 % )        ;
 ; Impedance control blocks                    ; 0 / 4 ( 0 % )        ;
-; Average interconnect usage (total/H/V)      ; 0.5% / 0.4% / 0.7%   ;
-; Peak interconnect usage (total/H/V)         ; 3.8% / 2.9% / 5.2%   ;
+; Average interconnect usage (total/H/V)      ; 0.6% / 0.5% / 0.7%   ;
+; Peak interconnect usage (total/H/V)         ; 3.3% / 2.9% / 4.5%   ;
 ; Maximum fan-out                             ; 224                  ;
 ; Highest non-global fan-out                  ; 67                   ;
-; Total fan-out                               ; 3102                 ;
+; Total fan-out                               ; 3099                 ;
 ; Average fan-out                             ; 3.15                 ;
 +---------------------------------------------+----------------------+
 *  Register count does not include registers inside RAM blocks or DSP blocks.
@@ -324,16 +324,16 @@ The pin-out file can be found in H:/FROGGER/System.pin.
 +---------------------------------------------+---------------------+--------------------------------+
 ; Difficulty Clustering Region                ; Low                 ; Low                            ;
 ;                                             ;                     ;                                ;
-; Total logic elements                        ; 660 / 22320 ( 3 % ) ; 0 / 22320 ( 0 % )              ;
-;     -- Combinational with no register       ; 383                 ; 0                              ;
-;     -- Register only                        ; 9                   ; 0                              ;
-;     -- Combinational with a register        ; 268                 ; 0                              ;
+; Total logic elements                        ; 656 / 22320 ( 3 % ) ; 0 / 22320 ( 0 % )              ;
+;     -- Combinational with no register       ; 379                 ; 0                              ;
+;     -- Register only                        ; 5                   ; 0                              ;
+;     -- Combinational with a register        ; 272                 ; 0                              ;
 ;                                             ;                     ;                                ;
 ; Logic element usage by number of LUT inputs ;                     ;                                ;
 ;     -- 4 input functions                    ; 340                 ; 0                              ;
 ;     -- 3 input functions                    ; 132                 ; 0                              ;
 ;     -- <=2 input functions                  ; 179                 ; 0                              ;
-;     -- Register only                        ; 9                   ; 0                              ;
+;     -- Register only                        ; 5                   ; 0                              ;
 ;                                             ;                     ;                                ;
 ; Logic elements by mode                      ;                     ;                                ;
 ;     -- normal mode                          ; 552                 ; 0                              ;
@@ -343,7 +343,7 @@ The pin-out file can be found in H:/FROGGER/System.pin.
 ;     -- Dedicated logic registers            ; 277 / 22320 ( 1 % ) ; 0 / 22320 ( 0 % )              ;
 ;     -- I/O registers                        ; 0                   ; 0                              ;
 ;                                             ;                     ;                                ;
-; Total LABs:  partially or completely used   ; 51 / 1395 ( 4 % )   ; 0 / 1395 ( 0 % )               ;
+; Total LABs:  partially or completely used   ; 56 / 1395 ( 4 % )   ; 0 / 1395 ( 0 % )               ;
 ;                                             ;                     ;                                ;
 ; Virtual pins                                ; 0                   ; 0                              ;
 ; I/O pins                                    ; 18                  ; 0                              ;
@@ -359,7 +359,7 @@ The pin-out file can be found in H:/FROGGER/System.pin.
 ;     -- Registered Output Connections        ; 0                   ; 0                              ;
 ;                                             ;                     ;                                ;
 ; Internal Connections                        ;                     ;                                ;
-;     -- Total Connections                    ; 3097                ; 5                              ;
+;     -- Total Connections                    ; 3094                ; 5                              ;
 ;     -- Registered Connections               ; 1069                ; 0                              ;
 ;                                             ;                     ;                                ;
 ; External Connections                        ;                     ;                                ;
@@ -755,7 +755,7 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 +-----------------------------------------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+---------------------------------------------------------------------------------------------------------------------------+--------------------------+--------------+
 ; Compilation Hierarchy Node                                      ; Logic Cells ; Dedicated Logic Registers ; I/O Registers ; Memory Bits ; M9Ks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Full Hierarchy Name                                                                                                       ; Entity Name              ; Library Name ;
 +-----------------------------------------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+---------------------------------------------------------------------------------------------------------------------------+--------------------------+--------------+
-; |System                                                         ; 660 (0)     ; 277 (0)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 18   ; 0            ; 383 (0)      ; 9 (0)             ; 268 (0)          ; |System                                                                                                                   ; System                   ; work         ;
+; |System                                                         ; 656 (0)     ; 277 (0)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 18   ; 0            ; 379 (0)      ; 5 (0)             ; 272 (0)          ; |System                                                                                                                   ; System                   ; work         ;
 ;    |CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|                       ; 160 (0)     ; 100 (0)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 60 (0)       ; 0 (0)             ; 100 (0)          ; |System|CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0                                                                              ; CONTROL_ENTRADAS         ; work         ;
 ;       |DeBounce:DeBounce_0|                                     ; 14 (14)     ; 14 (14)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 14 (14)          ; |System|CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|DeBounce:DeBounce_0                                                          ; DeBounce                 ; work         ;
 ;       |DeBounce:DeBounce_1|                                     ; 26 (26)     ; 14 (14)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 12 (12)      ; 0 (0)             ; 14 (14)          ; |System|CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|DeBounce:DeBounce_1                                                          ; DeBounce                 ; work         ;
@@ -778,7 +778,7 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 ;          |Muxx81X:Muxx81X_u5|                                   ; 5 (5)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 5 (5)        ; 0 (0)             ; 0 (0)            ; |System|JUEGO:JUEGO_u0|COLISION:COLISION_u0|Muxx81X:Muxx81X_u5                                                            ; Muxx81X                  ; work         ;
 ;          |Muxx81X:Muxx81X_u6|                                   ; 3 (3)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 3 (3)        ; 0 (0)             ; 0 (0)            ; |System|JUEGO:JUEGO_u0|COLISION:COLISION_u0|Muxx81X:Muxx81X_u6                                                            ; Muxx81X                  ; work         ;
 ;          |Muxx81Y:Muxx81Y_u0|                                   ; 10 (10)     ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 10 (10)      ; 0 (0)             ; 0 (0)            ; |System|JUEGO:JUEGO_u0|COLISION:COLISION_u0|Muxx81Y:Muxx81Y_u0                                                            ; Muxx81Y                  ; work         ;
-;       |CONTROL_CASAS:CONTROL_CASAS_u0|                          ; 22 (22)     ; 7 (7)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 15 (15)      ; 0 (0)             ; 7 (7)            ; |System|JUEGO:JUEGO_u0|CONTROL_CASAS:CONTROL_CASAS_u0                                                                     ; CONTROL_CASAS            ; work         ;
+;       |CONTROL_CASAS:CONTROL_CASAS_u0|                          ; 23 (23)     ; 7 (7)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 16 (16)      ; 0 (0)             ; 7 (7)            ; |System|JUEGO:JUEGO_u0|CONTROL_CASAS:CONTROL_CASAS_u0                                                                     ; CONTROL_CASAS            ; work         ;
 ;       |CONTROL_RANAS:CONTROL_RANAS_u0|                          ; 18 (0)      ; 5 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 13 (0)       ; 0 (0)             ; 5 (0)            ; |System|JUEGO:JUEGO_u0|CONTROL_RANAS:CONTROL_RANAS_u0                                                                     ; CONTROL_RANAS            ; work         ;
 ;          |CTROL_POSINIRANA:CTROL_POSINIRANA_u0|                 ; 10 (10)     ; 2 (2)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 8 (8)        ; 0 (0)             ; 2 (2)            ; |System|JUEGO:JUEGO_u0|CONTROL_RANAS:CONTROL_RANAS_u0|CTROL_POSINIRANA:CTROL_POSINIRANA_u0                                ; CTROL_POSINIRANA         ; work         ;
 ;          |SC_CSCOUNT:SC_CSCOUNT_u0|                             ; 8 (8)       ; 3 (3)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 5 (5)        ; 0 (0)             ; 3 (3)            ; |System|JUEGO:JUEGO_u0|CONTROL_RANAS:CONTROL_RANAS_u0|SC_CSCOUNT:SC_CSCOUNT_u0                                            ; SC_CSCOUNT               ; work         ;
@@ -802,16 +802,16 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 ;             |SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0|        ; 1 (1)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u1|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0 ; SC_STATEMACHINE_NVE      ; work         ;
 ;          |REGDI_NV:REGDI_NV_u2|                                 ; 9 (0)       ; 8 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (0)        ; 0 (0)             ; 8 (0)            ; |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u2                                            ; REGDI_NV                 ; work         ;
 ;             |SC_REGDI:SC_REGDI_u0|                              ; 9 (9)       ; 8 (8)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 8 (8)            ; |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u2|SC_REGDI:SC_REGDI_u0                       ; SC_REGDI                 ; work         ;
-;       |PINTAR_MATRIZ:PINTAR_MATRIZ_u0|                          ; 100 (98)    ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 100 (98)     ; 0 (0)             ; 0 (0)            ; |System|JUEGO:JUEGO_u0|PINTAR_MATRIZ:PINTAR_MATRIZ_u0                                                                     ; PINTAR_MATRIZ            ; work         ;
+;       |PINTAR_MATRIZ:PINTAR_MATRIZ_u0|                          ; 100 (98)    ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 99 (97)      ; 0 (0)             ; 1 (1)            ; |System|JUEGO:JUEGO_u0|PINTAR_MATRIZ:PINTAR_MATRIZ_u0                                                                     ; PINTAR_MATRIZ            ; work         ;
 ;          |PINTAR_DATA_DEMUX:PINTAR_DATA_DEMUX_u1|               ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; |System|JUEGO:JUEGO_u0|PINTAR_MATRIZ:PINTAR_MATRIZ_u0|PINTAR_DATA_DEMUX:PINTAR_DATA_DEMUX_u1                              ; PINTAR_DATA_DEMUX        ; work         ;
 ;       |RANA:RANA_u0|                                            ; 54 (0)      ; 16 (0)                    ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 38 (0)       ; 0 (0)             ; 16 (0)           ; |System|JUEGO:JUEGO_u0|RANA:RANA_u0                                                                                       ; RANA                     ; work         ;
 ;          |CODE38X:CODE38X_u0|                                   ; 9 (9)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 9 (9)        ; 0 (0)             ; 0 (0)            ; |System|JUEGO:JUEGO_u0|RANA:RANA_u0|CODE38X:CODE38X_u0                                                                    ; CODE38X                  ; work         ;
 ;          |CODE38Y:CODE38Y_u0|                                   ; 1 (1)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; |System|JUEGO:JUEGO_u0|RANA:RANA_u0|CODE38Y:CODE38Y_u0                                                                    ; CODE38Y                  ; work         ;
 ;          |SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u0| ; 22 (22)     ; 8 (8)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 14 (14)      ; 0 (0)             ; 8 (8)            ; |System|JUEGO:JUEGO_u0|RANA:RANA_u0|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u0                                  ; SC_STATEMACHINE_FROG_MOV ; work         ;
 ;          |SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u1| ; 22 (22)     ; 8 (8)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 14 (14)      ; 0 (0)             ; 8 (8)            ; |System|JUEGO:JUEGO_u0|RANA:RANA_u0|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u1                                  ; SC_STATEMACHINE_FROG_MOV ; work         ;
-;    |control_matriz:control_matriz_u0|                           ; 141 (0)     ; 53 (0)                    ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 88 (0)       ; 9 (0)             ; 44 (0)           ; |System|control_matriz:control_matriz_u0                                                                                  ; control_matriz           ; work         ;
+;    |control_matriz:control_matriz_u0|                           ; 137 (0)     ; 53 (0)                    ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 84 (0)       ; 5 (0)             ; 48 (0)           ; |System|control_matriz:control_matriz_u0                                                                                  ; control_matriz           ; work         ;
 ;       |imagen:imagen_1|                                         ; 22 (22)     ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 22 (22)      ; 0 (0)             ; 0 (0)            ; |System|control_matriz:control_matriz_u0|imagen:imagen_1                                                                  ; imagen                   ; work         ;
-;       |matrix_ctrl:matrix_ctrl_unit_0|                          ; 119 (37)    ; 53 (21)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 66 (16)      ; 9 (4)             ; 44 (17)          ; |System|control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0                                                   ; matrix_ctrl              ; work         ;
+;       |matrix_ctrl:matrix_ctrl_unit_0|                          ; 115 (33)    ; 53 (21)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 62 (12)      ; 5 (0)             ; 48 (21)          ; |System|control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0                                                   ; matrix_ctrl              ; work         ;
 ;          |shift_reg_start_done:shift_reg_start_done_unit_0|     ; 82 (82)     ; 32 (32)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 50 (50)      ; 5 (5)             ; 27 (27)          ; |System|control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0  ; shift_reg_start_done     ; work         ;
 +-----------------------------------------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+---------------------------------------------------------------------------------------------------------------------------+--------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
@@ -873,19 +873,19 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +---------------------------------------------------------------------------------------------------------------------------------+--------------------+---------+--------------+--------+----------------------+------------------+---------------------------+
 ; CLOCK_50                                                                                                                        ; PIN_R8             ; 4       ; Clock        ; no     ; --                   ; --               ; --                        ;
 ; CLOCK_50                                                                                                                        ; PIN_R8             ; 224     ; Clock        ; yes    ; Global Clock         ; GCLK18           ; --                        ;
-; CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|DeBounce:DeBounce_0|D_Button_Out                                                           ; FF_X24_Y33_N9      ; 68      ; Sync. clear  ; no     ; --                   ; --               ; --                        ;
-; CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|DeBounce:DeBounce_0|D_Button_Out                                                           ; FF_X24_Y33_N9      ; 193     ; Async. clear ; yes    ; Global Clock         ; GCLK11           ; --                        ;
-; CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|DeBounce:DeBounce_0|q_reg[10]                                                              ; FF_X24_Y33_N31     ; 13      ; Sync. load   ; no     ; --                   ; --               ; --                        ;
-; CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|DeBounce:DeBounce_0|q_reset                                                                ; LCCOMB_X25_Y33_N24 ; 11      ; Sync. clear  ; no     ; --                   ; --               ; --                        ;
-; JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u0|SC_REGDI:SC_REGDI_u0|REGDI_Signal[2]~0                   ; LCCOMB_X24_Y24_N26 ; 48      ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u0|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0|WideOr5~0     ; LCCOMB_X24_Y24_N10 ; 28      ; Sync. clear  ; no     ; --                   ; --               ; --                        ;
-; control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|Selector25~1                                                    ; LCCOMB_X25_Y8_N4   ; 2       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|clk_driver                                                      ; LCCOMB_X26_Y1_N12  ; 4       ; Clock        ; no     ; --                   ; --               ; --                        ;
-; control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|clk_driver                                                      ; LCCOMB_X26_Y1_N12  ; 49      ; Clock        ; yes    ; Global Clock         ; GCLK16           ; --                        ;
-; control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|ctrl_sr[1]                                                      ; LCCOMB_X24_Y11_N28 ; 22      ; Sync. load   ; no     ; --                   ; --               ; --                        ;
-; control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|Mux0~1         ; LCCOMB_X23_Y16_N16 ; 15      ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|cnt_reg[12]~50 ; LCCOMB_X24_Y15_N0  ; 16      ; Sync. clear  ; no     ; --                   ; --               ; --                        ;
-; control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|state_reg.MAIN_LOOP                                             ; FF_X26_Y1_N29      ; 2       ; Latch enable ; yes    ; Global Clock         ; GCLK17           ; --                        ;
+; CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|DeBounce:DeBounce_0|D_Button_Out                                                           ; FF_X19_Y30_N1      ; 68      ; Sync. clear  ; no     ; --                   ; --               ; --                        ;
+; CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|DeBounce:DeBounce_0|D_Button_Out                                                           ; FF_X19_Y30_N1      ; 193     ; Async. clear ; yes    ; Global Clock         ; GCLK14           ; --                        ;
+; CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|DeBounce:DeBounce_0|q_reg[10]                                                              ; FF_X19_Y30_N31     ; 13      ; Sync. load   ; no     ; --                   ; --               ; --                        ;
+; CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|DeBounce:DeBounce_0|q_reset                                                                ; LCCOMB_X24_Y30_N8  ; 11      ; Sync. clear  ; no     ; --                   ; --               ; --                        ;
+; JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u0|SC_REGDI:SC_REGDI_u0|REGDI_Signal[2]~0                   ; LCCOMB_X15_Y25_N14 ; 48      ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u0|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0|WideOr5~0     ; LCCOMB_X15_Y25_N12 ; 28      ; Sync. clear  ; no     ; --                   ; --               ; --                        ;
+; control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|Selector25~1                                                    ; LCCOMB_X19_Y14_N16 ; 2       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|clk_driver                                                      ; LCCOMB_X26_Y2_N22  ; 4       ; Clock        ; no     ; --                   ; --               ; --                        ;
+; control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|clk_driver                                                      ; LCCOMB_X26_Y2_N22  ; 49      ; Clock        ; yes    ; Global Clock         ; GCLK16           ; --                        ;
+; control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|ctrl_sr[1]                                                      ; LCCOMB_X20_Y14_N24 ; 22      ; Sync. load   ; no     ; --                   ; --               ; --                        ;
+; control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|Mux0~1         ; LCCOMB_X20_Y18_N12 ; 15      ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|cnt_reg[12]~50 ; LCCOMB_X20_Y14_N6  ; 16      ; Sync. clear  ; no     ; --                   ; --               ; --                        ;
+; control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|state_reg.MAIN_LOOP                                             ; FF_X26_Y2_N27      ; 2       ; Latch enable ; yes    ; Global Clock         ; GCLK15           ; --                        ;
 +---------------------------------------------------------------------------------------------------------------------------------+--------------------+---------+--------------+--------+----------------------+------------------+---------------------------+
 
 
@@ -895,9 +895,9 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Name                                                                                ; Location          ; Fan-Out ; Fan-Out Using Intentional Clock Skew ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
 +-------------------------------------------------------------------------------------+-------------------+---------+--------------------------------------+----------------------+------------------+---------------------------+
 ; CLOCK_50                                                                            ; PIN_R8            ; 224     ; 0                                    ; Global Clock         ; GCLK18           ; --                        ;
-; CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|DeBounce:DeBounce_0|D_Button_Out               ; FF_X24_Y33_N9     ; 193     ; 0                                    ; Global Clock         ; GCLK11           ; --                        ;
-; control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|clk_driver          ; LCCOMB_X26_Y1_N12 ; 49      ; 0                                    ; Global Clock         ; GCLK16           ; --                        ;
-; control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|state_reg.MAIN_LOOP ; FF_X26_Y1_N29     ; 2       ; 0                                    ; Global Clock         ; GCLK17           ; --                        ;
+; CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|DeBounce:DeBounce_0|D_Button_Out               ; FF_X19_Y30_N1     ; 193     ; 0                                    ; Global Clock         ; GCLK14           ; --                        ;
+; control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|clk_driver          ; LCCOMB_X26_Y2_N22 ; 49      ; 0                                    ; Global Clock         ; GCLK16           ; --                        ;
+; control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|state_reg.MAIN_LOOP ; FF_X26_Y2_N27     ; 2       ; 0                                    ; Global Clock         ; GCLK15           ; --                        ;
 +-------------------------------------------------------------------------------------+-------------------+---------+--------------------------------------+----------------------+------------------+---------------------------+
 
 
@@ -906,90 +906,91 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+------------------------+
 ; Routing Resource Type ; Usage                  ;
 +-----------------------+------------------------+
-; Block interconnects   ; 629 / 71,559 ( < 1 % ) ;
-; C16 interconnects     ; 11 / 2,597 ( < 1 % )   ;
-; C4 interconnects      ; 321 / 46,848 ( < 1 % ) ;
-; Direct links          ; 152 / 71,559 ( < 1 % ) ;
+; Block interconnects   ; 655 / 71,559 ( < 1 % ) ;
+; C16 interconnects     ; 13 / 2,597 ( < 1 % )   ;
+; C4 interconnects      ; 344 / 46,848 ( < 1 % ) ;
+; Direct links          ; 143 / 71,559 ( < 1 % ) ;
 ; Global clocks         ; 4 / 20 ( 20 % )        ;
-; Local interconnects   ; 435 / 24,624 ( 2 % )   ;
-; R24 interconnects     ; 10 / 2,496 ( < 1 % )   ;
-; R4 interconnects      ; 244 / 62,424 ( < 1 % ) ;
+; Local interconnects   ; 419 / 24,624 ( 2 % )   ;
+; R24 interconnects     ; 13 / 2,496 ( < 1 % )   ;
+; R4 interconnects      ; 307 / 62,424 ( < 1 % ) ;
 +-----------------------+------------------------+
 
 
 +----------------------------------------------------------------------------+
 ; LAB Logic Elements                                                         ;
 +---------------------------------------------+------------------------------+
-; Number of Logic Elements  (Average = 12.94) ; Number of LABs  (Total = 51) ;
+; Number of Logic Elements  (Average = 11.71) ; Number of LABs  (Total = 56) ;
 +---------------------------------------------+------------------------------+
-; 1                                           ; 1                            ;
-; 2                                           ; 1                            ;
+; 1                                           ; 7                            ;
+; 2                                           ; 2                            ;
 ; 3                                           ; 1                            ;
 ; 4                                           ; 0                            ;
-; 5                                           ; 2                            ;
-; 6                                           ; 2                            ;
-; 7                                           ; 1                            ;
-; 8                                           ; 0                            ;
-; 9                                           ; 0                            ;
+; 5                                           ; 1                            ;
+; 6                                           ; 1                            ;
+; 7                                           ; 0                            ;
+; 8                                           ; 1                            ;
+; 9                                           ; 1                            ;
 ; 10                                          ; 6                            ;
 ; 11                                          ; 2                            ;
 ; 12                                          ; 1                            ;
 ; 13                                          ; 1                            ;
-; 14                                          ; 3                            ;
-; 15                                          ; 4                            ;
-; 16                                          ; 26                           ;
+; 14                                          ; 1                            ;
+; 15                                          ; 3                            ;
+; 16                                          ; 28                           ;
 +---------------------------------------------+------------------------------+
 
 
 +-------------------------------------------------------------------+
 ; LAB-wide Signals                                                  ;
 +------------------------------------+------------------------------+
-; LAB-wide Signals  (Average = 1.78) ; Number of LABs  (Total = 51) ;
+; LAB-wide Signals  (Average = 1.57) ; Number of LABs  (Total = 56) ;
 +------------------------------------+------------------------------+
-; 1 Async. clear                     ; 28                           ;
-; 1 Clock                            ; 40                           ;
-; 1 Clock enable                     ; 9                            ;
-; 1 Sync. clear                      ; 14                           ;
+; 1 Async. clear                     ; 27                           ;
+; 1 Clock                            ; 38                           ;
+; 1 Clock enable                     ; 10                           ;
+; 1 Sync. clear                      ; 12                           ;
+; 1 Sync. load                       ; 1                            ;
 +------------------------------------+------------------------------+
 
 
 +-----------------------------------------------------------------------------+
 ; LAB Signals Sourced                                                         ;
 +----------------------------------------------+------------------------------+
-; Number of Signals Sourced  (Average = 18.35) ; Number of LABs  (Total = 51) ;
+; Number of Signals Sourced  (Average = 16.66) ; Number of LABs  (Total = 56) ;
 +----------------------------------------------+------------------------------+
 ; 0                                            ; 0                            ;
-; 1                                            ; 1                            ;
-; 2                                            ; 0                            ;
+; 1                                            ; 6                            ;
+; 2                                            ; 2                            ;
 ; 3                                            ; 0                            ;
-; 4                                            ; 1                            ;
-; 5                                            ; 2                            ;
+; 4                                            ; 2                            ;
+; 5                                            ; 0                            ;
 ; 6                                            ; 0                            ;
 ; 7                                            ; 1                            ;
 ; 8                                            ; 2                            ;
-; 9                                            ; 1                            ;
+; 9                                            ; 0                            ;
 ; 10                                           ; 0                            ;
-; 11                                           ; 0                            ;
+; 11                                           ; 2                            ;
 ; 12                                           ; 0                            ;
-; 13                                           ; 0                            ;
-; 14                                           ; 1                            ;
-; 15                                           ; 3                            ;
-; 16                                           ; 7                            ;
+; 13                                           ; 2                            ;
+; 14                                           ; 2                            ;
+; 15                                           ; 0                            ;
+; 16                                           ; 6                            ;
 ; 17                                           ; 1                            ;
 ; 18                                           ; 1                            ;
-; 19                                           ; 7                            ;
+; 19                                           ; 4                            ;
 ; 20                                           ; 2                            ;
 ; 21                                           ; 6                            ;
-; 22                                           ; 3                            ;
-; 23                                           ; 3                            ;
-; 24                                           ; 3                            ;
-; 25                                           ; 1                            ;
+; 22                                           ; 4                            ;
+; 23                                           ; 0                            ;
+; 24                                           ; 4                            ;
+; 25                                           ; 2                            ;
 ; 26                                           ; 0                            ;
 ; 27                                           ; 0                            ;
 ; 28                                           ; 1                            ;
-; 29                                           ; 1                            ;
-; 30                                           ; 0                            ;
-; 31                                           ; 1                            ;
+; 29                                           ; 3                            ;
+; 30                                           ; 1                            ;
+; 31                                           ; 0                            ;
 ; 32                                           ; 2                            ;
 +----------------------------------------------+------------------------------+
 
@@ -997,60 +998,60 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------------------------------------------------------------------+
 ; LAB Signals Sourced Out                                                        ;
 +-------------------------------------------------+------------------------------+
-; Number of Signals Sourced Out  (Average = 6.06) ; Number of LABs  (Total = 51) ;
+; Number of Signals Sourced Out  (Average = 5.61) ; Number of LABs  (Total = 56) ;
 +-------------------------------------------------+------------------------------+
 ; 0                                               ; 0                            ;
-; 1                                               ; 4                            ;
-; 2                                               ; 4                            ;
-; 3                                               ; 3                            ;
-; 4                                               ; 8                            ;
-; 5                                               ; 6                            ;
+; 1                                               ; 9                            ;
+; 2                                               ; 6                            ;
+; 3                                               ; 5                            ;
+; 4                                               ; 7                            ;
+; 5                                               ; 3                            ;
 ; 6                                               ; 7                            ;
 ; 7                                               ; 1                            ;
 ; 8                                               ; 7                            ;
-; 9                                               ; 6                            ;
+; 9                                               ; 2                            ;
 ; 10                                              ; 2                            ;
-; 11                                              ; 0                            ;
-; 12                                              ; 0                            ;
-; 13                                              ; 0                            ;
+; 11                                              ; 1                            ;
+; 12                                              ; 2                            ;
+; 13                                              ; 2                            ;
 ; 14                                              ; 0                            ;
 ; 15                                              ; 1                            ;
-; 16                                              ; 2                            ;
+; 16                                              ; 1                            ;
 +-------------------------------------------------+------------------------------+
 
 
 +-----------------------------------------------------------------------------+
 ; LAB Distinct Inputs                                                         ;
 +----------------------------------------------+------------------------------+
-; Number of Distinct Inputs  (Average = 11.84) ; Number of LABs  (Total = 51) ;
+; Number of Distinct Inputs  (Average = 11.29) ; Number of LABs  (Total = 56) ;
 +----------------------------------------------+------------------------------+
 ; 0                                            ; 0                            ;
 ; 1                                            ; 0                            ;
 ; 2                                            ; 1                            ;
-; 3                                            ; 2                            ;
-; 4                                            ; 3                            ;
+; 3                                            ; 6                            ;
+; 4                                            ; 5                            ;
 ; 5                                            ; 1                            ;
-; 6                                            ; 2                            ;
-; 7                                            ; 1                            ;
-; 8                                            ; 6                            ;
-; 9                                            ; 11                           ;
-; 10                                           ; 2                            ;
+; 6                                            ; 4                            ;
+; 7                                            ; 2                            ;
+; 8                                            ; 3                            ;
+; 9                                            ; 9                            ;
+; 10                                           ; 0                            ;
 ; 11                                           ; 2                            ;
-; 12                                           ; 0                            ;
-; 13                                           ; 1                            ;
+; 12                                           ; 1                            ;
+; 13                                           ; 2                            ;
 ; 14                                           ; 3                            ;
-; 15                                           ; 0                            ;
-; 16                                           ; 5                            ;
-; 17                                           ; 0                            ;
-; 18                                           ; 1                            ;
-; 19                                           ; 3                            ;
+; 15                                           ; 1                            ;
+; 16                                           ; 3                            ;
+; 17                                           ; 1                            ;
+; 18                                           ; 0                            ;
+; 19                                           ; 2                            ;
 ; 20                                           ; 3                            ;
-; 21                                           ; 0                            ;
+; 21                                           ; 3                            ;
 ; 22                                           ; 0                            ;
 ; 23                                           ; 1                            ;
-; 24                                           ; 0                            ;
-; 25                                           ; 2                            ;
-; 26                                           ; 0                            ;
+; 24                                           ; 1                            ;
+; 25                                           ; 0                            ;
+; 26                                           ; 1                            ;
 ; 27                                           ; 0                            ;
 ; 28                                           ; 1                            ;
 +----------------------------------------------+------------------------------+
@@ -1207,38 +1208,38 @@ Info (332111): Found 1 clocks
     Info (332111):   Period   Clock Name
     Info (332111): ======== ============
     Info (332111):   20.000     CLOCK_50
-Info (176353): Automatically promoted node CLOCK_50~input (placed in PIN R8 (CLK15, DIFFCLK_6p)) File: H:/FROGGER/system.v Line: 39
+Info (176353): Automatically promoted node CLOCK_50~input (placed in PIN R8 (CLK15, DIFFCLK_6p)) File: C:/Users/Felipe/git/frogger_excercise/system.v Line: 39
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G18
     Info (176356): Following destination nodes may be non-global or may not use global or regional clocks
-        Info (176357): Destination node control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|clk_driver_reg~0 File: H:/FROGGER/rtl/control_matriz/matrix_ctrl.v Line: 63
-        Info (176357): Destination node control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|clk_driver_reg~1 File: H:/FROGGER/rtl/control_matriz/matrix_ctrl.v Line: 63
-        Info (176357): Destination node control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|clk_driver_reg~2 File: H:/FROGGER/rtl/control_matriz/matrix_ctrl.v Line: 63
-Info (176353): Automatically promoted node control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|clk_driver  File: H:/FROGGER/rtl/control_matriz/matrix_ctrl.v Line: 64
+        Info (176357): Destination node control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|clk_driver_reg~0 File: C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v Line: 63
+        Info (176357): Destination node control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|clk_driver_reg~1 File: C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v Line: 63
+        Info (176357): Destination node control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|clk_driver_reg~2 File: C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v Line: 63
+Info (176353): Automatically promoted node control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|clk_driver  File: C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v Line: 64
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock
     Info (176356): Following destination nodes may be non-global or may not use global or regional clocks
-        Info (176357): Destination node control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|clk_driver_reg~0 File: H:/FROGGER/rtl/control_matriz/matrix_ctrl.v Line: 63
-        Info (176357): Destination node control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|state_reg.MAIN_LOOP File: H:/FROGGER/rtl/control_matriz/matrix_ctrl.v Line: 112
-        Info (176357): Destination node MAX7219_CLK~output File: H:/FROGGER/system.v Line: 55
-Info (176353): Automatically promoted node control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|state_reg.MAIN_LOOP  File: H:/FROGGER/rtl/control_matriz/matrix_ctrl.v Line: 112
+        Info (176357): Destination node control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|clk_driver_reg~0 File: C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v Line: 63
+        Info (176357): Destination node control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|state_reg.MAIN_LOOP File: C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v Line: 112
+        Info (176357): Destination node MAX7219_CLK~output File: C:/Users/Felipe/git/frogger_excercise/system.v Line: 55
+Info (176353): Automatically promoted node control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|state_reg.MAIN_LOOP  File: C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v Line: 112
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock
     Info (176356): Following destination nodes may be non-global or may not use global or regional clocks
-        Info (176357): Destination node control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|Selector2~0 File: H:/FROGGER/rtl/control_matriz/matrix_ctrl.v Line: 132
-        Info (176357): Destination node control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|Selector25~1 File: H:/FROGGER/rtl/control_matriz/matrix_ctrl.v Line: 132
-        Info (176357): Destination node control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|Selector28~0 File: H:/FROGGER/rtl/control_matriz/matrix_ctrl.v Line: 132
-        Info (176357): Destination node control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|Selector26~1 File: H:/FROGGER/rtl/control_matriz/matrix_ctrl.v Line: 132
-Info (176353): Automatically promoted node CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|DeBounce:DeBounce_0|D_Button_Out  File: H:/FROGGER/rtl/CONTROL_ENTRADAS/DeBounce.v Line: 44
+        Info (176357): Destination node control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|Selector2~0 File: C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v Line: 132
+        Info (176357): Destination node control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|Selector25~1 File: C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v Line: 132
+        Info (176357): Destination node control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|Selector28~0 File: C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v Line: 132
+        Info (176357): Destination node control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|Selector26~1 File: C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v Line: 132
+Info (176353): Automatically promoted node CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|DeBounce:DeBounce_0|D_Button_Out  File: C:/Users/Felipe/git/frogger_excercise/rtl/CONTROL_ENTRADAS/DeBounce.v Line: 44
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock
     Info (176356): Following destination nodes may be non-global or may not use global or regional clocks
-        Info (176357): Destination node CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|DeBounce:DeBounce_5|q_reg[10] File: H:/FROGGER/rtl/CONTROL_ENTRADAS/DeBounce.v Line: 87
-        Info (176357): Destination node CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|DeBounce:DeBounce_4|q_reg[10] File: H:/FROGGER/rtl/CONTROL_ENTRADAS/DeBounce.v Line: 87
-        Info (176357): Destination node CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|DeBounce:DeBounce_3|q_reg[10] File: H:/FROGGER/rtl/CONTROL_ENTRADAS/DeBounce.v Line: 87
-        Info (176357): Destination node CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|DeBounce:DeBounce_2|q_reg[10] File: H:/FROGGER/rtl/CONTROL_ENTRADAS/DeBounce.v Line: 87
-        Info (176357): Destination node CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|DeBounce:DeBounce_1|q_reg[10] File: H:/FROGGER/rtl/CONTROL_ENTRADAS/DeBounce.v Line: 87
-        Info (176357): Destination node CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|DeBounce:DeBounce_5|q_reg[9] File: H:/FROGGER/rtl/CONTROL_ENTRADAS/DeBounce.v Line: 87
-        Info (176357): Destination node CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|DeBounce:DeBounce_5|q_reg[8] File: H:/FROGGER/rtl/CONTROL_ENTRADAS/DeBounce.v Line: 87
-        Info (176357): Destination node CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|DeBounce:DeBounce_5|q_reg[7] File: H:/FROGGER/rtl/CONTROL_ENTRADAS/DeBounce.v Line: 87
-        Info (176357): Destination node CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|DeBounce:DeBounce_5|q_reg[6] File: H:/FROGGER/rtl/CONTROL_ENTRADAS/DeBounce.v Line: 87
-        Info (176357): Destination node CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|DeBounce:DeBounce_5|q_reg[5] File: H:/FROGGER/rtl/CONTROL_ENTRADAS/DeBounce.v Line: 87
+        Info (176357): Destination node CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|DeBounce:DeBounce_5|q_reg[10] File: C:/Users/Felipe/git/frogger_excercise/rtl/CONTROL_ENTRADAS/DeBounce.v Line: 87
+        Info (176357): Destination node CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|DeBounce:DeBounce_4|q_reg[10] File: C:/Users/Felipe/git/frogger_excercise/rtl/CONTROL_ENTRADAS/DeBounce.v Line: 87
+        Info (176357): Destination node CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|DeBounce:DeBounce_3|q_reg[10] File: C:/Users/Felipe/git/frogger_excercise/rtl/CONTROL_ENTRADAS/DeBounce.v Line: 87
+        Info (176357): Destination node CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|DeBounce:DeBounce_2|q_reg[10] File: C:/Users/Felipe/git/frogger_excercise/rtl/CONTROL_ENTRADAS/DeBounce.v Line: 87
+        Info (176357): Destination node CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|DeBounce:DeBounce_1|q_reg[10] File: C:/Users/Felipe/git/frogger_excercise/rtl/CONTROL_ENTRADAS/DeBounce.v Line: 87
+        Info (176357): Destination node CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|DeBounce:DeBounce_5|q_reg[9] File: C:/Users/Felipe/git/frogger_excercise/rtl/CONTROL_ENTRADAS/DeBounce.v Line: 87
+        Info (176357): Destination node CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|DeBounce:DeBounce_5|q_reg[8] File: C:/Users/Felipe/git/frogger_excercise/rtl/CONTROL_ENTRADAS/DeBounce.v Line: 87
+        Info (176357): Destination node CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|DeBounce:DeBounce_5|q_reg[7] File: C:/Users/Felipe/git/frogger_excercise/rtl/CONTROL_ENTRADAS/DeBounce.v Line: 87
+        Info (176357): Destination node CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|DeBounce:DeBounce_5|q_reg[6] File: C:/Users/Felipe/git/frogger_excercise/rtl/CONTROL_ENTRADAS/DeBounce.v Line: 87
+        Info (176357): Destination node CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|DeBounce:DeBounce_5|q_reg[5] File: C:/Users/Felipe/git/frogger_excercise/rtl/CONTROL_ENTRADAS/DeBounce.v Line: 87
         Info (176358): Non-global destination nodes limited to 10 nodes
 Info (176233): Starting register packing
 Info (176235): Finished register packing
@@ -1277,40 +1278,40 @@ Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
 Info (170191): Fitter placement operations beginning
 Info (170137): Fitter placement was successful
-Info (170192): Fitter placement operations ending: elapsed time is 00:00:01
+Info (170192): Fitter placement operations ending: elapsed time is 00:00:00
 Info (170193): Fitter routing operations beginning
 Info (170195): Router estimated average interconnect usage is 0% of the available device resources
-    Info (170196): Router estimated peak interconnect usage is 3% of the available device resources in the region that extends from location X21_Y11 to location X31_Y22
+    Info (170196): Router estimated peak interconnect usage is 2% of the available device resources in the region that extends from location X10_Y11 to location X20_Y22
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
     Info (170200): Optimizations that may affect the design's timing were skipped
-Info (170194): Fitter routing operations ending: elapsed time is 00:00:02
-Info (11888): Total time spent on timing analysis during the Fitter is 0.30 seconds.
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:01
+Info (11888): Total time spent on timing analysis during the Fitter is 0.21 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:02
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
 Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
 Warning (169177): 7 pins must meet Intel FPGA requirements for 3.3-, 3.0-, and 2.5-V interfaces. For more information, refer to AN 447: Interfacing Cyclone IV E Devices with 3.3/3.0/2.5-V LVTTL/LVCMOS I/O Systems.
-    Info (169178): Pin B_Left uses I/O standard 3.3-V LVTTL at A5 File: H:/FROGGER/system.v Line: 41
-    Info (169178): Pin B_Right uses I/O standard 3.3-V LVTTL at B6 File: H:/FROGGER/system.v Line: 42
-    Info (169178): Pin B_Up uses I/O standard 3.3-V LVTTL at B7 File: H:/FROGGER/system.v Line: 43
-    Info (169178): Pin B_Down uses I/O standard 3.3-V LVTTL at A7 File: H:/FROGGER/system.v Line: 44
-    Info (169178): Pin B_Start uses I/O standard 3.3-V LVTTL at B8 File: H:/FROGGER/system.v Line: 45
-    Info (169178): Pin CLOCK_50 uses I/O standard 3.3-V LVTTL at R8 File: H:/FROGGER/system.v Line: 39
-    Info (169178): Pin RESET uses I/O standard 3.3-V LVTTL at A8 File: H:/FROGGER/system.v Line: 40
-Info (144001): Generated suppressed messages file H:/FROGGER/System.fit.smsg
+    Info (169178): Pin B_Left uses I/O standard 3.3-V LVTTL at A5 File: C:/Users/Felipe/git/frogger_excercise/system.v Line: 41
+    Info (169178): Pin B_Right uses I/O standard 3.3-V LVTTL at B6 File: C:/Users/Felipe/git/frogger_excercise/system.v Line: 42
+    Info (169178): Pin B_Up uses I/O standard 3.3-V LVTTL at B7 File: C:/Users/Felipe/git/frogger_excercise/system.v Line: 43
+    Info (169178): Pin B_Down uses I/O standard 3.3-V LVTTL at A7 File: C:/Users/Felipe/git/frogger_excercise/system.v Line: 44
+    Info (169178): Pin B_Start uses I/O standard 3.3-V LVTTL at B8 File: C:/Users/Felipe/git/frogger_excercise/system.v Line: 45
+    Info (169178): Pin CLOCK_50 uses I/O standard 3.3-V LVTTL at R8 File: C:/Users/Felipe/git/frogger_excercise/system.v Line: 39
+    Info (169178): Pin RESET uses I/O standard 3.3-V LVTTL at A8 File: C:/Users/Felipe/git/frogger_excercise/system.v Line: 40
+Info (144001): Generated suppressed messages file C:/Users/Felipe/git/frogger_excercise/System.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 36 warnings
-    Info: Peak virtual memory: 1181 megabytes
-    Info: Processing ended: Fri Apr 20 13:59:36 2018
-    Info: Elapsed time: 00:00:26
-    Info: Total CPU time (on all processors): 00:00:15
+    Info: Peak virtual memory: 1175 megabytes
+    Info: Processing ended: Fri Apr 20 14:18:43 2018
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:11
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in H:/FROGGER/System.fit.smsg.
+The suppressed messages can be found in C:/Users/Felipe/git/frogger_excercise/System.fit.smsg.
 
 

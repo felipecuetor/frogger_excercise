@@ -1,5 +1,5 @@
 Analysis & Synthesis report for System
-Fri Apr 20 13:59:07 2018
+Fri Apr 20 14:18:33 2018
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -134,7 +134,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Apr 20 13:59:07 2018       ;
+; Analysis & Synthesis Status        ; Successful - Fri Apr 20 14:18:32 2018       ;
 ; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; System                                      ;
 ; Top-level Entity Name              ; System                                      ;
@@ -254,43 +254,43 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                  ;
-+-------------------------------------------------+-----------------+------------------------------+------------------------------------------------------------+---------+
-; File Name with User-Entered Path                ; Used in Netlist ; File Type                    ; File Name with Absolute Path                               ; Library ;
-+-------------------------------------------------+-----------------+------------------------------+------------------------------------------------------------+---------+
-; rtl/JUEGO/CONTROL_RANAS/SC_CSCOUNT.v            ; yes             ; User Verilog HDL File        ; H:/FROGGER/rtl/JUEGO/CONTROL_RANAS/SC_CSCOUNT.v            ;         ;
-; rtl/JUEGO/CONTROL_RANAS/CTROL_POSINIRANA.v      ; yes             ; User Verilog HDL File        ; H:/FROGGER/rtl/JUEGO/CONTROL_RANAS/CTROL_POSINIRANA.v      ;         ;
-; rtl/JUEGO/CONTROL_RANAS/CONTROL_RANAS.v         ; yes             ; User Verilog HDL File        ; H:/FROGGER/rtl/JUEGO/CONTROL_RANAS/CONTROL_RANAS.v         ;         ;
-; rtl/JUEGO/RANA/SC_STATEMACHINE_FROG_MOV.v       ; yes             ; User Verilog HDL File        ; H:/FROGGER/rtl/JUEGO/RANA/SC_STATEMACHINE_FROG_MOV.v       ;         ;
-; rtl/JUEGO/RANA/RANA.v                           ; yes             ; User Verilog HDL File        ; H:/FROGGER/rtl/JUEGO/RANA/RANA.v                           ;         ;
-; rtl/JUEGO/NIVEL_VEHICULOS/SC_VEL.v              ; yes             ; User Verilog HDL File        ; H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/SC_VEL.v              ;         ;
-; rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v ; yes             ; User Verilog HDL File        ; H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v ;         ;
-; rtl/JUEGO/NIVEL_VEHICULOS/SC_REGDI.v            ; yes             ; User Verilog HDL File        ; H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/SC_REGDI.v            ;         ;
-; rtl/JUEGO/NIVEL_VEHICULOS/SC_REGDD.v            ; yes             ; User Verilog HDL File        ; H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/SC_REGDD.v            ;         ;
-; rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v            ; yes             ; User Verilog HDL File        ; H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v            ;         ;
-; rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v            ; yes             ; User Verilog HDL File        ; H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v            ;         ;
-; rtl/JUEGO/NIVEL_VEHICULOS/NIVEL_VEHICULOS.v     ; yes             ; User Verilog HDL File        ; H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/NIVEL_VEHICULOS.v     ;         ;
-; rtl/JUEGO/NIVEL_VEHICULOS/MUXX21.v              ; yes             ; User Verilog HDL File        ; H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/MUXX21.v              ;         ;
-; rtl/JUEGO/MENU_PRINCIPAL/MENU_PRINCIPAL.v       ; yes             ; User Verilog HDL File        ; H:/FROGGER/rtl/JUEGO/MENU_PRINCIPAL/MENU_PRINCIPAL.v       ;         ;
-; rtl/control_matriz/shift_reg_start_done.v       ; yes             ; User Verilog HDL File        ; H:/FROGGER/rtl/control_matriz/shift_reg_start_done.v       ;         ;
-; rtl/control_matriz/matrix_ctrl.v                ; yes             ; User Verilog HDL File        ; H:/FROGGER/rtl/control_matriz/matrix_ctrl.v                ;         ;
-; rtl/control_matriz/imagen.v                     ; yes             ; User Verilog HDL File        ; H:/FROGGER/rtl/control_matriz/imagen.v                     ;         ;
-; rtl/CONTROL_ENTRADAS/FILTRO.v                   ; yes             ; User Verilog HDL File        ; H:/FROGGER/rtl/CONTROL_ENTRADAS/FILTRO.v                   ;         ;
-; rtl/CONTROL_ENTRADAS/DeBounce.v                 ; yes             ; User Verilog HDL File        ; H:/FROGGER/rtl/CONTROL_ENTRADAS/DeBounce.v                 ;         ;
-; rtl/CONTROL_ENTRADAS/CONTROL_ENTRADAS.v         ; yes             ; User Verilog HDL File        ; H:/FROGGER/rtl/CONTROL_ENTRADAS/CONTROL_ENTRADAS.v         ;         ;
-; rtl/control_matriz/control_matriz.v             ; yes             ; User Verilog HDL File        ; H:/FROGGER/rtl/control_matriz/control_matriz.v             ;         ;
-; rtl/JUEGO/JUEGO.v                               ; yes             ; User Verilog HDL File        ; H:/FROGGER/rtl/JUEGO/JUEGO.v                               ;         ;
-; rtl/JUEGO/RANA/CODE38Y.v                        ; yes             ; User Verilog HDL File        ; H:/FROGGER/rtl/JUEGO/RANA/CODE38Y.v                        ;         ;
-; rtl/JUEGO/RANA/CODE38X.v                        ; yes             ; User Verilog HDL File        ; H:/FROGGER/rtl/JUEGO/RANA/CODE38X.v                        ;         ;
-; rtl/JUEGO/CONTROL_CASAS/CONTROL_CASAS.v         ; yes             ; User Verilog HDL File        ; H:/FROGGER/rtl/JUEGO/CONTROL_CASAS/CONTROL_CASAS.v         ;         ;
-; rtl/JUEGO/COLISION/COLISION.v                   ; yes             ; User Verilog HDL File        ; H:/FROGGER/rtl/JUEGO/COLISION/COLISION.v                   ;         ;
-; rtl/JUEGO/COLISION/Muxx81X.v                    ; yes             ; User Verilog HDL File        ; H:/FROGGER/rtl/JUEGO/COLISION/Muxx81X.v                    ;         ;
-; rtl/JUEGO/COLISION/Muxx81Y.v                    ; yes             ; User Verilog HDL File        ; H:/FROGGER/rtl/JUEGO/COLISION/Muxx81Y.v                    ;         ;
-; rtl/JUEGO/PINTAR_MATRIZ/PINTAR_MATRIZ.v         ; yes             ; User Verilog HDL File        ; H:/FROGGER/rtl/JUEGO/PINTAR_MATRIZ/PINTAR_MATRIZ.v         ;         ;
-; rtl/JUEGO/PINTAR_MATRIZ/PINTAR_DATA_DEMUX.v     ; yes             ; User Verilog HDL File        ; H:/FROGGER/rtl/JUEGO/PINTAR_MATRIZ/PINTAR_DATA_DEMUX.v     ;         ;
-; system.v                                        ; yes             ; Auto-Found Verilog HDL File  ; H:/FROGGER/system.v                                        ;         ;
-+-------------------------------------------------+-----------------+------------------------------+------------------------------------------------------------+---------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                             ;
++-------------------------------------------------+-----------------+------------------------------+---------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path                ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                          ; Library ;
++-------------------------------------------------+-----------------+------------------------------+---------------------------------------------------------------------------------------+---------+
+; rtl/JUEGO/CONTROL_RANAS/SC_CSCOUNT.v            ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/CONTROL_RANAS/SC_CSCOUNT.v            ;         ;
+; rtl/JUEGO/CONTROL_RANAS/CTROL_POSINIRANA.v      ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/CONTROL_RANAS/CTROL_POSINIRANA.v      ;         ;
+; rtl/JUEGO/CONTROL_RANAS/CONTROL_RANAS.v         ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/CONTROL_RANAS/CONTROL_RANAS.v         ;         ;
+; rtl/JUEGO/RANA/SC_STATEMACHINE_FROG_MOV.v       ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA/SC_STATEMACHINE_FROG_MOV.v       ;         ;
+; rtl/JUEGO/RANA/RANA.v                           ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA/RANA.v                           ;         ;
+; rtl/JUEGO/NIVEL_VEHICULOS/SC_VEL.v              ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_VEL.v              ;         ;
+; rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v ;         ;
+; rtl/JUEGO/NIVEL_VEHICULOS/SC_REGDI.v            ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_REGDI.v            ;         ;
+; rtl/JUEGO/NIVEL_VEHICULOS/SC_REGDD.v            ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_REGDD.v            ;         ;
+; rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v            ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v            ;         ;
+; rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v            ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v            ;         ;
+; rtl/JUEGO/NIVEL_VEHICULOS/NIVEL_VEHICULOS.v     ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/NIVEL_VEHICULOS.v     ;         ;
+; rtl/JUEGO/NIVEL_VEHICULOS/MUXX21.v              ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/MUXX21.v              ;         ;
+; rtl/JUEGO/MENU_PRINCIPAL/MENU_PRINCIPAL.v       ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/MENU_PRINCIPAL/MENU_PRINCIPAL.v       ;         ;
+; rtl/control_matriz/shift_reg_start_done.v       ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/shift_reg_start_done.v       ;         ;
+; rtl/control_matriz/matrix_ctrl.v                ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v                ;         ;
+; rtl/control_matriz/imagen.v                     ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/imagen.v                     ;         ;
+; rtl/CONTROL_ENTRADAS/FILTRO.v                   ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/CONTROL_ENTRADAS/FILTRO.v                   ;         ;
+; rtl/CONTROL_ENTRADAS/DeBounce.v                 ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/CONTROL_ENTRADAS/DeBounce.v                 ;         ;
+; rtl/CONTROL_ENTRADAS/CONTROL_ENTRADAS.v         ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/CONTROL_ENTRADAS/CONTROL_ENTRADAS.v         ;         ;
+; rtl/control_matriz/control_matriz.v             ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/control_matriz.v             ;         ;
+; rtl/JUEGO/JUEGO.v                               ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/JUEGO.v                               ;         ;
+; rtl/JUEGO/RANA/CODE38Y.v                        ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA/CODE38Y.v                        ;         ;
+; rtl/JUEGO/RANA/CODE38X.v                        ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA/CODE38X.v                        ;         ;
+; rtl/JUEGO/CONTROL_CASAS/CONTROL_CASAS.v         ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/CONTROL_CASAS/CONTROL_CASAS.v         ;         ;
+; rtl/JUEGO/COLISION/COLISION.v                   ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/COLISION/COLISION.v                   ;         ;
+; rtl/JUEGO/COLISION/Muxx81X.v                    ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/COLISION/Muxx81X.v                    ;         ;
+; rtl/JUEGO/COLISION/Muxx81Y.v                    ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/COLISION/Muxx81Y.v                    ;         ;
+; rtl/JUEGO/PINTAR_MATRIZ/PINTAR_MATRIZ.v         ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/PINTAR_MATRIZ/PINTAR_MATRIZ.v         ;         ;
+; rtl/JUEGO/PINTAR_MATRIZ/PINTAR_DATA_DEMUX.v     ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/PINTAR_MATRIZ/PINTAR_DATA_DEMUX.v     ;         ;
+; system.v                                        ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/Felipe/git/frogger_excercise/system.v                                        ;         ;
++-------------------------------------------------+-----------------+------------------------------+---------------------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------------------------------------------------------------------------------+
@@ -987,13 +987,12 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u2|SC_REGDI:SC_REGDI_u0|REGDI_Register[5]                ;
 ; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u2|SC_REGDD:SC_REGDD_u0|REGDD_Register[1]                ;
 ; 12:1               ; 4 bits    ; 32 LEs        ; 28 LEs               ; 4 LEs                  ; Yes        ; |System|control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|r_reg[7]    ;
-; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; No         ; |System|JUEGO:JUEGO_u0|MENU_PRINCIPAL:MENU_PRINCIPAL_u0|St_Signal                                                                    ;
 ; 3:1                ; 5 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; No         ; |System|JUEGO:JUEGO_u0|PINTAR_MATRIZ:PINTAR_MATRIZ_u0|PINTAR_DATA_DEMUX:PINTAR_DATA_DEMUX_u1|PINTAR_DATA_DEMUX_0_OUT[5]              ;
-; 8:1                ; 4 bits    ; 20 LEs        ; 20 LEs               ; 0 LEs                  ; No         ; |System|control_matriz:control_matriz_u0|imagen:imagen_1|Mux7                                                                        ;
+; 8:1                ; 4 bits    ; 20 LEs        ; 20 LEs               ; 0 LEs                  ; No         ; |System|control_matriz:control_matriz_u0|imagen:imagen_1|Mux5                                                                        ;
 ; 8:1                ; 2 bits    ; 10 LEs        ; 4 LEs                ; 6 LEs                  ; No         ; |System|JUEGO:JUEGO_u0|PINTAR_MATRIZ:PINTAR_MATRIZ_u0|PINTAR_DATA_DEMUX:PINTAR_DATA_DEMUX_u1|PINTAR_DATA_DEMUX_4_OUT[3]              ;
-; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |System|JUEGO:JUEGO_u0|PINTAR_MATRIZ:PINTAR_MATRIZ_u0|PINTAR_DATA_DEMUX:PINTAR_DATA_DEMUX_u1|PINTAR_DATA_DEMUX_6_OUT[6]              ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |System|JUEGO:JUEGO_u0|PINTAR_MATRIZ:PINTAR_MATRIZ_u0|PINTAR_DATA_DEMUX:PINTAR_DATA_DEMUX_u1|PINTAR_DATA_DEMUX_1_OUT[6]              ;
 ; 4:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; No         ; |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u2|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0|St_Signal  ;
-; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |System|control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|Selector3                                                    ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |System|control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|Selector0                                                    ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------------------------------------------------------------------------------+
 
 
@@ -1891,7 +1890,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:06     ;
+; Top            ; 00:00:03     ;
 +----------------+--------------+
 
 
@@ -1901,157 +1900,157 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
-    Info: Processing started: Fri Apr 20 13:58:32 2018
+    Info: Processing started: Fri Apr 20 14:18:09 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off System -c System
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/control_ranas/sc_cscount.v
-    Info (12023): Found entity 1: SC_CSCOUNT File: H:/FROGGER/rtl/JUEGO/CONTROL_RANAS/SC_CSCOUNT.v Line: 4
+    Info (12023): Found entity 1: SC_CSCOUNT File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/CONTROL_RANAS/SC_CSCOUNT.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/control_ranas/ctrol_posinirana.v
-    Info (12023): Found entity 1: CTROL_POSINIRANA File: H:/FROGGER/rtl/JUEGO/CONTROL_RANAS/CTROL_POSINIRANA.v Line: 4
+    Info (12023): Found entity 1: CTROL_POSINIRANA File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/CONTROL_RANAS/CTROL_POSINIRANA.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/control_ranas/control_ranas.v
-    Info (12023): Found entity 1: CONTROL_RANAS File: H:/FROGGER/rtl/JUEGO/CONTROL_RANAS/CONTROL_RANAS.v Line: 4
+    Info (12023): Found entity 1: CONTROL_RANAS File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/CONTROL_RANAS/CONTROL_RANAS.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/rana/sc_statemachine_frog_mov.v
-    Info (12023): Found entity 1: SC_STATEMACHINE_FROG_MOV File: H:/FROGGER/rtl/JUEGO/RANA/SC_STATEMACHINE_FROG_MOV.v Line: 4
+    Info (12023): Found entity 1: SC_STATEMACHINE_FROG_MOV File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA/SC_STATEMACHINE_FROG_MOV.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/rana/rana.v
-    Info (12023): Found entity 1: RANA File: H:/FROGGER/rtl/JUEGO/RANA/RANA.v Line: 4
+    Info (12023): Found entity 1: RANA File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA/RANA.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/nivel_vehiculos/sc_vel.v
-    Info (12023): Found entity 1: SC_VEL File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/SC_VEL.v Line: 4
+    Info (12023): Found entity 1: SC_VEL File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_VEL.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/nivel_vehiculos/sc_statemachine_nve.v
-    Info (12023): Found entity 1: SC_STATEMACHINE_NVE File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 4
+    Info (12023): Found entity 1: SC_STATEMACHINE_NVE File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/nivel_vehiculos/sc_regdi.v
-    Info (12023): Found entity 1: SC_REGDI File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/SC_REGDI.v Line: 4
+    Info (12023): Found entity 1: SC_REGDI File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_REGDI.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/nivel_vehiculos/sc_regdd.v
-    Info (12023): Found entity 1: SC_REGDD File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/SC_REGDD.v Line: 4
+    Info (12023): Found entity 1: SC_REGDD File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_REGDD.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/nivel_vehiculos/regdi_nv.v
-    Info (12023): Found entity 1: REGDI_NV File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v Line: 4
+    Info (12023): Found entity 1: REGDI_NV File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/nivel_vehiculos/regdd_nv.v
-    Info (12023): Found entity 1: REGDD_NV File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 4
+    Info (12023): Found entity 1: REGDD_NV File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/nivel_vehiculos/nivel_vehiculos.v
-    Info (12023): Found entity 1: NIVEL_VEHICULOS File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/NIVEL_VEHICULOS.v Line: 4
+    Info (12023): Found entity 1: NIVEL_VEHICULOS File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/NIVEL_VEHICULOS.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/nivel_vehiculos/muxx21.v
-    Info (12023): Found entity 1: MUXX21 File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/MUXX21.v Line: 4
+    Info (12023): Found entity 1: MUXX21 File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/MUXX21.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/menu_principal/menu_principal.v
-    Info (12023): Found entity 1: MENU_PRINCIPAL File: H:/FROGGER/rtl/JUEGO/MENU_PRINCIPAL/MENU_PRINCIPAL.v Line: 4
+    Info (12023): Found entity 1: MENU_PRINCIPAL File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/MENU_PRINCIPAL/MENU_PRINCIPAL.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/control_matriz/shift_reg_start_done.v
-    Info (12023): Found entity 1: shift_reg_start_done File: H:/FROGGER/rtl/control_matriz/shift_reg_start_done.v Line: 34
+    Info (12023): Found entity 1: shift_reg_start_done File: C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/shift_reg_start_done.v Line: 34
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/control_matriz/matrix_ctrl.v
-    Info (12023): Found entity 1: matrix_ctrl File: H:/FROGGER/rtl/control_matriz/matrix_ctrl.v Line: 37
+    Info (12023): Found entity 1: matrix_ctrl File: C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v Line: 37
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/control_matriz/imagen.v
-    Info (12023): Found entity 1: imagen File: H:/FROGGER/rtl/control_matriz/imagen.v Line: 12
+    Info (12023): Found entity 1: imagen File: C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/imagen.v Line: 12
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/control_entradas/filtro.v
-    Info (12023): Found entity 1: FILTRO File: H:/FROGGER/rtl/CONTROL_ENTRADAS/FILTRO.v Line: 28
+    Info (12023): Found entity 1: FILTRO File: C:/Users/Felipe/git/frogger_excercise/rtl/CONTROL_ENTRADAS/FILTRO.v Line: 28
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/control_entradas/debounce.v
-    Info (12023): Found entity 1: DeBounce File: H:/FROGGER/rtl/CONTROL_ENTRADAS/DeBounce.v Line: 27
+    Info (12023): Found entity 1: DeBounce File: C:/Users/Felipe/git/frogger_excercise/rtl/CONTROL_ENTRADAS/DeBounce.v Line: 27
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/control_entradas/control_entradas.v
-    Info (12023): Found entity 1: CONTROL_ENTRADAS File: H:/FROGGER/rtl/CONTROL_ENTRADAS/CONTROL_ENTRADAS.v Line: 6
+    Info (12023): Found entity 1: CONTROL_ENTRADAS File: C:/Users/Felipe/git/frogger_excercise/rtl/CONTROL_ENTRADAS/CONTROL_ENTRADAS.v Line: 6
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/control_matriz/control_matriz.v
-    Info (12023): Found entity 1: control_matriz File: H:/FROGGER/rtl/control_matriz/control_matriz.v Line: 6
+    Info (12023): Found entity 1: control_matriz File: C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/control_matriz.v Line: 6
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/juego.v
-    Info (12023): Found entity 1: JUEGO File: H:/FROGGER/rtl/JUEGO/JUEGO.v Line: 4
-Warning (10238): Verilog Module Declaration warning at CODE38Y.v(9): ignored anonymous port(s) indicated by duplicate or dangling comma(s) in the port list for module "CODE38Y" File: H:/FROGGER/rtl/JUEGO/RANA/CODE38Y.v Line: 9
+    Info (12023): Found entity 1: JUEGO File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/JUEGO.v Line: 4
+Warning (10238): Verilog Module Declaration warning at CODE38Y.v(9): ignored anonymous port(s) indicated by duplicate or dangling comma(s) in the port list for module "CODE38Y" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA/CODE38Y.v Line: 9
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/rana/code38y.v
-    Info (12023): Found entity 1: CODE38Y File: H:/FROGGER/rtl/JUEGO/RANA/CODE38Y.v Line: 4
-Warning (10238): Verilog Module Declaration warning at CODE38X.v(9): ignored anonymous port(s) indicated by duplicate or dangling comma(s) in the port list for module "CODE38X" File: H:/FROGGER/rtl/JUEGO/RANA/CODE38X.v Line: 9
+    Info (12023): Found entity 1: CODE38Y File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA/CODE38Y.v Line: 4
+Warning (10238): Verilog Module Declaration warning at CODE38X.v(9): ignored anonymous port(s) indicated by duplicate or dangling comma(s) in the port list for module "CODE38X" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA/CODE38X.v Line: 9
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/rana/code38x.v
-    Info (12023): Found entity 1: CODE38X File: H:/FROGGER/rtl/JUEGO/RANA/CODE38X.v Line: 4
+    Info (12023): Found entity 1: CODE38X File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA/CODE38X.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/control_casas/control_casas.v
-    Info (12023): Found entity 1: CONTROL_CASAS File: H:/FROGGER/rtl/JUEGO/CONTROL_CASAS/CONTROL_CASAS.v Line: 99
+    Info (12023): Found entity 1: CONTROL_CASAS File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/CONTROL_CASAS/CONTROL_CASAS.v Line: 99
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/colision/colision.v
-    Info (12023): Found entity 1: COLISION File: H:/FROGGER/rtl/JUEGO/COLISION/COLISION.v Line: 4
+    Info (12023): Found entity 1: COLISION File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/COLISION/COLISION.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/colision/muxx81x.v
-    Info (12023): Found entity 1: Muxx81X File: H:/FROGGER/rtl/JUEGO/COLISION/Muxx81X.v Line: 27
+    Info (12023): Found entity 1: Muxx81X File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/COLISION/Muxx81X.v Line: 27
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/colision/muxx81y.v
-    Info (12023): Found entity 1: Muxx81Y File: H:/FROGGER/rtl/JUEGO/COLISION/Muxx81Y.v Line: 27
-Warning (10238): Verilog Module Declaration warning at PINTAR_MATRIZ.v(24): ignored anonymous port(s) indicated by duplicate or dangling comma(s) in the port list for module "PINTAR_MATRIZ" File: H:/FROGGER/rtl/JUEGO/PINTAR_MATRIZ/PINTAR_MATRIZ.v Line: 24
+    Info (12023): Found entity 1: Muxx81Y File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/COLISION/Muxx81Y.v Line: 27
+Warning (10238): Verilog Module Declaration warning at PINTAR_MATRIZ.v(24): ignored anonymous port(s) indicated by duplicate or dangling comma(s) in the port list for module "PINTAR_MATRIZ" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/PINTAR_MATRIZ/PINTAR_MATRIZ.v Line: 24
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/pintar_matriz/pintar_matriz.v
-    Info (12023): Found entity 1: PINTAR_MATRIZ File: H:/FROGGER/rtl/JUEGO/PINTAR_MATRIZ/PINTAR_MATRIZ.v Line: 4
+    Info (12023): Found entity 1: PINTAR_MATRIZ File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/PINTAR_MATRIZ/PINTAR_MATRIZ.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/pintar_matriz/pintar_data_demux.v
-    Info (12023): Found entity 1: PINTAR_DATA_DEMUX File: H:/FROGGER/rtl/JUEGO/PINTAR_MATRIZ/PINTAR_DATA_DEMUX.v Line: 4
-Warning (10236): Verilog HDL Implicit Net warning at REGDI_NV.v(62): created implicit net for "REGDI_NV_VEL0_HAB" File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v Line: 62
-Warning (10236): Verilog HDL Implicit Net warning at REGDD_NV.v(62): created implicit net for "REGDD_NV_VEL0_HAB" File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 62
-Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(20): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 20
-Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(21): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 21
-Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(23): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 23
-Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(24): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 24
-Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(25): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 25
-Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(26): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 26
-Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(27): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 27
-Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(28): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 28
-Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(29): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 29
-Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(30): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 30
-Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(31): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 31
-Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(32): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 32
-Warning (10222): Verilog HDL Parameter Declaration warning at REGDI_NV.v(18): Parameter Declaration in module "REGDI_NV" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v Line: 18
-Warning (10222): Verilog HDL Parameter Declaration warning at REGDI_NV.v(19): Parameter Declaration in module "REGDI_NV" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v Line: 19
-Warning (10222): Verilog HDL Parameter Declaration warning at REGDI_NV.v(20): Parameter Declaration in module "REGDI_NV" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v Line: 20
-Warning (10222): Verilog HDL Parameter Declaration warning at REGDI_NV.v(21): Parameter Declaration in module "REGDI_NV" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v Line: 21
-Warning (10222): Verilog HDL Parameter Declaration warning at REGDI_NV.v(22): Parameter Declaration in module "REGDI_NV" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v Line: 22
-Warning (10222): Verilog HDL Parameter Declaration warning at REGDD_NV.v(18): Parameter Declaration in module "REGDD_NV" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 18
-Warning (10222): Verilog HDL Parameter Declaration warning at REGDD_NV.v(19): Parameter Declaration in module "REGDD_NV" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 19
-Warning (10222): Verilog HDL Parameter Declaration warning at REGDD_NV.v(20): Parameter Declaration in module "REGDD_NV" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 20
-Warning (10222): Verilog HDL Parameter Declaration warning at REGDD_NV.v(21): Parameter Declaration in module "REGDD_NV" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 21
-Warning (10222): Verilog HDL Parameter Declaration warning at REGDD_NV.v(22): Parameter Declaration in module "REGDD_NV" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 22
+    Info (12023): Found entity 1: PINTAR_DATA_DEMUX File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/PINTAR_MATRIZ/PINTAR_DATA_DEMUX.v Line: 4
+Warning (10236): Verilog HDL Implicit Net warning at REGDI_NV.v(62): created implicit net for "REGDI_NV_VEL0_HAB" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v Line: 62
+Warning (10236): Verilog HDL Implicit Net warning at REGDD_NV.v(62): created implicit net for "REGDD_NV_VEL0_HAB" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 62
+Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(20): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 20
+Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(21): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 21
+Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(23): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 23
+Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(24): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 24
+Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(25): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 25
+Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(26): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 26
+Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(27): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 27
+Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(28): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 28
+Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(29): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 29
+Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(30): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 30
+Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(31): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 31
+Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(32): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 32
+Warning (10222): Verilog HDL Parameter Declaration warning at REGDI_NV.v(18): Parameter Declaration in module "REGDI_NV" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v Line: 18
+Warning (10222): Verilog HDL Parameter Declaration warning at REGDI_NV.v(19): Parameter Declaration in module "REGDI_NV" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v Line: 19
+Warning (10222): Verilog HDL Parameter Declaration warning at REGDI_NV.v(20): Parameter Declaration in module "REGDI_NV" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v Line: 20
+Warning (10222): Verilog HDL Parameter Declaration warning at REGDI_NV.v(21): Parameter Declaration in module "REGDI_NV" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v Line: 21
+Warning (10222): Verilog HDL Parameter Declaration warning at REGDI_NV.v(22): Parameter Declaration in module "REGDI_NV" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v Line: 22
+Warning (10222): Verilog HDL Parameter Declaration warning at REGDD_NV.v(18): Parameter Declaration in module "REGDD_NV" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 18
+Warning (10222): Verilog HDL Parameter Declaration warning at REGDD_NV.v(19): Parameter Declaration in module "REGDD_NV" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 19
+Warning (10222): Verilog HDL Parameter Declaration warning at REGDD_NV.v(20): Parameter Declaration in module "REGDD_NV" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 20
+Warning (10222): Verilog HDL Parameter Declaration warning at REGDD_NV.v(21): Parameter Declaration in module "REGDD_NV" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 21
+Warning (10222): Verilog HDL Parameter Declaration warning at REGDD_NV.v(22): Parameter Declaration in module "REGDD_NV" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 22
 Warning (12125): Using design file system.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: System File: H:/FROGGER/system.v Line: 6
+    Info (12023): Found entity 1: System File: C:/Users/Felipe/git/frogger_excercise/system.v Line: 6
 Info (12127): Elaborating entity "System" for the top level hierarchy
-Warning (10034): Output port "LED[5..4]" at system.v(49) has no driver File: H:/FROGGER/system.v Line: 49
-Info (12128): Elaborating entity "CONTROL_ENTRADAS" for hierarchy "CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0" File: H:/FROGGER/system.v Line: 92
-Info (12128): Elaborating entity "DeBounce" for hierarchy "CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|DeBounce:DeBounce_1" File: H:/FROGGER/rtl/CONTROL_ENTRADAS/CONTROL_ENTRADAS.v Line: 70
-Warning (10230): Verilog HDL assignment warning at DeBounce.v(80): truncated value with size 32 to match size of target (11) File: H:/FROGGER/rtl/CONTROL_ENTRADAS/DeBounce.v Line: 80
-Info (12128): Elaborating entity "FILTRO" for hierarchy "CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|FILTRO:FILTRO_0" File: H:/FROGGER/rtl/CONTROL_ENTRADAS/CONTROL_ENTRADAS.v Line: 105
-Info (12128): Elaborating entity "JUEGO" for hierarchy "JUEGO:JUEGO_u0" File: H:/FROGGER/system.v Line: 110
-Info (12128): Elaborating entity "MENU_PRINCIPAL" for hierarchy "JUEGO:JUEGO_u0|MENU_PRINCIPAL:MENU_PRINCIPAL_u0" File: H:/FROGGER/rtl/JUEGO/JUEGO.v Line: 97
-Info (12128): Elaborating entity "NIVEL_VEHICULOS" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0" File: H:/FROGGER/rtl/JUEGO/JUEGO.v Line: 112
-Info (12128): Elaborating entity "REGDD_NV" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u0" File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/NIVEL_VEHICULOS.v Line: 88
-Info (12128): Elaborating entity "SC_REGDD" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u0|SC_REGDD:SC_REGDD_u0" File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 55
-Info (12128): Elaborating entity "SC_VEL" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u0|SC_VEL:SC_VEL_u0" File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 63
-Info (12128): Elaborating entity "SC_VEL" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u0|SC_VEL:SC_VEL_u1" File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 71
-Info (12128): Elaborating entity "MUXX21" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u0|MUXX21:MUXX21_u0" File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 79
-Info (12128): Elaborating entity "SC_STATEMACHINE_NVE" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u0|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0" File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 91
-Info (12128): Elaborating entity "REGDD_NV" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u1" File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/NIVEL_VEHICULOS.v Line: 99
-Info (12128): Elaborating entity "SC_STATEMACHINE_NVE" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u1|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0" File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 91
-Info (12128): Elaborating entity "REGDD_NV" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u2" File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/NIVEL_VEHICULOS.v Line: 110
-Info (12128): Elaborating entity "SC_STATEMACHINE_NVE" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u2|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0" File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 91
-Info (12128): Elaborating entity "REGDI_NV" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u0" File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/NIVEL_VEHICULOS.v Line: 121
-Info (12128): Elaborating entity "SC_REGDI" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u0|SC_REGDI:SC_REGDI_u0" File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v Line: 55
-Info (12128): Elaborating entity "SC_STATEMACHINE_NVE" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u0|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0" File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v Line: 91
-Info (12128): Elaborating entity "REGDI_NV" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u1" File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/NIVEL_VEHICULOS.v Line: 132
-Info (12128): Elaborating entity "SC_STATEMACHINE_NVE" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u1|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0" File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v Line: 91
-Info (12128): Elaborating entity "REGDI_NV" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u2" File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/NIVEL_VEHICULOS.v Line: 143
-Info (12128): Elaborating entity "SC_STATEMACHINE_NVE" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u2|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0" File: H:/FROGGER/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v Line: 91
-Info (12128): Elaborating entity "CONTROL_RANAS" for hierarchy "JUEGO:JUEGO_u0|CONTROL_RANAS:CONTROL_RANAS_u0" File: H:/FROGGER/rtl/JUEGO/JUEGO.v Line: 123
-Info (12128): Elaborating entity "CTROL_POSINIRANA" for hierarchy "JUEGO:JUEGO_u0|CONTROL_RANAS:CONTROL_RANAS_u0|CTROL_POSINIRANA:CTROL_POSINIRANA_u0" File: H:/FROGGER/rtl/JUEGO/CONTROL_RANAS/CONTROL_RANAS.v Line: 45
-Info (12128): Elaborating entity "SC_CSCOUNT" for hierarchy "JUEGO:JUEGO_u0|CONTROL_RANAS:CONTROL_RANAS_u0|SC_CSCOUNT:SC_CSCOUNT_u0" File: H:/FROGGER/rtl/JUEGO/CONTROL_RANAS/CONTROL_RANAS.v Line: 54
-Info (12128): Elaborating entity "CONTROL_CASAS" for hierarchy "JUEGO:JUEGO_u0|CONTROL_CASAS:CONTROL_CASAS_u0" File: H:/FROGGER/rtl/JUEGO/JUEGO.v Line: 134
-Info (12128): Elaborating entity "COLISION" for hierarchy "JUEGO:JUEGO_u0|COLISION:COLISION_u0" File: H:/FROGGER/rtl/JUEGO/JUEGO.v Line: 148
-Info (12128): Elaborating entity "Muxx81X" for hierarchy "JUEGO:JUEGO_u0|COLISION:COLISION_u0|Muxx81X:Muxx81X_u0" File: H:/FROGGER/rtl/JUEGO/COLISION/COLISION.v Line: 57
-Info (12128): Elaborating entity "Muxx81Y" for hierarchy "JUEGO:JUEGO_u0|COLISION:COLISION_u0|Muxx81Y:Muxx81Y_u0" File: H:/FROGGER/rtl/JUEGO/COLISION/COLISION.v Line: 105
-Info (12128): Elaborating entity "RANA" for hierarchy "JUEGO:JUEGO_u0|RANA:RANA_u0" File: H:/FROGGER/rtl/JUEGO/JUEGO.v Line: 176
-Info (12128): Elaborating entity "SC_STATEMACHINE_FROG_MOV" for hierarchy "JUEGO:JUEGO_u0|RANA:RANA_u0|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u0" File: H:/FROGGER/rtl/JUEGO/RANA/RANA.v Line: 85
-Info (12128): Elaborating entity "CODE38X" for hierarchy "JUEGO:JUEGO_u0|RANA:RANA_u0|CODE38X:CODE38X_u0" File: H:/FROGGER/rtl/JUEGO/RANA/RANA.v Line: 99
-Info (12128): Elaborating entity "CODE38Y" for hierarchy "JUEGO:JUEGO_u0|RANA:RANA_u0|CODE38Y:CODE38Y_u0" File: H:/FROGGER/rtl/JUEGO/RANA/RANA.v Line: 104
-Info (12128): Elaborating entity "PINTAR_MATRIZ" for hierarchy "JUEGO:JUEGO_u0|PINTAR_MATRIZ:PINTAR_MATRIZ_u0" File: H:/FROGGER/rtl/JUEGO/JUEGO.v Line: 197
-Info (12128): Elaborating entity "PINTAR_DATA_DEMUX" for hierarchy "JUEGO:JUEGO_u0|PINTAR_MATRIZ:PINTAR_MATRIZ_u0|PINTAR_DATA_DEMUX:PINTAR_DATA_DEMUX_u1" File: H:/FROGGER/rtl/JUEGO/PINTAR_MATRIZ/PINTAR_MATRIZ.v Line: 92
-Info (12128): Elaborating entity "control_matriz" for hierarchy "control_matriz:control_matriz_u0" File: H:/FROGGER/system.v Line: 126
-Info (12128): Elaborating entity "matrix_ctrl" for hierarchy "control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0" File: H:/FROGGER/rtl/control_matriz/control_matriz.v Line: 66
-Warning (10230): Verilog HDL assignment warning at matrix_ctrl.v(66): truncated value with size 32 to match size of target (3) File: H:/FROGGER/rtl/control_matriz/matrix_ctrl.v Line: 66
-Warning (10230): Verilog HDL assignment warning at matrix_ctrl.v(67): truncated value with size 32 to match size of target (3) File: H:/FROGGER/rtl/control_matriz/matrix_ctrl.v Line: 67
-Warning (10230): Verilog HDL assignment warning at matrix_ctrl.v(234): truncated value with size 32 to match size of target (4) File: H:/FROGGER/rtl/control_matriz/matrix_ctrl.v Line: 234
-Warning (10240): Verilog HDL Always Construct warning at matrix_ctrl.v(128): inferring latch(es) for variable "ctrl_sr", which holds its previous value in one or more paths through the always construct File: H:/FROGGER/rtl/control_matriz/matrix_ctrl.v Line: 128
-Warning (10230): Verilog HDL assignment warning at matrix_ctrl.v(251): truncated value with size 32 to match size of target (3) File: H:/FROGGER/rtl/control_matriz/matrix_ctrl.v Line: 251
-Info (10041): Inferred latch for "ctrl_sr[0]" at matrix_ctrl.v(128) File: H:/FROGGER/rtl/control_matriz/matrix_ctrl.v Line: 128
-Info (10041): Inferred latch for "ctrl_sr[1]" at matrix_ctrl.v(128) File: H:/FROGGER/rtl/control_matriz/matrix_ctrl.v Line: 128
-Info (12128): Elaborating entity "shift_reg_start_done" for hierarchy "control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0" File: H:/FROGGER/rtl/control_matriz/matrix_ctrl.v Line: 86
-Warning (10230): Verilog HDL assignment warning at shift_reg_start_done.v(68): truncated value with size 32 to match size of target (16) File: H:/FROGGER/rtl/control_matriz/shift_reg_start_done.v Line: 68
-Info (12128): Elaborating entity "imagen" for hierarchy "control_matriz:control_matriz_u0|imagen:imagen_1" File: H:/FROGGER/rtl/control_matriz/control_matriz.v Line: 79
+Warning (10034): Output port "LED[5..4]" at system.v(49) has no driver File: C:/Users/Felipe/git/frogger_excercise/system.v Line: 49
+Info (12128): Elaborating entity "CONTROL_ENTRADAS" for hierarchy "CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0" File: C:/Users/Felipe/git/frogger_excercise/system.v Line: 92
+Info (12128): Elaborating entity "DeBounce" for hierarchy "CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|DeBounce:DeBounce_1" File: C:/Users/Felipe/git/frogger_excercise/rtl/CONTROL_ENTRADAS/CONTROL_ENTRADAS.v Line: 70
+Warning (10230): Verilog HDL assignment warning at DeBounce.v(80): truncated value with size 32 to match size of target (11) File: C:/Users/Felipe/git/frogger_excercise/rtl/CONTROL_ENTRADAS/DeBounce.v Line: 80
+Info (12128): Elaborating entity "FILTRO" for hierarchy "CONTROL_ENTRADAS:CONTROL_ENTRADAS_U0|FILTRO:FILTRO_0" File: C:/Users/Felipe/git/frogger_excercise/rtl/CONTROL_ENTRADAS/CONTROL_ENTRADAS.v Line: 105
+Info (12128): Elaborating entity "JUEGO" for hierarchy "JUEGO:JUEGO_u0" File: C:/Users/Felipe/git/frogger_excercise/system.v Line: 110
+Info (12128): Elaborating entity "MENU_PRINCIPAL" for hierarchy "JUEGO:JUEGO_u0|MENU_PRINCIPAL:MENU_PRINCIPAL_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/JUEGO.v Line: 97
+Info (12128): Elaborating entity "NIVEL_VEHICULOS" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/JUEGO.v Line: 112
+Info (12128): Elaborating entity "REGDD_NV" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/NIVEL_VEHICULOS.v Line: 88
+Info (12128): Elaborating entity "SC_REGDD" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u0|SC_REGDD:SC_REGDD_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 55
+Info (12128): Elaborating entity "SC_VEL" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u0|SC_VEL:SC_VEL_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 63
+Info (12128): Elaborating entity "SC_VEL" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u0|SC_VEL:SC_VEL_u1" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 71
+Info (12128): Elaborating entity "MUXX21" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u0|MUXX21:MUXX21_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 79
+Info (12128): Elaborating entity "SC_STATEMACHINE_NVE" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u0|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 91
+Info (12128): Elaborating entity "REGDD_NV" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u1" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/NIVEL_VEHICULOS.v Line: 99
+Info (12128): Elaborating entity "SC_STATEMACHINE_NVE" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u1|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 91
+Info (12128): Elaborating entity "REGDD_NV" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u2" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/NIVEL_VEHICULOS.v Line: 110
+Info (12128): Elaborating entity "SC_STATEMACHINE_NVE" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u2|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 91
+Info (12128): Elaborating entity "REGDI_NV" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/NIVEL_VEHICULOS.v Line: 121
+Info (12128): Elaborating entity "SC_REGDI" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u0|SC_REGDI:SC_REGDI_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v Line: 55
+Info (12128): Elaborating entity "SC_STATEMACHINE_NVE" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u0|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v Line: 91
+Info (12128): Elaborating entity "REGDI_NV" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u1" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/NIVEL_VEHICULOS.v Line: 132
+Info (12128): Elaborating entity "SC_STATEMACHINE_NVE" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u1|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v Line: 91
+Info (12128): Elaborating entity "REGDI_NV" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u2" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/NIVEL_VEHICULOS.v Line: 143
+Info (12128): Elaborating entity "SC_STATEMACHINE_NVE" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u2|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v Line: 91
+Info (12128): Elaborating entity "CONTROL_RANAS" for hierarchy "JUEGO:JUEGO_u0|CONTROL_RANAS:CONTROL_RANAS_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/JUEGO.v Line: 123
+Info (12128): Elaborating entity "CTROL_POSINIRANA" for hierarchy "JUEGO:JUEGO_u0|CONTROL_RANAS:CONTROL_RANAS_u0|CTROL_POSINIRANA:CTROL_POSINIRANA_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/CONTROL_RANAS/CONTROL_RANAS.v Line: 45
+Info (12128): Elaborating entity "SC_CSCOUNT" for hierarchy "JUEGO:JUEGO_u0|CONTROL_RANAS:CONTROL_RANAS_u0|SC_CSCOUNT:SC_CSCOUNT_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/CONTROL_RANAS/CONTROL_RANAS.v Line: 54
+Info (12128): Elaborating entity "CONTROL_CASAS" for hierarchy "JUEGO:JUEGO_u0|CONTROL_CASAS:CONTROL_CASAS_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/JUEGO.v Line: 134
+Info (12128): Elaborating entity "COLISION" for hierarchy "JUEGO:JUEGO_u0|COLISION:COLISION_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/JUEGO.v Line: 148
+Info (12128): Elaborating entity "Muxx81X" for hierarchy "JUEGO:JUEGO_u0|COLISION:COLISION_u0|Muxx81X:Muxx81X_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/COLISION/COLISION.v Line: 57
+Info (12128): Elaborating entity "Muxx81Y" for hierarchy "JUEGO:JUEGO_u0|COLISION:COLISION_u0|Muxx81Y:Muxx81Y_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/COLISION/COLISION.v Line: 105
+Info (12128): Elaborating entity "RANA" for hierarchy "JUEGO:JUEGO_u0|RANA:RANA_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/JUEGO.v Line: 176
+Info (12128): Elaborating entity "SC_STATEMACHINE_FROG_MOV" for hierarchy "JUEGO:JUEGO_u0|RANA:RANA_u0|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA/RANA.v Line: 85
+Info (12128): Elaborating entity "CODE38X" for hierarchy "JUEGO:JUEGO_u0|RANA:RANA_u0|CODE38X:CODE38X_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA/RANA.v Line: 99
+Info (12128): Elaborating entity "CODE38Y" for hierarchy "JUEGO:JUEGO_u0|RANA:RANA_u0|CODE38Y:CODE38Y_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA/RANA.v Line: 104
+Info (12128): Elaborating entity "PINTAR_MATRIZ" for hierarchy "JUEGO:JUEGO_u0|PINTAR_MATRIZ:PINTAR_MATRIZ_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/JUEGO.v Line: 197
+Info (12128): Elaborating entity "PINTAR_DATA_DEMUX" for hierarchy "JUEGO:JUEGO_u0|PINTAR_MATRIZ:PINTAR_MATRIZ_u0|PINTAR_DATA_DEMUX:PINTAR_DATA_DEMUX_u1" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/PINTAR_MATRIZ/PINTAR_MATRIZ.v Line: 92
+Info (12128): Elaborating entity "control_matriz" for hierarchy "control_matriz:control_matriz_u0" File: C:/Users/Felipe/git/frogger_excercise/system.v Line: 126
+Info (12128): Elaborating entity "matrix_ctrl" for hierarchy "control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0" File: C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/control_matriz.v Line: 66
+Warning (10230): Verilog HDL assignment warning at matrix_ctrl.v(66): truncated value with size 32 to match size of target (3) File: C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v Line: 66
+Warning (10230): Verilog HDL assignment warning at matrix_ctrl.v(67): truncated value with size 32 to match size of target (3) File: C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v Line: 67
+Warning (10230): Verilog HDL assignment warning at matrix_ctrl.v(234): truncated value with size 32 to match size of target (4) File: C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v Line: 234
+Warning (10240): Verilog HDL Always Construct warning at matrix_ctrl.v(128): inferring latch(es) for variable "ctrl_sr", which holds its previous value in one or more paths through the always construct File: C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v Line: 128
+Warning (10230): Verilog HDL assignment warning at matrix_ctrl.v(251): truncated value with size 32 to match size of target (3) File: C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v Line: 251
+Info (10041): Inferred latch for "ctrl_sr[0]" at matrix_ctrl.v(128) File: C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v Line: 128
+Info (10041): Inferred latch for "ctrl_sr[1]" at matrix_ctrl.v(128) File: C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v Line: 128
+Info (12128): Elaborating entity "shift_reg_start_done" for hierarchy "control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0" File: C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v Line: 86
+Warning (10230): Verilog HDL assignment warning at shift_reg_start_done.v(68): truncated value with size 32 to match size of target (16) File: C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/shift_reg_start_done.v Line: 68
+Info (12128): Elaborating entity "imagen" for hierarchy "control_matriz:control_matriz_u0|imagen:imagen_1" File: C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/control_matriz.v Line: 79
 Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "LED[4]" is stuck at GND File: H:/FROGGER/system.v Line: 49
-    Warning (13410): Pin "LED[5]" is stuck at GND File: H:/FROGGER/system.v Line: 49
+    Warning (13410): Pin "LED[4]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/system.v Line: 49
+    Warning (13410): Pin "LED[5]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/system.v Line: 49
 Info (286030): Timing-Driven Synthesis is running
 Info (17049): 55 registers lost all their fanouts during netlist optimizations.
-Info (144001): Generated suppressed messages file H:/FROGGER/System.map.smsg
+Info (144001): Generated suppressed messages file C:/Users/Felipe/git/frogger_excercise/System.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Info (21057): Implemented 671 device resources after synthesis - the final resource count might be different
@@ -2059,15 +2058,15 @@ Info (21057): Implemented 671 device resources after synthesis - the final resou
     Info (21059): Implemented 11 output pins
     Info (21061): Implemented 653 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 41 warnings
-    Info: Peak virtual memory: 684 megabytes
-    Info: Processing ended: Fri Apr 20 13:59:08 2018
-    Info: Elapsed time: 00:00:36
-    Info: Total CPU time (on all processors): 00:00:52
+    Info: Peak virtual memory: 673 megabytes
+    Info: Processing ended: Fri Apr 20 14:18:33 2018
+    Info: Elapsed time: 00:00:24
+    Info: Total CPU time (on all processors): 00:00:46
 
 
 +------------------------------------------+
 ; Analysis & Synthesis Suppressed Messages ;
 +------------------------------------------+
-The suppressed messages can be found in H:/FROGGER/System.map.smsg.
+The suppressed messages can be found in C:/Users/Felipe/git/frogger_excercise/System.map.smsg.
 
 
