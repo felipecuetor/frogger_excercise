@@ -20,6 +20,10 @@
 					"strict" : false
 				},
 				{
+					"name" : "LED[6]",
+					"strict" : false
+				},
+				{
 					"name" : "LED[7]",
 					"strict" : false
 				},
@@ -36,267 +40,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "led_final_7_tester[0]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_7_tester[1]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_7_tester[2]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_7_tester[3]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_7_tester[4]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_7_tester[5]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_7_tester[6]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_7_tester[7]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_6_tester[0]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_6_tester[1]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_6_tester[2]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_6_tester[3]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_6_tester[4]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_6_tester[5]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_6_tester[6]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_6_tester[7]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_5_tester[0]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_5_tester[1]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_5_tester[2]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_5_tester[3]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_5_tester[4]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_5_tester[5]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_5_tester[6]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_5_tester[7]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_4_tester[0]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_4_tester[1]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_4_tester[2]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_4_tester[3]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_4_tester[4]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_4_tester[5]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_4_tester[6]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_4_tester[7]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_3_tester[0]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_3_tester[1]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_3_tester[2]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_3_tester[3]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_3_tester[4]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_3_tester[5]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_3_tester[6]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_3_tester[7]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_2_tester[0]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_2_tester[1]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_2_tester[2]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_2_tester[3]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_2_tester[4]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_2_tester[5]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_2_tester[6]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_2_tester[7]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_1_tester[0]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_1_tester[1]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_1_tester[2]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_1_tester[3]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_1_tester[4]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_1_tester[5]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_1_tester[6]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_1_tester[7]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_0_tester[0]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_0_tester[1]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_0_tester[2]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_0_tester[3]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_0_tester[4]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_0_tester[5]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_0_tester[6]",
-					"strict" : false
-				},
-				{
-					"name" : "led_final_0_tester[7]",
-					"strict" : false
-				},
-				{
 					"name" : "B_Left",
 					"strict" : false
 				},
 				{
-					"name" : "B_Rigth",
+					"name" : "B_Right",
 					"strict" : false
 				},
 				{
@@ -308,15 +56,15 @@
 					"strict" : false
 				},
 				{
-					"name" : "Start",
-					"strict" : false
-				},
-				{
-					"name" : "RESET",
+					"name" : "B_Start",
 					"strict" : false
 				},
 				{
 					"name" : "CLOCK_50",
+					"strict" : false
+				},
+				{
+					"name" : "RESET",
 					"strict" : false
 				}
 			]

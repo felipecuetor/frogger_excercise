@@ -18,7 +18,7 @@
 // suit user's needs .Comments are provided in each section to help the user    
 // fill out necessary details.                                                  
 // *****************************************************************************
-// Generated on "04/06/2018 22:30:33"
+// Generated on "04/06/2018 18:18:40"
                                                                                 
 // Verilog Test Bench template for design : System
 // 
@@ -30,62 +30,40 @@ module System_vlg_tst();
 // constants                                           
 // general purpose registers
 reg eachvec;
-parameter TCK = 20; // clock period in ns
-parameter CLK_FREQ = 1000000000 / TCK; // Frequenzy in HZ
-parameter DATAWIDTH_BUS = 8;
-integer ii=0;
 // test vector input registers
-reg B_Down;
-reg B_Left;
-reg B_Rigth;
-reg B_Up;
 reg CLOCK_50;
-reg RESET;
-reg Start;
+reg [33:0] treg_GPIO_0;
+reg [1:0] GPIO_0_IN;
 // wires                                               
+wire [33:0]  GPIO_0;
 wire [7:0]  LED;
-wire MAX7219_CLK;
-wire MAX7219_CS;
-wire MAX7219_DIN;
-
-
 
 // assign statements (if any)                          
+assign GPIO_0 = treg_GPIO_0;
 System i1 (
 // port map - connection between master ports and signals/registers   
-	.B_Down(B_Down),
-	.B_Left(B_Left),
-	.B_Rigth(B_Rigth),
-	.B_Up(B_Up),
 	.CLOCK_50(CLOCK_50),
-	.LED(LED),
-	.MAX7219_CLK(MAX7219_CLK),
-	.MAX7219_CS(MAX7219_CS),
-	.MAX7219_DIN(MAX7219_DIN),
-	.RESET(RESET),
-	.Start(Start)
+	.GPIO_0(GPIO_0),
+	.GPIO_0_IN(GPIO_0_IN),
+	.LED(LED)
 );
 initial                                                
 begin                                                  
 // code that executes only once                        
 // insert code here --> begin                          
-  CLOCK_50 <= 0;                                                
+                                                       
 // --> end                                             
 $display("Running testbench");                       
 end                                                    
 always                                                 
 // optional sensitivity list                           
-// @(event1 or event2 or .... eventn) 
-#(TCK/2) CLOCK_50 <= ~ CLOCK_50;                 
-initial 
-	begin                                                  
-	// code executes for every event on sensitivity list   
-	// insert code here --> begin                          
-	#1 RESET<= 1'b0;	
-	#1000  RESET<= 1'b1;		
-	#3000  RESET<= 1'b0;	
-	@eachvec;                                              
-	// --> end                                             
-	end                                                    
+// @(event1 or event2 or .... eventn)                  
+begin                                                  
+// code executes for every event on sensitivity list   
+// insert code here --> begin                          
+                                                       
+@eachvec;                                              
+// --> end                                             
+end                                                    
 endmodule
 

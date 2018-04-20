@@ -1,5 +1,5 @@
-Assembler report for system
-Mon Apr 16 10:52:46 2018
+Assembler report for System
+Fri Apr 20 13:59:44 2018
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -10,7 +10,7 @@ Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: C:/Users/Felipe/git/frogger_excercise/system.sof
+  5. Assembler Device Options: H:/FROGGER/System.sof
   6. Assembler Messages
 
 
@@ -37,9 +37,9 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Mon Apr 16 10:52:46 2018 ;
-; Revision Name         ; system                                ;
-; Top-level Entity Name ; system                                ;
+; Assembler Status      ; Successful - Fri Apr 20 13:59:44 2018 ;
+; Revision Name         ; System                                ;
+; Top-level Entity Name ; System                                ;
 ; Family                ; Cyclone IV E                          ;
 ; Device                ; EP4CE22F17C6                          ;
 +-----------------------+---------------------------------------+
@@ -52,23 +52,23 @@ refer to the applicable agreement for further details.
 +--------+---------+---------------+
 
 
-+--------------------------------------------------+
-; Assembler Generated Files                        ;
-+--------------------------------------------------+
-; File Name                                        ;
-+--------------------------------------------------+
-; C:/Users/Felipe/git/frogger_excercise/system.sof ;
-+--------------------------------------------------+
++---------------------------+
+; Assembler Generated Files ;
++---------------------------+
+; File Name                 ;
++---------------------------+
+; H:/FROGGER/System.sof     ;
++---------------------------+
 
 
-+----------------------------------------------------------------------------+
-; Assembler Device Options: C:/Users/Felipe/git/frogger_excercise/system.sof ;
-+----------------+-----------------------------------------------------------+
-; Option         ; Setting                                                   ;
-+----------------+-----------------------------------------------------------+
-; JTAG usercode  ; 0x001788B3                                                ;
-; Checksum       ; 0x001788B3                                                ;
-+----------------+-----------------------------------------------------------+
++-------------------------------------------------+
+; Assembler Device Options: H:/FROGGER/System.sof ;
++----------------+--------------------------------+
+; Option         ; Setting                        ;
++----------------+--------------------------------+
+; JTAG usercode  ; 0x00190253                     ;
+; Checksum       ; 0x00190253                     ;
++----------------+--------------------------------+
 
 
 +--------------------+
@@ -77,15 +77,15 @@ refer to the applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
-    Info: Processing started: Mon Apr 16 10:52:44 2018
-Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off system -c system
+    Info: Processing started: Fri Apr 20 13:59:39 2018
+Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off System -c System
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 595 megabytes
-    Info: Processing ended: Mon Apr 16 10:52:46 2018
-    Info: Elapsed time: 00:00:02
+    Info: Peak virtual memory: 600 megabytes
+    Info: Processing ended: Fri Apr 20 13:59:45 2018
+    Info: Elapsed time: 00:00:06
     Info: Total CPU time (on all processors): 00:00:02
 
 
