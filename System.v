@@ -104,10 +104,10 @@ JUEGO JUEGO_u0 (
 	.JUEGO_CLOCK(CLOCK_50),
 	.JUEGO_RESET(RESET),	
 	.JUEGO_START(B_Start),
-	.JUEGO_LEFT(B_Right),
-	.JUEGO_RIGHT(B_Left),
-	.JUEGO_UP(B_Up),
-	.JUEGO_DOWN(B_Down)
+	.JUEGO_LEFT(B_Left),
+	.JUEGO_RIGHT(B_Right),
+	.JUEGO_UP(B_Down),
+	.JUEGO_DOWN(B_Up)
 );
 
 control_matriz control_matriz_u0(

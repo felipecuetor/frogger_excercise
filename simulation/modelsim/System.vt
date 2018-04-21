@@ -109,11 +109,15 @@ begin: tester
 	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 0;RESET <= 1;B_Start <= 0;CLOCK_50 <= 1;
 	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 1;CLOCK_50 <= 0;
 	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 1;CLOCK_50 <= 1;
-	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 1;CLOCK_50 <= 0;
-	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 1;CLOCK_50 <= 1;
-	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 1;RESET <= 0;B_Start <= 0;CLOCK_50 <= 0;
-	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 1;RESET <= 0;B_Start <= 0;CLOCK_50 <= 1;
 	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 0;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 1;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 0;
+	
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 1;RESET <= 0;B_Start <= 0;CLOCK_50 <= 1;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 1;RESET <= 0;B_Start <= 0;CLOCK_50 <= 0;
+	#10 	B_Down <= 1;B_Left <= 0;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 1;
+	#10 	B_Down <= 1;B_Left <= 0;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 0;
+	
 	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 1;CLOCK_50 <= 1;
 	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 1;CLOCK_50 <= 0;
 	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 1;
@@ -144,6 +148,35 @@ begin: tester
 	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 0;
 	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 1;
 	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 0;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 1;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 0;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 1;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 0;
+	
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 1;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 1;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 1;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 0;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 1;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 1;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 1;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 0;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 1;RESET <= 0;B_Start <= 0;CLOCK_50 <= 1;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 1;RESET <= 0;B_Start <= 0;CLOCK_50 <= 0;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 1;RESET <= 0;B_Start <= 0;CLOCK_50 <= 1;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 1;RESET <= 0;B_Start <= 0;CLOCK_50 <= 0;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 1;RESET <= 0;B_Start <= 0;CLOCK_50 <= 1;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 1;RESET <= 0;B_Start <= 0;CLOCK_50 <= 0;
+	#10 	B_Down <= 0;B_Left <= 1;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 1;
+	#10 	B_Down <= 0;B_Left <= 1;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 0;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 1;RESET <= 0;B_Start <= 0;CLOCK_50 <= 1;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 1;RESET <= 0;B_Start <= 0;CLOCK_50 <= 0;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 1;RESET <= 0;B_Start <= 0;CLOCK_50 <= 1;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 1;RESET <= 0;B_Start <= 0;CLOCK_50 <= 0;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 1;RESET <= 0;B_Start <= 0;CLOCK_50 <= 1;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 1;RESET <= 0;B_Start <= 0;CLOCK_50 <= 0;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 1;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 1;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 1;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 0;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 1;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 1;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 1;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 0;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 1;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 1;
+	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 1;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 0;
 	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 1;
 	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 0;
 	#10 	B_Down <= 0;B_Left <= 0;B_Right <= 0;B_Up <= 0;RESET <= 0;B_Start <= 0;CLOCK_50 <= 1;

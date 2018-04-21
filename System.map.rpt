@@ -1,5 +1,5 @@
 Analysis & Synthesis report for System
-Thu Apr 19 15:04:06 2018
+Fri Apr 20 21:15:24 2018
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -16,79 +16,82 @@ Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
   8. State Machine - |System|control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|state_reg
   9. State Machine - |System|JUEGO:JUEGO_u0|RANA:RANA_u0|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u1|St_Register
  10. State Machine - |System|JUEGO:JUEGO_u0|RANA:RANA_u0|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u0|St_Register
- 11. State Machine - |System|JUEGO:JUEGO_u0|CONTROL_RANAS:CONTROL_RANAS_u0|St_Register
- 12. State Machine - |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u2|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0|St_Register
- 13. State Machine - |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u1|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0|St_Register
- 14. State Machine - |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u0|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0|St_Register
- 15. State Machine - |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u2|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0|St_Register
- 16. State Machine - |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u1|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0|St_Register
- 17. State Machine - |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u0|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0|St_Register
- 18. State Machine - |System|JUEGO:JUEGO_u0|MENU_PRINCIPAL:MENU_PRINCIPAL_u0|St_Register
- 19. User-Specified and Inferred Latches
- 20. Registers Removed During Synthesis
- 21. Removed Registers Triggering Further Register Optimizations
- 22. General Register Statistics
- 23. Multiplexer Restructuring Statistics (Restructuring Performed)
- 24. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0
- 25. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|MENU_PRINCIPAL:MENU_PRINCIPAL_u0
- 26. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0
- 27. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u0
- 28. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u0|SC_REGDD:SC_REGDD_u0
- 29. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u0|SC_VEL:SC_VEL_u0
- 30. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u0|SC_VEL:SC_VEL_u1
- 31. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u0|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0
- 32. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u1
- 33. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u1|SC_REGDD:SC_REGDD_u0
- 34. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u1|SC_VEL:SC_VEL_u0
- 35. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u1|SC_VEL:SC_VEL_u1
- 36. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u1|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0
- 37. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u2
- 38. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u2|SC_REGDD:SC_REGDD_u0
- 39. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u2|SC_VEL:SC_VEL_u0
- 40. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u2|SC_VEL:SC_VEL_u1
- 41. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u2|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0
- 42. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u0
- 43. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u0|SC_REGDI:SC_REGDI_u0
- 44. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u0|SC_VEL:SC_VEL_u0
- 45. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u0|SC_VEL:SC_VEL_u1
- 46. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u0|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0
- 47. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u1
- 48. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u1|SC_REGDI:SC_REGDI_u0
- 49. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u1|SC_VEL:SC_VEL_u0
- 50. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u1|SC_VEL:SC_VEL_u1
- 51. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u1|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0
- 52. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u2
- 53. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u2|SC_REGDI:SC_REGDI_u0
- 54. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u2|SC_VEL:SC_VEL_u0
- 55. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u2|SC_VEL:SC_VEL_u1
- 56. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u2|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0
- 57. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|CONTROL_RANAS:CONTROL_RANAS_u0
- 58. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|CONTROL_CASAS:CONTROL_CASAS_u0
- 59. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|COLISION:COLISION_u0
- 60. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|COLISION:COLISION_u0|Muxx81X:Muxx81X_u0
- 61. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|COLISION:COLISION_u0|Muxx81X:Muxx81X_u1
- 62. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|COLISION:COLISION_u0|Muxx81X:Muxx81X_u2
- 63. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|COLISION:COLISION_u0|Muxx81X:Muxx81X_u3
- 64. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|COLISION:COLISION_u0|Muxx81X:Muxx81X_u4
- 65. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|COLISION:COLISION_u0|Muxx81X:Muxx81X_u5
- 66. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|COLISION:COLISION_u0|Muxx81X:Muxx81X_u6
- 67. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|COLISION:COLISION_u0|Muxx81Y:Muxx81Y_u0
- 68. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|RANA:RANA_u0
- 69. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|RANA:RANA_u0|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u0
- 70. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|RANA:RANA_u0|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u1
- 71. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|RANA:RANA_u0|CODE38X:CODE38X_u0
- 72. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|RANA:RANA_u0|CODE38Y:CODE38Y_u0
- 73. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|PINTAR_MATRIZ:PINTAR_MATRIZ_u0
- 74. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|PINTAR_MATRIZ:PINTAR_MATRIZ_u0|PINTAR_DATA_DEMUX:PINTAR_DATA_DEMUX_u1
- 75. Parameter Settings for User Entity Instance: control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0
- 76. Port Connectivity Checks: "control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0"
- 77. Port Connectivity Checks: "control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0"
- 78. Port Connectivity Checks: "JUEGO:JUEGO_u0|RANA:RANA_u0|CODE38Y:CODE38Y_u0"
- 79. Port Connectivity Checks: "JUEGO:JUEGO_u0|COLISION:COLISION_u0|Muxx81X:Muxx81X_u6"
- 80. Post-Synthesis Netlist Statistics for Top Partition
- 81. Elapsed Time Per Partition
- 82. Analysis & Synthesis Messages
- 83. Analysis & Synthesis Suppressed Messages
+ 11. State Machine - |System|JUEGO:JUEGO_u0|CONTROL_CASAS:CONTROL_CASAS_u0|St_Register
+ 12. State Machine - |System|JUEGO:JUEGO_u0|CONTROL_RANAS:CONTROL_RANAS_u0|CTROL_POSINIRANA:CTROL_POSINIRANA_u0|St_Register
+ 13. State Machine - |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u2|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0|St_Register
+ 14. State Machine - |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u1|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0|St_Register
+ 15. State Machine - |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u0|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0|St_Register
+ 16. State Machine - |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u2|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0|St_Register
+ 17. State Machine - |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u1|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0|St_Register
+ 18. State Machine - |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u0|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0|St_Register
+ 19. State Machine - |System|JUEGO:JUEGO_u0|MENU_PRINCIPAL:MENU_PRINCIPAL_u0|St_Register
+ 20. User-Specified and Inferred Latches
+ 21. Registers Removed During Synthesis
+ 22. Removed Registers Triggering Further Register Optimizations
+ 23. General Register Statistics
+ 24. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 25. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0
+ 26. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|MENU_PRINCIPAL:MENU_PRINCIPAL_u0
+ 27. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0
+ 28. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u0
+ 29. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u0|SC_REGDD:SC_REGDD_u0
+ 30. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u0|SC_VEL:SC_VEL_u0
+ 31. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u0|SC_VEL:SC_VEL_u1
+ 32. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u0|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0
+ 33. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u1
+ 34. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u1|SC_REGDD:SC_REGDD_u0
+ 35. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u1|SC_VEL:SC_VEL_u0
+ 36. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u1|SC_VEL:SC_VEL_u1
+ 37. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u1|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0
+ 38. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u2
+ 39. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u2|SC_REGDD:SC_REGDD_u0
+ 40. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u2|SC_VEL:SC_VEL_u0
+ 41. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u2|SC_VEL:SC_VEL_u1
+ 42. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u2|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0
+ 43. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u0
+ 44. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u0|SC_REGDI:SC_REGDI_u0
+ 45. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u0|SC_VEL:SC_VEL_u0
+ 46. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u0|SC_VEL:SC_VEL_u1
+ 47. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u0|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0
+ 48. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u1
+ 49. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u1|SC_REGDI:SC_REGDI_u0
+ 50. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u1|SC_VEL:SC_VEL_u0
+ 51. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u1|SC_VEL:SC_VEL_u1
+ 52. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u1|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0
+ 53. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u2
+ 54. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u2|SC_REGDI:SC_REGDI_u0
+ 55. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u2|SC_VEL:SC_VEL_u0
+ 56. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u2|SC_VEL:SC_VEL_u1
+ 57. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u2|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0
+ 58. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|CONTROL_RANAS:CONTROL_RANAS_u0
+ 59. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|CONTROL_RANAS:CONTROL_RANAS_u0|CTROL_POSINIRANA:CTROL_POSINIRANA_u0
+ 60. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|CONTROL_RANAS:CONTROL_RANAS_u0|SC_CSCOUNT:SC_CSCOUNT_u0
+ 61. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|CONTROL_CASAS:CONTROL_CASAS_u0
+ 62. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|COLISION:COLISION_u0
+ 63. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|COLISION:COLISION_u0|Muxx81X:Muxx81X_u0
+ 64. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|COLISION:COLISION_u0|Muxx81X:Muxx81X_u1
+ 65. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|COLISION:COLISION_u0|Muxx81X:Muxx81X_u2
+ 66. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|COLISION:COLISION_u0|Muxx81X:Muxx81X_u3
+ 67. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|COLISION:COLISION_u0|Muxx81X:Muxx81X_u4
+ 68. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|COLISION:COLISION_u0|Muxx81X:Muxx81X_u5
+ 69. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|COLISION:COLISION_u0|Muxx81X:Muxx81X_u6
+ 70. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|COLISION:COLISION_u0|Muxx81Y:Muxx81Y_u0
+ 71. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|RANA:RANA_u0
+ 72. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|RANA:RANA_u0|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u0
+ 73. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|RANA:RANA_u0|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u1
+ 74. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|RANA:RANA_u0|CODE38X:CODE38X_u0
+ 75. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|RANA:RANA_u0|CODE38Y:CODE38Y_u0
+ 76. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|PINTAR_MATRIZ:PINTAR_MATRIZ_u0
+ 77. Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|PINTAR_MATRIZ:PINTAR_MATRIZ_u0|PINTAR_DATA_DEMUX:PINTAR_DATA_DEMUX_u1
+ 78. Parameter Settings for User Entity Instance: control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0
+ 79. Port Connectivity Checks: "control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0"
+ 80. Port Connectivity Checks: "control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0"
+ 81. Port Connectivity Checks: "JUEGO:JUEGO_u0|RANA:RANA_u0|CODE38Y:CODE38Y_u0"
+ 82. Port Connectivity Checks: "JUEGO:JUEGO_u0|CONTROL_CASAS:CONTROL_CASAS_u0"
+ 83. Post-Synthesis Netlist Statistics for Top Partition
+ 84. Elapsed Time Per Partition
+ 85. Analysis & Synthesis Messages
+ 86. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -114,15 +117,15 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Apr 19 15:04:05 2018       ;
+; Analysis & Synthesis Status        ; Successful - Fri Apr 20 21:15:24 2018       ;
 ; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; System                                      ;
 ; Top-level Entity Name              ; System                                      ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 486                                         ;
-;     Total combinational functions  ; 486                                         ;
-;     Dedicated logic registers      ; 176                                         ;
-; Total registers                    ; 176                                         ;
+; Total logic elements               ; 493                                         ;
+;     Total combinational functions  ; 493                                         ;
+;     Dedicated logic registers      ; 177                                         ;
+; Total registers                    ; 177                                         ;
 ; Total pins                         ; 82                                          ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0                                           ;
@@ -222,50 +225,52 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 4           ;
-; Maximum allowed            ; 2           ;
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
-; Maximum used               ; 2           ;
+; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.0%      ;
+;     Processors 2-4         ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                             ;
-+-------------------------------------------------+-----------------+------------------------------+---------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path                ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                          ; Library ;
-+-------------------------------------------------+-----------------+------------------------------+---------------------------------------------------------------------------------------+---------+
-; rtl/JUEGO/CONTROL_RANAS/CONTROL_RANAS.v         ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/CONTROL_RANAS/CONTROL_RANAS.v         ;         ;
-; rtl/JUEGO/RANA/SC_STATEMACHINE_FROG_MOV.v       ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA/SC_STATEMACHINE_FROG_MOV.v       ;         ;
-; rtl/JUEGO/RANA/RANA.v                           ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA/RANA.v                           ;         ;
-; rtl/JUEGO/NIVEL_VEHICULOS/SC_VEL.v              ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_VEL.v              ;         ;
-; rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v ;         ;
-; rtl/JUEGO/NIVEL_VEHICULOS/SC_REGDI.v            ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_REGDI.v            ;         ;
-; rtl/JUEGO/NIVEL_VEHICULOS/SC_REGDD.v            ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_REGDD.v            ;         ;
-; rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v            ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v            ;         ;
-; rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v            ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v            ;         ;
-; rtl/JUEGO/NIVEL_VEHICULOS/NIVEL_VEHICULOS.v     ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/NIVEL_VEHICULOS.v     ;         ;
-; rtl/JUEGO/NIVEL_VEHICULOS/MUXX21.v              ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/MUXX21.v              ;         ;
-; rtl/JUEGO/MENU_PRINCIPAL/MENU_PRINCIPAL.v       ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/MENU_PRINCIPAL/MENU_PRINCIPAL.v       ;         ;
-; rtl/control_matriz/shift_reg_start_done.v       ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/shift_reg_start_done.v       ;         ;
-; rtl/control_matriz/matrix_ctrl.v                ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v                ;         ;
-; rtl/control_matriz/imagen.v                     ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/imagen.v                     ;         ;
-; rtl/control_matriz/control_matriz.v             ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/control_matriz.v             ;         ;
-; rtl/JUEGO/JUEGO.v                               ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/JUEGO.v                               ;         ;
-; rtl/JUEGO/RANA/CODE38Y.v                        ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA/CODE38Y.v                        ;         ;
-; rtl/JUEGO/RANA/CODE38X.v                        ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA/CODE38X.v                        ;         ;
-; rtl/JUEGO/CONTROL_CASAS/CONTROL_CASAS.v         ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/CONTROL_CASAS/CONTROL_CASAS.v         ;         ;
-; rtl/JUEGO/COLISION/COLISION.v                   ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/COLISION/COLISION.v                   ;         ;
-; rtl/JUEGO/COLISION/Muxx81X.v                    ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/COLISION/Muxx81X.v                    ;         ;
-; rtl/JUEGO/COLISION/Muxx81Y.v                    ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/COLISION/Muxx81Y.v                    ;         ;
-; rtl/JUEGO/PINTAR_MATRIZ/PINTAR_MATRIZ.v         ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/PINTAR_MATRIZ/PINTAR_MATRIZ.v         ;         ;
-; rtl/JUEGO/PINTAR_MATRIZ/PINTAR_DATA_DEMUX.v     ; yes             ; User Verilog HDL File        ; C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/PINTAR_MATRIZ/PINTAR_DATA_DEMUX.v     ;         ;
-; system.v                                        ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/Felipe/git/frogger_excercise/system.v                                        ;         ;
-+-------------------------------------------------+-----------------+------------------------------+---------------------------------------------------------------------------------------+---------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                            ;
++-------------------------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path                ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                         ; Library ;
++-------------------------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------------------+---------+
+; rtl/JUEGO/CONTROL_RANAS/SC_CSCOUNT.v            ; yes             ; User Verilog HDL File        ; D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/CONTROL_RANAS/SC_CSCOUNT.v            ;         ;
+; rtl/JUEGO/CONTROL_RANAS/CTROL_POSINIRANA.v      ; yes             ; User Verilog HDL File        ; D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/CONTROL_RANAS/CTROL_POSINIRANA.v      ;         ;
+; rtl/JUEGO/CONTROL_RANAS/CONTROL_RANAS.v         ; yes             ; User Verilog HDL File        ; D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/CONTROL_RANAS/CONTROL_RANAS.v         ;         ;
+; rtl/JUEGO/RANA/SC_STATEMACHINE_FROG_MOV.v       ; yes             ; User Verilog HDL File        ; D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/RANA/SC_STATEMACHINE_FROG_MOV.v       ;         ;
+; rtl/JUEGO/RANA/RANA.v                           ; yes             ; User Verilog HDL File        ; D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/RANA/RANA.v                           ;         ;
+; rtl/JUEGO/NIVEL_VEHICULOS/SC_VEL.v              ; yes             ; User Verilog HDL File        ; D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_VEL.v              ;         ;
+; rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v ; yes             ; User Verilog HDL File        ; D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v ;         ;
+; rtl/JUEGO/NIVEL_VEHICULOS/SC_REGDI.v            ; yes             ; User Verilog HDL File        ; D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_REGDI.v            ;         ;
+; rtl/JUEGO/NIVEL_VEHICULOS/SC_REGDD.v            ; yes             ; User Verilog HDL File        ; D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_REGDD.v            ;         ;
+; rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v            ; yes             ; User Verilog HDL File        ; D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v            ;         ;
+; rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v            ; yes             ; User Verilog HDL File        ; D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v            ;         ;
+; rtl/JUEGO/NIVEL_VEHICULOS/NIVEL_VEHICULOS.v     ; yes             ; User Verilog HDL File        ; D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/NIVEL_VEHICULOS.v     ;         ;
+; rtl/JUEGO/NIVEL_VEHICULOS/MUXX21.v              ; yes             ; User Verilog HDL File        ; D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/MUXX21.v              ;         ;
+; rtl/JUEGO/MENU_PRINCIPAL/MENU_PRINCIPAL.v       ; yes             ; User Verilog HDL File        ; D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/MENU_PRINCIPAL/MENU_PRINCIPAL.v       ;         ;
+; rtl/control_matriz/shift_reg_start_done.v       ; yes             ; User Verilog HDL File        ; D:/FelipeCueto/git/frogger_excercise/rtl/control_matriz/shift_reg_start_done.v       ;         ;
+; rtl/control_matriz/matrix_ctrl.v                ; yes             ; User Verilog HDL File        ; D:/FelipeCueto/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v                ;         ;
+; rtl/control_matriz/imagen.v                     ; yes             ; User Verilog HDL File        ; D:/FelipeCueto/git/frogger_excercise/rtl/control_matriz/imagen.v                     ;         ;
+; rtl/control_matriz/control_matriz.v             ; yes             ; User Verilog HDL File        ; D:/FelipeCueto/git/frogger_excercise/rtl/control_matriz/control_matriz.v             ;         ;
+; rtl/JUEGO/JUEGO.v                               ; yes             ; User Verilog HDL File        ; D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/JUEGO.v                               ;         ;
+; rtl/JUEGO/RANA/CODE38Y.v                        ; yes             ; User Verilog HDL File        ; D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/RANA/CODE38Y.v                        ;         ;
+; rtl/JUEGO/RANA/CODE38X.v                        ; yes             ; User Verilog HDL File        ; D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/RANA/CODE38X.v                        ;         ;
+; rtl/JUEGO/CONTROL_CASAS/CONTROL_CASAS.v         ; yes             ; User Verilog HDL File        ; D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/CONTROL_CASAS/CONTROL_CASAS.v         ;         ;
+; rtl/JUEGO/COLISION/COLISION.v                   ; yes             ; User Verilog HDL File        ; D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/COLISION/COLISION.v                   ;         ;
+; rtl/JUEGO/COLISION/Muxx81X.v                    ; yes             ; User Verilog HDL File        ; D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/COLISION/Muxx81X.v                    ;         ;
+; rtl/JUEGO/COLISION/Muxx81Y.v                    ; yes             ; User Verilog HDL File        ; D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/COLISION/Muxx81Y.v                    ;         ;
+; rtl/JUEGO/PINTAR_MATRIZ/PINTAR_MATRIZ.v         ; yes             ; User Verilog HDL File        ; D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/PINTAR_MATRIZ/PINTAR_MATRIZ.v         ;         ;
+; rtl/JUEGO/PINTAR_MATRIZ/PINTAR_DATA_DEMUX.v     ; yes             ; User Verilog HDL File        ; D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/PINTAR_MATRIZ/PINTAR_DATA_DEMUX.v     ;         ;
+; system.v                                        ; yes             ; Auto-Found Verilog HDL File  ; D:/FelipeCueto/git/frogger_excercise/system.v                                        ;         ;
++-------------------------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------------------+---------+
 
 
 +-----------------------------------------------------------+
@@ -273,20 +278,20 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+-------------+
 ; Resource                                    ; Usage       ;
 +---------------------------------------------+-------------+
-; Estimated Total logic elements              ; 486         ;
+; Estimated Total logic elements              ; 493         ;
 ;                                             ;             ;
-; Total combinational functions               ; 486         ;
+; Total combinational functions               ; 493         ;
 ; Logic element usage by number of LUT inputs ;             ;
-;     -- 4 input functions                    ; 271         ;
-;     -- 3 input functions                    ; 137         ;
-;     -- <=2 input functions                  ; 78          ;
+;     -- 4 input functions                    ; 279         ;
+;     -- 3 input functions                    ; 122         ;
+;     -- <=2 input functions                  ; 92          ;
 ;                                             ;             ;
 ; Logic elements by mode                      ;             ;
-;     -- normal mode                          ; 447         ;
+;     -- normal mode                          ; 454         ;
 ;     -- arithmetic mode                      ; 39          ;
 ;                                             ;             ;
-; Total registers                             ; 176         ;
-;     -- Dedicated logic registers            ; 176         ;
+; Total registers                             ; 177         ;
+;     -- Dedicated logic registers            ; 177         ;
 ;     -- I/O registers                        ; 0           ;
 ;                                             ;             ;
 ; I/O pins                                    ; 82          ;
@@ -294,9 +299,9 @@ refer to the applicable agreement for further details.
 ; Embedded Multiplier 9-bit elements          ; 0           ;
 ;                                             ;             ;
 ; Maximum fan-out node                        ; RESET~input ;
-; Maximum fan-out                             ; 177         ;
-; Total fan-out                               ; 2452        ;
-; Average fan-out                             ; 2.97        ;
+; Maximum fan-out                             ; 178         ;
+; Total fan-out                               ; 2472        ;
+; Average fan-out                             ; 2.96        ;
 +---------------------------------------------+-------------+
 
 
@@ -305,19 +310,22 @@ refer to the applicable agreement for further details.
 +-----------------------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------------+--------------------------+--------------+
 ; Compilation Hierarchy Node                                      ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                       ; Entity Name              ; Library Name ;
 +-----------------------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------------+--------------------------+--------------+
-; |System                                                         ; 486 (0)             ; 176 (0)                   ; 0           ; 0            ; 0       ; 0         ; 82   ; 0            ; |System                                                                                                                   ; System                   ; work         ;
-;    |JUEGO:JUEGO_u0|                                             ; 360 (0)             ; 123 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0                                                                                                    ; JUEGO                    ; work         ;
-;       |COLISION:COLISION_u0|                                    ; 34 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|COLISION:COLISION_u0                                                                               ; COLISION                 ; work         ;
+; |System                                                         ; 493 (0)             ; 177 (0)                   ; 0           ; 0            ; 0       ; 0         ; 82   ; 0            ; |System                                                                                                                   ; System                   ; work         ;
+;    |JUEGO:JUEGO_u0|                                             ; 367 (0)             ; 124 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0                                                                                                    ; JUEGO                    ; work         ;
+;       |COLISION:COLISION_u0|                                    ; 44 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|COLISION:COLISION_u0                                                                               ; COLISION                 ; work         ;
 ;          |Muxx81X:Muxx81X_u0|                                   ; 4 (4)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|COLISION:COLISION_u0|Muxx81X:Muxx81X_u0                                                            ; Muxx81X                  ; work         ;
 ;          |Muxx81X:Muxx81X_u1|                                   ; 4 (4)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|COLISION:COLISION_u0|Muxx81X:Muxx81X_u1                                                            ; Muxx81X                  ; work         ;
 ;          |Muxx81X:Muxx81X_u2|                                   ; 4 (4)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|COLISION:COLISION_u0|Muxx81X:Muxx81X_u2                                                            ; Muxx81X                  ; work         ;
-;          |Muxx81X:Muxx81X_u3|                                   ; 4 (4)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|COLISION:COLISION_u0|Muxx81X:Muxx81X_u3                                                            ; Muxx81X                  ; work         ;
-;          |Muxx81X:Muxx81X_u4|                                   ; 4 (4)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|COLISION:COLISION_u0|Muxx81X:Muxx81X_u4                                                            ; Muxx81X                  ; work         ;
-;          |Muxx81X:Muxx81X_u5|                                   ; 4 (4)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|COLISION:COLISION_u0|Muxx81X:Muxx81X_u5                                                            ; Muxx81X                  ; work         ;
-;          |Muxx81Y:Muxx81Y_u0|                                   ; 10 (10)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|COLISION:COLISION_u0|Muxx81Y:Muxx81Y_u0                                                            ; Muxx81Y                  ; work         ;
-;       |CONTROL_CASAS:CONTROL_CASAS_u0|                          ; 16 (16)             ; 3 (3)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|CONTROL_CASAS:CONTROL_CASAS_u0                                                                     ; CONTROL_CASAS            ; work         ;
-;       |CONTROL_RANAS:CONTROL_RANAS_u0|                          ; 20 (20)             ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|CONTROL_RANAS:CONTROL_RANAS_u0                                                                     ; CONTROL_RANAS            ; work         ;
-;       |MENU_PRINCIPAL:MENU_PRINCIPAL_u0|                        ; 24 (24)             ; 12 (12)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|MENU_PRINCIPAL:MENU_PRINCIPAL_u0                                                                   ; MENU_PRINCIPAL           ; work         ;
+;          |Muxx81X:Muxx81X_u3|                                   ; 5 (5)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|COLISION:COLISION_u0|Muxx81X:Muxx81X_u3                                                            ; Muxx81X                  ; work         ;
+;          |Muxx81X:Muxx81X_u4|                                   ; 5 (5)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|COLISION:COLISION_u0|Muxx81X:Muxx81X_u4                                                            ; Muxx81X                  ; work         ;
+;          |Muxx81X:Muxx81X_u5|                                   ; 5 (5)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|COLISION:COLISION_u0|Muxx81X:Muxx81X_u5                                                            ; Muxx81X                  ; work         ;
+;          |Muxx81X:Muxx81X_u6|                                   ; 3 (3)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|COLISION:COLISION_u0|Muxx81X:Muxx81X_u6                                                            ; Muxx81X                  ; work         ;
+;          |Muxx81Y:Muxx81Y_u0|                                   ; 14 (14)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|COLISION:COLISION_u0|Muxx81Y:Muxx81Y_u0                                                            ; Muxx81Y                  ; work         ;
+;       |CONTROL_CASAS:CONTROL_CASAS_u0|                          ; 17 (17)             ; 7 (7)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|CONTROL_CASAS:CONTROL_CASAS_u0                                                                     ; CONTROL_CASAS            ; work         ;
+;       |CONTROL_RANAS:CONTROL_RANAS_u0|                          ; 19 (0)              ; 5 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|CONTROL_RANAS:CONTROL_RANAS_u0                                                                     ; CONTROL_RANAS            ; work         ;
+;          |CTROL_POSINIRANA:CTROL_POSINIRANA_u0|                 ; 11 (11)             ; 2 (2)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|CONTROL_RANAS:CONTROL_RANAS_u0|CTROL_POSINIRANA:CTROL_POSINIRANA_u0                                ; CTROL_POSINIRANA         ; work         ;
+;          |SC_CSCOUNT:SC_CSCOUNT_u0|                             ; 8 (8)               ; 3 (3)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|CONTROL_RANAS:CONTROL_RANAS_u0|SC_CSCOUNT:SC_CSCOUNT_u0                                            ; SC_CSCOUNT               ; work         ;
+;       |MENU_PRINCIPAL:MENU_PRINCIPAL_u0|                        ; 25 (25)             ; 12 (12)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|MENU_PRINCIPAL:MENU_PRINCIPAL_u0                                                                   ; MENU_PRINCIPAL           ; work         ;
 ;       |NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|                      ; 99 (0)              ; 84 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0                                                                 ; NIVEL_VEHICULOS          ; work         ;
 ;          |REGDD_NV:REGDD_NV_u0|                                 ; 46 (0)              ; 44 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u0                                            ; REGDD_NV                 ; work         ;
 ;             |SC_REGDD:SC_REGDD_u0|                              ; 8 (8)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u0|SC_REGDD:SC_REGDD_u0                       ; SC_REGDD                 ; work         ;
@@ -326,23 +334,23 @@ refer to the applicable agreement for further details.
 ;             |SC_VEL:SC_VEL_u1|                                  ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u0|SC_VEL:SC_VEL_u1                           ; SC_VEL                   ; work         ;
 ;          |REGDD_NV:REGDD_NV_u1|                                 ; 8 (0)               ; 8 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u1                                            ; REGDD_NV                 ; work         ;
 ;             |SC_REGDD:SC_REGDD_u0|                              ; 8 (8)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u1|SC_REGDD:SC_REGDD_u0                       ; SC_REGDD                 ; work         ;
-;          |REGDD_NV:REGDD_NV_u2|                                 ; 21 (0)              ; 8 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u2                                            ; REGDD_NV                 ; work         ;
-;             |SC_REGDD:SC_REGDD_u0|                              ; 12 (12)             ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u2|SC_REGDD:SC_REGDD_u0                       ; SC_REGDD                 ; work         ;
+;          |REGDD_NV:REGDD_NV_u2|                                 ; 20 (0)              ; 8 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u2                                            ; REGDD_NV                 ; work         ;
+;             |SC_REGDD:SC_REGDD_u0|                              ; 11 (11)             ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u2|SC_REGDD:SC_REGDD_u0                       ; SC_REGDD                 ; work         ;
 ;             |SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0|        ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u2|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0 ; SC_STATEMACHINE_NVE      ; work         ;
 ;             |SC_VEL:SC_VEL_u0|                                  ; 8 (8)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u2|SC_VEL:SC_VEL_u0                           ; SC_VEL                   ; work         ;
 ;          |REGDI_NV:REGDI_NV_u0|                                 ; 8 (0)               ; 8 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u0                                            ; REGDI_NV                 ; work         ;
 ;             |SC_REGDI:SC_REGDI_u0|                              ; 8 (8)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u0|SC_REGDI:SC_REGDI_u0                       ; SC_REGDI                 ; work         ;
 ;          |REGDI_NV:REGDI_NV_u1|                                 ; 8 (0)               ; 8 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u1                                            ; REGDI_NV                 ; work         ;
 ;             |SC_REGDI:SC_REGDI_u0|                              ; 8 (8)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u1|SC_REGDI:SC_REGDI_u0                       ; SC_REGDI                 ; work         ;
-;          |REGDI_NV:REGDI_NV_u2|                                 ; 8 (0)               ; 8 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u2                                            ; REGDI_NV                 ; work         ;
-;             |SC_REGDI:SC_REGDI_u0|                              ; 8 (8)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u2|SC_REGDI:SC_REGDI_u0                       ; SC_REGDI                 ; work         ;
-;       |PINTAR_MATRIZ:PINTAR_MATRIZ_u0|                          ; 109 (107)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|PINTAR_MATRIZ:PINTAR_MATRIZ_u0                                                                     ; PINTAR_MATRIZ            ; work         ;
-;          |PINTAR_DATA_DEMUX:PINTAR_DATA_DEMUX_u1|               ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|PINTAR_MATRIZ:PINTAR_MATRIZ_u0|PINTAR_DATA_DEMUX:PINTAR_DATA_DEMUX_u1                              ; PINTAR_DATA_DEMUX        ; work         ;
-;       |RANA:RANA_u0|                                            ; 58 (0)              ; 16 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|RANA:RANA_u0                                                                                       ; RANA                     ; work         ;
-;          |CODE38X:CODE38X_u0|                                   ; 8 (8)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|RANA:RANA_u0|CODE38X:CODE38X_u0                                                                    ; CODE38X                  ; work         ;
-;          |CODE38Y:CODE38Y_u0|                                   ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|RANA:RANA_u0|CODE38Y:CODE38Y_u0                                                                    ; CODE38Y                  ; work         ;
-;          |SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u0| ; 24 (24)             ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|RANA:RANA_u0|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u0                                  ; SC_STATEMACHINE_FROG_MOV ; work         ;
-;          |SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u1| ; 24 (24)             ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|RANA:RANA_u0|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u1                                  ; SC_STATEMACHINE_FROG_MOV ; work         ;
+;          |REGDI_NV:REGDI_NV_u2|                                 ; 9 (0)               ; 8 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u2                                            ; REGDI_NV                 ; work         ;
+;             |SC_REGDI:SC_REGDI_u0|                              ; 9 (9)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u2|SC_REGDI:SC_REGDI_u0                       ; SC_REGDI                 ; work         ;
+;       |PINTAR_MATRIZ:PINTAR_MATRIZ_u0|                          ; 109 (106)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|PINTAR_MATRIZ:PINTAR_MATRIZ_u0                                                                     ; PINTAR_MATRIZ            ; work         ;
+;          |PINTAR_DATA_DEMUX:PINTAR_DATA_DEMUX_u1|               ; 3 (3)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|PINTAR_MATRIZ:PINTAR_MATRIZ_u0|PINTAR_DATA_DEMUX:PINTAR_DATA_DEMUX_u1                              ; PINTAR_DATA_DEMUX        ; work         ;
+;       |RANA:RANA_u0|                                            ; 54 (0)              ; 16 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|RANA:RANA_u0                                                                                       ; RANA                     ; work         ;
+;          |CODE38X:CODE38X_u0|                                   ; 9 (9)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|RANA:RANA_u0|CODE38X:CODE38X_u0                                                                    ; CODE38X                  ; work         ;
+;          |CODE38Y:CODE38Y_u0|                                   ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|RANA:RANA_u0|CODE38Y:CODE38Y_u0                                                                    ; CODE38Y                  ; work         ;
+;          |SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u0| ; 22 (22)             ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|RANA:RANA_u0|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u0                                  ; SC_STATEMACHINE_FROG_MOV ; work         ;
+;          |SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u1| ; 22 (22)             ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|JUEGO:JUEGO_u0|RANA:RANA_u0|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u1                                  ; SC_STATEMACHINE_FROG_MOV ; work         ;
 ;    |control_matriz:control_matriz_u0|                           ; 126 (0)             ; 53 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|control_matriz:control_matriz_u0                                                                                  ; control_matriz           ; work         ;
 ;       |imagen:imagen_1|                                         ; 16 (16)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|control_matriz:control_matriz_u0|imagen:imagen_1                                                                  ; imagen                   ; work         ;
 ;       |matrix_ctrl:matrix_ctrl_unit_0|                          ; 110 (33)            ; 53 (21)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |System|control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0                                                   ; matrix_ctrl              ; work         ;
@@ -412,20 +420,31 @@ Encoding Type:  One-Hot
 
 
 Encoding Type:  One-Hot
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; State Machine - |System|JUEGO:JUEGO_u0|CONTROL_RANAS:CONTROL_RANAS_u0|St_Register                                                                                                                    ;
-+----------------------+------------------+----------------------+----------------------+---------------------+----------------------+---------------------+----------------------+--------------------+
-; Name                 ; St_Register.Gano ; St_Register.TresRana ; St_Register.Ini3Rana ; St_Register.DosRana ; St_Register.Ini2Rana ; St_Register.UnaRana ; St_Register.Ini1Rana ; St_Register.Inicio ;
-+----------------------+------------------+----------------------+----------------------+---------------------+----------------------+---------------------+----------------------+--------------------+
-; St_Register.Inicio   ; 0                ; 0                    ; 0                    ; 0                   ; 0                    ; 0                   ; 0                    ; 0                  ;
-; St_Register.Ini1Rana ; 0                ; 0                    ; 0                    ; 0                   ; 0                    ; 0                   ; 1                    ; 1                  ;
-; St_Register.UnaRana  ; 0                ; 0                    ; 0                    ; 0                   ; 0                    ; 1                   ; 0                    ; 1                  ;
-; St_Register.Ini2Rana ; 0                ; 0                    ; 0                    ; 0                   ; 1                    ; 0                   ; 0                    ; 1                  ;
-; St_Register.DosRana  ; 0                ; 0                    ; 0                    ; 1                   ; 0                    ; 0                   ; 0                    ; 1                  ;
-; St_Register.Ini3Rana ; 0                ; 0                    ; 1                    ; 0                   ; 0                    ; 0                   ; 0                    ; 1                  ;
-; St_Register.TresRana ; 0                ; 1                    ; 0                    ; 0                   ; 0                    ; 0                   ; 0                    ; 1                  ;
-; St_Register.Gano     ; 1                ; 0                    ; 0                    ; 0                   ; 0                    ; 0                   ; 0                    ; 1                  ;
-+----------------------+------------------+----------------------+----------------------+---------------------+----------------------+---------------------+----------------------+--------------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; State Machine - |System|JUEGO:JUEGO_u0|CONTROL_CASAS:CONTROL_CASAS_u0|St_Register                                                                                             ;
++---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+
+; Name                ; St_Register.Casa3ON ; St_Register.Casa2ON ; St_Register.Casa1ON ; St_Register.Espera3 ; St_Register.Espera2 ; St_Register.Espera1 ; St_Register.Inicial ;
++---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+
+; St_Register.Inicial ; 0                   ; 0                   ; 0                   ; 0                   ; 0                   ; 0                   ; 0                   ;
+; St_Register.Espera1 ; 0                   ; 0                   ; 0                   ; 0                   ; 0                   ; 1                   ; 1                   ;
+; St_Register.Espera2 ; 0                   ; 0                   ; 0                   ; 0                   ; 1                   ; 0                   ; 1                   ;
+; St_Register.Espera3 ; 0                   ; 0                   ; 0                   ; 1                   ; 0                   ; 0                   ; 1                   ;
+; St_Register.Casa1ON ; 0                   ; 0                   ; 1                   ; 0                   ; 0                   ; 0                   ; 1                   ;
+; St_Register.Casa2ON ; 0                   ; 1                   ; 0                   ; 0                   ; 0                   ; 0                   ; 1                   ;
+; St_Register.Casa3ON ; 1                   ; 0                   ; 0                   ; 0                   ; 0                   ; 0                   ; 1                   ;
++---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+
+
+
+Encoding Type:  One-Hot
++------------------------------------------------------------------------------------------------------------------------+
+; State Machine - |System|JUEGO:JUEGO_u0|CONTROL_RANAS:CONTROL_RANAS_u0|CTROL_POSINIRANA:CTROL_POSINIRANA_u0|St_Register ;
++---------------------+--------------------+---------------------+-------------------------------------------------------+
+; Name                ; St_Register.Inicio ; St_Register.RanaIni ; St_Register.Espera                                    ;
++---------------------+--------------------+---------------------+-------------------------------------------------------+
+; St_Register.Inicio  ; 0                  ; 0                   ; 0                                                     ;
+; St_Register.Espera  ; 1                  ; 0                   ; 1                                                     ;
+; St_Register.RanaIni ; 1                  ; 1                   ; 0                                                     ;
++---------------------+--------------------+---------------------+-------------------------------------------------------+
 
 
 Encoding Type:  One-Hot
@@ -570,10 +589,7 @@ Encoding Type:  One-Hot
 +----------------------------------------------------------------------------+-------------------------------------------------------------------------------------+------------------------+
 ; control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|ctrl_sr[1] ; control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|state_reg.MAIN_LOOP ; yes                    ;
 ; control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|ctrl_sr[0] ; control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|state_reg.MAIN_LOOP ; yes                    ;
-; JUEGO:JUEGO_u0|CONTROL_CASAS:CONTROL_CASAS_u0|St_Signal[2]                 ; JUEGO:JUEGO_u0|CONTROL_CASAS:CONTROL_CASAS_u0|St_Signal[2]                          ; yes                    ;
-; JUEGO:JUEGO_u0|CONTROL_CASAS:CONTROL_CASAS_u0|St_Signal[1]                 ; JUEGO:JUEGO_u0|CONTROL_CASAS:CONTROL_CASAS_u0|St_Signal[1]                          ; yes                    ;
-; JUEGO:JUEGO_u0|CONTROL_CASAS:CONTROL_CASAS_u0|St_Signal[0]                 ; JUEGO:JUEGO_u0|CONTROL_CASAS:CONTROL_CASAS_u0|St_Signal[0]                          ; yes                    ;
-; Number of user-specified and inferred latches = 5                          ;                                                                                     ;                        ;
+; Number of user-specified and inferred latches = 2                          ;                                                                                     ;                        ;
 +----------------------------------------------------------------------------+-------------------------------------------------------------------------------------+------------------------+
 Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
 
@@ -596,9 +612,9 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; JUEGO:JUEGO_u0|RANA:RANA_u0|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u0|St_Register~4                                             ; Lost fanout                                                                                                                                            ;
 ; JUEGO:JUEGO_u0|RANA:RANA_u0|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u0|St_Register~5                                             ; Lost fanout                                                                                                                                            ;
 ; JUEGO:JUEGO_u0|RANA:RANA_u0|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u0|St_Register~6                                             ; Lost fanout                                                                                                                                            ;
-; JUEGO:JUEGO_u0|CONTROL_RANAS:CONTROL_RANAS_u0|St_Register~4                                                                                ; Lost fanout                                                                                                                                            ;
-; JUEGO:JUEGO_u0|CONTROL_RANAS:CONTROL_RANAS_u0|St_Register~5                                                                                ; Lost fanout                                                                                                                                            ;
-; JUEGO:JUEGO_u0|CONTROL_RANAS:CONTROL_RANAS_u0|St_Register~6                                                                                ; Lost fanout                                                                                                                                            ;
+; JUEGO:JUEGO_u0|CONTROL_CASAS:CONTROL_CASAS_u0|St_Register~4                                                                                ; Lost fanout                                                                                                                                            ;
+; JUEGO:JUEGO_u0|CONTROL_CASAS:CONTROL_CASAS_u0|St_Register~5                                                                                ; Lost fanout                                                                                                                                            ;
+; JUEGO:JUEGO_u0|CONTROL_CASAS:CONTROL_CASAS_u0|St_Register~6                                                                                ; Lost fanout                                                                                                                                            ;
 ; JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u2|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0|St_Register~4            ; Lost fanout                                                                                                                                            ;
 ; JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u2|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0|St_Register~5            ; Lost fanout                                                                                                                                            ;
 ; JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u2|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0|St_Register~6            ; Lost fanout                                                                                                                                            ;
@@ -810,7 +826,8 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u2|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0|St_Register.Inicio       ; Merged with JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u0|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0|St_Register.Inicio       ;
 ; control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|state_reg.STOP                                                             ; Stuck at GND due to stuck port data_in                                                                                                                 ;
 ; control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|state_reg.DISPLAY_TEST_WAIT2FINISH                                         ; Stuck at GND due to stuck port data_in                                                                                                                 ;
-; Total Number of Removed Registers = 227                                                                                                    ;                                                                                                                                                        ;
+; JUEGO:JUEGO_u0|CONTROL_RANAS:CONTROL_RANAS_u0|CTROL_POSINIRANA:CTROL_POSINIRANA_u0|St_Register.RanaIni                                     ; Lost fanout                                                                                                                                            ;
+; Total Number of Removed Registers = 228                                                                                                    ;                                                                                                                                                        ;
 +--------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
@@ -829,12 +846,12 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 176   ;
+; Total registers                              ; 177   ;
 ; Number of registers using Synchronous Clear  ; 41    ;
 ; Number of registers using Synchronous Load   ; 10    ;
-; Number of registers using Asynchronous Clear ; 176   ;
+; Number of registers using Asynchronous Clear ; 177   ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 61    ;
+; Number of registers using Clock Enable       ; 63    ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -844,21 +861,25 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------------------------------------------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                                                                           ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------------------------------------------------------------------------------+
-; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |System|control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|cnt_reg[12] ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |System|control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|cnt_reg[15] ;
 ; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |System|control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|r_reg[14]   ;
-; 4:1                ; 7 bits    ; 14 LEs        ; 14 LEs               ; 0 LEs                  ; Yes        ; |System|control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|r_reg[1]    ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u2|SC_REGDD:SC_REGDD_u0|REGDD_Register[4]                ;
-; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u2|SC_REGDI:SC_REGDI_u0|REGDI_Register[5]                ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u1|SC_REGDD:SC_REGDD_u0|REGDD_Register[4]                ;
-; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u1|SC_REGDI:SC_REGDI_u0|REGDI_Register[3]                ;
-; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u0|SC_REGDD:SC_REGDD_u0|REGDD_Register[0]                ;
-; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u0|SC_REGDI:SC_REGDI_u0|REGDI_Register[2]                ;
-; 12:1               ; 4 bits    ; 32 LEs        ; 28 LEs               ; 4 LEs                  ; Yes        ; |System|control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|r_reg[7]    ;
-; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; No         ; |System|JUEGO:JUEGO_u0|MENU_PRINCIPAL:MENU_PRINCIPAL_u0|St_Signal                                                                    ;
-; 3:1                ; 5 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; No         ; |System|JUEGO:JUEGO_u0|PINTAR_MATRIZ:PINTAR_MATRIZ_u0|PINTAR_DATA_DEMUX:PINTAR_DATA_DEMUX_u1|PINTAR_DATA_DEMUX_7_OUT[4]              ;
+; 4:1                ; 7 bits    ; 14 LEs        ; 14 LEs               ; 0 LEs                  ; Yes        ; |System|control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|r_reg[8]    ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |System|JUEGO:JUEGO_u0|CONTROL_RANAS:CONTROL_RANAS_u0|SC_CSCOUNT:SC_CSCOUNT_u0|COUNTER_Register[2]                                   ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u2|SC_REGDD:SC_REGDD_u0|REGDD_Register[2]                ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u2|SC_REGDI:SC_REGDI_u0|REGDI_Register[7]                ;
+; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u1|SC_REGDD:SC_REGDD_u0|REGDD_Register[0]                ;
+; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u1|SC_REGDD:SC_REGDD_u0|REGDD_Register[4]                ;
+; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u1|SC_REGDI:SC_REGDI_u0|REGDI_Register[1]                ;
+; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u1|SC_REGDI:SC_REGDI_u0|REGDI_Register[7]                ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u0|SC_REGDD:SC_REGDD_u0|REGDD_Register[2]                ;
+; 3:1                ; 6 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; Yes        ; |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u0|SC_REGDD:SC_REGDD_u0|REGDD_Register[1]                ;
+; 3:1                ; 6 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; Yes        ; |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u0|SC_REGDI:SC_REGDI_u0|REGDI_Register[7]                ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u0|SC_REGDI:SC_REGDI_u0|REGDI_Register[4]                ;
+; 12:1               ; 4 bits    ; 32 LEs        ; 28 LEs               ; 4 LEs                  ; Yes        ; |System|control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|r_reg[4]    ;
+; 3:1                ; 5 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; No         ; |System|JUEGO:JUEGO_u0|PINTAR_MATRIZ:PINTAR_MATRIZ_u0|PINTAR_DATA_DEMUX:PINTAR_DATA_DEMUX_u1|PINTAR_DATA_DEMUX_4_OUT[2]              ;
 ; 8:1                ; 2 bits    ; 10 LEs        ; 4 LEs                ; 6 LEs                  ; No         ; |System|JUEGO:JUEGO_u0|PINTAR_MATRIZ:PINTAR_MATRIZ_u0|PINTAR_DATA_DEMUX:PINTAR_DATA_DEMUX_u1|PINTAR_DATA_DEMUX_4_OUT[3]              ;
 ; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |System|JUEGO:JUEGO_u0|PINTAR_MATRIZ:PINTAR_MATRIZ_u0|PINTAR_DATA_DEMUX:PINTAR_DATA_DEMUX_u1|PINTAR_DATA_DEMUX_6_OUT[1]              ;
-; 8:1                ; 4 bits    ; 20 LEs        ; 20 LEs               ; 0 LEs                  ; No         ; |System|control_matriz:control_matriz_u0|imagen:imagen_1|Mux4                                                                        ;
+; 8:1                ; 4 bits    ; 20 LEs        ; 20 LEs               ; 0 LEs                  ; No         ; |System|control_matriz:control_matriz_u0|imagen:imagen_1|Mux6                                                                        ;
 ; 4:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; No         ; |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u2|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0|St_Signal  ;
 ; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |System|control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|Selector0                                                    ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------------------------------------------------------------------------------+
@@ -905,30 +926,30 @@ Note: In order to hide this table in the UI and the text report file, please set
 +------------------+----------+------------------------------------------------------------------+
 ; Parameter Name   ; Value    ; Type                                                             ;
 +------------------+----------+------------------------------------------------------------------+
-; NV_1_REGD1       ; 11000000 ; Unsigned Binary                                                  ;
+; NV_1_REGD1       ; 00000011 ; Unsigned Binary                                                  ;
 ; NV_1_REGD3       ; 00110000 ; Unsigned Binary                                                  ;
 ; NV_1_REGD5       ; 00001100 ; Unsigned Binary                                                  ;
 ; NV_1_REGI0       ; 00000000 ; Unsigned Binary                                                  ;
 ; NV_1_REGI2       ; 00000000 ; Unsigned Binary                                                  ;
 ; NV_1_REGI4       ; 00000000 ; Unsigned Binary                                                  ;
 ; NV_2_REGD1       ; 00111000 ; Unsigned Binary                                                  ;
-; NV_2_REGD3       ; 00000011 ; Unsigned Binary                                                  ;
+; NV_2_REGD3       ; 00000000 ; Unsigned Binary                                                  ;
 ; NV_2_REGD5       ; 11100000 ; Unsigned Binary                                                  ;
-; NV_2_REGI0       ; 11100000 ; Unsigned Binary                                                  ;
-; NV_2_REGI2       ; 00001100 ; Unsigned Binary                                                  ;
+; NV_2_REGI0       ; 00000000 ; Unsigned Binary                                                  ;
+; NV_2_REGI2       ; 00000000 ; Unsigned Binary                                                  ;
 ; NV_2_REGI4       ; 01110000 ; Unsigned Binary                                                  ;
 ; NV_3_REGD1       ; 00110011 ; Unsigned Binary                                                  ;
-; NV_3_REGD3       ; 11001100 ; Unsigned Binary                                                  ;
-; NV_3_REGD5       ; 01111000 ; Unsigned Binary                                                  ;
-; NV_3_REGI0       ; 00110110 ; Unsigned Binary                                                  ;
+; NV_3_REGD3       ; 00000000 ; Unsigned Binary                                                  ;
+; NV_3_REGD5       ; 01000100 ; Unsigned Binary                                                  ;
+; NV_3_REGI0       ; 00000000 ; Unsigned Binary                                                  ;
 ; NV_3_REGI2       ; 10000001 ; Unsigned Binary                                                  ;
 ; NV_3_REGI4       ; 00001110 ; Unsigned Binary                                                  ;
 ; NV_4_REGD1       ; 10011001 ; Unsigned Binary                                                  ;
-; NV_4_REGD3       ; 11110000 ; Unsigned Binary                                                  ;
-; NV_4_REGD5       ; 00000111 ; Unsigned Binary                                                  ;
-; NV_4_REGI0       ; 00111000 ; Unsigned Binary                                                  ;
-; NV_4_REGI2       ; 00110110 ; Unsigned Binary                                                  ;
-; NV_4_REGI4       ; 11001100 ; Unsigned Binary                                                  ;
+; NV_4_REGD3       ; 11100000 ; Unsigned Binary                                                  ;
+; NV_4_REGD5       ; 00000011 ; Unsigned Binary                                                  ;
+; NV_4_REGI0       ; 00110000 ; Unsigned Binary                                                  ;
+; NV_4_REGI2       ; 00110000 ; Unsigned Binary                                                  ;
+; NV_4_REGI4       ; 11011000 ; Unsigned Binary                                                  ;
 ; DATAWIDTH_BUS    ; 8        ; Signed Integer                                                   ;
 ; DATAWIDTH_NVL    ; 2        ; Signed Integer                                                   ;
 ; DATAWIDTH_ESTADO ; 3        ; Signed Integer                                                   ;
@@ -941,7 +962,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+----------+-----------------------------------------------------------------------------------------+
 ; Parameter Name ; Value    ; Type                                                                                    ;
 +----------------+----------+-----------------------------------------------------------------------------------------+
-; NV_1_REG       ; 11000000 ; Unsigned Binary                                                                         ;
+; NV_1_REG       ; 00000011 ; Unsigned Binary                                                                         ;
 ; NV_2_REG       ; 00111000 ; Unsigned Binary                                                                         ;
 ; NV_3_REG       ; 00110011 ; Unsigned Binary                                                                         ;
 ; NV_4_REG       ; 10011001 ; Unsigned Binary                                                                         ;
@@ -985,7 +1006,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Parameter Name ; Value    ; Type                                                                                                                               ;
 +----------------+----------+------------------------------------------------------------------------------------------------------------------------------------+
 ; DATAWIDTH_BUS  ; 8        ; Signed Integer                                                                                                                     ;
-; NV_1_REG       ; 11000000 ; Unsigned Binary                                                                                                                    ;
+; NV_1_REG       ; 00000011 ; Unsigned Binary                                                                                                                    ;
 ; NV_2_REG       ; 00111000 ; Unsigned Binary                                                                                                                    ;
 ; NV_3_REG       ; 00110011 ; Unsigned Binary                                                                                                                    ;
 ; NV_4_REG       ; 10011001 ; Unsigned Binary                                                                                                                    ;
@@ -999,9 +1020,9 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Parameter Name ; Value    ; Type                                                                                    ;
 +----------------+----------+-----------------------------------------------------------------------------------------+
 ; NV_1_REG       ; 00110000 ; Unsigned Binary                                                                         ;
-; NV_2_REG       ; 00000011 ; Unsigned Binary                                                                         ;
-; NV_3_REG       ; 11001100 ; Unsigned Binary                                                                         ;
-; NV_4_REG       ; 11110000 ; Unsigned Binary                                                                         ;
+; NV_2_REG       ; 00000000 ; Unsigned Binary                                                                         ;
+; NV_3_REG       ; 00000000 ; Unsigned Binary                                                                         ;
+; NV_4_REG       ; 11100000 ; Unsigned Binary                                                                         ;
 +----------------+----------+-----------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1043,9 +1064,9 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+----------+------------------------------------------------------------------------------------------------------------------------------------+
 ; DATAWIDTH_BUS  ; 8        ; Signed Integer                                                                                                                     ;
 ; NV_1_REG       ; 00110000 ; Unsigned Binary                                                                                                                    ;
-; NV_2_REG       ; 00000011 ; Unsigned Binary                                                                                                                    ;
-; NV_3_REG       ; 11001100 ; Unsigned Binary                                                                                                                    ;
-; NV_4_REG       ; 11110000 ; Unsigned Binary                                                                                                                    ;
+; NV_2_REG       ; 00000000 ; Unsigned Binary                                                                                                                    ;
+; NV_3_REG       ; 00000000 ; Unsigned Binary                                                                                                                    ;
+; NV_4_REG       ; 11100000 ; Unsigned Binary                                                                                                                    ;
 +----------------+----------+------------------------------------------------------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1057,8 +1078,8 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+----------+-----------------------------------------------------------------------------------------+
 ; NV_1_REG       ; 00001100 ; Unsigned Binary                                                                         ;
 ; NV_2_REG       ; 11100000 ; Unsigned Binary                                                                         ;
-; NV_3_REG       ; 01111000 ; Unsigned Binary                                                                         ;
-; NV_4_REG       ; 00000111 ; Unsigned Binary                                                                         ;
+; NV_3_REG       ; 01000100 ; Unsigned Binary                                                                         ;
+; NV_4_REG       ; 00000011 ; Unsigned Binary                                                                         ;
 +----------------+----------+-----------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1101,8 +1122,8 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; DATAWIDTH_BUS  ; 8        ; Signed Integer                                                                                                                     ;
 ; NV_1_REG       ; 00001100 ; Unsigned Binary                                                                                                                    ;
 ; NV_2_REG       ; 11100000 ; Unsigned Binary                                                                                                                    ;
-; NV_3_REG       ; 01111000 ; Unsigned Binary                                                                                                                    ;
-; NV_4_REG       ; 00000111 ; Unsigned Binary                                                                                                                    ;
+; NV_3_REG       ; 01000100 ; Unsigned Binary                                                                                                                    ;
+; NV_4_REG       ; 00000011 ; Unsigned Binary                                                                                                                    ;
 +----------------+----------+------------------------------------------------------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1113,9 +1134,9 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Parameter Name ; Value    ; Type                                                                                    ;
 +----------------+----------+-----------------------------------------------------------------------------------------+
 ; NV_1_REG       ; 00000000 ; Unsigned Binary                                                                         ;
-; NV_2_REG       ; 11100000 ; Unsigned Binary                                                                         ;
-; NV_3_REG       ; 00110110 ; Unsigned Binary                                                                         ;
-; NV_4_REG       ; 00111000 ; Unsigned Binary                                                                         ;
+; NV_2_REG       ; 00000000 ; Unsigned Binary                                                                         ;
+; NV_3_REG       ; 00000000 ; Unsigned Binary                                                                         ;
+; NV_4_REG       ; 00110000 ; Unsigned Binary                                                                         ;
 +----------------+----------+-----------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1157,9 +1178,9 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+----------+------------------------------------------------------------------------------------------------------------------------------------+
 ; DATAWIDTH_BUS  ; 8        ; Signed Integer                                                                                                                     ;
 ; NV_1_REG       ; 00000000 ; Unsigned Binary                                                                                                                    ;
-; NV_2_REG       ; 11100000 ; Unsigned Binary                                                                                                                    ;
-; NV_3_REG       ; 00110110 ; Unsigned Binary                                                                                                                    ;
-; NV_4_REG       ; 00111000 ; Unsigned Binary                                                                                                                    ;
+; NV_2_REG       ; 00000000 ; Unsigned Binary                                                                                                                    ;
+; NV_3_REG       ; 00000000 ; Unsigned Binary                                                                                                                    ;
+; NV_4_REG       ; 00110000 ; Unsigned Binary                                                                                                                    ;
 +----------------+----------+------------------------------------------------------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1170,9 +1191,9 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Parameter Name ; Value    ; Type                                                                                    ;
 +----------------+----------+-----------------------------------------------------------------------------------------+
 ; NV_1_REG       ; 00000000 ; Unsigned Binary                                                                         ;
-; NV_2_REG       ; 00001100 ; Unsigned Binary                                                                         ;
+; NV_2_REG       ; 00000000 ; Unsigned Binary                                                                         ;
 ; NV_3_REG       ; 10000001 ; Unsigned Binary                                                                         ;
-; NV_4_REG       ; 00110110 ; Unsigned Binary                                                                         ;
+; NV_4_REG       ; 00110000 ; Unsigned Binary                                                                         ;
 +----------------+----------+-----------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1214,9 +1235,9 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+----------+------------------------------------------------------------------------------------------------------------------------------------+
 ; DATAWIDTH_BUS  ; 8        ; Signed Integer                                                                                                                     ;
 ; NV_1_REG       ; 00000000 ; Unsigned Binary                                                                                                                    ;
-; NV_2_REG       ; 00001100 ; Unsigned Binary                                                                                                                    ;
+; NV_2_REG       ; 00000000 ; Unsigned Binary                                                                                                                    ;
 ; NV_3_REG       ; 10000001 ; Unsigned Binary                                                                                                                    ;
-; NV_4_REG       ; 00110110 ; Unsigned Binary                                                                                                                    ;
+; NV_4_REG       ; 00110000 ; Unsigned Binary                                                                                                                    ;
 +----------------+----------+------------------------------------------------------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1229,7 +1250,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; NV_1_REG       ; 00000000 ; Unsigned Binary                                                                         ;
 ; NV_2_REG       ; 01110000 ; Unsigned Binary                                                                         ;
 ; NV_3_REG       ; 00001110 ; Unsigned Binary                                                                         ;
-; NV_4_REG       ; 11001100 ; Unsigned Binary                                                                         ;
+; NV_4_REG       ; 11011000 ; Unsigned Binary                                                                         ;
 +----------------+----------+-----------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1273,7 +1294,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; NV_1_REG       ; 00000000 ; Unsigned Binary                                                                                                                    ;
 ; NV_2_REG       ; 01110000 ; Unsigned Binary                                                                                                                    ;
 ; NV_3_REG       ; 00001110 ; Unsigned Binary                                                                                                                    ;
-; NV_4_REG       ; 11001100 ; Unsigned Binary                                                                                                                    ;
+; NV_4_REG       ; 11011000 ; Unsigned Binary                                                                                                                    ;
 +----------------+----------+------------------------------------------------------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1285,40 +1306,61 @@ Note: In order to hide this table in the UI and the text report file, please set
 +------------------+-------+-----------------------------------------------------------------+
 ; DATAWIDTH_ESTADO ; 3     ; Signed Integer                                                  ;
 ; DATAWIDTH_POS    ; 3     ; Signed Integer                                                  ;
-; Inicio           ; 000   ; Unsigned Binary                                                 ;
-; Ini1Rana         ; 001   ; Unsigned Binary                                                 ;
-; UnaRana          ; 010   ; Unsigned Binary                                                 ;
-; Ini2Rana         ; 011   ; Unsigned Binary                                                 ;
-; DosRana          ; 100   ; Unsigned Binary                                                 ;
-; Ini3Rana         ; 101   ; Unsigned Binary                                                 ;
-; TresRana         ; 110   ; Unsigned Binary                                                 ;
-; Gano             ; 111   ; Unsigned Binary                                                 ;
 +------------------+-------+-----------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|CONTROL_RANAS:CONTROL_RANAS_u0|CTROL_POSINIRANA:CTROL_POSINIRANA_u0 ;
++------------------+-------+------------------------------------------------------------------------------------------------------+
+; Parameter Name   ; Value ; Type                                                                                                 ;
++------------------+-------+------------------------------------------------------------------------------------------------------+
+; DATAWIDTH_ESTADO ; 3     ; Signed Integer                                                                                       ;
+; DATAWIDTH_POS    ; 3     ; Signed Integer                                                                                       ;
+; Inicio           ; 00    ; Unsigned Binary                                                                                      ;
+; Espera           ; 01    ; Unsigned Binary                                                                                      ;
+; RanaIni          ; 10    ; Unsigned Binary                                                                                      ;
++------------------+-------+------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|CONTROL_RANAS:CONTROL_RANAS_u0|SC_CSCOUNT:SC_CSCOUNT_u0 ;
++------------------+-------+------------------------------------------------------------------------------------------+
+; Parameter Name   ; Value ; Type                                                                                     ;
++------------------+-------+------------------------------------------------------------------------------------------+
+; DATAWIDTH_ESTADO ; 3     ; Signed Integer                                                                           ;
++------------------+-------+------------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
 +--------------------------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|CONTROL_CASAS:CONTROL_CASAS_u0 ;
-+------------------+--------+----------------------------------------------------------------+
-; Parameter Name   ; Value  ; Type                                                           ;
-+------------------+--------+----------------------------------------------------------------+
-; DATAWIDTH_ESTADO ; 3      ; Signed Integer                                                 ;
-; DATAWIDTH_POS    ; 3      ; Signed Integer                                                 ;
-; DATAWIDTH_BUS    ; 8      ; Signed Integer                                                 ;
-; Inicio           ; 000000 ; Unsigned Binary                                                ;
-+------------------+--------+----------------------------------------------------------------+
++------------------+-------+-----------------------------------------------------------------+
+; Parameter Name   ; Value ; Type                                                            ;
++------------------+-------+-----------------------------------------------------------------+
+; DATAWIDTH_ESTADO ; 3     ; Signed Integer                                                  ;
+; DATAWIDTH_POS    ; 3     ; Signed Integer                                                  ;
+; DATAWIDTH_BUS    ; 8     ; Signed Integer                                                  ;
+; Inicial          ; 000   ; Unsigned Binary                                                 ;
+; Espera1          ; 001   ; Unsigned Binary                                                 ;
+; Espera2          ; 010   ; Unsigned Binary                                                 ;
+; Espera3          ; 011   ; Unsigned Binary                                                 ;
+; Casa1ON          ; 100   ; Unsigned Binary                                                 ;
+; Casa2ON          ; 101   ; Unsigned Binary                                                 ;
+; Casa3ON          ; 110   ; Unsigned Binary                                                 ;
++------------------+-------+-----------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
 +----------------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: JUEGO:JUEGO_u0|COLISION:COLISION_u0 ;
-+----------------+----------+------------------------------------------------------+
-; Parameter Name ; Value    ; Type                                                 ;
-+----------------+----------+------------------------------------------------------+
-; DATAWIDTH_BUS  ; 8        ; Signed Integer                                       ;
-; DATAWIDTH_POS  ; 3        ; Signed Integer                                       ;
-; NOT_8          ; 00000000 ; Unsigned Binary                                      ;
-+----------------+----------+------------------------------------------------------+
++----------------+-------+---------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                    ;
++----------------+-------+---------------------------------------------------------+
+; DATAWIDTH_BUS  ; 8     ; Signed Integer                                          ;
+; DATAWIDTH_POS  ; 3     ; Signed Integer                                          ;
++----------------+-------+---------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -1560,13 +1602,13 @@ Note: In order to hide this table in the UI and the text report file, please set
 +---------------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "JUEGO:JUEGO_u0|COLISION:COLISION_u0|Muxx81X:Muxx81X_u6" ;
-+--------------------+-------+----------+--------------------------------------------+
-; Port               ; Type  ; Severity ; Details                                    ;
-+--------------------+-------+----------+--------------------------------------------+
-; Muxx81_Data_Bus_In ; Input ; Info     ; Stuck at GND                               ;
-+--------------------+-------+----------+--------------------------------------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "JUEGO:JUEGO_u0|CONTROL_CASAS:CONTROL_CASAS_u0"                                                                                                    ;
++------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port       ; Type  ; Severity ; Details                                                                                                                                      ;
++------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; CC_GANO_IN ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
++------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 +-----------------------------------------------------+
@@ -1575,23 +1617,23 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
 ; boundary_port         ; 82                          ;
-; cycloneiii_ff         ; 176                         ;
-;     CLR               ; 74                          ;
+; cycloneiii_ff         ; 177                         ;
+;     CLR               ; 73                          ;
 ;     CLR SCLR          ; 41                          ;
-;     ENA CLR           ; 51                          ;
+;     ENA CLR           ; 53                          ;
 ;     ENA CLR SLD       ; 10                          ;
-; cycloneiii_lcell_comb ; 489                         ;
+; cycloneiii_lcell_comb ; 496                         ;
 ;     arith             ; 39                          ;
 ;         2 data inputs ; 39                          ;
-;     normal            ; 450                         ;
+;     normal            ; 457                         ;
 ;         0 data inputs ; 1                           ;
 ;         1 data inputs ; 6                           ;
-;         2 data inputs ; 35                          ;
-;         3 data inputs ; 137                         ;
-;         4 data inputs ; 271                         ;
+;         2 data inputs ; 49                          ;
+;         3 data inputs ; 122                         ;
+;         4 data inputs ; 279                         ;
 ;                       ;                             ;
 ; Max LUT depth         ; 9.00                        ;
-; Average LUT depth     ; 5.08                        ;
+; Average LUT depth     ; 5.26                        ;
 +-----------------------+-----------------------------+
 
 
@@ -1600,7 +1642,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:02     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -1610,172 +1652,169 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
-    Info: Processing started: Thu Apr 19 15:03:44 2018
+    Info: Processing started: Fri Apr 20 21:15:13 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off System -c System
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/control_ranas/sc_cscount.v
+    Info (12023): Found entity 1: SC_CSCOUNT File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/CONTROL_RANAS/SC_CSCOUNT.v Line: 4
+Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/control_ranas/ctrol_posinirana.v
+    Info (12023): Found entity 1: CTROL_POSINIRANA File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/CONTROL_RANAS/CTROL_POSINIRANA.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/control_ranas/control_ranas.v
-    Info (12023): Found entity 1: CONTROL_RANAS File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/CONTROL_RANAS/CONTROL_RANAS.v Line: 4
+    Info (12023): Found entity 1: CONTROL_RANAS File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/CONTROL_RANAS/CONTROL_RANAS.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/rana/sc_statemachine_frog_mov.v
-    Info (12023): Found entity 1: SC_STATEMACHINE_FROG_MOV File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA/SC_STATEMACHINE_FROG_MOV.v Line: 4
+    Info (12023): Found entity 1: SC_STATEMACHINE_FROG_MOV File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/RANA/SC_STATEMACHINE_FROG_MOV.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/rana/rana.v
-    Info (12023): Found entity 1: RANA File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA/RANA.v Line: 4
+    Info (12023): Found entity 1: RANA File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/RANA/RANA.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/nivel_vehiculos/sc_vel.v
-    Info (12023): Found entity 1: SC_VEL File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_VEL.v Line: 4
+    Info (12023): Found entity 1: SC_VEL File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_VEL.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/nivel_vehiculos/sc_statemachine_nve.v
-    Info (12023): Found entity 1: SC_STATEMACHINE_NVE File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 4
+    Info (12023): Found entity 1: SC_STATEMACHINE_NVE File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/nivel_vehiculos/sc_regdi.v
-    Info (12023): Found entity 1: SC_REGDI File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_REGDI.v Line: 4
+    Info (12023): Found entity 1: SC_REGDI File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_REGDI.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/nivel_vehiculos/sc_regdd.v
-    Info (12023): Found entity 1: SC_REGDD File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_REGDD.v Line: 4
+    Info (12023): Found entity 1: SC_REGDD File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_REGDD.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/nivel_vehiculos/regdi_nv.v
-    Info (12023): Found entity 1: REGDI_NV File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v Line: 4
+    Info (12023): Found entity 1: REGDI_NV File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/nivel_vehiculos/regdd_nv.v
-    Info (12023): Found entity 1: REGDD_NV File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 4
+    Info (12023): Found entity 1: REGDD_NV File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/nivel_vehiculos/nivel_vehiculos.v
-    Info (12023): Found entity 1: NIVEL_VEHICULOS File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/NIVEL_VEHICULOS.v Line: 4
+    Info (12023): Found entity 1: NIVEL_VEHICULOS File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/NIVEL_VEHICULOS.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/nivel_vehiculos/muxx21.v
-    Info (12023): Found entity 1: MUXX21 File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/MUXX21.v Line: 4
+    Info (12023): Found entity 1: MUXX21 File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/MUXX21.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/menu_principal/menu_principal.v
-    Info (12023): Found entity 1: MENU_PRINCIPAL File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/MENU_PRINCIPAL/MENU_PRINCIPAL.v Line: 4
+    Info (12023): Found entity 1: MENU_PRINCIPAL File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/MENU_PRINCIPAL/MENU_PRINCIPAL.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/control_matriz/shift_reg_start_done.v
-    Info (12023): Found entity 1: shift_reg_start_done File: C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/shift_reg_start_done.v Line: 34
+    Info (12023): Found entity 1: shift_reg_start_done File: D:/FelipeCueto/git/frogger_excercise/rtl/control_matriz/shift_reg_start_done.v Line: 34
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/control_matriz/matrix_ctrl.v
-    Info (12023): Found entity 1: matrix_ctrl File: C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v Line: 37
+    Info (12023): Found entity 1: matrix_ctrl File: D:/FelipeCueto/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v Line: 37
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/control_matriz/imagen.v
-    Info (12023): Found entity 1: imagen File: C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/imagen.v Line: 12
+    Info (12023): Found entity 1: imagen File: D:/FelipeCueto/git/frogger_excercise/rtl/control_matriz/imagen.v Line: 12
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/control_entradas/filtro.v
-    Info (12023): Found entity 1: FILTRO File: C:/Users/Felipe/git/frogger_excercise/rtl/CONTROL_ENTRADAS/FILTRO.v Line: 28
+    Info (12023): Found entity 1: FILTRO File: D:/FelipeCueto/git/frogger_excercise/rtl/CONTROL_ENTRADAS/FILTRO.v Line: 28
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/control_entradas/debounce.v
-    Info (12023): Found entity 1: DeBounce File: C:/Users/Felipe/git/frogger_excercise/rtl/CONTROL_ENTRADAS/DeBounce.v Line: 27
+    Info (12023): Found entity 1: DeBounce File: D:/FelipeCueto/git/frogger_excercise/rtl/CONTROL_ENTRADAS/DeBounce.v Line: 27
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/control_entradas/control_entradas.v
-    Info (12023): Found entity 1: CONTROL_ENTRADAS File: C:/Users/Felipe/git/frogger_excercise/rtl/CONTROL_ENTRADAS/CONTROL_ENTRADAS.v Line: 6
+    Info (12023): Found entity 1: CONTROL_ENTRADAS File: D:/FelipeCueto/git/frogger_excercise/rtl/CONTROL_ENTRADAS/CONTROL_ENTRADAS.v Line: 6
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/control_matriz/control_matriz.v
-    Info (12023): Found entity 1: control_matriz File: C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/control_matriz.v Line: 6
+    Info (12023): Found entity 1: control_matriz File: D:/FelipeCueto/git/frogger_excercise/rtl/control_matriz/control_matriz.v Line: 6
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/juego.v
-    Info (12023): Found entity 1: JUEGO File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/JUEGO.v Line: 4
-Warning (10238): Verilog Module Declaration warning at CODE38Y.v(9): ignored anonymous port(s) indicated by duplicate or dangling comma(s) in the port list for module "CODE38Y" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA/CODE38Y.v Line: 9
+    Info (12023): Found entity 1: JUEGO File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/JUEGO.v Line: 4
+Warning (10238): Verilog Module Declaration warning at CODE38Y.v(9): ignored anonymous port(s) indicated by duplicate or dangling comma(s) in the port list for module "CODE38Y" File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/RANA/CODE38Y.v Line: 9
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/rana/code38y.v
-    Info (12023): Found entity 1: CODE38Y File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA/CODE38Y.v Line: 4
-Warning (10238): Verilog Module Declaration warning at CODE38X.v(9): ignored anonymous port(s) indicated by duplicate or dangling comma(s) in the port list for module "CODE38X" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA/CODE38X.v Line: 9
+    Info (12023): Found entity 1: CODE38Y File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/RANA/CODE38Y.v Line: 4
+Warning (10238): Verilog Module Declaration warning at CODE38X.v(9): ignored anonymous port(s) indicated by duplicate or dangling comma(s) in the port list for module "CODE38X" File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/RANA/CODE38X.v Line: 9
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/rana/code38x.v
-    Info (12023): Found entity 1: CODE38X File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA/CODE38X.v Line: 4
+    Info (12023): Found entity 1: CODE38X File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/RANA/CODE38X.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/control_casas/control_casas.v
-    Info (12023): Found entity 1: CONTROL_CASAS File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/CONTROL_CASAS/CONTROL_CASAS.v Line: 4
+    Info (12023): Found entity 1: CONTROL_CASAS File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/CONTROL_CASAS/CONTROL_CASAS.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/colision/colision.v
-    Info (12023): Found entity 1: COLISION File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/COLISION/COLISION.v Line: 4
+    Info (12023): Found entity 1: COLISION File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/COLISION/COLISION.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/colision/muxx81x.v
-    Info (12023): Found entity 1: Muxx81X File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/COLISION/Muxx81X.v Line: 27
+    Info (12023): Found entity 1: Muxx81X File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/COLISION/Muxx81X.v Line: 27
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/colision/muxx81y.v
-    Info (12023): Found entity 1: Muxx81Y File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/COLISION/Muxx81Y.v Line: 27
-Warning (10238): Verilog Module Declaration warning at PINTAR_MATRIZ.v(24): ignored anonymous port(s) indicated by duplicate or dangling comma(s) in the port list for module "PINTAR_MATRIZ" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/PINTAR_MATRIZ/PINTAR_MATRIZ.v Line: 24
+    Info (12023): Found entity 1: Muxx81Y File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/COLISION/Muxx81Y.v Line: 27
+Warning (10238): Verilog Module Declaration warning at PINTAR_MATRIZ.v(24): ignored anonymous port(s) indicated by duplicate or dangling comma(s) in the port list for module "PINTAR_MATRIZ" File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/PINTAR_MATRIZ/PINTAR_MATRIZ.v Line: 24
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/pintar_matriz/pintar_matriz.v
-    Info (12023): Found entity 1: PINTAR_MATRIZ File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/PINTAR_MATRIZ/PINTAR_MATRIZ.v Line: 4
+    Info (12023): Found entity 1: PINTAR_MATRIZ File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/PINTAR_MATRIZ/PINTAR_MATRIZ.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/juego/pintar_matriz/pintar_data_demux.v
-    Info (12023): Found entity 1: PINTAR_DATA_DEMUX File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/PINTAR_MATRIZ/PINTAR_DATA_DEMUX.v Line: 4
-Warning (10236): Verilog HDL Implicit Net warning at REGDI_NV.v(62): created implicit net for "REGDI_NV_VEL0_HAB" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v Line: 62
-Warning (10236): Verilog HDL Implicit Net warning at REGDD_NV.v(62): created implicit net for "REGDD_NV_VEL0_HAB" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 62
-Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(20): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 20
-Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(21): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 21
-Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(23): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 23
-Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(24): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 24
-Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(25): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 25
-Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(26): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 26
-Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(27): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 27
-Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(28): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 28
-Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(29): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 29
-Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(30): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 30
-Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(31): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 31
-Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(32): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 32
-Warning (10222): Verilog HDL Parameter Declaration warning at REGDI_NV.v(18): Parameter Declaration in module "REGDI_NV" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v Line: 18
-Warning (10222): Verilog HDL Parameter Declaration warning at REGDI_NV.v(19): Parameter Declaration in module "REGDI_NV" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v Line: 19
-Warning (10222): Verilog HDL Parameter Declaration warning at REGDI_NV.v(20): Parameter Declaration in module "REGDI_NV" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v Line: 20
-Warning (10222): Verilog HDL Parameter Declaration warning at REGDI_NV.v(21): Parameter Declaration in module "REGDI_NV" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v Line: 21
-Warning (10222): Verilog HDL Parameter Declaration warning at REGDI_NV.v(22): Parameter Declaration in module "REGDI_NV" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v Line: 22
-Warning (10222): Verilog HDL Parameter Declaration warning at REGDD_NV.v(18): Parameter Declaration in module "REGDD_NV" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 18
-Warning (10222): Verilog HDL Parameter Declaration warning at REGDD_NV.v(19): Parameter Declaration in module "REGDD_NV" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 19
-Warning (10222): Verilog HDL Parameter Declaration warning at REGDD_NV.v(20): Parameter Declaration in module "REGDD_NV" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 20
-Warning (10222): Verilog HDL Parameter Declaration warning at REGDD_NV.v(21): Parameter Declaration in module "REGDD_NV" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 21
-Warning (10222): Verilog HDL Parameter Declaration warning at REGDD_NV.v(22): Parameter Declaration in module "REGDD_NV" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 22
+    Info (12023): Found entity 1: PINTAR_DATA_DEMUX File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/PINTAR_MATRIZ/PINTAR_DATA_DEMUX.v Line: 4
+Warning (10236): Verilog HDL Implicit Net warning at REGDI_NV.v(62): created implicit net for "REGDI_NV_VEL0_HAB" File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v Line: 62
+Warning (10236): Verilog HDL Implicit Net warning at REGDD_NV.v(62): created implicit net for "REGDD_NV_VEL0_HAB" File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 62
+Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(20): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 20
+Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(21): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 21
+Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(23): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 23
+Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(24): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 24
+Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(25): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 25
+Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(26): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 26
+Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(27): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 27
+Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(28): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 28
+Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(29): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 29
+Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(30): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 30
+Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(31): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 31
+Warning (10222): Verilog HDL Parameter Declaration warning at SC_STATEMACHINE_NVE.v(32): Parameter Declaration in module "SC_STATEMACHINE_NVE" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/SC_STATEMACHINE_NVE.v Line: 32
+Warning (10222): Verilog HDL Parameter Declaration warning at REGDI_NV.v(18): Parameter Declaration in module "REGDI_NV" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v Line: 18
+Warning (10222): Verilog HDL Parameter Declaration warning at REGDI_NV.v(19): Parameter Declaration in module "REGDI_NV" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v Line: 19
+Warning (10222): Verilog HDL Parameter Declaration warning at REGDI_NV.v(20): Parameter Declaration in module "REGDI_NV" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v Line: 20
+Warning (10222): Verilog HDL Parameter Declaration warning at REGDI_NV.v(21): Parameter Declaration in module "REGDI_NV" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v Line: 21
+Warning (10222): Verilog HDL Parameter Declaration warning at REGDI_NV.v(22): Parameter Declaration in module "REGDI_NV" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v Line: 22
+Warning (10222): Verilog HDL Parameter Declaration warning at REGDD_NV.v(18): Parameter Declaration in module "REGDD_NV" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 18
+Warning (10222): Verilog HDL Parameter Declaration warning at REGDD_NV.v(19): Parameter Declaration in module "REGDD_NV" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 19
+Warning (10222): Verilog HDL Parameter Declaration warning at REGDD_NV.v(20): Parameter Declaration in module "REGDD_NV" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 20
+Warning (10222): Verilog HDL Parameter Declaration warning at REGDD_NV.v(21): Parameter Declaration in module "REGDD_NV" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 21
+Warning (10222): Verilog HDL Parameter Declaration warning at REGDD_NV.v(22): Parameter Declaration in module "REGDD_NV" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 22
 Warning (12125): Using design file system.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: System File: C:/Users/Felipe/git/frogger_excercise/system.v Line: 6
+    Info (12023): Found entity 1: System File: D:/FelipeCueto/git/frogger_excercise/system.v Line: 6
 Info (12127): Elaborating entity "System" for the top level hierarchy
-Warning (10034): Output port "LED[5..4]" at system.v(56) has no driver File: C:/Users/Felipe/git/frogger_excercise/system.v Line: 56
-Info (12128): Elaborating entity "JUEGO" for hierarchy "JUEGO:JUEGO_u0" File: C:/Users/Felipe/git/frogger_excercise/system.v Line: 111
-Info (12128): Elaborating entity "MENU_PRINCIPAL" for hierarchy "JUEGO:JUEGO_u0|MENU_PRINCIPAL:MENU_PRINCIPAL_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/JUEGO.v Line: 97
-Info (12128): Elaborating entity "NIVEL_VEHICULOS" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/JUEGO.v Line: 112
-Info (12128): Elaborating entity "REGDD_NV" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/NIVEL_VEHICULOS.v Line: 88
-Info (12128): Elaborating entity "SC_REGDD" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u0|SC_REGDD:SC_REGDD_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 55
-Info (12128): Elaborating entity "SC_VEL" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u0|SC_VEL:SC_VEL_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 63
-Info (12128): Elaborating entity "SC_VEL" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u0|SC_VEL:SC_VEL_u1" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 71
-Info (12128): Elaborating entity "MUXX21" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u0|MUXX21:MUXX21_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 79
-Info (12128): Elaborating entity "SC_STATEMACHINE_NVE" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u0|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 91
-Info (12128): Elaborating entity "REGDD_NV" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u1" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/NIVEL_VEHICULOS.v Line: 99
-Info (12128): Elaborating entity "SC_STATEMACHINE_NVE" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u1|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 91
-Info (12128): Elaborating entity "REGDD_NV" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u2" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/NIVEL_VEHICULOS.v Line: 110
-Info (12128): Elaborating entity "SC_STATEMACHINE_NVE" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u2|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 91
-Info (12128): Elaborating entity "REGDI_NV" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/NIVEL_VEHICULOS.v Line: 121
-Info (12128): Elaborating entity "SC_REGDI" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u0|SC_REGDI:SC_REGDI_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v Line: 55
-Info (12128): Elaborating entity "SC_STATEMACHINE_NVE" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u0|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v Line: 91
-Info (12128): Elaborating entity "REGDI_NV" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u1" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/NIVEL_VEHICULOS.v Line: 132
-Info (12128): Elaborating entity "SC_STATEMACHINE_NVE" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u1|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v Line: 91
-Info (12128): Elaborating entity "REGDI_NV" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u2" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/NIVEL_VEHICULOS.v Line: 143
-Info (12128): Elaborating entity "SC_STATEMACHINE_NVE" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u2|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v Line: 91
-Info (12128): Elaborating entity "CONTROL_RANAS" for hierarchy "JUEGO:JUEGO_u0|CONTROL_RANAS:CONTROL_RANAS_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/JUEGO.v Line: 124
-Info (12128): Elaborating entity "CONTROL_CASAS" for hierarchy "JUEGO:JUEGO_u0|CONTROL_CASAS:CONTROL_CASAS_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/JUEGO.v Line: 135
-Warning (10240): Verilog HDL Always Construct warning at CONTROL_CASAS.v(45): inferring latch(es) for variable "St_Signal", which holds its previous value in one or more paths through the always construct File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/CONTROL_CASAS/CONTROL_CASAS.v Line: 45
-Info (10041): Inferred latch for "St_Signal[0]" at CONTROL_CASAS.v(47) File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/CONTROL_CASAS/CONTROL_CASAS.v Line: 47
-Info (10041): Inferred latch for "St_Signal[1]" at CONTROL_CASAS.v(47) File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/CONTROL_CASAS/CONTROL_CASAS.v Line: 47
-Info (10041): Inferred latch for "St_Signal[2]" at CONTROL_CASAS.v(47) File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/CONTROL_CASAS/CONTROL_CASAS.v Line: 47
-Info (12128): Elaborating entity "COLISION" for hierarchy "JUEGO:JUEGO_u0|COLISION:COLISION_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/JUEGO.v Line: 149
-Info (12128): Elaborating entity "Muxx81X" for hierarchy "JUEGO:JUEGO_u0|COLISION:COLISION_u0|Muxx81X:Muxx81X_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/COLISION/COLISION.v Line: 58
-Info (12128): Elaborating entity "Muxx81Y" for hierarchy "JUEGO:JUEGO_u0|COLISION:COLISION_u0|Muxx81Y:Muxx81Y_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/COLISION/COLISION.v Line: 106
-Info (12128): Elaborating entity "RANA" for hierarchy "JUEGO:JUEGO_u0|RANA:RANA_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/JUEGO.v Line: 177
-Info (12128): Elaborating entity "SC_STATEMACHINE_FROG_MOV" for hierarchy "JUEGO:JUEGO_u0|RANA:RANA_u0|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA/RANA.v Line: 85
-Info (12128): Elaborating entity "CODE38X" for hierarchy "JUEGO:JUEGO_u0|RANA:RANA_u0|CODE38X:CODE38X_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA/RANA.v Line: 99
-Info (12128): Elaborating entity "CODE38Y" for hierarchy "JUEGO:JUEGO_u0|RANA:RANA_u0|CODE38Y:CODE38Y_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA/RANA.v Line: 104
-Info (12128): Elaborating entity "PINTAR_MATRIZ" for hierarchy "JUEGO:JUEGO_u0|PINTAR_MATRIZ:PINTAR_MATRIZ_u0" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/JUEGO.v Line: 198
-Info (12128): Elaborating entity "PINTAR_DATA_DEMUX" for hierarchy "JUEGO:JUEGO_u0|PINTAR_MATRIZ:PINTAR_MATRIZ_u0|PINTAR_DATA_DEMUX:PINTAR_DATA_DEMUX_u1" File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/PINTAR_MATRIZ/PINTAR_MATRIZ.v Line: 92
-Info (12128): Elaborating entity "control_matriz" for hierarchy "control_matriz:control_matriz_u0" File: C:/Users/Felipe/git/frogger_excercise/system.v Line: 127
-Info (12128): Elaborating entity "matrix_ctrl" for hierarchy "control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0" File: C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/control_matriz.v Line: 66
-Warning (10230): Verilog HDL assignment warning at matrix_ctrl.v(66): truncated value with size 32 to match size of target (3) File: C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v Line: 66
-Warning (10230): Verilog HDL assignment warning at matrix_ctrl.v(67): truncated value with size 32 to match size of target (3) File: C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v Line: 67
-Warning (10230): Verilog HDL assignment warning at matrix_ctrl.v(234): truncated value with size 32 to match size of target (4) File: C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v Line: 234
-Warning (10240): Verilog HDL Always Construct warning at matrix_ctrl.v(128): inferring latch(es) for variable "ctrl_sr", which holds its previous value in one or more paths through the always construct File: C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v Line: 128
-Warning (10230): Verilog HDL assignment warning at matrix_ctrl.v(251): truncated value with size 32 to match size of target (3) File: C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v Line: 251
-Info (10041): Inferred latch for "ctrl_sr[0]" at matrix_ctrl.v(128) File: C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v Line: 128
-Info (10041): Inferred latch for "ctrl_sr[1]" at matrix_ctrl.v(128) File: C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v Line: 128
-Info (12128): Elaborating entity "shift_reg_start_done" for hierarchy "control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0" File: C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v Line: 86
-Warning (10230): Verilog HDL assignment warning at shift_reg_start_done.v(68): truncated value with size 32 to match size of target (16) File: C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/shift_reg_start_done.v Line: 68
-Info (12128): Elaborating entity "imagen" for hierarchy "control_matriz:control_matriz_u0|imagen:imagen_1" File: C:/Users/Felipe/git/frogger_excercise/rtl/control_matriz/control_matriz.v Line: 79
-Warning (13012): Latch JUEGO:JUEGO_u0|CONTROL_CASAS:CONTROL_CASAS_u0|St_Signal[2] has unsafe behavior File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/CONTROL_CASAS/CONTROL_CASAS.v Line: 47
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal JUEGO:JUEGO_u0|RANA:RANA_u0|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u0|WideOr7 File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA/SC_STATEMACHINE_FROG_MOV.v Line: 115
-Warning (13012): Latch JUEGO:JUEGO_u0|CONTROL_CASAS:CONTROL_CASAS_u0|St_Signal[1] has unsafe behavior File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/CONTROL_CASAS/CONTROL_CASAS.v Line: 47
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal JUEGO:JUEGO_u0|RANA:RANA_u0|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u0|WideOr7 File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA/SC_STATEMACHINE_FROG_MOV.v Line: 115
-Warning (13012): Latch JUEGO:JUEGO_u0|CONTROL_CASAS:CONTROL_CASAS_u0|St_Signal[0] has unsafe behavior File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/CONTROL_CASAS/CONTROL_CASAS.v Line: 47
-    Warning (13013): Ports ENA and PRE on the latch are fed by the same signal JUEGO:JUEGO_u0|RANA:RANA_u0|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u0|WideOr7 File: C:/Users/Felipe/git/frogger_excercise/rtl/JUEGO/RANA/SC_STATEMACHINE_FROG_MOV.v Line: 115
+Warning (10034): Output port "LED[5..4]" at system.v(56) has no driver File: D:/FelipeCueto/git/frogger_excercise/system.v Line: 56
+Info (12128): Elaborating entity "JUEGO" for hierarchy "JUEGO:JUEGO_u0" File: D:/FelipeCueto/git/frogger_excercise/system.v Line: 111
+Info (12128): Elaborating entity "MENU_PRINCIPAL" for hierarchy "JUEGO:JUEGO_u0|MENU_PRINCIPAL:MENU_PRINCIPAL_u0" File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/JUEGO.v Line: 97
+Info (12128): Elaborating entity "NIVEL_VEHICULOS" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0" File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/JUEGO.v Line: 112
+Info (12128): Elaborating entity "REGDD_NV" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u0" File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/NIVEL_VEHICULOS.v Line: 88
+Info (12128): Elaborating entity "SC_REGDD" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u0|SC_REGDD:SC_REGDD_u0" File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 55
+Info (12128): Elaborating entity "SC_VEL" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u0|SC_VEL:SC_VEL_u0" File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 63
+Info (12128): Elaborating entity "SC_VEL" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u0|SC_VEL:SC_VEL_u1" File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 71
+Info (12128): Elaborating entity "MUXX21" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u0|MUXX21:MUXX21_u0" File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 79
+Info (12128): Elaborating entity "SC_STATEMACHINE_NVE" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u0|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0" File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 91
+Info (12128): Elaborating entity "REGDD_NV" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u1" File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/NIVEL_VEHICULOS.v Line: 99
+Info (12128): Elaborating entity "SC_STATEMACHINE_NVE" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u1|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0" File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 91
+Info (12128): Elaborating entity "REGDD_NV" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u2" File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/NIVEL_VEHICULOS.v Line: 110
+Info (12128): Elaborating entity "SC_STATEMACHINE_NVE" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDD_NV:REGDD_NV_u2|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0" File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDD_NV.v Line: 91
+Info (12128): Elaborating entity "REGDI_NV" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u0" File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/NIVEL_VEHICULOS.v Line: 121
+Info (12128): Elaborating entity "SC_REGDI" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u0|SC_REGDI:SC_REGDI_u0" File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v Line: 55
+Info (12128): Elaborating entity "SC_STATEMACHINE_NVE" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u0|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0" File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v Line: 91
+Info (12128): Elaborating entity "REGDI_NV" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u1" File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/NIVEL_VEHICULOS.v Line: 132
+Info (12128): Elaborating entity "SC_STATEMACHINE_NVE" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u1|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0" File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v Line: 91
+Info (12128): Elaborating entity "REGDI_NV" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u2" File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/NIVEL_VEHICULOS.v Line: 143
+Info (12128): Elaborating entity "SC_STATEMACHINE_NVE" for hierarchy "JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u2|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0" File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/NIVEL_VEHICULOS/REGDI_NV.v Line: 91
+Info (12128): Elaborating entity "CONTROL_RANAS" for hierarchy "JUEGO:JUEGO_u0|CONTROL_RANAS:CONTROL_RANAS_u0" File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/JUEGO.v Line: 123
+Info (12128): Elaborating entity "CTROL_POSINIRANA" for hierarchy "JUEGO:JUEGO_u0|CONTROL_RANAS:CONTROL_RANAS_u0|CTROL_POSINIRANA:CTROL_POSINIRANA_u0" File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/CONTROL_RANAS/CONTROL_RANAS.v Line: 45
+Info (12128): Elaborating entity "SC_CSCOUNT" for hierarchy "JUEGO:JUEGO_u0|CONTROL_RANAS:CONTROL_RANAS_u0|SC_CSCOUNT:SC_CSCOUNT_u0" File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/CONTROL_RANAS/CONTROL_RANAS.v Line: 54
+Info (12128): Elaborating entity "CONTROL_CASAS" for hierarchy "JUEGO:JUEGO_u0|CONTROL_CASAS:CONTROL_CASAS_u0" File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/JUEGO.v Line: 134
+Info (12128): Elaborating entity "COLISION" for hierarchy "JUEGO:JUEGO_u0|COLISION:COLISION_u0" File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/JUEGO.v Line: 148
+Info (12128): Elaborating entity "Muxx81X" for hierarchy "JUEGO:JUEGO_u0|COLISION:COLISION_u0|Muxx81X:Muxx81X_u0" File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/COLISION/COLISION.v Line: 57
+Info (12128): Elaborating entity "Muxx81Y" for hierarchy "JUEGO:JUEGO_u0|COLISION:COLISION_u0|Muxx81Y:Muxx81Y_u0" File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/COLISION/COLISION.v Line: 105
+Info (12128): Elaborating entity "RANA" for hierarchy "JUEGO:JUEGO_u0|RANA:RANA_u0" File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/JUEGO.v Line: 176
+Info (12128): Elaborating entity "SC_STATEMACHINE_FROG_MOV" for hierarchy "JUEGO:JUEGO_u0|RANA:RANA_u0|SC_STATEMACHINE_FROG_MOV:SC_STATEMACHINE_FROG_MOV_u0" File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/RANA/RANA.v Line: 85
+Info (12128): Elaborating entity "CODE38X" for hierarchy "JUEGO:JUEGO_u0|RANA:RANA_u0|CODE38X:CODE38X_u0" File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/RANA/RANA.v Line: 99
+Info (12128): Elaborating entity "CODE38Y" for hierarchy "JUEGO:JUEGO_u0|RANA:RANA_u0|CODE38Y:CODE38Y_u0" File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/RANA/RANA.v Line: 104
+Info (12128): Elaborating entity "PINTAR_MATRIZ" for hierarchy "JUEGO:JUEGO_u0|PINTAR_MATRIZ:PINTAR_MATRIZ_u0" File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/JUEGO.v Line: 197
+Info (12128): Elaborating entity "PINTAR_DATA_DEMUX" for hierarchy "JUEGO:JUEGO_u0|PINTAR_MATRIZ:PINTAR_MATRIZ_u0|PINTAR_DATA_DEMUX:PINTAR_DATA_DEMUX_u1" File: D:/FelipeCueto/git/frogger_excercise/rtl/JUEGO/PINTAR_MATRIZ/PINTAR_MATRIZ.v Line: 92
+Info (12128): Elaborating entity "control_matriz" for hierarchy "control_matriz:control_matriz_u0" File: D:/FelipeCueto/git/frogger_excercise/system.v Line: 127
+Info (12128): Elaborating entity "matrix_ctrl" for hierarchy "control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0" File: D:/FelipeCueto/git/frogger_excercise/rtl/control_matriz/control_matriz.v Line: 66
+Warning (10230): Verilog HDL assignment warning at matrix_ctrl.v(66): truncated value with size 32 to match size of target (3) File: D:/FelipeCueto/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v Line: 66
+Warning (10230): Verilog HDL assignment warning at matrix_ctrl.v(67): truncated value with size 32 to match size of target (3) File: D:/FelipeCueto/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v Line: 67
+Warning (10230): Verilog HDL assignment warning at matrix_ctrl.v(234): truncated value with size 32 to match size of target (4) File: D:/FelipeCueto/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v Line: 234
+Warning (10240): Verilog HDL Always Construct warning at matrix_ctrl.v(128): inferring latch(es) for variable "ctrl_sr", which holds its previous value in one or more paths through the always construct File: D:/FelipeCueto/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v Line: 128
+Warning (10230): Verilog HDL assignment warning at matrix_ctrl.v(251): truncated value with size 32 to match size of target (3) File: D:/FelipeCueto/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v Line: 251
+Info (10041): Inferred latch for "ctrl_sr[0]" at matrix_ctrl.v(128) File: D:/FelipeCueto/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v Line: 128
+Info (10041): Inferred latch for "ctrl_sr[1]" at matrix_ctrl.v(128) File: D:/FelipeCueto/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v Line: 128
+Info (12128): Elaborating entity "shift_reg_start_done" for hierarchy "control_matriz:control_matriz_u0|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0" File: D:/FelipeCueto/git/frogger_excercise/rtl/control_matriz/matrix_ctrl.v Line: 86
+Warning (10230): Verilog HDL assignment warning at shift_reg_start_done.v(68): truncated value with size 32 to match size of target (16) File: D:/FelipeCueto/git/frogger_excercise/rtl/control_matriz/shift_reg_start_done.v Line: 68
+Info (12128): Elaborating entity "imagen" for hierarchy "control_matriz:control_matriz_u0|imagen:imagen_1" File: D:/FelipeCueto/git/frogger_excercise/rtl/control_matriz/control_matriz.v Line: 79
+Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "LED[4]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/system.v Line: 56
-    Warning (13410): Pin "LED[5]" is stuck at GND File: C:/Users/Felipe/git/frogger_excercise/system.v Line: 56
+    Warning (13410): Pin "LED[4]" is stuck at GND File: D:/FelipeCueto/git/frogger_excercise/system.v Line: 56
+    Warning (13410): Pin "LED[5]" is stuck at GND File: D:/FelipeCueto/git/frogger_excercise/system.v Line: 56
 Info (286030): Timing-Driven Synthesis is running
-Info (17049): 44 registers lost all their fanouts during netlist optimizations.
-Info (144001): Generated suppressed messages file C:/Users/Felipe/git/frogger_excercise/System.map.smsg
+Info (17049): 45 registers lost all their fanouts during netlist optimizations.
+Info (144001): Generated suppressed messages file D:/FelipeCueto/git/frogger_excercise/System.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 569 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 576 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 7 input pins
     Info (21059): Implemented 75 output pins
-    Info (21061): Implemented 487 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 46 warnings
-    Info: Peak virtual memory: 672 megabytes
-    Info: Processing ended: Thu Apr 19 15:04:06 2018
-    Info: Elapsed time: 00:00:22
-    Info: Total CPU time (on all processors): 00:00:42
+    Info (21061): Implemented 494 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 40 warnings
+    Info: Peak virtual memory: 656 megabytes
+    Info: Processing ended: Fri Apr 20 21:15:24 2018
+    Info: Elapsed time: 00:00:11
+    Info: Total CPU time (on all processors): 00:00:23
 
 
 +------------------------------------------+
 ; Analysis & Synthesis Suppressed Messages ;
 +------------------------------------------+
-The suppressed messages can be found in C:/Users/Felipe/git/frogger_excercise/System.map.smsg.
+The suppressed messages can be found in D:/FelipeCueto/git/frogger_excercise/System.map.smsg.
 
 

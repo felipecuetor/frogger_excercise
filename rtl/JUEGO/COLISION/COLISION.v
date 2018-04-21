@@ -21,7 +21,6 @@ module COLISION(
 //=======================================================
 	parameter DATAWIDTH_BUS = 8;
 	parameter DATAWIDTH_POS=3;
-	parameter NOT_8 = 8'b00000000;
 	
 //=======================================================
 //  PORT declarations

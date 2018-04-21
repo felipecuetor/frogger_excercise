@@ -41,16 +41,21 @@ St_Register.Posicion5 0 0 1 0 0 0 0 1
 St_Register.Posicion6 0 1 0 0 0 0 0 1 
 St_Register.Posicion7 1 0 0 0 0 0 0 1 
 
-State Machine - |System|JUEGO:JUEGO_u0|CONTROL_RANAS:CONTROL_RANAS_u0|St_Register
-Name St_Register.Gano St_Register.TresRana St_Register.Ini3Rana St_Register.DosRana St_Register.Ini2Rana St_Register.UnaRana St_Register.Ini1Rana St_Register.Inicio 
-St_Register.Inicio 0 0 0 0 0 0 0 0 
-St_Register.Ini1Rana 0 0 0 0 0 0 1 1 
-St_Register.UnaRana 0 0 0 0 0 1 0 1 
-St_Register.Ini2Rana 0 0 0 0 1 0 0 1 
-St_Register.DosRana 0 0 0 1 0 0 0 1 
-St_Register.Ini3Rana 0 0 1 0 0 0 0 1 
-St_Register.TresRana 0 1 0 0 0 0 0 1 
-St_Register.Gano 1 0 0 0 0 0 0 1 
+State Machine - |System|JUEGO:JUEGO_u0|CONTROL_CASAS:CONTROL_CASAS_u0|St_Register
+Name St_Register.Casa3ON St_Register.Casa2ON St_Register.Casa1ON St_Register.Espera3 St_Register.Espera2 St_Register.Espera1 St_Register.Inicial 
+St_Register.Inicial 0 0 0 0 0 0 0 
+St_Register.Espera1 0 0 0 0 0 1 1 
+St_Register.Espera2 0 0 0 0 1 0 1 
+St_Register.Espera3 0 0 0 1 0 0 1 
+St_Register.Casa1ON 0 0 1 0 0 0 1 
+St_Register.Casa2ON 0 1 0 0 0 0 1 
+St_Register.Casa3ON 1 0 0 0 0 0 1 
+
+State Machine - |System|JUEGO:JUEGO_u0|CONTROL_RANAS:CONTROL_RANAS_u0|CTROL_POSINIRANA:CTROL_POSINIRANA_u0|St_Register
+Name St_Register.Inicio St_Register.RanaIni St_Register.Espera 
+St_Register.Inicio 0 0 0 
+St_Register.Espera 1 0 1 
+St_Register.RanaIni 1 1 0 
 
 State Machine - |System|JUEGO:JUEGO_u0|NIVEL_VEHICULOS:NIVEL_VEHICULOS_u0|REGDI_NV:REGDI_NV_u2|SC_STATEMACHINE_NVE:SC_STATEMACHINE_NVE_u0|St_Register
 Name St_Register.Nivel4Espera St_Register.Nivel4Carga St_Register.Nivel3Espera St_Register.Nivel3Carga St_Register.Nivel2Espera St_Register.Nivel2Carga St_Register.Nivel1Espera St_Register.Nivel1Carga St_Register.Espera St_Register.Inicio 

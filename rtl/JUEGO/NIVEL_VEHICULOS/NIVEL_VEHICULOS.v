@@ -20,7 +20,7 @@ module NIVEL_VEHICULOS (
 //  PARAMETER declarations
 //=======================================================
 	//Niveles
- 	parameter NV_1_REGD1 =   8'b11000000;
+ 	parameter NV_1_REGD1 =   8'b00000011;
 	parameter NV_1_REGD3 =   8'b00110000;
 	parameter NV_1_REGD5 =   8'b00001100;
 	
@@ -29,28 +29,28 @@ module NIVEL_VEHICULOS (
 	parameter NV_1_REGI4 =   8'b00000000;
 	
 	parameter NV_2_REGD1 =   8'b00111000;
-	parameter NV_2_REGD3 =   8'b00000011;
+	parameter NV_2_REGD3 =   8'b00000000;
 	parameter NV_2_REGD5 =   8'b11100000;
 	
-	parameter NV_2_REGI0 =   8'b11100000;
-	parameter NV_2_REGI2 =   8'b00001100;
+	parameter NV_2_REGI0 =   8'b00000000;
+	parameter NV_2_REGI2 =   8'b00000000;
 	parameter NV_2_REGI4 =   8'b01110000;
 
 	parameter NV_3_REGD1 =   8'b00110011;
-	parameter NV_3_REGD3 =   8'b11001100;
-	parameter NV_3_REGD5 =   8'b01111000;
+	parameter NV_3_REGD3 =   8'b00000000;
+	parameter NV_3_REGD5 =   8'b01000100;
 	
-	parameter NV_3_REGI0 =   8'b00110110;
+	parameter NV_3_REGI0 =   8'b00000000;
 	parameter NV_3_REGI2 =   8'b10000001;
 	parameter NV_3_REGI4 =   8'b00001110;
 	
 	parameter NV_4_REGD1 =   8'b10011001;
-	parameter NV_4_REGD3 =   8'b11110000;
-	parameter NV_4_REGD5 =   8'b00000111;
+	parameter NV_4_REGD3 =   8'b11100000;
+	parameter NV_4_REGD5 =   8'b00000011;
 	
-	parameter NV_4_REGI0 =   8'b00111000;
-	parameter NV_4_REGI2 =   8'b00110110;
-	parameter NV_4_REGI4 =   8'b11001100;
+	parameter NV_4_REGI0 =   8'b00110000;
+	parameter NV_4_REGI2 =   8'b00110000;
+	parameter NV_4_REGI4 =   8'b11011000;
 	
 	parameter DATAWIDTH_BUS = 8;
 	parameter DATAWIDTH_NVL=2;

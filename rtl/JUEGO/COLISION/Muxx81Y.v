@@ -61,7 +61,7 @@ module Muxx81Y (
 //=======================================================
 //  Structural coding
 //=======================================================
-always @(*)
+always @(Muxx81_Select_Bus_In or Muxx81_In1 or Muxx81_In2 or Muxx81_In3 or Muxx81_In4 or Muxx81_In5 or Muxx81_In6 or Muxx81_In7 )
 begin
    case( Muxx81_Select_Bus_In )
        0 : Muxx81_Z_Bit_Out = 1'b0;

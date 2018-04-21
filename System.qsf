@@ -144,6 +144,8 @@ set_global_assignment -name EDA_TEST_BENCH_NAME System_vlg_tst -section_id eda_s
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id System_vlg_tst
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME System_vlg_tst -section_id System_vlg_tst
 set_global_assignment -name EDA_TEST_BENCH_FILE simulation/modelsim/System.vt -section_id System_vlg_tst
+set_global_assignment -name VERILOG_FILE rtl/JUEGO/CONTROL_RANAS/SC_CSCOUNT.v
+set_global_assignment -name VERILOG_FILE rtl/JUEGO/CONTROL_RANAS/CTROL_POSINIRANA.v
 set_global_assignment -name VERILOG_FILE rtl/JUEGO/CONTROL_RANAS/CONTROL_RANAS.v
 set_global_assignment -name VERILOG_FILE rtl/JUEGO/RANA/SC_STATEMACHINE_FROG_MOV.v
 set_global_assignment -name VERILOG_FILE rtl/JUEGO/RANA/RANA.v
